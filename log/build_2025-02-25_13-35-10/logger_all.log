@@ -1,0 +1,863 @@
+[0.481s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.481s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fb0ae91b910>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=2, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fb0ae91b910>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fb0ae925a00>)
+[0.648s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.649s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.649s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.649s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.649s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.649s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.649s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/y/SA_CAO'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2) by extension 'ignore'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2) by extension 'ignore_ament_install'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2) by extensions ['colcon_pkg']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2) by extension 'colcon_pkg'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2) by extensions ['colcon_meta']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2) by extension 'colcon_meta'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2) by extensions ['ros']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2) by extension 'ros'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2) by extensions ['cmake', 'python']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2) by extension 'cmake'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2) by extension 'python'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2) by extensions ['python_setup_py']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2) by extension 'python_setup_py'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_ception) by extensions ['ignore', 'ignore_ament_install']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_ception) by extension 'ignore'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_ception) by extension 'ignore_ament_install'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_ception) by extensions ['colcon_pkg']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_ception) by extension 'colcon_pkg'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_ception) by extensions ['colcon_meta']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_ception) by extension 'colcon_meta'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_ception) by extensions ['ros']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_ception) by extension 'ros'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_ception) by extensions ['cmake', 'python']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_ception) by extension 'cmake'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_ception) by extension 'python'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_ception) by extensions ['python_setup_py']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_ception) by extension 'python_setup_py'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_ception/diablo_body) by extensions ['ignore', 'ignore_ament_install']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_ception/diablo_body) by extension 'ignore'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_ception/diablo_body) by extension 'ignore_ament_install'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_ception/diablo_body) by extensions ['colcon_pkg']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_ception/diablo_body) by extension 'colcon_pkg'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_ception/diablo_body) by extensions ['colcon_meta']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_ception/diablo_body) by extension 'colcon_meta'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_ception/diablo_body) by extensions ['ros']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_ception/diablo_body) by extension 'ros'
+[0.669s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diablo_ros2/diablo_ception/diablo_body' with type 'ros.ament_cmake' and name 'diablo_body'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_common) by extensions ['ignore', 'ignore_ament_install']
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_common) by extension 'ignore'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_common) by extension 'ignore_ament_install'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_common) by extensions ['colcon_pkg']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_common) by extension 'colcon_pkg'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_common) by extensions ['colcon_meta']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_common) by extension 'colcon_meta'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_common) by extensions ['ros']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_common) by extension 'ros'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_common) by extensions ['cmake', 'python']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_common) by extension 'cmake'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_common) by extension 'python'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_common) by extensions ['python_setup_py']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_common) by extension 'python_setup_py'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_common/diablo_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_common/diablo_utils) by extension 'ignore'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_common/diablo_utils) by extension 'ignore_ament_install'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_common/diablo_utils) by extensions ['colcon_pkg']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_common/diablo_utils) by extension 'colcon_pkg'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_common/diablo_utils) by extensions ['colcon_meta']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_common/diablo_utils) by extension 'colcon_meta'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_common/diablo_utils) by extensions ['ros']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_common/diablo_utils) by extension 'ros'
+[0.671s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diablo_ros2/diablo_common/diablo_utils' with type 'ros.ament_cmake' and name 'diablo_utils'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interaction) by extensions ['ignore', 'ignore_ament_install']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interaction) by extension 'ignore'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interaction) by extension 'ignore_ament_install'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interaction) by extensions ['colcon_pkg']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interaction) by extension 'colcon_pkg'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interaction) by extensions ['colcon_meta']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interaction) by extension 'colcon_meta'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interaction) by extensions ['ros']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interaction) by extension 'ros'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interaction) by extensions ['cmake', 'python']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interaction) by extension 'cmake'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interaction) by extension 'python'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interaction) by extensions ['python_setup_py']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interaction) by extension 'python_setup_py'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interaction/diablo_ctrl) by extensions ['ignore', 'ignore_ament_install']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interaction/diablo_ctrl) by extension 'ignore'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interaction/diablo_ctrl) by extension 'ignore_ament_install'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interaction/diablo_ctrl) by extensions ['colcon_pkg']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interaction/diablo_ctrl) by extension 'colcon_pkg'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interaction/diablo_ctrl) by extensions ['colcon_meta']
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interaction/diablo_ctrl) by extension 'colcon_meta'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interaction/diablo_ctrl) by extensions ['ros']
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interaction/diablo_ctrl) by extension 'ros'
+[0.672s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diablo_ros2/diablo_interaction/diablo_ctrl' with type 'ros.ament_cmake' and name 'diablo_ctrl'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interaction/diablo_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interaction/diablo_teleop) by extension 'ignore'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interaction/diablo_teleop) by extension 'ignore_ament_install'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interaction/diablo_teleop) by extensions ['colcon_pkg']
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interaction/diablo_teleop) by extension 'colcon_pkg'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interaction/diablo_teleop) by extensions ['colcon_meta']
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interaction/diablo_teleop) by extension 'colcon_meta'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interaction/diablo_teleop) by extensions ['ros']
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interaction/diablo_teleop) by extension 'ros'
+[0.673s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diablo_ros2/diablo_interaction/diablo_teleop' with type 'ros.ament_python' and name 'diablo_teleop'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interfaces) by extension 'ignore'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interfaces) by extension 'ignore_ament_install'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interfaces) by extensions ['colcon_pkg']
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interfaces) by extension 'colcon_pkg'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interfaces) by extensions ['colcon_meta']
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interfaces) by extension 'colcon_meta'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interfaces) by extensions ['ros']
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interfaces) by extension 'ros'
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interfaces) by extensions ['cmake', 'python']
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interfaces) by extension 'cmake'
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interfaces) by extension 'python'
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interfaces) by extensions ['python_setup_py']
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interfaces) by extension 'python_setup_py'
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interfaces/ception_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interfaces/ception_msgs) by extension 'ignore'
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interfaces/ception_msgs) by extension 'ignore_ament_install'
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interfaces/ception_msgs) by extensions ['colcon_pkg']
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interfaces/ception_msgs) by extension 'colcon_pkg'
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interfaces/ception_msgs) by extensions ['colcon_meta']
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interfaces/ception_msgs) by extension 'colcon_meta'
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interfaces/ception_msgs) by extensions ['ros']
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interfaces/ception_msgs) by extension 'ros'
+[0.675s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diablo_ros2/diablo_interfaces/ception_msgs' with type 'ros.ament_cmake' and name 'ception_msgs'
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interfaces/motion_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interfaces/motion_msgs) by extension 'ignore'
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interfaces/motion_msgs) by extension 'ignore_ament_install'
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interfaces/motion_msgs) by extensions ['colcon_pkg']
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interfaces/motion_msgs) by extension 'colcon_pkg'
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interfaces/motion_msgs) by extensions ['colcon_meta']
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interfaces/motion_msgs) by extension 'colcon_meta'
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interfaces/motion_msgs) by extensions ['ros']
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_interfaces/motion_msgs) by extension 'ros'
+[0.675s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diablo_ros2/diablo_interfaces/motion_msgs' with type 'ros.ament_cmake' and name 'motion_msgs'
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_visualise) by extensions ['ignore', 'ignore_ament_install']
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_visualise) by extension 'ignore'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_visualise) by extension 'ignore_ament_install'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_visualise) by extensions ['colcon_pkg']
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_visualise) by extension 'colcon_pkg'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_visualise) by extensions ['colcon_meta']
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_visualise) by extension 'colcon_meta'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_visualise) by extensions ['ros']
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_visualise) by extension 'ros'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_visualise) by extensions ['cmake', 'python']
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_visualise) by extension 'cmake'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_visualise) by extension 'python'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_visualise) by extensions ['python_setup_py']
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_visualise) by extension 'python_setup_py'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_visualise/diablo_rviz2_plugin) by extensions ['ignore', 'ignore_ament_install']
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_visualise/diablo_rviz2_plugin) by extension 'ignore'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_visualise/diablo_rviz2_plugin) by extension 'ignore_ament_install'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_visualise/diablo_rviz2_plugin) by extensions ['colcon_pkg']
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_visualise/diablo_rviz2_plugin) by extension 'colcon_pkg'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_visualise/diablo_rviz2_plugin) by extensions ['colcon_meta']
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_visualise/diablo_rviz2_plugin) by extension 'colcon_meta'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_visualise/diablo_rviz2_plugin) by extensions ['ros']
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_visualise/diablo_rviz2_plugin) by extension 'ros'
+[0.678s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diablo_ros2/diablo_visualise/diablo_rviz2_plugin' with type 'ros.ament_cmake' and name 'diablo_rviz2_control_plugin'
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_visualise/diablo_simpose_trans) by extensions ['ignore', 'ignore_ament_install']
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_visualise/diablo_simpose_trans) by extension 'ignore'
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_visualise/diablo_simpose_trans) by extension 'ignore_ament_install'
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_visualise/diablo_simpose_trans) by extensions ['colcon_pkg']
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_visualise/diablo_simpose_trans) by extension 'colcon_pkg'
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_visualise/diablo_simpose_trans) by extensions ['colcon_meta']
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_visualise/diablo_simpose_trans) by extension 'colcon_meta'
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_visualise/diablo_simpose_trans) by extensions ['ros']
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_visualise/diablo_simpose_trans) by extension 'ros'
+[0.678s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diablo_ros2/diablo_visualise/diablo_simpose_trans' with type 'ros.ament_cmake' and name 'diablo_simpose_trans'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_visualise/diablo_simulation) by extensions ['ignore', 'ignore_ament_install']
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_visualise/diablo_simulation) by extension 'ignore'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_visualise/diablo_simulation) by extension 'ignore_ament_install'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_visualise/diablo_simulation) by extensions ['colcon_pkg']
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_visualise/diablo_simulation) by extension 'colcon_pkg'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_visualise/diablo_simulation) by extensions ['colcon_meta']
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_visualise/diablo_simulation) by extension 'colcon_meta'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_visualise/diablo_simulation) by extensions ['ros']
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/diablo_visualise/diablo_simulation) by extension 'ros'
+[0.679s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diablo_ros2/diablo_visualise/diablo_simulation' with type 'ros.ament_python' and name 'diablo_simulation'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/docs) by extension 'ignore'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/docs) by extension 'ignore_ament_install'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/docs) by extensions ['colcon_pkg']
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/docs) by extension 'colcon_pkg'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/docs) by extensions ['colcon_meta']
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/docs) by extension 'colcon_meta'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/docs) by extensions ['ros']
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/docs) by extension 'ros'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/docs) by extensions ['cmake', 'python']
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/docs) by extension 'cmake'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/docs) by extension 'python'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/docs) by extensions ['python_setup_py']
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/docs) by extension 'python_setup_py'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/docs/docs_en) by extensions ['ignore', 'ignore_ament_install']
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/docs/docs_en) by extension 'ignore'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/docs/docs_en) by extension 'ignore_ament_install'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/docs/docs_en) by extensions ['colcon_pkg']
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/docs/docs_en) by extension 'colcon_pkg'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/docs/docs_en) by extensions ['colcon_meta']
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/docs/docs_en) by extension 'colcon_meta'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/docs/docs_en) by extensions ['ros']
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/docs/docs_en) by extension 'ros'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/docs/docs_en) by extensions ['cmake', 'python']
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/docs/docs_en) by extension 'cmake'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/docs/docs_en) by extension 'python'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/docs/docs_en) by extensions ['python_setup_py']
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/docs/docs_en) by extension 'python_setup_py'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/docs/img) by extensions ['ignore', 'ignore_ament_install']
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/docs/img) by extension 'ignore'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/docs/img) by extension 'ignore_ament_install'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/docs/img) by extensions ['colcon_pkg']
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/docs/img) by extension 'colcon_pkg'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/docs/img) by extensions ['colcon_meta']
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/docs/img) by extension 'colcon_meta'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/docs/img) by extensions ['ros']
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/docs/img) by extension 'ros'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/docs/img) by extensions ['cmake', 'python']
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/docs/img) by extension 'cmake'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/docs/img) by extension 'python'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/docs/img) by extensions ['python_setup_py']
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/diablo_ros2/docs/img) by extension 'python_setup_py'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_xbox_joystick) by extensions ['ignore', 'ignore_ament_install']
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_xbox_joystick) by extension 'ignore'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_xbox_joystick) by extension 'ignore_ament_install'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_xbox_joystick) by extensions ['colcon_pkg']
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_xbox_joystick) by extension 'colcon_pkg'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_xbox_joystick) by extensions ['colcon_meta']
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_xbox_joystick) by extension 'colcon_meta'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_xbox_joystick) by extensions ['ros']
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_xbox_joystick) by extension 'ros'
+[0.682s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_xbox_joystick' with type 'ros.ament_python' and name 'my_xbox_joystick'
+[0.682s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.682s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.682s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.682s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.682s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.709s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.709s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.714s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/y/oradar_ros/install
+[0.715s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 323 installed packages in /opt/ros/foxy
+[0.724s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.817s] Level 5:colcon.colcon_core.verb:set package 'ception_msgs' build argument 'cmake_args' from command line to 'None'
+[0.817s] Level 5:colcon.colcon_core.verb:set package 'ception_msgs' build argument 'cmake_target' from command line to 'None'
+[0.817s] Level 5:colcon.colcon_core.verb:set package 'ception_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.817s] Level 5:colcon.colcon_core.verb:set package 'ception_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.817s] Level 5:colcon.colcon_core.verb:set package 'ception_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.817s] Level 5:colcon.colcon_core.verb:set package 'ception_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.817s] Level 5:colcon.colcon_core.verb:set package 'ception_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.817s] Level 5:colcon.colcon_core.verb:set package 'ception_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.817s] Level 5:colcon.colcon_core.verb:set package 'ception_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.817s] DEBUG:colcon.colcon_core.verb:Building package 'ception_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/y/SA_CAO/build/ception_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/y/SA_CAO/install/ception_msgs', 'merge_install': False, 'path': '/home/y/SA_CAO/src/diablo_ros2/diablo_interfaces/ception_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.817s] Level 5:colcon.colcon_core.verb:set package 'diablo_simulation' build argument 'cmake_args' from command line to 'None'
+[0.817s] Level 5:colcon.colcon_core.verb:set package 'diablo_simulation' build argument 'cmake_target' from command line to 'None'
+[0.817s] Level 5:colcon.colcon_core.verb:set package 'diablo_simulation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.817s] Level 5:colcon.colcon_core.verb:set package 'diablo_simulation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.817s] Level 5:colcon.colcon_core.verb:set package 'diablo_simulation' build argument 'cmake_clean_first' from command line to 'False'
+[0.817s] Level 5:colcon.colcon_core.verb:set package 'diablo_simulation' build argument 'cmake_force_configure' from command line to 'False'
+[0.817s] Level 5:colcon.colcon_core.verb:set package 'diablo_simulation' build argument 'ament_cmake_args' from command line to 'None'
+[0.817s] Level 5:colcon.colcon_core.verb:set package 'diablo_simulation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.817s] Level 5:colcon.colcon_core.verb:set package 'diablo_simulation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.817s] DEBUG:colcon.colcon_core.verb:Building package 'diablo_simulation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/y/SA_CAO/build/diablo_simulation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/y/SA_CAO/install/diablo_simulation', 'merge_install': False, 'path': '/home/y/SA_CAO/src/diablo_ros2/diablo_visualise/diablo_simulation', 'symlink_install': False, 'test_result_base': None}
+[0.818s] Level 5:colcon.colcon_core.verb:set package 'motion_msgs' build argument 'cmake_args' from command line to 'None'
+[0.818s] Level 5:colcon.colcon_core.verb:set package 'motion_msgs' build argument 'cmake_target' from command line to 'None'
+[0.818s] Level 5:colcon.colcon_core.verb:set package 'motion_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.818s] Level 5:colcon.colcon_core.verb:set package 'motion_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.818s] Level 5:colcon.colcon_core.verb:set package 'motion_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.818s] Level 5:colcon.colcon_core.verb:set package 'motion_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.818s] Level 5:colcon.colcon_core.verb:set package 'motion_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.818s] Level 5:colcon.colcon_core.verb:set package 'motion_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.818s] Level 5:colcon.colcon_core.verb:set package 'motion_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.818s] DEBUG:colcon.colcon_core.verb:Building package 'motion_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/y/SA_CAO/build/motion_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/y/SA_CAO/install/motion_msgs', 'merge_install': False, 'path': '/home/y/SA_CAO/src/diablo_ros2/diablo_interfaces/motion_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.818s] Level 5:colcon.colcon_core.verb:set package 'my_xbox_joystick' build argument 'cmake_args' from command line to 'None'
+[0.818s] Level 5:colcon.colcon_core.verb:set package 'my_xbox_joystick' build argument 'cmake_target' from command line to 'None'
+[0.818s] Level 5:colcon.colcon_core.verb:set package 'my_xbox_joystick' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.818s] Level 5:colcon.colcon_core.verb:set package 'my_xbox_joystick' build argument 'cmake_clean_cache' from command line to 'False'
+[0.818s] Level 5:colcon.colcon_core.verb:set package 'my_xbox_joystick' build argument 'cmake_clean_first' from command line to 'False'
+[0.818s] Level 5:colcon.colcon_core.verb:set package 'my_xbox_joystick' build argument 'cmake_force_configure' from command line to 'False'
+[0.818s] Level 5:colcon.colcon_core.verb:set package 'my_xbox_joystick' build argument 'ament_cmake_args' from command line to 'None'
+[0.818s] Level 5:colcon.colcon_core.verb:set package 'my_xbox_joystick' build argument 'catkin_cmake_args' from command line to 'None'
+[0.818s] Level 5:colcon.colcon_core.verb:set package 'my_xbox_joystick' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.818s] DEBUG:colcon.colcon_core.verb:Building package 'my_xbox_joystick' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/y/SA_CAO/build/my_xbox_joystick', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/y/SA_CAO/install/my_xbox_joystick', 'merge_install': False, 'path': '/home/y/SA_CAO/src/my_xbox_joystick', 'symlink_install': False, 'test_result_base': None}
+[0.819s] Level 5:colcon.colcon_core.verb:set package 'diablo_rviz2_control_plugin' build argument 'cmake_args' from command line to 'None'
+[0.819s] Level 5:colcon.colcon_core.verb:set package 'diablo_rviz2_control_plugin' build argument 'cmake_target' from command line to 'None'
+[0.819s] Level 5:colcon.colcon_core.verb:set package 'diablo_rviz2_control_plugin' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.819s] Level 5:colcon.colcon_core.verb:set package 'diablo_rviz2_control_plugin' build argument 'cmake_clean_cache' from command line to 'False'
+[0.819s] Level 5:colcon.colcon_core.verb:set package 'diablo_rviz2_control_plugin' build argument 'cmake_clean_first' from command line to 'False'
+[0.819s] Level 5:colcon.colcon_core.verb:set package 'diablo_rviz2_control_plugin' build argument 'cmake_force_configure' from command line to 'False'
+[0.819s] Level 5:colcon.colcon_core.verb:set package 'diablo_rviz2_control_plugin' build argument 'ament_cmake_args' from command line to 'None'
+[0.819s] Level 5:colcon.colcon_core.verb:set package 'diablo_rviz2_control_plugin' build argument 'catkin_cmake_args' from command line to 'None'
+[0.819s] Level 5:colcon.colcon_core.verb:set package 'diablo_rviz2_control_plugin' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.819s] DEBUG:colcon.colcon_core.verb:Building package 'diablo_rviz2_control_plugin' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/y/SA_CAO/build/diablo_rviz2_control_plugin', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/y/SA_CAO/install/diablo_rviz2_control_plugin', 'merge_install': False, 'path': '/home/y/SA_CAO/src/diablo_ros2/diablo_visualise/diablo_rviz2_plugin', 'symlink_install': False, 'test_result_base': None}
+[0.819s] Level 5:colcon.colcon_core.verb:set package 'diablo_teleop' build argument 'cmake_args' from command line to 'None'
+[0.819s] Level 5:colcon.colcon_core.verb:set package 'diablo_teleop' build argument 'cmake_target' from command line to 'None'
+[0.819s] Level 5:colcon.colcon_core.verb:set package 'diablo_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.819s] Level 5:colcon.colcon_core.verb:set package 'diablo_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[0.819s] Level 5:colcon.colcon_core.verb:set package 'diablo_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[0.819s] Level 5:colcon.colcon_core.verb:set package 'diablo_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[0.819s] Level 5:colcon.colcon_core.verb:set package 'diablo_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[0.819s] Level 5:colcon.colcon_core.verb:set package 'diablo_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[0.819s] Level 5:colcon.colcon_core.verb:set package 'diablo_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.819s] DEBUG:colcon.colcon_core.verb:Building package 'diablo_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/y/SA_CAO/build/diablo_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/y/SA_CAO/install/diablo_teleop', 'merge_install': False, 'path': '/home/y/SA_CAO/src/diablo_ros2/diablo_interaction/diablo_teleop', 'symlink_install': False, 'test_result_base': None}
+[0.819s] Level 5:colcon.colcon_core.verb:set package 'diablo_utils' build argument 'cmake_args' from command line to 'None'
+[0.819s] Level 5:colcon.colcon_core.verb:set package 'diablo_utils' build argument 'cmake_target' from command line to 'None'
+[0.819s] Level 5:colcon.colcon_core.verb:set package 'diablo_utils' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.819s] Level 5:colcon.colcon_core.verb:set package 'diablo_utils' build argument 'cmake_clean_cache' from command line to 'False'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'diablo_utils' build argument 'cmake_clean_first' from command line to 'False'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'diablo_utils' build argument 'cmake_force_configure' from command line to 'False'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'diablo_utils' build argument 'ament_cmake_args' from command line to 'None'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'diablo_utils' build argument 'catkin_cmake_args' from command line to 'None'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'diablo_utils' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.820s] DEBUG:colcon.colcon_core.verb:Building package 'diablo_utils' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/y/SA_CAO/build/diablo_utils', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/y/SA_CAO/install/diablo_utils', 'merge_install': False, 'path': '/home/y/SA_CAO/src/diablo_ros2/diablo_common/diablo_utils', 'symlink_install': False, 'test_result_base': None}
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'diablo_body' build argument 'cmake_args' from command line to 'None'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'diablo_body' build argument 'cmake_target' from command line to 'None'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'diablo_body' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'diablo_body' build argument 'cmake_clean_cache' from command line to 'False'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'diablo_body' build argument 'cmake_clean_first' from command line to 'False'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'diablo_body' build argument 'cmake_force_configure' from command line to 'False'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'diablo_body' build argument 'ament_cmake_args' from command line to 'None'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'diablo_body' build argument 'catkin_cmake_args' from command line to 'None'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'diablo_body' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.820s] DEBUG:colcon.colcon_core.verb:Building package 'diablo_body' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/y/SA_CAO/build/diablo_body', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/y/SA_CAO/install/diablo_body', 'merge_install': False, 'path': '/home/y/SA_CAO/src/diablo_ros2/diablo_ception/diablo_body', 'symlink_install': False, 'test_result_base': None}
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'diablo_ctrl' build argument 'cmake_args' from command line to 'None'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'diablo_ctrl' build argument 'cmake_target' from command line to 'None'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'diablo_ctrl' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'diablo_ctrl' build argument 'cmake_clean_cache' from command line to 'False'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'diablo_ctrl' build argument 'cmake_clean_first' from command line to 'False'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'diablo_ctrl' build argument 'cmake_force_configure' from command line to 'False'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'diablo_ctrl' build argument 'ament_cmake_args' from command line to 'None'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'diablo_ctrl' build argument 'catkin_cmake_args' from command line to 'None'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'diablo_ctrl' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.820s] DEBUG:colcon.colcon_core.verb:Building package 'diablo_ctrl' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/y/SA_CAO/build/diablo_ctrl', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/y/SA_CAO/install/diablo_ctrl', 'merge_install': False, 'path': '/home/y/SA_CAO/src/diablo_ros2/diablo_interaction/diablo_ctrl', 'symlink_install': False, 'test_result_base': None}
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'diablo_simpose_trans' build argument 'cmake_args' from command line to 'None'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'diablo_simpose_trans' build argument 'cmake_target' from command line to 'None'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'diablo_simpose_trans' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'diablo_simpose_trans' build argument 'cmake_clean_cache' from command line to 'False'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'diablo_simpose_trans' build argument 'cmake_clean_first' from command line to 'False'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'diablo_simpose_trans' build argument 'cmake_force_configure' from command line to 'False'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'diablo_simpose_trans' build argument 'ament_cmake_args' from command line to 'None'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'diablo_simpose_trans' build argument 'catkin_cmake_args' from command line to 'None'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'diablo_simpose_trans' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.821s] DEBUG:colcon.colcon_core.verb:Building package 'diablo_simpose_trans' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/y/SA_CAO/build/diablo_simpose_trans', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/y/SA_CAO/install/diablo_simpose_trans', 'merge_install': False, 'path': '/home/y/SA_CAO/src/diablo_ros2/diablo_visualise/diablo_simpose_trans', 'symlink_install': False, 'test_result_base': None}
+[0.821s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.822s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.822s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/y/SA_CAO/src/diablo_ros2/diablo_interfaces/motion_msgs' with build type 'ament_cmake'
+[0.822s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/y/SA_CAO/src/diablo_ros2/diablo_interfaces/motion_msgs'
+[0.832s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.832s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.832s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.836s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/y/SA_CAO/src/diablo_ros2/diablo_interfaces/ception_msgs' with build type 'ament_cmake'
+[0.836s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/y/SA_CAO/src/diablo_ros2/diablo_interfaces/ception_msgs'
+[0.837s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.837s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.844s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/y/SA_CAO/build/motion_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/y/SA_CAO/src/diablo_ros2/diablo_interfaces/motion_msgs -DCMAKE_INSTALL_PREFIX=/home/y/SA_CAO/install/motion_msgs
+[0.860s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/y/SA_CAO/build/ception_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/y/SA_CAO/src/diablo_ros2/diablo_interfaces/ception_msgs -DCMAKE_INSTALL_PREFIX=/home/y/SA_CAO/install/ception_msgs
+[2.825s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/y/SA_CAO/build/ception_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/y/SA_CAO/src/diablo_ros2/diablo_interfaces/ception_msgs -DCMAKE_INSTALL_PREFIX=/home/y/SA_CAO/install/ception_msgs
+[2.826s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/y/SA_CAO/build/ception_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/y/SA_CAO/build/ception_msgs -- -j2 -l2
+[2.835s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/y/SA_CAO/build/motion_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/y/SA_CAO/src/diablo_ros2/diablo_interfaces/motion_msgs -DCMAKE_INSTALL_PREFIX=/home/y/SA_CAO/install/motion_msgs
+[2.837s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/y/SA_CAO/build/motion_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/y/SA_CAO/build/motion_msgs -- -j2 -l2
+[8.678s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/y/SA_CAO/build/ception_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/y/SA_CAO/build/ception_msgs -- -j2 -l2
+[8.692s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/y/SA_CAO/build/ception_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/y/SA_CAO/build/ception_msgs
+[8.752s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ception_msgs)
+[8.752s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/y/SA_CAO/build/ception_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/y/SA_CAO/build/ception_msgs
+[8.763s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/ception_msgs' for CMake module files
+[8.763s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/ception_msgs' for CMake config files
+[8.764s] Level 1:colcon.colcon_core.shell:create_environment_hook('ception_msgs', 'cmake_prefix_path')
+[8.764s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/ception_msgs/share/ception_msgs/hook/cmake_prefix_path.ps1'
+[8.765s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/SA_CAO/install/ception_msgs/share/ception_msgs/hook/cmake_prefix_path.dsv'
+[8.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/ception_msgs/share/ception_msgs/hook/cmake_prefix_path.sh'
+[8.767s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/ception_msgs/lib'
+[8.767s] Level 1:colcon.colcon_core.shell:create_environment_hook('ception_msgs', 'ld_library_path_lib')
+[8.767s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/ception_msgs/share/ception_msgs/hook/ld_library_path_lib.ps1'
+[8.768s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/SA_CAO/install/ception_msgs/share/ception_msgs/hook/ld_library_path_lib.dsv'
+[8.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/ception_msgs/share/ception_msgs/hook/ld_library_path_lib.sh'
+[8.769s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/ception_msgs/bin'
+[8.769s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/ception_msgs/lib/pkgconfig/ception_msgs.pc'
+[8.769s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/ception_msgs/lib/python3.8/site-packages'
+[8.769s] Level 1:colcon.colcon_core.shell:create_environment_hook('ception_msgs', 'pythonpath')
+[8.769s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/ception_msgs/share/ception_msgs/hook/pythonpath.ps1'
+[8.770s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/SA_CAO/install/ception_msgs/share/ception_msgs/hook/pythonpath.dsv'
+[8.770s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/ception_msgs/share/ception_msgs/hook/pythonpath.sh'
+[8.771s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/ception_msgs/bin'
+[8.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/ception_msgs/share/ception_msgs/package.ps1'
+[8.772s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/y/SA_CAO/install/ception_msgs/share/ception_msgs/package.dsv'
+[8.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/ception_msgs/share/ception_msgs/package.sh'
+[8.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/ception_msgs/share/ception_msgs/package.bash'
+[8.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/ception_msgs/share/ception_msgs/package.zsh'
+[8.777s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/y/SA_CAO/install/ception_msgs/share/colcon-core/packages/ception_msgs)
+[8.778s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ception_msgs)
+[8.778s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/ception_msgs' for CMake module files
+[8.778s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/ception_msgs' for CMake config files
+[8.778s] Level 1:colcon.colcon_core.shell:create_environment_hook('ception_msgs', 'cmake_prefix_path')
+[8.778s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/ception_msgs/share/ception_msgs/hook/cmake_prefix_path.ps1'
+[8.779s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/SA_CAO/install/ception_msgs/share/ception_msgs/hook/cmake_prefix_path.dsv'
+[8.779s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/ception_msgs/share/ception_msgs/hook/cmake_prefix_path.sh'
+[8.780s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/ception_msgs/lib'
+[8.780s] Level 1:colcon.colcon_core.shell:create_environment_hook('ception_msgs', 'ld_library_path_lib')
+[8.780s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/ception_msgs/share/ception_msgs/hook/ld_library_path_lib.ps1'
+[8.780s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/SA_CAO/install/ception_msgs/share/ception_msgs/hook/ld_library_path_lib.dsv'
+[8.780s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/ception_msgs/share/ception_msgs/hook/ld_library_path_lib.sh'
+[8.781s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/ception_msgs/bin'
+[8.781s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/ception_msgs/lib/pkgconfig/ception_msgs.pc'
+[8.781s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/ception_msgs/lib/python3.8/site-packages'
+[8.781s] Level 1:colcon.colcon_core.shell:create_environment_hook('ception_msgs', 'pythonpath')
+[8.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/ception_msgs/share/ception_msgs/hook/pythonpath.ps1'
+[8.782s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/SA_CAO/install/ception_msgs/share/ception_msgs/hook/pythonpath.dsv'
+[8.782s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/ception_msgs/share/ception_msgs/hook/pythonpath.sh'
+[8.783s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/ception_msgs/bin'
+[8.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/ception_msgs/share/ception_msgs/package.ps1'
+[8.783s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/y/SA_CAO/install/ception_msgs/share/ception_msgs/package.dsv'
+[8.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/ception_msgs/share/ception_msgs/package.sh'
+[8.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/ception_msgs/share/ception_msgs/package.bash'
+[8.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/ception_msgs/share/ception_msgs/package.zsh'
+[8.786s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/y/SA_CAO/install/ception_msgs/share/colcon-core/packages/ception_msgs)
+[8.786s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/y/SA_CAO/src/diablo_ros2/diablo_visualise/diablo_simulation' with build type 'ament_python'
+[8.787s] Level 1:colcon.colcon_core.shell:create_environment_hook('diablo_simulation', 'ament_prefix_path')
+[8.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/diablo_simulation/share/diablo_simulation/hook/ament_prefix_path.ps1'
+[8.788s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/SA_CAO/install/diablo_simulation/share/diablo_simulation/hook/ament_prefix_path.dsv'
+[8.788s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/diablo_simulation/share/diablo_simulation/hook/ament_prefix_path.sh'
+[8.789s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.789s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.005s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/y/SA_CAO/src/diablo_ros2/diablo_visualise/diablo_simulation'
+[9.005s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.005s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.526s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/y/SA_CAO/src/diablo_ros2/diablo_visualise/diablo_simulation': PYTHONPATH=/home/y/SA_CAO/build/diablo_simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/y/SA_CAO/install/diablo_simulation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/diablo_simulation build --build-base /home/y/SA_CAO/build/diablo_simulation/build install --record /home/y/SA_CAO/build/diablo_simulation/install.log --single-version-externally-managed install_data
+[9.808s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_simulation' for CMake module files
+[9.808s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/y/SA_CAO/src/diablo_ros2/diablo_visualise/diablo_simulation' returned '0': PYTHONPATH=/home/y/SA_CAO/build/diablo_simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/y/SA_CAO/install/diablo_simulation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/diablo_simulation build --build-base /home/y/SA_CAO/build/diablo_simulation/build install --record /home/y/SA_CAO/build/diablo_simulation/install.log --single-version-externally-managed install_data
+[9.808s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_simulation' for CMake config files
+[9.809s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_simulation/lib'
+[9.809s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_simulation/bin'
+[9.809s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_simulation/lib/pkgconfig/diablo_simulation.pc'
+[9.809s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_simulation/lib/python3.8/site-packages'
+[9.809s] Level 1:colcon.colcon_core.shell:create_environment_hook('diablo_simulation', 'pythonpath')
+[9.809s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/diablo_simulation/share/diablo_simulation/hook/pythonpath.ps1'
+[9.810s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/SA_CAO/install/diablo_simulation/share/diablo_simulation/hook/pythonpath.dsv'
+[9.810s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/diablo_simulation/share/diablo_simulation/hook/pythonpath.sh'
+[9.810s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_simulation/bin'
+[9.810s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diablo_simulation)
+[9.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/diablo_simulation/share/diablo_simulation/package.ps1'
+[9.812s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/y/SA_CAO/install/diablo_simulation/share/diablo_simulation/package.dsv'
+[9.812s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/diablo_simulation/share/diablo_simulation/package.sh'
+[9.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/diablo_simulation/share/diablo_simulation/package.bash'
+[9.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/diablo_simulation/share/diablo_simulation/package.zsh'
+[9.813s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/y/SA_CAO/install/diablo_simulation/share/colcon-core/packages/diablo_simulation)
+[9.814s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/y/SA_CAO/src/my_xbox_joystick' with build type 'ament_python'
+[9.814s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_xbox_joystick', 'ament_prefix_path')
+[9.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/my_xbox_joystick/share/my_xbox_joystick/hook/ament_prefix_path.ps1'
+[9.816s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/SA_CAO/install/my_xbox_joystick/share/my_xbox_joystick/hook/ament_prefix_path.dsv'
+[9.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/my_xbox_joystick/share/my_xbox_joystick/hook/ament_prefix_path.sh'
+[9.817s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.818s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.051s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/y/SA_CAO/src/my_xbox_joystick'
+[10.052s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.052s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.434s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/y/SA_CAO/src/my_xbox_joystick': PYTHONPATH=/home/y/SA_CAO/build/my_xbox_joystick/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/y/SA_CAO/install/my_xbox_joystick/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_xbox_joystick build --build-base /home/y/SA_CAO/build/my_xbox_joystick/build install --record /home/y/SA_CAO/build/my_xbox_joystick/install.log --install-scripts $base/lib/my_xbox_joystick --single-version-externally-managed install_data
+[10.749s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/my_xbox_joystick' for CMake module files
+[10.750s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/y/SA_CAO/src/my_xbox_joystick' returned '0': PYTHONPATH=/home/y/SA_CAO/build/my_xbox_joystick/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/y/SA_CAO/install/my_xbox_joystick/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_xbox_joystick build --build-base /home/y/SA_CAO/build/my_xbox_joystick/build install --record /home/y/SA_CAO/build/my_xbox_joystick/install.log --install-scripts $base/lib/my_xbox_joystick --single-version-externally-managed install_data
+[10.750s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/my_xbox_joystick' for CMake config files
+[10.750s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/my_xbox_joystick/lib'
+[10.750s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/my_xbox_joystick/bin'
+[10.750s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/my_xbox_joystick/lib/pkgconfig/my_xbox_joystick.pc'
+[10.751s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/my_xbox_joystick/lib/python3.8/site-packages'
+[10.751s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_xbox_joystick', 'pythonpath')
+[10.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/my_xbox_joystick/share/my_xbox_joystick/hook/pythonpath.ps1'
+[10.751s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/SA_CAO/install/my_xbox_joystick/share/my_xbox_joystick/hook/pythonpath.dsv'
+[10.752s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/my_xbox_joystick/share/my_xbox_joystick/hook/pythonpath.sh'
+[10.752s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/my_xbox_joystick/bin'
+[10.752s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_xbox_joystick)
+[10.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/my_xbox_joystick/share/my_xbox_joystick/package.ps1'
+[10.753s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/y/SA_CAO/install/my_xbox_joystick/share/my_xbox_joystick/package.dsv'
+[10.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/my_xbox_joystick/share/my_xbox_joystick/package.sh'
+[10.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/my_xbox_joystick/share/my_xbox_joystick/package.bash'
+[10.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/my_xbox_joystick/share/my_xbox_joystick/package.zsh'
+[10.755s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/y/SA_CAO/install/my_xbox_joystick/share/colcon-core/packages/my_xbox_joystick)
+[13.064s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/y/SA_CAO/build/motion_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/y/SA_CAO/build/motion_msgs -- -j2 -l2
+[13.064s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/y/SA_CAO/build/motion_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/y/SA_CAO/build/motion_msgs
+[13.126s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motion_msgs)
+[13.127s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/motion_msgs' for CMake module files
+[13.127s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/motion_msgs' for CMake config files
+[13.127s] Level 1:colcon.colcon_core.shell:create_environment_hook('motion_msgs', 'cmake_prefix_path')
+[13.127s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/hook/cmake_prefix_path.ps1'
+[13.128s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/hook/cmake_prefix_path.dsv'
+[13.128s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/hook/cmake_prefix_path.sh'
+[13.128s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/motion_msgs/lib'
+[13.128s] Level 1:colcon.colcon_core.shell:create_environment_hook('motion_msgs', 'ld_library_path_lib')
+[13.129s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/hook/ld_library_path_lib.ps1'
+[13.129s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/hook/ld_library_path_lib.dsv'
+[13.130s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/hook/ld_library_path_lib.sh'
+[13.130s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/y/SA_CAO/build/motion_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/y/SA_CAO/build/motion_msgs
+[13.130s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/motion_msgs/bin'
+[13.130s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/motion_msgs/lib/pkgconfig/motion_msgs.pc'
+[13.130s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages'
+[13.130s] Level 1:colcon.colcon_core.shell:create_environment_hook('motion_msgs', 'pythonpath')
+[13.130s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/hook/pythonpath.ps1'
+[13.131s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/hook/pythonpath.dsv'
+[13.131s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/hook/pythonpath.sh'
+[13.131s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/motion_msgs/bin'
+[13.131s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/package.ps1'
+[13.132s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/package.dsv'
+[13.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/package.sh'
+[13.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/package.bash'
+[13.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/package.zsh'
+[13.133s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/y/SA_CAO/install/motion_msgs/share/colcon-core/packages/motion_msgs)
+[13.134s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motion_msgs)
+[13.134s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/motion_msgs' for CMake module files
+[13.134s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/motion_msgs' for CMake config files
+[13.134s] Level 1:colcon.colcon_core.shell:create_environment_hook('motion_msgs', 'cmake_prefix_path')
+[13.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/hook/cmake_prefix_path.ps1'
+[13.135s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/hook/cmake_prefix_path.dsv'
+[13.135s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/hook/cmake_prefix_path.sh'
+[13.136s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/motion_msgs/lib'
+[13.136s] Level 1:colcon.colcon_core.shell:create_environment_hook('motion_msgs', 'ld_library_path_lib')
+[13.136s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/hook/ld_library_path_lib.ps1'
+[13.136s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/hook/ld_library_path_lib.dsv'
+[13.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/hook/ld_library_path_lib.sh'
+[13.137s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/motion_msgs/bin'
+[13.137s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/motion_msgs/lib/pkgconfig/motion_msgs.pc'
+[13.137s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages'
+[13.137s] Level 1:colcon.colcon_core.shell:create_environment_hook('motion_msgs', 'pythonpath')
+[13.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/hook/pythonpath.ps1'
+[13.138s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/hook/pythonpath.dsv'
+[13.138s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/hook/pythonpath.sh'
+[13.138s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/motion_msgs/bin'
+[13.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/package.ps1'
+[13.139s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/package.dsv'
+[13.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/package.sh'
+[13.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/package.bash'
+[13.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/package.zsh'
+[13.141s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/y/SA_CAO/install/motion_msgs/share/colcon-core/packages/motion_msgs)
+[13.142s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/y/SA_CAO/src/diablo_ros2/diablo_common/diablo_utils' with build type 'ament_cmake'
+[13.142s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/y/SA_CAO/src/diablo_ros2/diablo_common/diablo_utils'
+[13.142s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.142s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.147s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/y/SA_CAO/src/diablo_ros2/diablo_visualise/diablo_rviz2_plugin' with build type 'ament_cmake'
+[13.147s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/y/SA_CAO/src/diablo_ros2/diablo_visualise/diablo_rviz2_plugin'
+[13.147s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.148s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.156s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/y/SA_CAO/build/diablo_utils': AMENT_PREFIX_PATH=/home/y/SA_CAO/install/motion_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO/install/motion_msgs:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/y/SA_CAO/install/motion_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/y/SA_CAO/src/diablo_ros2/diablo_common/diablo_utils -DCMAKE_INSTALL_PREFIX=/home/y/SA_CAO/install/diablo_utils
+[13.160s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/y/SA_CAO/build/diablo_rviz2_control_plugin': AMENT_PREFIX_PATH=/home/y/SA_CAO/install/motion_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO/install/motion_msgs:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/y/SA_CAO/install/motion_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/y/SA_CAO/src/diablo_ros2/diablo_visualise/diablo_rviz2_plugin -DCMAKE_INSTALL_PREFIX=/home/y/SA_CAO/install/diablo_rviz2_control_plugin
+[14.551s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/y/SA_CAO/build/diablo_utils' returned '0': AMENT_PREFIX_PATH=/home/y/SA_CAO/install/motion_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO/install/motion_msgs:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/y/SA_CAO/install/motion_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/y/SA_CAO/src/diablo_ros2/diablo_common/diablo_utils -DCMAKE_INSTALL_PREFIX=/home/y/SA_CAO/install/diablo_utils
+[14.552s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/y/SA_CAO/build/diablo_utils': AMENT_PREFIX_PATH=/home/y/SA_CAO/install/motion_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO/install/motion_msgs:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/y/SA_CAO/install/motion_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/y/SA_CAO/build/diablo_utils -- -j2 -l2
+[17.140s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/y/SA_CAO/build/diablo_rviz2_control_plugin' returned '0': AMENT_PREFIX_PATH=/home/y/SA_CAO/install/motion_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO/install/motion_msgs:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/y/SA_CAO/install/motion_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/y/SA_CAO/src/diablo_ros2/diablo_visualise/diablo_rviz2_plugin -DCMAKE_INSTALL_PREFIX=/home/y/SA_CAO/install/diablo_rviz2_control_plugin
+[17.140s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/y/SA_CAO/build/diablo_rviz2_control_plugin': AMENT_PREFIX_PATH=/home/y/SA_CAO/install/motion_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO/install/motion_msgs:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/y/SA_CAO/install/motion_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/y/SA_CAO/build/diablo_rviz2_control_plugin -- -j2 -l2
+[17.393s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/y/SA_CAO/build/diablo_utils' returned '0': AMENT_PREFIX_PATH=/home/y/SA_CAO/install/motion_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO/install/motion_msgs:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/y/SA_CAO/install/motion_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/y/SA_CAO/build/diablo_utils -- -j2 -l2
+[17.393s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/y/SA_CAO/build/diablo_utils': AMENT_PREFIX_PATH=/home/y/SA_CAO/install/motion_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO/install/motion_msgs:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/y/SA_CAO/install/motion_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/y/SA_CAO/build/diablo_utils
+[17.477s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diablo_utils)
+[17.477s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_utils' for CMake module files
+[17.478s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_utils' for CMake config files
+[17.478s] Level 1:colcon.colcon_core.shell:create_environment_hook('diablo_utils', 'cmake_prefix_path')
+[17.478s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/diablo_utils/share/diablo_utils/hook/cmake_prefix_path.ps1'
+[17.478s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/SA_CAO/install/diablo_utils/share/diablo_utils/hook/cmake_prefix_path.dsv'
+[17.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/diablo_utils/share/diablo_utils/hook/cmake_prefix_path.sh'
+[17.479s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_utils/lib'
+[17.479s] Level 1:colcon.colcon_core.shell:create_environment_hook('diablo_utils', 'ld_library_path_lib')
+[17.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/diablo_utils/share/diablo_utils/hook/ld_library_path_lib.ps1'
+[17.480s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/SA_CAO/install/diablo_utils/share/diablo_utils/hook/ld_library_path_lib.dsv'
+[17.480s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/diablo_utils/share/diablo_utils/hook/ld_library_path_lib.sh'
+[17.480s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_utils/bin'
+[17.480s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_utils/lib/pkgconfig/diablo_utils.pc'
+[17.480s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_utils/lib/python3.8/site-packages'
+[17.481s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_utils/bin'
+[17.481s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/y/SA_CAO/build/diablo_utils' returned '0': AMENT_PREFIX_PATH=/home/y/SA_CAO/install/motion_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO/install/motion_msgs:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/y/SA_CAO/install/motion_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/y/SA_CAO/build/diablo_utils
+[17.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/diablo_utils/share/diablo_utils/package.ps1'
+[17.482s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/y/SA_CAO/install/diablo_utils/share/diablo_utils/package.dsv'
+[17.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/diablo_utils/share/diablo_utils/package.sh'
+[17.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/diablo_utils/share/diablo_utils/package.bash'
+[17.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/diablo_utils/share/diablo_utils/package.zsh'
+[17.483s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/y/SA_CAO/install/diablo_utils/share/colcon-core/packages/diablo_utils)
+[17.484s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diablo_utils)
+[17.484s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_utils' for CMake module files
+[17.485s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_utils' for CMake config files
+[17.486s] Level 1:colcon.colcon_core.shell:create_environment_hook('diablo_utils', 'cmake_prefix_path')
+[17.486s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/diablo_utils/share/diablo_utils/hook/cmake_prefix_path.ps1'
+[17.487s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/SA_CAO/install/diablo_utils/share/diablo_utils/hook/cmake_prefix_path.dsv'
+[17.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/diablo_utils/share/diablo_utils/hook/cmake_prefix_path.sh'
+[17.491s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_utils/lib'
+[17.491s] Level 1:colcon.colcon_core.shell:create_environment_hook('diablo_utils', 'ld_library_path_lib')
+[17.492s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/diablo_utils/share/diablo_utils/hook/ld_library_path_lib.ps1'
+[17.494s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/SA_CAO/install/diablo_utils/share/diablo_utils/hook/ld_library_path_lib.dsv'
+[17.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/diablo_utils/share/diablo_utils/hook/ld_library_path_lib.sh'
+[17.497s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_utils/bin'
+[17.497s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_utils/lib/pkgconfig/diablo_utils.pc'
+[17.502s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_utils/lib/python3.8/site-packages'
+[17.505s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_utils/bin'
+[17.506s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/diablo_utils/share/diablo_utils/package.ps1'
+[17.508s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/y/SA_CAO/install/diablo_utils/share/diablo_utils/package.dsv'
+[17.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/diablo_utils/share/diablo_utils/package.sh'
+[17.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/diablo_utils/share/diablo_utils/package.bash'
+[17.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/diablo_utils/share/diablo_utils/package.zsh'
+[17.515s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/y/SA_CAO/install/diablo_utils/share/colcon-core/packages/diablo_utils)
+[17.520s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/y/SA_CAO/src/diablo_ros2/diablo_ception/diablo_body' with build type 'ament_cmake'
+[17.521s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/y/SA_CAO/src/diablo_ros2/diablo_ception/diablo_body'
+[17.522s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[17.522s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[17.584s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/y/SA_CAO/build/diablo_body': AMENT_PREFIX_PATH=/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/y/SA_CAO/install/diablo_utils/lib:/home/y/SA_CAO/install/motion_msgs/lib:/home/y/SA_CAO/install/ception_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:/home/y/SA_CAO/install/ception_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/y/SA_CAO/src/diablo_ros2/diablo_ception/diablo_body -DCMAKE_INSTALL_PREFIX=/home/y/SA_CAO/install/diablo_body
+[21.489s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/y/SA_CAO/build/diablo_body' returned '0': AMENT_PREFIX_PATH=/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/y/SA_CAO/install/diablo_utils/lib:/home/y/SA_CAO/install/motion_msgs/lib:/home/y/SA_CAO/install/ception_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:/home/y/SA_CAO/install/ception_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/y/SA_CAO/src/diablo_ros2/diablo_ception/diablo_body -DCMAKE_INSTALL_PREFIX=/home/y/SA_CAO/install/diablo_body
+[21.505s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/y/SA_CAO/build/diablo_body': AMENT_PREFIX_PATH=/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/y/SA_CAO/install/diablo_utils/lib:/home/y/SA_CAO/install/motion_msgs/lib:/home/y/SA_CAO/install/ception_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:/home/y/SA_CAO/install/ception_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/y/SA_CAO/build/diablo_body -- -j2 -l2
+[38.494s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/y/SA_CAO/build/diablo_body' returned '0': AMENT_PREFIX_PATH=/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/y/SA_CAO/install/diablo_utils/lib:/home/y/SA_CAO/install/motion_msgs/lib:/home/y/SA_CAO/install/ception_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:/home/y/SA_CAO/install/ception_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/y/SA_CAO/build/diablo_body -- -j2 -l2
+[38.495s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/y/SA_CAO/build/diablo_body': AMENT_PREFIX_PATH=/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/y/SA_CAO/install/diablo_utils/lib:/home/y/SA_CAO/install/motion_msgs/lib:/home/y/SA_CAO/install/ception_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:/home/y/SA_CAO/install/ception_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/y/SA_CAO/build/diablo_body
+[38.513s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diablo_body)
+[38.514s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_body' for CMake module files
+[38.514s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_body' for CMake config files
+[38.514s] Level 1:colcon.colcon_core.shell:create_environment_hook('diablo_body', 'cmake_prefix_path')
+[38.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/diablo_body/share/diablo_body/hook/cmake_prefix_path.ps1'
+[38.515s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/SA_CAO/install/diablo_body/share/diablo_body/hook/cmake_prefix_path.dsv'
+[38.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/diablo_body/share/diablo_body/hook/cmake_prefix_path.sh'
+[38.516s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_body/lib'
+[38.516s] Level 1:colcon.colcon_core.shell:create_environment_hook('diablo_body', 'ld_library_path_lib')
+[38.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/diablo_body/share/diablo_body/hook/ld_library_path_lib.ps1'
+[38.516s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/SA_CAO/install/diablo_body/share/diablo_body/hook/ld_library_path_lib.dsv'
+[38.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/diablo_body/share/diablo_body/hook/ld_library_path_lib.sh'
+[38.516s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_body/bin'
+[38.516s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_body/lib/pkgconfig/diablo_body.pc'
+[38.517s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_body/lib/python3.8/site-packages'
+[38.517s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_body/bin'
+[38.517s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/diablo_body/share/diablo_body/package.ps1'
+[38.517s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/y/SA_CAO/install/diablo_body/share/diablo_body/package.dsv'
+[38.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/diablo_body/share/diablo_body/package.sh'
+[38.518s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/y/SA_CAO/build/diablo_body' returned '0': AMENT_PREFIX_PATH=/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/y/SA_CAO/install/diablo_utils/lib:/home/y/SA_CAO/install/motion_msgs/lib:/home/y/SA_CAO/install/ception_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:/home/y/SA_CAO/install/ception_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/y/SA_CAO/build/diablo_body
+[38.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/diablo_body/share/diablo_body/package.bash'
+[38.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/diablo_body/share/diablo_body/package.zsh'
+[38.519s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/y/SA_CAO/install/diablo_body/share/colcon-core/packages/diablo_body)
+[38.519s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diablo_body)
+[38.520s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_body' for CMake module files
+[38.520s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_body' for CMake config files
+[38.520s] Level 1:colcon.colcon_core.shell:create_environment_hook('diablo_body', 'cmake_prefix_path')
+[38.520s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/diablo_body/share/diablo_body/hook/cmake_prefix_path.ps1'
+[38.521s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/SA_CAO/install/diablo_body/share/diablo_body/hook/cmake_prefix_path.dsv'
+[38.521s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/diablo_body/share/diablo_body/hook/cmake_prefix_path.sh'
+[38.522s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_body/lib'
+[38.522s] Level 1:colcon.colcon_core.shell:create_environment_hook('diablo_body', 'ld_library_path_lib')
+[38.522s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/diablo_body/share/diablo_body/hook/ld_library_path_lib.ps1'
+[38.522s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/SA_CAO/install/diablo_body/share/diablo_body/hook/ld_library_path_lib.dsv'
+[38.523s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/diablo_body/share/diablo_body/hook/ld_library_path_lib.sh'
+[38.523s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_body/bin'
+[38.523s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_body/lib/pkgconfig/diablo_body.pc'
+[38.523s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_body/lib/python3.8/site-packages'
+[38.524s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_body/bin'
+[38.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/diablo_body/share/diablo_body/package.ps1'
+[38.524s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/y/SA_CAO/install/diablo_body/share/diablo_body/package.dsv'
+[38.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/diablo_body/share/diablo_body/package.sh'
+[38.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/diablo_body/share/diablo_body/package.bash'
+[38.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/diablo_body/share/diablo_body/package.zsh'
+[38.526s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/y/SA_CAO/install/diablo_body/share/colcon-core/packages/diablo_body)
+[38.527s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/y/SA_CAO/src/diablo_ros2/diablo_interaction/diablo_teleop' with build type 'ament_python'
+[38.528s] Level 1:colcon.colcon_core.shell:create_environment_hook('diablo_teleop', 'ament_prefix_path')
+[38.528s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/diablo_teleop/share/diablo_teleop/hook/ament_prefix_path.ps1'
+[38.528s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/SA_CAO/install/diablo_teleop/share/diablo_teleop/hook/ament_prefix_path.dsv'
+[38.528s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/diablo_teleop/share/diablo_teleop/hook/ament_prefix_path.sh'
+[38.529s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[38.529s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[38.731s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/y/SA_CAO/src/diablo_ros2/diablo_interaction/diablo_teleop'
+[38.731s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[38.731s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[39.039s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/y/SA_CAO/src/diablo_ros2/diablo_interaction/diablo_teleop': AMENT_PREFIX_PATH=/home/y/SA_CAO/install/motion_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO/install/motion_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/y/SA_CAO/install/motion_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO/build/diablo_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/y/SA_CAO/install/diablo_teleop/lib/python3.8/site-packages:/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/diablo_teleop build --build-base /home/y/SA_CAO/build/diablo_teleop/build install --record /home/y/SA_CAO/build/diablo_teleop/install.log --single-version-externally-managed install_data
+[39.265s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_teleop' for CMake module files
+[39.266s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_teleop' for CMake config files
+[39.266s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_teleop/lib'
+[39.266s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_teleop/bin'
+[39.266s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_teleop/lib/pkgconfig/diablo_teleop.pc'
+[39.266s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_teleop/lib/python3.8/site-packages'
+[39.266s] Level 1:colcon.colcon_core.shell:create_environment_hook('diablo_teleop', 'pythonpath')
+[39.267s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/diablo_teleop/share/diablo_teleop/hook/pythonpath.ps1'
+[39.267s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/SA_CAO/install/diablo_teleop/share/diablo_teleop/hook/pythonpath.dsv'
+[39.267s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/diablo_teleop/share/diablo_teleop/hook/pythonpath.sh'
+[39.268s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_teleop/bin'
+[39.268s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diablo_teleop)
+[39.268s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/diablo_teleop/share/diablo_teleop/package.ps1'
+[39.268s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/y/SA_CAO/install/diablo_teleop/share/diablo_teleop/package.dsv'
+[39.268s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/diablo_teleop/share/diablo_teleop/package.sh'
+[39.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/diablo_teleop/share/diablo_teleop/package.bash'
+[39.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/diablo_teleop/share/diablo_teleop/package.zsh'
+[39.269s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/y/SA_CAO/src/diablo_ros2/diablo_interaction/diablo_teleop' returned '0': AMENT_PREFIX_PATH=/home/y/SA_CAO/install/motion_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO/install/motion_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/y/SA_CAO/install/motion_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO/build/diablo_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/y/SA_CAO/install/diablo_teleop/lib/python3.8/site-packages:/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/diablo_teleop build --build-base /home/y/SA_CAO/build/diablo_teleop/build install --record /home/y/SA_CAO/build/diablo_teleop/install.log --single-version-externally-managed install_data
+[39.270s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/y/SA_CAO/install/diablo_teleop/share/colcon-core/packages/diablo_teleop)
+[39.270s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/y/SA_CAO/src/diablo_ros2/diablo_interaction/diablo_ctrl' with build type 'ament_cmake'
+[39.270s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/y/SA_CAO/src/diablo_ros2/diablo_interaction/diablo_ctrl'
+[39.270s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[39.271s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[39.294s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/y/SA_CAO/build/diablo_ctrl': AMENT_PREFIX_PATH=/home/y/SA_CAO/install/diablo_body:/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO/install/diablo_body:/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/y/SA_CAO/install/diablo_body/lib:/home/y/SA_CAO/install/diablo_utils/lib:/home/y/SA_CAO/install/motion_msgs/lib:/home/y/SA_CAO/install/ception_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:/home/y/SA_CAO/install/ception_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/y/SA_CAO/src/diablo_ros2/diablo_interaction/diablo_ctrl -DCMAKE_INSTALL_PREFIX=/home/y/SA_CAO/install/diablo_ctrl
+[41.151s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/y/SA_CAO/build/diablo_ctrl' returned '0': AMENT_PREFIX_PATH=/home/y/SA_CAO/install/diablo_body:/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO/install/diablo_body:/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/y/SA_CAO/install/diablo_body/lib:/home/y/SA_CAO/install/diablo_utils/lib:/home/y/SA_CAO/install/motion_msgs/lib:/home/y/SA_CAO/install/ception_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:/home/y/SA_CAO/install/ception_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/y/SA_CAO/src/diablo_ros2/diablo_interaction/diablo_ctrl -DCMAKE_INSTALL_PREFIX=/home/y/SA_CAO/install/diablo_ctrl
+[41.152s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/y/SA_CAO/build/diablo_ctrl': AMENT_PREFIX_PATH=/home/y/SA_CAO/install/diablo_body:/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO/install/diablo_body:/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/y/SA_CAO/install/diablo_body/lib:/home/y/SA_CAO/install/diablo_utils/lib:/home/y/SA_CAO/install/motion_msgs/lib:/home/y/SA_CAO/install/ception_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:/home/y/SA_CAO/install/ception_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/y/SA_CAO/build/diablo_ctrl -- -j2 -l2
+[41.363s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/y/SA_CAO/build/diablo_rviz2_control_plugin' returned '0': AMENT_PREFIX_PATH=/home/y/SA_CAO/install/motion_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO/install/motion_msgs:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/y/SA_CAO/install/motion_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/y/SA_CAO/build/diablo_rviz2_control_plugin -- -j2 -l2
+[41.363s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/y/SA_CAO/build/diablo_rviz2_control_plugin': AMENT_PREFIX_PATH=/home/y/SA_CAO/install/motion_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO/install/motion_msgs:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/y/SA_CAO/install/motion_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/y/SA_CAO/build/diablo_rviz2_control_plugin
+[41.378s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diablo_rviz2_control_plugin)
+[41.378s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_rviz2_control_plugin' for CMake module files
+[41.379s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_rviz2_control_plugin' for CMake config files
+[41.379s] Level 1:colcon.colcon_core.shell:create_environment_hook('diablo_rviz2_control_plugin', 'cmake_prefix_path')
+[41.379s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/diablo_rviz2_control_plugin/share/diablo_rviz2_control_plugin/hook/cmake_prefix_path.ps1'
+[41.379s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/SA_CAO/install/diablo_rviz2_control_plugin/share/diablo_rviz2_control_plugin/hook/cmake_prefix_path.dsv'
+[41.380s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/diablo_rviz2_control_plugin/share/diablo_rviz2_control_plugin/hook/cmake_prefix_path.sh'
+[41.380s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_rviz2_control_plugin/lib'
+[41.380s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_rviz2_control_plugin/bin'
+[41.380s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_rviz2_control_plugin/lib/pkgconfig/diablo_rviz2_control_plugin.pc'
+[41.381s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_rviz2_control_plugin/lib/python3.8/site-packages'
+[41.381s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_rviz2_control_plugin/bin'
+[41.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/diablo_rviz2_control_plugin/share/diablo_rviz2_control_plugin/package.ps1'
+[41.382s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/y/SA_CAO/build/diablo_rviz2_control_plugin' returned '0': AMENT_PREFIX_PATH=/home/y/SA_CAO/install/motion_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO/install/motion_msgs:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/y/SA_CAO/install/motion_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/y/SA_CAO/build/diablo_rviz2_control_plugin
+[41.382s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/y/SA_CAO/install/diablo_rviz2_control_plugin/share/diablo_rviz2_control_plugin/package.dsv'
+[41.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/diablo_rviz2_control_plugin/share/diablo_rviz2_control_plugin/package.sh'
+[41.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/diablo_rviz2_control_plugin/share/diablo_rviz2_control_plugin/package.bash'
+[41.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/diablo_rviz2_control_plugin/share/diablo_rviz2_control_plugin/package.zsh'
+[41.383s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/y/SA_CAO/install/diablo_rviz2_control_plugin/share/colcon-core/packages/diablo_rviz2_control_plugin)
+[41.384s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diablo_rviz2_control_plugin)
+[41.384s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_rviz2_control_plugin' for CMake module files
+[41.385s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_rviz2_control_plugin' for CMake config files
+[41.385s] Level 1:colcon.colcon_core.shell:create_environment_hook('diablo_rviz2_control_plugin', 'cmake_prefix_path')
+[41.385s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/diablo_rviz2_control_plugin/share/diablo_rviz2_control_plugin/hook/cmake_prefix_path.ps1'
+[41.386s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/SA_CAO/install/diablo_rviz2_control_plugin/share/diablo_rviz2_control_plugin/hook/cmake_prefix_path.dsv'
+[41.386s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/diablo_rviz2_control_plugin/share/diablo_rviz2_control_plugin/hook/cmake_prefix_path.sh'
+[41.387s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_rviz2_control_plugin/lib'
+[41.387s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_rviz2_control_plugin/bin'
+[41.387s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_rviz2_control_plugin/lib/pkgconfig/diablo_rviz2_control_plugin.pc'
+[41.387s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_rviz2_control_plugin/lib/python3.8/site-packages'
+[41.387s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_rviz2_control_plugin/bin'
+[41.387s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/diablo_rviz2_control_plugin/share/diablo_rviz2_control_plugin/package.ps1'
+[41.388s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/y/SA_CAO/install/diablo_rviz2_control_plugin/share/diablo_rviz2_control_plugin/package.dsv'
+[41.388s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/diablo_rviz2_control_plugin/share/diablo_rviz2_control_plugin/package.sh'
+[41.389s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/diablo_rviz2_control_plugin/share/diablo_rviz2_control_plugin/package.bash'
+[41.389s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/diablo_rviz2_control_plugin/share/diablo_rviz2_control_plugin/package.zsh'
+[41.390s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/y/SA_CAO/install/diablo_rviz2_control_plugin/share/colcon-core/packages/diablo_rviz2_control_plugin)
+[41.390s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/y/SA_CAO/src/diablo_ros2/diablo_visualise/diablo_simpose_trans' with build type 'ament_cmake'
+[41.390s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/y/SA_CAO/src/diablo_ros2/diablo_visualise/diablo_simpose_trans'
+[41.391s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[41.391s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[41.416s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/y/SA_CAO/build/diablo_simpose_trans': AMENT_PREFIX_PATH=/home/y/SA_CAO/install/diablo_body:/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO/install/diablo_body:/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/y/SA_CAO/install/diablo_body/lib:/home/y/SA_CAO/install/diablo_utils/lib:/home/y/SA_CAO/install/motion_msgs/lib:/home/y/SA_CAO/install/ception_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:/home/y/SA_CAO/install/ception_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/y/SA_CAO/src/diablo_ros2/diablo_visualise/diablo_simpose_trans -DCMAKE_INSTALL_PREFIX=/home/y/SA_CAO/install/diablo_simpose_trans
+[42.999s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/y/SA_CAO/build/diablo_simpose_trans' returned '0': AMENT_PREFIX_PATH=/home/y/SA_CAO/install/diablo_body:/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO/install/diablo_body:/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/y/SA_CAO/install/diablo_body/lib:/home/y/SA_CAO/install/diablo_utils/lib:/home/y/SA_CAO/install/motion_msgs/lib:/home/y/SA_CAO/install/ception_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:/home/y/SA_CAO/install/ception_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/y/SA_CAO/src/diablo_ros2/diablo_visualise/diablo_simpose_trans -DCMAKE_INSTALL_PREFIX=/home/y/SA_CAO/install/diablo_simpose_trans
+[43.001s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/y/SA_CAO/build/diablo_simpose_trans': AMENT_PREFIX_PATH=/home/y/SA_CAO/install/diablo_body:/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO/install/diablo_body:/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/y/SA_CAO/install/diablo_body/lib:/home/y/SA_CAO/install/diablo_utils/lib:/home/y/SA_CAO/install/motion_msgs/lib:/home/y/SA_CAO/install/ception_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:/home/y/SA_CAO/install/ception_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/y/SA_CAO/build/diablo_simpose_trans -- -j2 -l2
+[46.580s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/y/SA_CAO/build/diablo_ctrl' returned '0': AMENT_PREFIX_PATH=/home/y/SA_CAO/install/diablo_body:/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO/install/diablo_body:/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/y/SA_CAO/install/diablo_body/lib:/home/y/SA_CAO/install/diablo_utils/lib:/home/y/SA_CAO/install/motion_msgs/lib:/home/y/SA_CAO/install/ception_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:/home/y/SA_CAO/install/ception_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/y/SA_CAO/build/diablo_ctrl -- -j2 -l2
+[46.583s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/y/SA_CAO/build/diablo_ctrl': AMENT_PREFIX_PATH=/home/y/SA_CAO/install/diablo_body:/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO/install/diablo_body:/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/y/SA_CAO/install/diablo_body/lib:/home/y/SA_CAO/install/diablo_utils/lib:/home/y/SA_CAO/install/motion_msgs/lib:/home/y/SA_CAO/install/ception_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:/home/y/SA_CAO/install/ception_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/y/SA_CAO/build/diablo_ctrl
+[46.599s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diablo_ctrl)
+[46.599s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_ctrl' for CMake module files
+[46.600s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_ctrl' for CMake config files
+[46.600s] Level 1:colcon.colcon_core.shell:create_environment_hook('diablo_ctrl', 'cmake_prefix_path')
+[46.600s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/diablo_ctrl/share/diablo_ctrl/hook/cmake_prefix_path.ps1'
+[46.601s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/y/SA_CAO/build/diablo_ctrl' returned '0': AMENT_PREFIX_PATH=/home/y/SA_CAO/install/diablo_body:/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO/install/diablo_body:/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/y/SA_CAO/install/diablo_body/lib:/home/y/SA_CAO/install/diablo_utils/lib:/home/y/SA_CAO/install/motion_msgs/lib:/home/y/SA_CAO/install/ception_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:/home/y/SA_CAO/install/ception_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/y/SA_CAO/build/diablo_ctrl
+[46.603s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/SA_CAO/install/diablo_ctrl/share/diablo_ctrl/hook/cmake_prefix_path.dsv'
+[46.603s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/diablo_ctrl/share/diablo_ctrl/hook/cmake_prefix_path.sh'
+[46.603s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_ctrl/lib'
+[46.604s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_ctrl/bin'
+[46.604s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_ctrl/lib/pkgconfig/diablo_ctrl.pc'
+[46.604s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_ctrl/lib/python3.8/site-packages'
+[46.604s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_ctrl/bin'
+[46.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/diablo_ctrl/share/diablo_ctrl/package.ps1'
+[46.604s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/y/SA_CAO/install/diablo_ctrl/share/diablo_ctrl/package.dsv'
+[46.605s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/diablo_ctrl/share/diablo_ctrl/package.sh'
+[46.605s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/diablo_ctrl/share/diablo_ctrl/package.bash'
+[46.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/diablo_ctrl/share/diablo_ctrl/package.zsh'
+[46.606s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/y/SA_CAO/install/diablo_ctrl/share/colcon-core/packages/diablo_ctrl)
+[46.606s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diablo_ctrl)
+[46.606s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_ctrl' for CMake module files
+[46.607s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_ctrl' for CMake config files
+[46.607s] Level 1:colcon.colcon_core.shell:create_environment_hook('diablo_ctrl', 'cmake_prefix_path')
+[46.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/diablo_ctrl/share/diablo_ctrl/hook/cmake_prefix_path.ps1'
+[46.607s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/SA_CAO/install/diablo_ctrl/share/diablo_ctrl/hook/cmake_prefix_path.dsv'
+[46.608s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/diablo_ctrl/share/diablo_ctrl/hook/cmake_prefix_path.sh'
+[46.608s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_ctrl/lib'
+[46.608s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_ctrl/bin'
+[46.608s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_ctrl/lib/pkgconfig/diablo_ctrl.pc'
+[46.608s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_ctrl/lib/python3.8/site-packages'
+[46.609s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_ctrl/bin'
+[46.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/diablo_ctrl/share/diablo_ctrl/package.ps1'
+[46.609s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/y/SA_CAO/install/diablo_ctrl/share/diablo_ctrl/package.dsv'
+[46.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/diablo_ctrl/share/diablo_ctrl/package.sh'
+[46.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/diablo_ctrl/share/diablo_ctrl/package.bash'
+[46.611s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/diablo_ctrl/share/diablo_ctrl/package.zsh'
+[46.611s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/y/SA_CAO/install/diablo_ctrl/share/colcon-core/packages/diablo_ctrl)
+[49.586s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/y/SA_CAO/build/diablo_simpose_trans' returned '0': AMENT_PREFIX_PATH=/home/y/SA_CAO/install/diablo_body:/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO/install/diablo_body:/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/y/SA_CAO/install/diablo_body/lib:/home/y/SA_CAO/install/diablo_utils/lib:/home/y/SA_CAO/install/motion_msgs/lib:/home/y/SA_CAO/install/ception_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:/home/y/SA_CAO/install/ception_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/y/SA_CAO/build/diablo_simpose_trans -- -j2 -l2
+[49.589s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/y/SA_CAO/build/diablo_simpose_trans': AMENT_PREFIX_PATH=/home/y/SA_CAO/install/diablo_body:/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO/install/diablo_body:/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/y/SA_CAO/install/diablo_body/lib:/home/y/SA_CAO/install/diablo_utils/lib:/home/y/SA_CAO/install/motion_msgs/lib:/home/y/SA_CAO/install/ception_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:/home/y/SA_CAO/install/ception_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/y/SA_CAO/build/diablo_simpose_trans
+[49.604s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diablo_simpose_trans)
+[49.604s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_simpose_trans' for CMake module files
+[49.605s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/y/SA_CAO/build/diablo_simpose_trans' returned '0': AMENT_PREFIX_PATH=/home/y/SA_CAO/install/diablo_body:/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO/install/diablo_body:/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/y/SA_CAO/install/diablo_body/lib:/home/y/SA_CAO/install/diablo_utils/lib:/home/y/SA_CAO/install/motion_msgs/lib:/home/y/SA_CAO/install/ception_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:/home/y/SA_CAO/install/ception_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/y/SA_CAO/build/diablo_simpose_trans
+[49.605s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_simpose_trans' for CMake config files
+[49.606s] Level 1:colcon.colcon_core.shell:create_environment_hook('diablo_simpose_trans', 'cmake_prefix_path')
+[49.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/diablo_simpose_trans/share/diablo_simpose_trans/hook/cmake_prefix_path.ps1'
+[49.606s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/SA_CAO/install/diablo_simpose_trans/share/diablo_simpose_trans/hook/cmake_prefix_path.dsv'
+[49.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/diablo_simpose_trans/share/diablo_simpose_trans/hook/cmake_prefix_path.sh'
+[49.607s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_simpose_trans/lib'
+[49.607s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_simpose_trans/bin'
+[49.607s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_simpose_trans/lib/pkgconfig/diablo_simpose_trans.pc'
+[49.607s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_simpose_trans/lib/python3.8/site-packages'
+[49.607s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_simpose_trans/bin'
+[49.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/diablo_simpose_trans/share/diablo_simpose_trans/package.ps1'
+[49.608s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/y/SA_CAO/install/diablo_simpose_trans/share/diablo_simpose_trans/package.dsv'
+[49.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/diablo_simpose_trans/share/diablo_simpose_trans/package.sh'
+[49.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/diablo_simpose_trans/share/diablo_simpose_trans/package.bash'
+[49.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/diablo_simpose_trans/share/diablo_simpose_trans/package.zsh'
+[49.609s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/y/SA_CAO/install/diablo_simpose_trans/share/colcon-core/packages/diablo_simpose_trans)
+[49.609s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diablo_simpose_trans)
+[49.609s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_simpose_trans' for CMake module files
+[49.610s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_simpose_trans' for CMake config files
+[49.610s] Level 1:colcon.colcon_core.shell:create_environment_hook('diablo_simpose_trans', 'cmake_prefix_path')
+[49.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/diablo_simpose_trans/share/diablo_simpose_trans/hook/cmake_prefix_path.ps1'
+[49.611s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/SA_CAO/install/diablo_simpose_trans/share/diablo_simpose_trans/hook/cmake_prefix_path.dsv'
+[49.611s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/diablo_simpose_trans/share/diablo_simpose_trans/hook/cmake_prefix_path.sh'
+[49.612s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_simpose_trans/lib'
+[49.612s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_simpose_trans/bin'
+[49.612s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_simpose_trans/lib/pkgconfig/diablo_simpose_trans.pc'
+[49.612s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_simpose_trans/lib/python3.8/site-packages'
+[49.612s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/diablo_simpose_trans/bin'
+[49.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/diablo_simpose_trans/share/diablo_simpose_trans/package.ps1'
+[49.613s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/y/SA_CAO/install/diablo_simpose_trans/share/diablo_simpose_trans/package.dsv'
+[49.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/diablo_simpose_trans/share/diablo_simpose_trans/package.sh'
+[49.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/diablo_simpose_trans/share/diablo_simpose_trans/package.bash'
+[49.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/diablo_simpose_trans/share/diablo_simpose_trans/package.zsh'
+[49.615s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/y/SA_CAO/install/diablo_simpose_trans/share/colcon-core/packages/diablo_simpose_trans)
+[49.615s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[49.615s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[49.615s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[49.616s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[49.632s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[49.633s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[49.633s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[49.669s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[49.669s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/y/SA_CAO/install/local_setup.ps1'
+[49.670s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/y/SA_CAO/install/_local_setup_util_ps1.py'
+[49.672s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/y/SA_CAO/install/setup.ps1'
+[49.674s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/y/SA_CAO/install/local_setup.sh'
+[49.675s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/y/SA_CAO/install/_local_setup_util_sh.py'
+[49.676s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/y/SA_CAO/install/setup.sh'
+[49.677s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/y/SA_CAO/install/local_setup.bash'
+[49.678s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/y/SA_CAO/install/setup.bash'
+[49.679s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/y/SA_CAO/install/local_setup.zsh'
+[49.680s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/y/SA_CAO/install/setup.zsh'

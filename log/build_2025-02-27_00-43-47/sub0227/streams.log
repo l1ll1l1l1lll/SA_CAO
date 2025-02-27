@@ -1,0 +1,37 @@
+[0.019s] Invoking command in '/home/y/SA_CAO/build/sub0227': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/y/SA_CAO/build/sub0227 -- -j2 -l2
+[0.030s] /usr/bin/cmake -S/home/y/SA_CAO/src/sub0227 -B/home/y/SA_CAO/build/sub0227 --check-build-system CMakeFiles/Makefile.cmake 0
+[0.043s] /usr/bin/cmake -E cmake_progress_start /home/y/SA_CAO/build/sub0227/CMakeFiles /home/y/SA_CAO/build/sub0227/CMakeFiles/progress.marks
+[0.052s] /usr/bin/make -f CMakeFiles/Makefile2 all
+[0.053s] make[1]: Entering directory '/home/y/SA_CAO/build/sub0227'
+[0.053s] /usr/bin/make -f CMakeFiles/Sub0227.dir/build.make CMakeFiles/Sub0227.dir/depend
+[0.058s] make[2]: Entering directory '/home/y/SA_CAO/build/sub0227'
+[0.058s] cd /home/y/SA_CAO/build/sub0227 && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/y/SA_CAO/src/sub0227 /home/y/SA_CAO/src/sub0227 /home/y/SA_CAO/build/sub0227 /home/y/SA_CAO/build/sub0227 /home/y/SA_CAO/build/sub0227/CMakeFiles/Sub0227.dir/DependInfo.cmake --color=
+[0.068s] make[2]: Leaving directory '/home/y/SA_CAO/build/sub0227'
+[0.068s] /usr/bin/make -f CMakeFiles/Sub0227.dir/build.make CMakeFiles/Sub0227.dir/build
+[0.081s] make[2]: Entering directory '/home/y/SA_CAO/build/sub0227'
+[0.081s] make[2]: Nothing to be done for 'CMakeFiles/Sub0227.dir/build'.
+[0.081s] make[2]: Leaving directory '/home/y/SA_CAO/build/sub0227'
+[0.089s] [100%] Built target Sub0227
+[0.089s] make[1]: Leaving directory '/home/y/SA_CAO/build/sub0227'
+[0.090s] /usr/bin/cmake -E cmake_progress_start /home/y/SA_CAO/build/sub0227/CMakeFiles 0
+[0.104s] Invoked command in '/home/y/SA_CAO/build/sub0227' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/y/SA_CAO/build/sub0227 -- -j2 -l2
+[0.115s] Invoking command in '/home/y/SA_CAO/build/sub0227': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/y/SA_CAO/build/sub0227
+[0.122s] -- Install configuration: "Release"
+[0.123s] -- Up-to-date: /home/y/SA_CAO/install/sub0227/lib/sub0227/Sub0227
+[0.123s] -- Up-to-date: /home/y/SA_CAO/install/sub0227/share/ament_index/resource_index/package_run_dependencies/sub0227
+[0.123s] -- Up-to-date: /home/y/SA_CAO/install/sub0227/share/ament_index/resource_index/parent_prefix_path/sub0227
+[0.123s] -- Up-to-date: /home/y/SA_CAO/install/sub0227/share/sub0227/environment/ament_prefix_path.sh
+[0.123s] -- Up-to-date: /home/y/SA_CAO/install/sub0227/share/sub0227/environment/ament_prefix_path.dsv
+[0.123s] -- Up-to-date: /home/y/SA_CAO/install/sub0227/share/sub0227/environment/path.sh
+[0.123s] -- Up-to-date: /home/y/SA_CAO/install/sub0227/share/sub0227/environment/path.dsv
+[0.123s] -- Up-to-date: /home/y/SA_CAO/install/sub0227/share/sub0227/local_setup.bash
+[0.123s] -- Up-to-date: /home/y/SA_CAO/install/sub0227/share/sub0227/local_setup.sh
+[0.124s] -- Up-to-date: /home/y/SA_CAO/install/sub0227/share/sub0227/local_setup.zsh
+[0.124s] -- Up-to-date: /home/y/SA_CAO/install/sub0227/share/sub0227/local_setup.dsv
+[0.124s] -- Installing: /home/y/SA_CAO/install/sub0227/share/sub0227/package.dsv
+[0.124s] -- Up-to-date: /home/y/SA_CAO/install/sub0227/share/ament_index/resource_index/packages/sub0227
+[0.124s] -- Up-to-date: /home/y/SA_CAO/install/sub0227/share/sub0227/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.124s] -- Up-to-date: /home/y/SA_CAO/install/sub0227/share/sub0227/cmake/sub0227Config.cmake
+[0.124s] -- Up-to-date: /home/y/SA_CAO/install/sub0227/share/sub0227/cmake/sub0227Config-version.cmake
+[0.124s] -- Up-to-date: /home/y/SA_CAO/install/sub0227/share/sub0227/package.xml
+[0.128s] Invoked command in '/home/y/SA_CAO/build/sub0227' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/y/SA_CAO/build/sub0227

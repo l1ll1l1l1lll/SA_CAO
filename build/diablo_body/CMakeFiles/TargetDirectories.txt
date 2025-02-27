@@ -1,0 +1,10 @@
+/home/y/SA_CAO/build/diablo_body/CMakeFiles/install/strip.dir
+/home/y/SA_CAO/build/diablo_body/CMakeFiles/install/local.dir
+/home/y/SA_CAO/build/diablo_body/CMakeFiles/install.dir
+/home/y/SA_CAO/build/diablo_body/CMakeFiles/list_install_components.dir
+/home/y/SA_CAO/build/diablo_body/CMakeFiles/rebuild_cache.dir
+/home/y/SA_CAO/build/diablo_body/CMakeFiles/diablo_body_core.dir
+/home/y/SA_CAO/build/diablo_body/CMakeFiles/edit_cache.dir
+/home/y/SA_CAO/build/diablo_body/CMakeFiles/test.dir
+/home/y/SA_CAO/build/diablo_body/CMakeFiles/diablo_body_uninstall.dir
+/home/y/SA_CAO/build/diablo_body/CMakeFiles/uninstall.dir

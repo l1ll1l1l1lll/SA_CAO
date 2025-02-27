@@ -1,0 +1,4 @@
+Invoking command in '/home/y/SA_CAO/build/sub0227': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/y/SA_CAO/build/sub0227 -- -j2 -l2
+Invoked command in '/home/y/SA_CAO/build/sub0227' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/y/SA_CAO/build/sub0227 -- -j2 -l2
+Invoking command in '/home/y/SA_CAO/build/sub0227': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/y/SA_CAO/build/sub0227
+Invoked command in '/home/y/SA_CAO/build/sub0227' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/y/SA_CAO/build/sub0227

@@ -1,0 +1,23 @@
+[100%] Built target motor_trans_node
+-- Install configuration: ""
+-- Up-to-date: /home/y/SA_CAO/install/diablo_simpose_trans/lib/diablo_simpose_trans/motor_trans_node
+-- Up-to-date: /home/y/SA_CAO/install/diablo_simpose_trans/include/diablo_simpose_trans
+-- Up-to-date: /home/y/SA_CAO/install/diablo_simpose_trans/include/diablo_simpose_trans/diablo_simpose_trans
+-- Up-to-date: /home/y/SA_CAO/install/diablo_simpose_trans/include/diablo_simpose_trans/diablo_simpose_trans/motor_pos_trans.hpp
+-- Up-to-date: /home/y/SA_CAO/install/diablo_simpose_trans/share/ament_index/resource_index/package_run_dependencies/diablo_simpose_trans
+-- Up-to-date: /home/y/SA_CAO/install/diablo_simpose_trans/share/ament_index/resource_index/parent_prefix_path/diablo_simpose_trans
+-- Up-to-date: /home/y/SA_CAO/install/diablo_simpose_trans/share/diablo_simpose_trans/environment/ament_prefix_path.sh
+-- Up-to-date: /home/y/SA_CAO/install/diablo_simpose_trans/share/diablo_simpose_trans/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/y/SA_CAO/install/diablo_simpose_trans/share/diablo_simpose_trans/environment/path.sh
+-- Up-to-date: /home/y/SA_CAO/install/diablo_simpose_trans/share/diablo_simpose_trans/environment/path.dsv
+-- Up-to-date: /home/y/SA_CAO/install/diablo_simpose_trans/share/diablo_simpose_trans/local_setup.bash
+-- Up-to-date: /home/y/SA_CAO/install/diablo_simpose_trans/share/diablo_simpose_trans/local_setup.sh
+-- Up-to-date: /home/y/SA_CAO/install/diablo_simpose_trans/share/diablo_simpose_trans/local_setup.zsh
+-- Up-to-date: /home/y/SA_CAO/install/diablo_simpose_trans/share/diablo_simpose_trans/local_setup.dsv
+-- Installing: /home/y/SA_CAO/install/diablo_simpose_trans/share/diablo_simpose_trans/package.dsv
+-- Up-to-date: /home/y/SA_CAO/install/diablo_simpose_trans/share/ament_index/resource_index/packages/diablo_simpose_trans
+-- Up-to-date: /home/y/SA_CAO/install/diablo_simpose_trans/share/diablo_simpose_trans/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/y/SA_CAO/install/diablo_simpose_trans/share/diablo_simpose_trans/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/y/SA_CAO/install/diablo_simpose_trans/share/diablo_simpose_trans/cmake/diablo_simpose_transConfig.cmake
+-- Up-to-date: /home/y/SA_CAO/install/diablo_simpose_trans/share/diablo_simpose_trans/cmake/diablo_simpose_transConfig-version.cmake
+-- Up-to-date: /home/y/SA_CAO/install/diablo_simpose_trans/share/diablo_simpose_trans/package.xml

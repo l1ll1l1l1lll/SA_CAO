@@ -1,0 +1,68 @@
+[0.018s] Invoking command in '/home/y/SA_CAO/build/sub0227': CMAKE_PREFIX_PATH=/home/y/ws/install/turtlebot3:/home/y/ws/install/turtlebot3_simulations:/home/y/ws/install/turtlebot3_bringup:/home/y/ws/install/turtlebot3_node:/home/y/ws/install/turtlebot3_navigation2:/home/y/ws/install/turtlebot3_fake_node:/home/y/ws/install/turtlebot3_msgs:/home/y/ws/install/turtlebot3_gazebo:/home/y/ws/install/turtlebot3_description:/home/y/ws/install/turtlebot3_cartographer:/home/y/ws/install/sub0227:/home/y/ws/install/hls_lfcd_lds_driver:/home/y/ws/install/dynamixel_sdk_examples:/home/y/ws/install/dynamixel_sdk_custom_interfaces:/home/y/ws/install/dynamixel_sdk:/home/y/SA_CAO/install/sub0227:/home/y/SA_CAO/install/diablo_simpose_trans:/home/y/SA_CAO/install/diablo_ctrl:/home/y/SA_CAO/install/diablo_body:/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/diablo_rviz2_control_plugin:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:/home/y/ws/install/turtlebot3_teleop:/home/y/ws/install/turtlebot3_example:/home/y/ws/install/robot_launch:/home/y/ws/install/my_xbox_joystick:/home/y/SA_CAO/install/robot_launch:/home/y/SA_CAO/install/my_xbox_joystick:/home/y/SA_CAO/install/diablo_teleop:/home/y/SA_CAO/install/diablo_simulation:/opt/ros/foxy:/home/y/oradar_ros/install/oradar_lidar /usr/bin/cmake --build /home/y/SA_CAO/build/sub0227 -- -j2 -l2
+[0.033s] /usr/bin/cmake -S/home/y/SA_CAO/src/sub0227 -B/home/y/SA_CAO/build/sub0227 --check-build-system CMakeFiles/Makefile.cmake 0
+[0.047s] /usr/bin/cmake -E cmake_progress_start /home/y/SA_CAO/build/sub0227/CMakeFiles /home/y/SA_CAO/build/sub0227/CMakeFiles/progress.marks
+[0.055s] /usr/bin/make -f CMakeFiles/Makefile2 all
+[0.056s] make[1]: Entering directory '/home/y/SA_CAO/build/sub0227'
+[0.057s] /usr/bin/make -f CMakeFiles/Sub0227.dir/build.make CMakeFiles/Sub0227.dir/depend
+[0.064s] make[2]: Entering directory '/home/y/SA_CAO/build/sub0227'
+[0.064s] cd /home/y/SA_CAO/build/sub0227 && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/y/SA_CAO/src/sub0227 /home/y/SA_CAO/src/sub0227 /home/y/SA_CAO/build/sub0227 /home/y/SA_CAO/build/sub0227 /home/y/SA_CAO/build/sub0227/CMakeFiles/Sub0227.dir/DependInfo.cmake --color=
+[0.075s] make[2]: Leaving directory '/home/y/SA_CAO/build/sub0227'
+[0.075s] /usr/bin/make -f CMakeFiles/Sub0227.dir/build.make CMakeFiles/Sub0227.dir/build
+[0.084s] make[2]: Entering directory '/home/y/SA_CAO/build/sub0227'
+[0.094s] [ 20%] [32mBuilding CXX object CMakeFiles/Sub0227.dir/src/Sub0227.cpp.o[0m
+[0.094s] [ 20%] [32mBuilding CXX object CMakeFiles/Sub0227.dir/src/Sub0227_data.cpp.o[0m
+[0.094s] /usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\"sub0227\" -DSPDLOG_COMPILED_LIB -I/home/y/SA_CAO/src/sub0227/include/sub0227 -I/home/y/SA_CAO/src/sub0227/include -isystem /opt/ros/foxy/include  -O3 -DNDEBUG   -Wall -Wextra -Wpedantic -DMODEL=Sub0227 -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -std=gnu++17 -o CMakeFiles/Sub0227.dir/src/Sub0227.cpp.o -c /home/y/SA_CAO/src/sub0227/src/Sub0227.cpp
+[0.095s] /usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\"sub0227\" -DSPDLOG_COMPILED_LIB -I/home/y/SA_CAO/src/sub0227/include/sub0227 -I/home/y/SA_CAO/src/sub0227/include -isystem /opt/ros/foxy/include  -O3 -DNDEBUG   -Wall -Wextra -Wpedantic -DMODEL=Sub0227 -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -std=gnu++17 -o CMakeFiles/Sub0227.dir/src/Sub0227_data.cpp.o -c /home/y/SA_CAO/src/sub0227/src/Sub0227_data.cpp
+[1.330s] In file included from [01m[K/home/y/SA_CAO/src/sub0227/include/sub0227/slros2_initialize.h:7[m[K,
+[1.331s]                  from [01m[K/home/y/SA_CAO/src/sub0227/include/sub0227/Sub0227.h:22[m[K,
+[1.331s]                  from [01m[K/home/y/SA_CAO/src/sub0227/src/Sub0227_data.cpp:19[m[K:
+[1.331s] [01m[K/home/y/SA_CAO/src/sub0227/include/sub0227/slros2_generic_pubsub.h:[m[K In member function ‘[01m[Kvoid SimulinkSubscriber<MsgType, BusType>::createSubscriber(const string&, const rmw_qos_profile_t&)[m[K’:
+[1.331s] [01m[K/home/y/SA_CAO/src/sub0227/include/sub0227/slros2_generic_pubsub.h:107:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct rclcpp::SubscriptionEventCallbacks[m[K’ has no member named ‘[01m[Kmessage_lost_callback[m[K’
+[1.332s]   107 |     subscription_options.event_callbacks.[01;31m[Kmessage_lost_callback[m[K = [this, topic](const rclcpp::QOSMessageLostInfo& event) {
+[1.332s]       |                                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[1.332s] [01m[K/home/y/SA_CAO/src/sub0227/include/sub0227/slros2_generic_pubsub.h:107:94:[m[K [01;31m[Kerror: [m[K‘[01m[KQOSMessageLostInfo[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a type
+[1.332s]   107 |     subscription_options.event_callbacks.message_lost_callback = [this, topic](const rclcpp::[01;31m[KQOSMessageLostInfo[m[K& event) {
+[1.332s]       |                                                                                              [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.332s] [01m[K/home/y/SA_CAO/src/sub0227/include/sub0227/slros2_generic_pubsub.h:109:6:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[1.332s]   109 |     }[01;31m[K;[m[K
+[1.332s]       |      [01;31m[K^[m[K
+[1.332s]       |      [32m[K)[m[K
+[1.332s] [01m[K/home/y/SA_CAO/src/sub0227/include/sub0227/slros2_generic_pubsub.h:107:79:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[1.332s]   107 |     subscription_options.event_callbacks.message_lost_callback = [this, topic][01;36m[K([m[Kconst rclcpp::QOSMessageLostInfo& event) {
+[1.332s]       |                                                                               [01;36m[K^[m[K
+[1.332s] [01m[K/home/y/SA_CAO/src/sub0227/include/sub0227/slros2_generic_pubsub.h:[m[K In lambda function:
+[1.332s] [01m[K/home/y/SA_CAO/src/sub0227/include/sub0227/slros2_generic_pubsub.h:109:6:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K;[m[K’ token
+[1.332s]   109 |     }[01;31m[K;[m[K
+[1.332s]       |      [01;31m[K^[m[K
+[1.354s] In file included from [01m[K/home/y/SA_CAO/src/sub0227/include/sub0227/slros2_initialize.h:7[m[K,
+[1.354s]                  from [01m[K/home/y/SA_CAO/src/sub0227/include/sub0227/Sub0227.h:22[m[K,
+[1.354s]                  from [01m[K/home/y/SA_CAO/src/sub0227/src/Sub0227.cpp:19[m[K:
+[1.354s] [01m[K/home/y/SA_CAO/src/sub0227/include/sub0227/slros2_generic_pubsub.h:[m[K In member function ‘[01m[Kvoid SimulinkSubscriber<MsgType, BusType>::createSubscriber(const string&, const rmw_qos_profile_t&)[m[K’:
+[1.354s] [01m[K/home/y/SA_CAO/src/sub0227/include/sub0227/slros2_generic_pubsub.h:107:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct rclcpp::SubscriptionEventCallbacks[m[K’ has no member named ‘[01m[Kmessage_lost_callback[m[K’
+[1.354s]   107 | n_options.event_callbacks.[01;31m[Kmessage_lost_callback[m[K = [this, topic](const rclcpp::QOSMessageLostInfo& event) {
+[1.354s]       |                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[1.354s] 
+[1.355s] [01m[K/home/y/SA_CAO/src/sub0227/include/sub0227/slros2_generic_pubsub.h:107:94:[m[K [01;31m[Kerror: [m[K‘[01m[KQOSMessageLostInfo[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a type
+[1.355s]   107 | his, topic](const rclcpp::[01;31m[KQOSMessageLostInfo[m[K& event) {
+[1.355s]       |                           [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.355s] 
+[1.355s] [01m[K/home/y/SA_CAO/src/sub0227/include/sub0227/slros2_generic_pubsub.h:109:6:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[1.355s]   109 |     }[01;31m[K;[m[K
+[1.355s]       |      [01;31m[K^[m[K
+[1.356s]       |      [32m[K)[m[K
+[1.356s] [01m[K/home/y/SA_CAO/src/sub0227/include/sub0227/slros2_generic_pubsub.h:107:79:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[1.356s]   107 | t_callback = [this, topic][01;36m[K([m[Kconst rclcpp::QOSMessageLostInfo& event) {
+[1.356s]       |                           [01;36m[K^[m[K
+[1.356s] 
+[1.356s] [01m[K/home/y/SA_CAO/src/sub0227/include/sub0227/slros2_generic_pubsub.h:[m[K In lambda function:
+[1.356s] [01m[K/home/y/SA_CAO/src/sub0227/include/sub0227/slros2_generic_pubsub.h:109:6:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K;[m[K’ token
+[1.356s]   109 |     }[01;31m[K;[m[K
+[1.356s]       |      [01;31m[K^[m[K
+[1.650s] make[2]: *** [CMakeFiles/Sub0227.dir/build.make:79: CMakeFiles/Sub0227.dir/src/Sub0227_data.cpp.o] Error 1
+[1.650s] make[2]: *** Waiting for unfinished jobs....
+[3.072s] make[2]: Leaving directory '/home/y/SA_CAO/build/sub0227'
+[3.076s] make[2]: *** [CMakeFiles/Sub0227.dir/build.make:66: CMakeFiles/Sub0227.dir/src/Sub0227.cpp.o] Error 1
+[3.076s] make[1]: *** [CMakeFiles/Makefile2:81: CMakeFiles/Sub0227.dir/all] Error 2
+[3.076s] make: *** [Makefile:144: all] Error 2
+[3.077s] make[1]: Leaving directory '/home/y/SA_CAO/build/sub0227'
+[3.077s] Invoked command in '/home/y/SA_CAO/build/sub0227' returned '2': CMAKE_PREFIX_PATH=/home/y/ws/install/turtlebot3:/home/y/ws/install/turtlebot3_simulations:/home/y/ws/install/turtlebot3_bringup:/home/y/ws/install/turtlebot3_node:/home/y/ws/install/turtlebot3_navigation2:/home/y/ws/install/turtlebot3_fake_node:/home/y/ws/install/turtlebot3_msgs:/home/y/ws/install/turtlebot3_gazebo:/home/y/ws/install/turtlebot3_description:/home/y/ws/install/turtlebot3_cartographer:/home/y/ws/install/sub0227:/home/y/ws/install/hls_lfcd_lds_driver:/home/y/ws/install/dynamixel_sdk_examples:/home/y/ws/install/dynamixel_sdk_custom_interfaces:/home/y/ws/install/dynamixel_sdk:/home/y/SA_CAO/install/sub0227:/home/y/SA_CAO/install/diablo_simpose_trans:/home/y/SA_CAO/install/diablo_ctrl:/home/y/SA_CAO/install/diablo_body:/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/diablo_rviz2_control_plugin:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:/home/y/ws/install/turtlebot3_teleop:/home/y/ws/install/turtlebot3_example:/home/y/ws/install/robot_launch:/home/y/ws/install/my_xbox_joystick:/home/y/SA_CAO/install/robot_launch:/home/y/SA_CAO/install/my_xbox_joystick:/home/y/SA_CAO/install/diablo_teleop:/home/y/SA_CAO/install/diablo_simulation:/opt/ros/foxy:/home/y/oradar_ros/install/oradar_lidar /usr/bin/cmake --build /home/y/SA_CAO/build/sub0227 -- -j2 -l2

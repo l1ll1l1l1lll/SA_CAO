@@ -1,0 +1,10 @@
+/home/y/SA_CAO/build/sub0227/CMakeFiles/install/strip.dir
+/home/y/SA_CAO/build/sub0227/CMakeFiles/install/local.dir
+/home/y/SA_CAO/build/sub0227/CMakeFiles/install.dir
+/home/y/SA_CAO/build/sub0227/CMakeFiles/list_install_components.dir
+/home/y/SA_CAO/build/sub0227/CMakeFiles/rebuild_cache.dir
+/home/y/SA_CAO/build/sub0227/CMakeFiles/edit_cache.dir
+/home/y/SA_CAO/build/sub0227/CMakeFiles/test.dir
+/home/y/SA_CAO/build/sub0227/CMakeFiles/Sub0227.dir
+/home/y/SA_CAO/build/sub0227/CMakeFiles/sub0227_uninstall.dir
+/home/y/SA_CAO/build/sub0227/CMakeFiles/uninstall.dir

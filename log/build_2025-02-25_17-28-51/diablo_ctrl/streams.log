@@ -1,0 +1,68 @@
+[0.027s] Invoking command in '/home/y/SA_CAO/build/diablo_ctrl': CMAKE_PREFIX_PATH=/home/y/SA_CAO/install/diablo_body:/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:/home/y/SA_CAO/install/diablo_simpose_trans:/home/y/SA_CAO/install/diablo_ctrl:/home/y/SA_CAO/install/diablo_rviz2_control_plugin:/home/y/SA_CAO/install/my_xbox_joystick:/home/y/SA_CAO/install/diablo_teleop:/home/y/SA_CAO/install/diablo_simulation:/opt/ros/foxy:/home/y/oradar_ros/install/oradar_lidar LD_LIBRARY_PATH=/home/y/SA_CAO/install/diablo_body/lib:/home/y/SA_CAO/install/diablo_utils/lib:/home/y/SA_CAO/install/motion_msgs/lib:/home/y/SA_CAO/install/ception_msgs/lib:/home/y/SA_CAO/install/diablo_rviz2_control_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:/home/y/SA_CAO/install/ception_msgs/lib/python3.8/site-packages:/home/y/SA_CAO/install/my_xbox_joystick/lib/python3.8/site-packages:/home/y/SA_CAO/install/diablo_teleop/lib/python3.8/site-packages:/home/y/SA_CAO/install/diablo_simulation/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/y/SA_CAO/build/diablo_ctrl -- -j2 -l2
+[0.081s] [35m[1mScanning dependencies of target diablo_ctrl_node[0m
+[0.115s] [ 50%] [32mBuilding CXX object CMakeFiles/diablo_ctrl_node.dir/src/diablo_ctrl.cpp.o[0m
+[1.332s] [01m[K/home/y/SA_CAO/src/diablo_ros2/diablo_interaction/diablo_ctrl/src/diablo_ctrl.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.332s] [01m[K/home/y/SA_CAO/src/diablo_ros2/diablo_interaction/diablo_ctrl/src/diablo_ctrl.cpp:116:26:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kdiablo_imu_publisher imuPublisher[m[K’
+[1.333s]   116 |     diablo_imu_publisher [01;31m[KimuPublisher[m[K(node,&vehicle);
+[1.333s]       |                          [01;31m[K^~~~~~~~~~~~[m[K
+[1.333s] [01m[K/home/y/SA_CAO/src/diablo_ros2/diablo_interaction/diablo_ctrl/src/diablo_ctrl.cpp:114:26:[m[K [01;36m[Knote: [m[K‘[01m[Kdiablo_imu_publisher imuPublisher[m[K’ previously declared here
+[1.333s]   114 |     diablo_imu_publisher [01;36m[KimuPublisher[m[K(node, vehicle);
+[1.333s]       |                          [01;36m[K^~~~~~~~~~~~[m[K
+[1.333s] [01m[K/home/y/SA_CAO/src/diablo_ros2/diablo_interaction/diablo_ctrl/src/diablo_ctrl.cpp:119:60:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kdiablo_battery_publisher::diablo_battery_publisher(std::shared_ptr<diabloCtrlNode>&, DIABLO::OSDK::Vehicle**)[m[K’
+[1.333s]   119 |     diablo_battery_publisher batteryPublisher(node,&vehicle[01;31m[K)[m[K;
+[1.333s]       |                                                            [01;31m[K^[m[K
+[1.333s] In file included from [01m[K/home/y/SA_CAO/src/diablo_ros2/diablo_interaction/diablo_ctrl/include/diablo_ctrl.hpp:5[m[K,
+[1.333s]                  from [01m[K/home/y/SA_CAO/src/diablo_ros2/diablo_interaction/diablo_ctrl/src/diablo_ctrl.cpp:2[m[K:
+[1.333s] [01m[K/home/y/SA_CAO/install/diablo_body/include/diablo_battery.hpp:21:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kdiablo_battery_publisher::diablo_battery_publisher(rclcpp::Node::SharedPtr, DIABLO::OSDK::Vehicle*)[m[K’
+[1.333s]    21 |     [01;36m[Kdiablo_battery_publisher[m[K(rclcpp::Node::SharedPtr node_ptr,DIABLO::OSDK::Vehicle* vehicle);
+[1.333s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.334s] [01m[K/home/y/SA_CAO/install/diablo_body/include/diablo_battery.hpp:21:86:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[KDIABLO::OSDK::Vehicle**[m[K’ to ‘[01m[KDIABLO::OSDK::Vehicle*[m[K’
+[1.334s]    21 | ery_publisher(rclcpp::Node::SharedPtr node_ptr,[01;36m[KDIABLO::OSDK::Vehicle* vehicle[m[K);
+[1.334s]       |                                                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[1.334s] 
+[1.334s] [01m[K/home/y/SA_CAO/install/diablo_body/include/diablo_battery.hpp:9:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kdiablo_battery_publisher::diablo_battery_publisher(const diablo_battery_publisher&)[m[K’
+[1.334s]     9 | class [01;36m[Kdiablo_battery_publisher[m[K
+[1.334s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.334s] [01m[K/home/y/SA_CAO/install/diablo_body/include/diablo_battery.hpp:9:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[1.334s] [01m[K/home/y/SA_CAO/src/diablo_ros2/diablo_interaction/diablo_ctrl/src/diablo_ctrl.cpp:122:55:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kdiablo_motors_publisher::diablo_motors_publisher(std::shared_ptr<diabloCtrlNode>&, DIABLO::OSDK::Vehicle**)[m[K’
+[1.334s]   122 |  diablo_motors_publisher motorsPublisher(node,&vehicle[01;31m[K)[m[K;
+[1.334s]       |                                                       [01;31m[K^[m[K
+[1.334s] In file included from [01m[K/home/y/SA_CAO/src/diablo_ros2/diablo_interaction/diablo_ctrl/include/diablo_ctrl.hpp:6[m[K,
+[1.334s]                  from [01m[K/home/y/SA_CAO/src/diablo_ros2/diablo_interaction/diablo_ctrl/src/diablo_ctrl.cpp:2[m[K:
+[1.334s] [01m[K/home/y/SA_CAO/install/diablo_body/include/diablo_legmotors.hpp:21:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kdiablo_motors_publisher::diablo_motors_publisher(rclcpp::Node::SharedPtr, DIABLO::OSDK::Vehicle*)[m[K’
+[1.334s]    21 |     [01;36m[Kdiablo_motors_publisher[m[K(rclcpp::Node::SharedPtr node_ptr,DIABLO::OSDK::Vehicle* vehicle);
+[1.334s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.334s] [01m[K/home/y/SA_CAO/install/diablo_body/include/diablo_legmotors.hpp:21:85:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[KDIABLO::OSDK::Vehicle**[m[K’ to ‘[01m[KDIABLO::OSDK::Vehicle*[m[K’
+[1.334s]    21 | ors_publisher(rclcpp::Node::SharedPtr node_ptr,[01;36m[KDIABLO::OSDK::Vehicle* vehicle[m[K);
+[1.334s]       |                                                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[1.334s] 
+[1.334s] [01m[K/home/y/SA_CAO/install/diablo_body/include/diablo_legmotors.hpp:9:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kdiablo_motors_publisher::diablo_motors_publisher(const diablo_motors_publisher&)[m[K’
+[1.334s]     9 | class [01;36m[Kdiablo_motors_publisher[m[K
+[1.335s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.335s] [01m[K/home/y/SA_CAO/install/diablo_body/include/diablo_legmotors.hpp:9:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[1.335s] [01m[K/home/y/SA_CAO/src/diablo_ros2/diablo_interaction/diablo_ctrl/src/diablo_ctrl.cpp:125:65:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kdiablo_body_state_publisher::diablo_body_state_publisher(std::shared_ptr<diabloCtrlNode>&, DIABLO::OSDK::Vehicle**)[m[K’
+[1.335s]   125 |     diablo_body_state_publisher bodyStatePublisher(node,&vehicle[01;31m[K)[m[K;
+[1.335s]       |                                                                 [01;31m[K^[m[K
+[1.335s] In file included from [01m[K/home/y/SA_CAO/src/diablo_ros2/diablo_interaction/diablo_ctrl/include/diablo_ctrl.hpp:7[m[K,
+[1.335s]                  from [01m[K/home/y/SA_CAO/src/diablo_ros2/diablo_interaction/diablo_ctrl/src/diablo_ctrl.cpp:2[m[K:
+[1.335s] [01m[K/home/y/SA_CAO/install/diablo_body/include/diablo_body_state.hpp:21:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kdiablo_body_state_publisher::diablo_body_state_publisher(rclcpp::Node::SharedPtr, DIABLO::OSDK::Vehicle*)[m[K’
+[1.335s]    21 |     [01;36m[Kdiablo_body_state_publisher[m[K(rclcpp::Node::SharedPtr node_ptr,DIABLO::OSDK::Vehicle* vehicle);
+[1.335s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.335s] [01m[K/home/y/SA_CAO/install/diablo_body/include/diablo_body_state.hpp:21:89:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[KDIABLO::OSDK::Vehicle**[m[K’ to ‘[01m[KDIABLO::OSDK::Vehicle*[m[K’
+[1.335s]    21 | ate_publisher(rclcpp::Node::SharedPtr node_ptr,[01;36m[KDIABLO::OSDK::Vehicle* vehicle[m[K);
+[1.335s]       |                                                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[1.335s] 
+[1.335s] [01m[K/home/y/SA_CAO/install/diablo_body/include/diablo_body_state.hpp:9:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kdiablo_body_state_publisher::diablo_body_state_publisher(const diablo_body_state_publisher&)[m[K’
+[1.335s]     9 | class [01;36m[Kdiablo_body_state_publisher[m[K
+[1.336s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.336s] [01m[K/home/y/SA_CAO/install/diablo_body/include/diablo_body_state.hpp:9:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[1.336s] [01m[K/home/y/SA_CAO/src/diablo_ros2/diablo_interaction/diablo_ctrl/src/diablo_ctrl.cpp:130:35:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kmovement_ctrl[m[K’ in ‘[01m[Kvehicle[m[K’, which is of pointer type ‘[01m[KDIABLO::OSDK::Vehicle*[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+[1.336s]   130 |     node->pMovementCtrl = vehicle.[01;31m[Kmovement_ctrl[m[K;
+[1.336s]       |                                   [01;31m[K^~~~~~~~~~~~~[m[K
+[1.336s] [01m[K/home/y/SA_CAO/src/diablo_ros2/diablo_interaction/diablo_ctrl/src/diablo_ctrl.cpp:131:32:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ktelemetry[m[K’ in ‘[01m[Kvehicle[m[K’, which is of pointer type ‘[01m[KDIABLO::OSDK::Vehicle*[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+[1.336s]   131 |     node->pTelemetry = vehicle.[01;31m[Ktelemetry[m[K;
+[1.336s]       |                                [01;31m[K^~~~~~~~~[m[K
+[2.548s] make[2]: *** [CMakeFiles/diablo_ctrl_node.dir/build.make:63: CMakeFiles/diablo_ctrl_node.dir/src/diablo_ctrl.cpp.o] Error 1
+[2.549s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/diablo_ctrl_node.dir/all] Error 2
+[2.549s] make: *** [Makefile:141: all] Error 2
+[2.549s] Invoked command in '/home/y/SA_CAO/build/diablo_ctrl' returned '2': CMAKE_PREFIX_PATH=/home/y/SA_CAO/install/diablo_body:/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:/home/y/SA_CAO/install/diablo_simpose_trans:/home/y/SA_CAO/install/diablo_ctrl:/home/y/SA_CAO/install/diablo_rviz2_control_plugin:/home/y/SA_CAO/install/my_xbox_joystick:/home/y/SA_CAO/install/diablo_teleop:/home/y/SA_CAO/install/diablo_simulation:/opt/ros/foxy:/home/y/oradar_ros/install/oradar_lidar LD_LIBRARY_PATH=/home/y/SA_CAO/install/diablo_body/lib:/home/y/SA_CAO/install/diablo_utils/lib:/home/y/SA_CAO/install/motion_msgs/lib:/home/y/SA_CAO/install/ception_msgs/lib:/home/y/SA_CAO/install/diablo_rviz2_control_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:/home/y/SA_CAO/install/ception_msgs/lib/python3.8/site-packages:/home/y/SA_CAO/install/my_xbox_joystick/lib/python3.8/site-packages:/home/y/SA_CAO/install/diablo_teleop/lib/python3.8/site-packages:/home/y/SA_CAO/install/diablo_simulation/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/y/SA_CAO/build/diablo_ctrl -- -j2 -l2

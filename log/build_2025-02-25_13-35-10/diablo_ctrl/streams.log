@@ -1,0 +1,80 @@
+[0.024s] Invoking command in '/home/y/SA_CAO/build/diablo_ctrl': AMENT_PREFIX_PATH=/home/y/SA_CAO/install/diablo_body:/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO/install/diablo_body:/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/y/SA_CAO/install/diablo_body/lib:/home/y/SA_CAO/install/diablo_utils/lib:/home/y/SA_CAO/install/motion_msgs/lib:/home/y/SA_CAO/install/ception_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:/home/y/SA_CAO/install/ception_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/y/SA_CAO/src/diablo_ros2/diablo_interaction/diablo_ctrl -DCMAKE_INSTALL_PREFIX=/home/y/SA_CAO/install/diablo_ctrl
+[0.097s] -- The C compiler identification is GNU 9.4.0
+[0.143s] -- The CXX compiler identification is GNU 9.4.0
+[0.147s] -- Check for working C compiler: /usr/bin/cc
+[0.216s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.217s] -- Detecting C compiler ABI info
+[0.308s] -- Detecting C compiler ABI info - done
+[0.319s] -- Detecting C compile features
+[0.320s] -- Detecting C compile features - done
+[0.322s] -- Check for working CXX compiler: /usr/bin/c++
+[0.409s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.410s] -- Detecting CXX compiler ABI info
+[0.493s] -- Detecting CXX compiler ABI info - done
+[0.505s] -- Detecting CXX compile features
+[0.506s] -- Detecting CXX compile features - done
+[0.509s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.531s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.531s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.754s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.762s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.854s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.885s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.963s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.025s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.028s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.029s] -- Looking for pthread.h
+[1.109s] -- Looking for pthread.h - found
+[1.110s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.183s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.184s] -- Looking for pthread_create in pthreads
+[1.245s] -- Looking for pthread_create in pthreads - not found
+[1.246s] -- Looking for pthread_create in pthread
+[1.315s] -- Looking for pthread_create in pthread - found
+[1.317s] -- Found Threads: TRUE  
+[1.475s] -- Found diablo_body: 1.0.0 (/home/y/SA_CAO/install/diablo_body/share/diablo_body/cmake)
+[1.760s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.835s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.836s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.836s] -- Configured cppcheck include dirs: /home/y/SA_CAO/src/diablo_ros2/diablo_interaction/diablo_ctrl/include
+[1.837s] -- Configured cppcheck exclude dirs and/or files: 
+[1.837s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.837s] -- Configured cpplint exclude dirs and/or files: 
+[1.838s] -- Added test 'lint_cmake' to check CMake code style
+[1.839s] -- Added test 'uncrustify' to check C / C++ code style
+[1.839s] -- Configured uncrustify additional arguments: 
+[1.840s] -- Added test 'xmllint' to check XML markup files
+[1.844s] -- Configuring done
+[1.862s] -- Generating done
+[1.869s] -- Build files have been written to: /home/y/SA_CAO/build/diablo_ctrl
+[1.880s] Invoked command in '/home/y/SA_CAO/build/diablo_ctrl' returned '0': AMENT_PREFIX_PATH=/home/y/SA_CAO/install/diablo_body:/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO/install/diablo_body:/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/y/SA_CAO/install/diablo_body/lib:/home/y/SA_CAO/install/diablo_utils/lib:/home/y/SA_CAO/install/motion_msgs/lib:/home/y/SA_CAO/install/ception_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:/home/y/SA_CAO/install/ception_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/y/SA_CAO/src/diablo_ros2/diablo_interaction/diablo_ctrl -DCMAKE_INSTALL_PREFIX=/home/y/SA_CAO/install/diablo_ctrl
+[1.881s] Invoking command in '/home/y/SA_CAO/build/diablo_ctrl': AMENT_PREFIX_PATH=/home/y/SA_CAO/install/diablo_body:/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO/install/diablo_body:/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/y/SA_CAO/install/diablo_body/lib:/home/y/SA_CAO/install/diablo_utils/lib:/home/y/SA_CAO/install/motion_msgs/lib:/home/y/SA_CAO/install/ception_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:/home/y/SA_CAO/install/ception_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/y/SA_CAO/build/diablo_ctrl -- -j2 -l2
+[1.927s] [35m[1mScanning dependencies of target diablo_ctrl_node[0m
+[1.970s] [ 50%] [32mBuilding CXX object CMakeFiles/diablo_ctrl_node.dir/src/diablo_ctrl.cpp.o[0m
+[7.061s] [100%] [32m[1mLinking CXX executable diablo_ctrl_node[0m
+[7.299s] [100%] Built target diablo_ctrl_node
+[7.310s] Invoked command in '/home/y/SA_CAO/build/diablo_ctrl' returned '0': AMENT_PREFIX_PATH=/home/y/SA_CAO/install/diablo_body:/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO/install/diablo_body:/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/y/SA_CAO/install/diablo_body/lib:/home/y/SA_CAO/install/diablo_utils/lib:/home/y/SA_CAO/install/motion_msgs/lib:/home/y/SA_CAO/install/ception_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:/home/y/SA_CAO/install/ception_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/y/SA_CAO/build/diablo_ctrl -- -j2 -l2
+[7.313s] Invoking command in '/home/y/SA_CAO/build/diablo_ctrl': AMENT_PREFIX_PATH=/home/y/SA_CAO/install/diablo_body:/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO/install/diablo_body:/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/y/SA_CAO/install/diablo_body/lib:/home/y/SA_CAO/install/diablo_utils/lib:/home/y/SA_CAO/install/motion_msgs/lib:/home/y/SA_CAO/install/ception_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:/home/y/SA_CAO/install/ception_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/y/SA_CAO/build/diablo_ctrl
+[7.322s] -- Install configuration: ""
+[7.322s] -- Installing: /home/y/SA_CAO/install/diablo_ctrl/lib/diablo_ctrl/diablo_ctrl_node
+[7.324s] -- Set runtime path of "/home/y/SA_CAO/install/diablo_ctrl/lib/diablo_ctrl/diablo_ctrl_node" to ""
+[7.324s] -- Installing: /home/y/SA_CAO/install/diablo_ctrl/include/diablo_ctrl
+[7.324s] -- Installing: /home/y/SA_CAO/install/diablo_ctrl/include/diablo_ctrl/diablo_ctrl.hpp
+[7.324s] -- Installing: /home/y/SA_CAO/install/diablo_ctrl/share/ament_index/resource_index/package_run_dependencies/diablo_ctrl
+[7.325s] -- Installing: /home/y/SA_CAO/install/diablo_ctrl/share/ament_index/resource_index/parent_prefix_path/diablo_ctrl
+[7.325s] -- Installing: /home/y/SA_CAO/install/diablo_ctrl/share/diablo_ctrl/environment/ament_prefix_path.sh
+[7.325s] -- Installing: /home/y/SA_CAO/install/diablo_ctrl/share/diablo_ctrl/environment/ament_prefix_path.dsv
+[7.325s] -- Installing: /home/y/SA_CAO/install/diablo_ctrl/share/diablo_ctrl/environment/path.sh
+[7.325s] -- Installing: /home/y/SA_CAO/install/diablo_ctrl/share/diablo_ctrl/environment/path.dsv
+[7.325s] -- Installing: /home/y/SA_CAO/install/diablo_ctrl/share/diablo_ctrl/local_setup.bash
+[7.326s] -- Installing: /home/y/SA_CAO/install/diablo_ctrl/share/diablo_ctrl/local_setup.sh
+[7.326s] -- Installing: /home/y/SA_CAO/install/diablo_ctrl/share/diablo_ctrl/local_setup.zsh
+[7.326s] -- Installing: /home/y/SA_CAO/install/diablo_ctrl/share/diablo_ctrl/local_setup.dsv
+[7.326s] -- Installing: /home/y/SA_CAO/install/diablo_ctrl/share/diablo_ctrl/package.dsv
+[7.326s] -- Installing: /home/y/SA_CAO/install/diablo_ctrl/share/ament_index/resource_index/packages/diablo_ctrl
+[7.327s] -- Installing: /home/y/SA_CAO/install/diablo_ctrl/share/diablo_ctrl/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.327s] -- Installing: /home/y/SA_CAO/install/diablo_ctrl/share/diablo_ctrl/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.327s] -- Installing: /home/y/SA_CAO/install/diablo_ctrl/share/diablo_ctrl/cmake/diablo_ctrlConfig.cmake
+[7.327s] -- Installing: /home/y/SA_CAO/install/diablo_ctrl/share/diablo_ctrl/cmake/diablo_ctrlConfig-version.cmake
+[7.327s] -- Installing: /home/y/SA_CAO/install/diablo_ctrl/share/diablo_ctrl/package.xml
+[7.331s] Invoked command in '/home/y/SA_CAO/build/diablo_ctrl' returned '0': AMENT_PREFIX_PATH=/home/y/SA_CAO/install/diablo_body:/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO/install/diablo_body:/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/y/SA_CAO/install/diablo_body/lib:/home/y/SA_CAO/install/diablo_utils/lib:/home/y/SA_CAO/install/motion_msgs/lib:/home/y/SA_CAO/install/ception_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:/home/y/SA_CAO/install/ception_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/y/SA_CAO/build/diablo_ctrl

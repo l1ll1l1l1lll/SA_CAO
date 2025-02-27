@@ -1,0 +1,66 @@
+/usr/bin/cmake -S/home/y/SA_CAO/src/sub0227 -B/home/y/SA_CAO/build/sub0227 --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/y/SA_CAO/build/sub0227/CMakeFiles /home/y/SA_CAO/build/sub0227/CMakeFiles/progress.marks
+/usr/bin/make -f CMakeFiles/Makefile2 all
+make[1]: Entering directory '/home/y/SA_CAO/build/sub0227'
+/usr/bin/make -f CMakeFiles/Sub0227.dir/build.make CMakeFiles/Sub0227.dir/depend
+make[2]: Entering directory '/home/y/SA_CAO/build/sub0227'
+cd /home/y/SA_CAO/build/sub0227 && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/y/SA_CAO/src/sub0227 /home/y/SA_CAO/src/sub0227 /home/y/SA_CAO/build/sub0227 /home/y/SA_CAO/build/sub0227 /home/y/SA_CAO/build/sub0227/CMakeFiles/Sub0227.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/y/SA_CAO/build/sub0227'
+/usr/bin/make -f CMakeFiles/Sub0227.dir/build.make CMakeFiles/Sub0227.dir/build
+make[2]: Entering directory '/home/y/SA_CAO/build/sub0227'
+[ 20%] [32mBuilding CXX object CMakeFiles/Sub0227.dir/src/Sub0227.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/Sub0227.dir/src/Sub0227_data.cpp.o[0m
+/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\"sub0227\" -DSPDLOG_COMPILED_LIB -I/home/y/SA_CAO/src/sub0227/include/sub0227 -I/home/y/SA_CAO/src/sub0227/include -isystem /opt/ros/foxy/include  -O3 -DNDEBUG   -Wall -Wextra -Wpedantic -DMODEL=Sub0227 -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -std=gnu++17 -o CMakeFiles/Sub0227.dir/src/Sub0227.cpp.o -c /home/y/SA_CAO/src/sub0227/src/Sub0227.cpp
+/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\"sub0227\" -DSPDLOG_COMPILED_LIB -I/home/y/SA_CAO/src/sub0227/include/sub0227 -I/home/y/SA_CAO/src/sub0227/include -isystem /opt/ros/foxy/include  -O3 -DNDEBUG   -Wall -Wextra -Wpedantic -DMODEL=Sub0227 -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -std=gnu++17 -o CMakeFiles/Sub0227.dir/src/Sub0227_data.cpp.o -c /home/y/SA_CAO/src/sub0227/src/Sub0227_data.cpp
+In file included from [01m[K/home/y/SA_CAO/src/sub0227/include/sub0227/slros2_initialize.h:7[m[K,
+                 from [01m[K/home/y/SA_CAO/src/sub0227/include/sub0227/Sub0227.h:22[m[K,
+                 from [01m[K/home/y/SA_CAO/src/sub0227/src/Sub0227_data.cpp:19[m[K:
+[01m[K/home/y/SA_CAO/src/sub0227/include/sub0227/slros2_generic_pubsub.h:[m[K In member function ‘[01m[Kvoid SimulinkSubscriber<MsgType, BusType>::createSubscriber(const string&, const rmw_qos_profile_t&)[m[K’:
+[01m[K/home/y/SA_CAO/src/sub0227/include/sub0227/slros2_generic_pubsub.h:107:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct rclcpp::SubscriptionEventCallbacks[m[K’ has no member named ‘[01m[Kmessage_lost_callback[m[K’
+  107 |     subscription_options.event_callbacks.[01;31m[Kmessage_lost_callback[m[K = [this, topic](const rclcpp::QOSMessageLostInfo& event) {
+      |                                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/y/SA_CAO/src/sub0227/include/sub0227/slros2_generic_pubsub.h:107:94:[m[K [01;31m[Kerror: [m[K‘[01m[KQOSMessageLostInfo[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a type
+  107 |     subscription_options.event_callbacks.message_lost_callback = [this, topic](const rclcpp::[01;31m[KQOSMessageLostInfo[m[K& event) {
+      |                                                                                              [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/y/SA_CAO/src/sub0227/include/sub0227/slros2_generic_pubsub.h:109:6:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+  109 |     }[01;31m[K;[m[K
+      |      [01;31m[K^[m[K
+      |      [32m[K)[m[K
+[01m[K/home/y/SA_CAO/src/sub0227/include/sub0227/slros2_generic_pubsub.h:107:79:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+  107 |     subscription_options.event_callbacks.message_lost_callback = [this, topic][01;36m[K([m[Kconst rclcpp::QOSMessageLostInfo& event) {
+      |                                                                               [01;36m[K^[m[K
+[01m[K/home/y/SA_CAO/src/sub0227/include/sub0227/slros2_generic_pubsub.h:[m[K In lambda function:
+[01m[K/home/y/SA_CAO/src/sub0227/include/sub0227/slros2_generic_pubsub.h:109:6:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K;[m[K’ token
+  109 |     }[01;31m[K;[m[K
+      |      [01;31m[K^[m[K
+In file included from [01m[K/home/y/SA_CAO/src/sub0227/include/sub0227/slros2_initialize.h:7[m[K,
+                 from [01m[K/home/y/SA_CAO/src/sub0227/include/sub0227/Sub0227.h:22[m[K,
+                 from [01m[K/home/y/SA_CAO/src/sub0227/src/Sub0227.cpp:19[m[K:
+[01m[K/home/y/SA_CAO/src/sub0227/include/sub0227/slros2_generic_pubsub.h:[m[K In member function ‘[01m[Kvoid SimulinkSubscriber<MsgType, BusType>::createSubscriber(const string&, const rmw_qos_profile_t&)[m[K’:
+[01m[K/home/y/SA_CAO/src/sub0227/include/sub0227/slros2_generic_pubsub.h:107:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct rclcpp::SubscriptionEventCallbacks[m[K’ has no member named ‘[01m[Kmessage_lost_callback[m[K’
+  107 | n_options.event_callbacks.[01;31m[Kmessage_lost_callback[m[K = [this, topic](const rclcpp::QOSMessageLostInfo& event) {
+      |                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/y/SA_CAO/src/sub0227/include/sub0227/slros2_generic_pubsub.h:107:94:[m[K [01;31m[Kerror: [m[K‘[01m[KQOSMessageLostInfo[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a type
+  107 | his, topic](const rclcpp::[01;31m[KQOSMessageLostInfo[m[K& event) {
+      |                           [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/y/SA_CAO/src/sub0227/include/sub0227/slros2_generic_pubsub.h:109:6:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+  109 |     }[01;31m[K;[m[K
+      |      [01;31m[K^[m[K
+      |      [32m[K)[m[K
+[01m[K/home/y/SA_CAO/src/sub0227/include/sub0227/slros2_generic_pubsub.h:107:79:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+  107 | t_callback = [this, topic][01;36m[K([m[Kconst rclcpp::QOSMessageLostInfo& event) {
+      |                           [01;36m[K^[m[K
+
+[01m[K/home/y/SA_CAO/src/sub0227/include/sub0227/slros2_generic_pubsub.h:[m[K In lambda function:
+[01m[K/home/y/SA_CAO/src/sub0227/include/sub0227/slros2_generic_pubsub.h:109:6:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K;[m[K’ token
+  109 |     }[01;31m[K;[m[K
+      |      [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/Sub0227.dir/build.make:79: CMakeFiles/Sub0227.dir/src/Sub0227_data.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: Leaving directory '/home/y/SA_CAO/build/sub0227'
+make[2]: *** [CMakeFiles/Sub0227.dir/build.make:66: CMakeFiles/Sub0227.dir/src/Sub0227.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:81: CMakeFiles/Sub0227.dir/all] Error 2
+make: *** [Makefile:144: all] Error 2
+make[1]: Leaving directory '/home/y/SA_CAO/build/sub0227'

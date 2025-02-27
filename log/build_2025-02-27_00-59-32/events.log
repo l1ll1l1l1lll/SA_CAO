@@ -1,0 +1,223 @@
+[0.000000] (-) TimerEvent: {}
+[0.000122] (my_xbox_joystick) JobQueued: {'identifier': 'my_xbox_joystick', 'dependencies': OrderedDict()}
+[0.000148] (robot_launch) JobQueued: {'identifier': 'robot_launch', 'dependencies': OrderedDict()}
+[0.000162] (sub0227) JobQueued: {'identifier': 'sub0227', 'dependencies': OrderedDict()}
+[0.000174] (my_xbox_joystick) JobStarted: {'identifier': 'my_xbox_joystick'}
+[0.009350] (robot_launch) JobStarted: {'identifier': 'robot_launch'}
+[0.099253] (-) TimerEvent: {}
+[0.200297] (-) TimerEvent: {}
+[0.300720] (-) TimerEvent: {}
+[0.401740] (-) TimerEvent: {}
+[0.502849] (-) TimerEvent: {}
+[0.603665] (-) TimerEvent: {}
+[0.667163] (my_xbox_joystick) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_xbox_joystick', 'build', '--build-base', '/home/y/SA_CAO/build/my_xbox_joystick/build', 'install', '--record', '/home/y/SA_CAO/build/my_xbox_joystick/install.log', '--install-scripts', '$base/lib/my_xbox_joystick', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/y/SA_CAO/src/my_xbox_joystick', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'y', 'SSH_AGENT_PID': '1474', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/y', 'OLDPWD': '/home/y', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1378', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/y/oradar_ros/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'y', 'JOURNAL_STREAM': '8:53373', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'y', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/y/oradar_ros/install/oradar_lidar/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1508,unix/ubuntu:/tmp/.ICE-unix/1508', 'INVOCATION_ID': 'b07d2cdbd67045849c31318b93625f52', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b2adef72_a303_4ce8_bafc_1a7d52df8bc8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.315', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/y/oradar_ros/install/oradar_lidar:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/y/SA_CAO/build/my_xbox_joystick', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/y/SA_CAO/build/my_xbox_joystick/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/y/SA_CAO/install/my_xbox_joystick/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/y/oradar_ros/install/oradar_lidar'}, 'shell': False}
+[0.678259] (robot_launch) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_launch', 'build', '--build-base', '/home/y/SA_CAO/build/robot_launch/build', 'install', '--record', '/home/y/SA_CAO/build/robot_launch/install.log', '--install-scripts', '$base/lib/robot_launch', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/y/SA_CAO/src/robot_launch', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'y', 'SSH_AGENT_PID': '1474', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/y', 'OLDPWD': '/home/y', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1378', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/y/oradar_ros/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'y', 'JOURNAL_STREAM': '8:53373', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'y', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/y/oradar_ros/install/oradar_lidar/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1508,unix/ubuntu:/tmp/.ICE-unix/1508', 'INVOCATION_ID': 'b07d2cdbd67045849c31318b93625f52', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b2adef72_a303_4ce8_bafc_1a7d52df8bc8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.315', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/y/oradar_ros/install/oradar_lidar:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/y/SA_CAO/build/robot_launch', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/y/SA_CAO/build/robot_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/y/SA_CAO/install/robot_launch/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/y/oradar_ros/install/oradar_lidar'}, 'shell': False}
+[0.704139] (-) TimerEvent: {}
+[0.804504] (-) TimerEvent: {}
+[0.848299] (my_xbox_joystick) StdoutLine: {'line': b'running egg_info\n'}
+[0.849516] (my_xbox_joystick) StdoutLine: {'line': b'writing ../../build/my_xbox_joystick/my_xbox_joystick.egg-info/PKG-INFO\n'}
+[0.850215] (my_xbox_joystick) StdoutLine: {'line': b'writing dependency_links to ../../build/my_xbox_joystick/my_xbox_joystick.egg-info/dependency_links.txt\n'}
+[0.850586] (my_xbox_joystick) StdoutLine: {'line': b'writing entry points to ../../build/my_xbox_joystick/my_xbox_joystick.egg-info/entry_points.txt\n'}
+[0.850890] (my_xbox_joystick) StdoutLine: {'line': b'writing requirements to ../../build/my_xbox_joystick/my_xbox_joystick.egg-info/requires.txt\n'}
+[0.851147] (my_xbox_joystick) StdoutLine: {'line': b'writing top-level names to ../../build/my_xbox_joystick/my_xbox_joystick.egg-info/top_level.txt\n'}
+[0.865190] (robot_launch) StdoutLine: {'line': b'running egg_info\n'}
+[0.865864] (robot_launch) StdoutLine: {'line': b'writing ../../build/robot_launch/robot_launch.egg-info/PKG-INFO\n'}
+[0.866449] (robot_launch) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_launch/robot_launch.egg-info/dependency_links.txt\n'}
+[0.866998] (robot_launch) StdoutLine: {'line': b'writing entry points to ../../build/robot_launch/robot_launch.egg-info/entry_points.txt\n'}
+[0.867444] (robot_launch) StdoutLine: {'line': b'writing requirements to ../../build/robot_launch/robot_launch.egg-info/requires.txt\n'}
+[0.867989] (robot_launch) StdoutLine: {'line': b'writing top-level names to ../../build/robot_launch/robot_launch.egg-info/top_level.txt\n'}
+[0.883014] (my_xbox_joystick) StdoutLine: {'line': b"reading manifest file '../../build/my_xbox_joystick/my_xbox_joystick.egg-info/SOURCES.txt'\n"}
+[0.883595] (my_xbox_joystick) StdoutLine: {'line': b"writing manifest file '../../build/my_xbox_joystick/my_xbox_joystick.egg-info/SOURCES.txt'\n"}
+[0.883926] (my_xbox_joystick) StdoutLine: {'line': b'running build\n'}
+[0.883995] (my_xbox_joystick) StdoutLine: {'line': b'running build_py\n'}
+[0.884164] (my_xbox_joystick) StdoutLine: {'line': b'running install\n'}
+[0.884978] (my_xbox_joystick) StdoutLine: {'line': b'running install_lib\n'}
+[0.885924] (my_xbox_joystick) StdoutLine: {'line': b'running install_data\n'}
+[0.886070] (my_xbox_joystick) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.887218] (my_xbox_joystick) StdoutLine: {'line': b"removing '/home/y/SA_CAO/install/my_xbox_joystick/lib/python3.8/site-packages/my_xbox_joystick-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[0.887519] (my_xbox_joystick) StdoutLine: {'line': b'Copying ../../build/my_xbox_joystick/my_xbox_joystick.egg-info to /home/y/SA_CAO/install/my_xbox_joystick/lib/python3.8/site-packages/my_xbox_joystick-0.0.0-py3.8.egg-info\n'}
+[0.888201] (my_xbox_joystick) StdoutLine: {'line': b'running install_scripts\n'}
+[0.898242] (robot_launch) StdoutLine: {'line': b"reading manifest file '../../build/robot_launch/robot_launch.egg-info/SOURCES.txt'\n"}
+[0.899423] (robot_launch) StdoutLine: {'line': b"writing manifest file '../../build/robot_launch/robot_launch.egg-info/SOURCES.txt'\n"}
+[0.899894] (robot_launch) StdoutLine: {'line': b'running build\n'}
+[0.899964] (robot_launch) StdoutLine: {'line': b'running build_py\n'}
+[0.900381] (robot_launch) StdoutLine: {'line': b'running install\n'}
+[0.901256] (robot_launch) StdoutLine: {'line': b'running install_lib\n'}
+[0.902447] (robot_launch) StdoutLine: {'line': b'running install_data\n'}
+[0.902797] (robot_launch) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.903476] (my_xbox_joystick) StdoutLine: {'line': b'Installing xbox_joystick script to /home/y/SA_CAO/install/my_xbox_joystick/lib/my_xbox_joystick\n'}
+[0.904098] (my_xbox_joystick) StdoutLine: {'line': b"writing list of installed files to '/home/y/SA_CAO/build/my_xbox_joystick/install.log'\n"}
+[0.904681] (robot_launch) StdoutLine: {'line': b"removing '/home/y/SA_CAO/install/robot_launch/lib/python3.8/site-packages/robot_launch-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[0.904915] (-) TimerEvent: {}
+[0.905465] (robot_launch) StdoutLine: {'line': b'Copying ../../build/robot_launch/robot_launch.egg-info to /home/y/SA_CAO/install/robot_launch/lib/python3.8/site-packages/robot_launch-0.0.0-py3.8.egg-info\n'}
+[0.906282] (robot_launch) StdoutLine: {'line': b'running install_scripts\n'}
+[0.921963] (robot_launch) StdoutLine: {'line': b"writing list of installed files to '/home/y/SA_CAO/build/robot_launch/install.log'\n"}
+[0.925403] (my_xbox_joystick) CommandEnded: {'returncode': 0}
+[0.938947] (my_xbox_joystick) JobEnded: {'identifier': 'my_xbox_joystick', 'rc': 0}
+[0.940057] (sub0227) JobStarted: {'identifier': 'sub0227'}
+[0.946947] (robot_launch) CommandEnded: {'returncode': 0}
+[0.954300] (robot_launch) JobEnded: {'identifier': 'robot_launch', 'rc': 0}
+[0.955392] (sub0227) JobProgress: {'identifier': 'sub0227', 'progress': 'cmake'}
+[0.957893] (sub0227) JobProgress: {'identifier': 'sub0227', 'progress': 'build'}
+[0.958065] (sub0227) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/y/SA_CAO/build/sub0227', '--', '-j2', '-l2'], 'cwd': '/home/y/SA_CAO/build/sub0227', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'y'), ('SSH_AGENT_PID', '1474'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/y'), ('OLDPWD', '/home/y'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1378'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/y/oradar_ros/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'y'), ('JOURNAL_STREAM', '8:53373'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'y'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/y/oradar_ros/install/oradar_lidar/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1508,unix/ubuntu:/tmp/.ICE-unix/1508'), ('INVOCATION_ID', 'b07d2cdbd67045849c31318b93625f52'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b2adef72_a303_4ce8_bafc_1a7d52df8bc8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.315'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/y/oradar_ros/install/oradar_lidar:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/y/SA_CAO/build/sub0227'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy:/home/y/oradar_ros/install/oradar_lidar')]), 'shell': False}
+[0.974370] (sub0227) StdoutLine: {'line': b'/usr/bin/cmake -S/home/y/SA_CAO/src/sub0227 -B/home/y/SA_CAO/build/sub0227 --check-build-system CMakeFiles/Makefile.cmake 0\n'}
+[0.984509] (sub0227) StdoutLine: {'line': b'/usr/bin/cmake -E cmake_progress_start /home/y/SA_CAO/build/sub0227/CMakeFiles /home/y/SA_CAO/build/sub0227/CMakeFiles/progress.marks\n'}
+[0.991561] (sub0227) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/Makefile2 all\n'}
+[0.992883] (sub0227) StdoutLine: {'line': b"make[1]: Entering directory '/home/y/SA_CAO/build/sub0227'\n"}
+[0.992979] (sub0227) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/Sub0227.dir/build.make CMakeFiles/Sub0227.dir/depend\n'}
+[0.998413] (sub0227) StdoutLine: {'line': b"make[2]: Entering directory '/home/y/SA_CAO/build/sub0227'\n"}
+[0.998509] (sub0227) StdoutLine: {'line': b'cd /home/y/SA_CAO/build/sub0227 && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/y/SA_CAO/src/sub0227 /home/y/SA_CAO/src/sub0227 /home/y/SA_CAO/build/sub0227 /home/y/SA_CAO/build/sub0227 /home/y/SA_CAO/build/sub0227/CMakeFiles/Sub0227.dir/DependInfo.cmake --color=\n'}
+[1.005698] (-) TimerEvent: {}
+[1.007749] (sub0227) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target Sub0227\x1b[0m\n'}
+[1.034649] (sub0227) StdoutLine: {'line': b"make[2]: Leaving directory '/home/y/SA_CAO/build/sub0227'\n"}
+[1.035416] (sub0227) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/Sub0227.dir/build.make CMakeFiles/Sub0227.dir/build\n'}
+[1.044241] (sub0227) StdoutLine: {'line': b"make[2]: Entering directory '/home/y/SA_CAO/build/sub0227'\n"}
+[1.052133] (sub0227) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/Sub0227.dir/src/Sub0227.cpp.o\x1b[0m\n'}
+[1.052275] (sub0227) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/Sub0227.dir/src/Sub0227_data.cpp.o\x1b[0m\n'}
+[1.052919] (sub0227) StdoutLine: {'line': b'/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"sub0227\\" -DSPDLOG_COMPILED_LIB -I/home/y/SA_CAO/src/sub0227/include/sub0227 -I/home/y/SA_CAO/src/sub0227/include -isystem /opt/ros/foxy/include  -O3 -DNDEBUG   -Wall -Wextra -Wpedantic -DMODEL=Sub0227 -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -std=gnu++17 -o CMakeFiles/Sub0227.dir/src/Sub0227.cpp.o -c /home/y/SA_CAO/src/sub0227/src/Sub0227.cpp\n'}
+[1.053412] (sub0227) StdoutLine: {'line': b'/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"sub0227\\" -DSPDLOG_COMPILED_LIB -I/home/y/SA_CAO/src/sub0227/include/sub0227 -I/home/y/SA_CAO/src/sub0227/include -isystem /opt/ros/foxy/include  -O3 -DNDEBUG   -Wall -Wextra -Wpedantic -DMODEL=Sub0227 -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -std=gnu++17 -o CMakeFiles/Sub0227.dir/src/Sub0227_data.cpp.o -c /home/y/SA_CAO/src/sub0227/src/Sub0227_data.cpp\n'}
+[1.105910] (-) TimerEvent: {}
+[1.206638] (-) TimerEvent: {}
+[1.307787] (-) TimerEvent: {}
+[1.408343] (-) TimerEvent: {}
+[1.508991] (-) TimerEvent: {}
+[1.609777] (-) TimerEvent: {}
+[1.710340] (-) TimerEvent: {}
+[1.811015] (-) TimerEvent: {}
+[1.911538] (-) TimerEvent: {}
+[2.012922] (-) TimerEvent: {}
+[2.113655] (-) TimerEvent: {}
+[2.214424] (-) TimerEvent: {}
+[2.315143] (-) TimerEvent: {}
+[2.416366] (-) TimerEvent: {}
+[2.516684] (-) TimerEvent: {}
+[2.617291] (-) TimerEvent: {}
+[2.705651] (sub0227) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/Sub0227.dir/src/main.cpp.o\x1b[0m\n'}
+[2.706440] (sub0227) StdoutLine: {'line': b'/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"sub0227\\" -DSPDLOG_COMPILED_LIB -I/home/y/SA_CAO/src/sub0227/include/sub0227 -I/home/y/SA_CAO/src/sub0227/include -isystem /opt/ros/foxy/include  -O3 -DNDEBUG   -Wall -Wextra -Wpedantic -DMODEL=Sub0227 -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -std=gnu++17 -o CMakeFiles/Sub0227.dir/src/main.cpp.o -c /home/y/SA_CAO/src/sub0227/src/main.cpp\n'}
+[2.717668] (-) TimerEvent: {}
+[2.818699] (-) TimerEvent: {}
+[2.919718] (-) TimerEvent: {}
+[3.021021] (-) TimerEvent: {}
+[3.121572] (-) TimerEvent: {}
+[3.222022] (-) TimerEvent: {}
+[3.323028] (-) TimerEvent: {}
+[3.423799] (-) TimerEvent: {}
+[3.524234] (-) TimerEvent: {}
+[3.624602] (-) TimerEvent: {}
+[3.725333] (-) TimerEvent: {}
+[3.826224] (-) TimerEvent: {}
+[3.926674] (-) TimerEvent: {}
+[4.027069] (-) TimerEvent: {}
+[4.127484] (-) TimerEvent: {}
+[4.228329] (-) TimerEvent: {}
+[4.328957] (-) TimerEvent: {}
+[4.429835] (-) TimerEvent: {}
+[4.511538] (sub0227) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/Sub0227.dir/src/ros2nodeinterface.cpp.o\x1b[0m\n'}
+[4.512434] (sub0227) StdoutLine: {'line': b'/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"sub0227\\" -DSPDLOG_COMPILED_LIB -I/home/y/SA_CAO/src/sub0227/include/sub0227 -I/home/y/SA_CAO/src/sub0227/include -isystem /opt/ros/foxy/include  -O3 -DNDEBUG   -Wall -Wextra -Wpedantic -DMODEL=Sub0227 -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -std=gnu++17 -o CMakeFiles/Sub0227.dir/src/ros2nodeinterface.cpp.o -c /home/y/SA_CAO/src/sub0227/src/ros2nodeinterface.cpp\n'}
+[4.530864] (-) TimerEvent: {}
+[4.631364] (-) TimerEvent: {}
+[4.732415] (-) TimerEvent: {}
+[4.833766] (-) TimerEvent: {}
+[4.934613] (-) TimerEvent: {}
+[5.035305] (-) TimerEvent: {}
+[5.135718] (-) TimerEvent: {}
+[5.236393] (-) TimerEvent: {}
+[5.337443] (-) TimerEvent: {}
+[5.438249] (-) TimerEvent: {}
+[5.538877] (-) TimerEvent: {}
+[5.639388] (-) TimerEvent: {}
+[5.740693] (-) TimerEvent: {}
+[5.841321] (-) TimerEvent: {}
+[5.941704] (-) TimerEvent: {}
+[6.042466] (-) TimerEvent: {}
+[6.143202] (-) TimerEvent: {}
+[6.243697] (-) TimerEvent: {}
+[6.344215] (-) TimerEvent: {}
+[6.444872] (-) TimerEvent: {}
+[6.545337] (-) TimerEvent: {}
+[6.646121] (-) TimerEvent: {}
+[6.746641] (-) TimerEvent: {}
+[6.847256] (-) TimerEvent: {}
+[6.948520] (-) TimerEvent: {}
+[6.968202] (sub0227) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/Sub0227.dir/src/rtGetInf.cpp.o\x1b[0m\n'}
+[6.969208] (sub0227) StdoutLine: {'line': b'/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"sub0227\\" -DSPDLOG_COMPILED_LIB -I/home/y/SA_CAO/src/sub0227/include/sub0227 -I/home/y/SA_CAO/src/sub0227/include -isystem /opt/ros/foxy/include  -O3 -DNDEBUG   -Wall -Wextra -Wpedantic -DMODEL=Sub0227 -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -std=gnu++17 -o CMakeFiles/Sub0227.dir/src/rtGetInf.cpp.o -c /home/y/SA_CAO/src/sub0227/src/rtGetInf.cpp\n'}
+[6.999934] (sub0227) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/Sub0227.dir/src/rtGetNaN.cpp.o\x1b[0m\n'}
+[7.000639] (sub0227) StdoutLine: {'line': b'/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"sub0227\\" -DSPDLOG_COMPILED_LIB -I/home/y/SA_CAO/src/sub0227/include/sub0227 -I/home/y/SA_CAO/src/sub0227/include -isystem /opt/ros/foxy/include  -O3 -DNDEBUG   -Wall -Wextra -Wpedantic -DMODEL=Sub0227 -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -std=gnu++17 -o CMakeFiles/Sub0227.dir/src/rtGetNaN.cpp.o -c /home/y/SA_CAO/src/sub0227/src/rtGetNaN.cpp\n'}
+[7.024813] (sub0227) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/Sub0227.dir/src/rt_nonfinite.cpp.o\x1b[0m\n'}
+[7.025766] (sub0227) StdoutLine: {'line': b'/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"sub0227\\" -DSPDLOG_COMPILED_LIB -I/home/y/SA_CAO/src/sub0227/include/sub0227 -I/home/y/SA_CAO/src/sub0227/include -isystem /opt/ros/foxy/include  -O3 -DNDEBUG   -Wall -Wextra -Wpedantic -DMODEL=Sub0227 -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -std=gnu++17 -o CMakeFiles/Sub0227.dir/src/rt_nonfinite.cpp.o -c /home/y/SA_CAO/src/sub0227/src/rt_nonfinite.cpp\n'}
+[7.049449] (-) TimerEvent: {}
+[7.056011] (sub0227) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/Sub0227.dir/src/slros2_initialize.cpp.o\x1b[0m\n'}
+[7.056884] (sub0227) StdoutLine: {'line': b'/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"sub0227\\" -DSPDLOG_COMPILED_LIB -I/home/y/SA_CAO/src/sub0227/include/sub0227 -I/home/y/SA_CAO/src/sub0227/include -isystem /opt/ros/foxy/include  -O3 -DNDEBUG   -Wall -Wextra -Wpedantic -DMODEL=Sub0227 -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -std=gnu++17 -o CMakeFiles/Sub0227.dir/src/slros2_initialize.cpp.o -c /home/y/SA_CAO/src/sub0227/src/slros2_initialize.cpp\n'}
+[7.149894] (-) TimerEvent: {}
+[7.250714] (-) TimerEvent: {}
+[7.351438] (-) TimerEvent: {}
+[7.452621] (-) TimerEvent: {}
+[7.553168] (-) TimerEvent: {}
+[7.654216] (-) TimerEvent: {}
+[7.754736] (-) TimerEvent: {}
+[7.855385] (-) TimerEvent: {}
+[7.956522] (-) TimerEvent: {}
+[8.057691] (-) TimerEvent: {}
+[8.158887] (-) TimerEvent: {}
+[8.260431] (-) TimerEvent: {}
+[8.360814] (-) TimerEvent: {}
+[8.461890] (-) TimerEvent: {}
+[8.562511] (-) TimerEvent: {}
+[8.663459] (-) TimerEvent: {}
+[8.738477] (sub0227) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/Sub0227.dir/src/slros_busmsg_conversion.cpp.o\x1b[0m\n'}
+[8.739409] (sub0227) StdoutLine: {'line': b'/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"sub0227\\" -DSPDLOG_COMPILED_LIB -I/home/y/SA_CAO/src/sub0227/include/sub0227 -I/home/y/SA_CAO/src/sub0227/include -isystem /opt/ros/foxy/include  -O3 -DNDEBUG   -Wall -Wextra -Wpedantic -DMODEL=Sub0227 -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -std=gnu++17 -o CMakeFiles/Sub0227.dir/src/slros_busmsg_conversion.cpp.o -c /home/y/SA_CAO/src/sub0227/src/slros_busmsg_conversion.cpp\n'}
+[8.764054] (-) TimerEvent: {}
+[8.864882] (-) TimerEvent: {}
+[8.965527] (-) TimerEvent: {}
+[9.066317] (-) TimerEvent: {}
+[9.167181] (-) TimerEvent: {}
+[9.268300] (-) TimerEvent: {}
+[9.368666] (-) TimerEvent: {}
+[9.469538] (-) TimerEvent: {}
+[9.570072] (-) TimerEvent: {}
+[9.670951] (-) TimerEvent: {}
+[9.771946] (-) TimerEvent: {}
+[9.872627] (-) TimerEvent: {}
+[9.973177] (-) TimerEvent: {}
+[10.073665] (-) TimerEvent: {}
+[10.174445] (-) TimerEvent: {}
+[10.275073] (-) TimerEvent: {}
+[10.376177] (-) TimerEvent: {}
+[10.476883] (-) TimerEvent: {}
+[10.577714] (-) TimerEvent: {}
+[10.678566] (-) TimerEvent: {}
+[10.779059] (-) TimerEvent: {}
+[10.880222] (-) TimerEvent: {}
+[10.954105] (sub0227) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable Sub0227\x1b[0m\n'}
+[10.954846] (sub0227) StdoutLine: {'line': b'/usr/bin/cmake -E cmake_link_script CMakeFiles/Sub0227.dir/link.txt --verbose=1\n'}
+[10.960849] (sub0227) StdoutLine: {'line': b'/usr/bin/c++  -O3 -DNDEBUG   CMakeFiles/Sub0227.dir/src/Sub0227.cpp.o CMakeFiles/Sub0227.dir/src/Sub0227_data.cpp.o CMakeFiles/Sub0227.dir/src/main.cpp.o CMakeFiles/Sub0227.dir/src/ros2nodeinterface.cpp.o CMakeFiles/Sub0227.dir/src/rtGetInf.cpp.o CMakeFiles/Sub0227.dir/src/rtGetNaN.cpp.o CMakeFiles/Sub0227.dir/src/rt_nonfinite.cpp.o CMakeFiles/Sub0227.dir/src/slros2_initialize.cpp.o CMakeFiles/Sub0227.dir/src/slros_busmsg_conversion.cpp.o  -o Sub0227  -Wl,-rpath,/home/y/SA_CAO/install/sub0227/lib:/opt/ros/foxy/lib /opt/ros/foxy/lib/librclcpp.so /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_c.so /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_cpp.so -ldl /opt/ros/foxy/lib/liblibstatistics_collector.so /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_c.so /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_generator_c.so /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_c.so /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_cpp.so /opt/ros/foxy/lib/librcl.so /opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so /opt/ros/foxy/lib/librcl_interfaces__rosidl_generator_c.so /opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_c.so /opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so /opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_cpp.so /opt/ros/foxy/lib/librmw_implementation.so /opt/ros/foxy/lib/librmw.so /opt/ros/foxy/lib/librcl_logging_spdlog.so /usr/lib/x86_64-linux-gnu/libspdlog.so.1.5.0 -lpthread /opt/ros/foxy/lib/librcl_yaml_param_parser.so /opt/ros/foxy/lib/libyaml.so /opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so /opt/ros/foxy/lib/librosgraph_msgs__rosidl_generator_c.so /opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_c.so /opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_cpp.so /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so /opt/ros/foxy/lib/libstatistics_msgs__rosidl_generator_c.so /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_c.so /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_cpp.so /opt/ros/foxy/lib/libtracetools.so /opt/ros/foxy/lib/libsensor_msgs__rosidl_generator_c.so /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so /opt/ros/foxy/lib/libgeometry_msgs__rosidl_generator_c.so /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_c.so /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so /opt/ros/foxy/lib/libstd_msgs__rosidl_generator_c.so /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_c.so /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_cpp.so /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_generator_c.so /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so /opt/ros/foxy/lib/librosidl_typesupport_introspection_cpp.so /opt/ros/foxy/lib/librosidl_typesupport_introspection_c.so /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so /opt/ros/foxy/lib/librosidl_typesupport_cpp.so /opt/ros/foxy/lib/librosidl_typesupport_c.so /opt/ros/foxy/lib/librosidl_runtime_c.so /opt/ros/foxy/lib/librcpputils.so /opt/ros/foxy/lib/librcutils.so -ldl \n'}
+[10.980725] (-) TimerEvent: {}
+[11.067196] (sub0227) StdoutLine: {'line': b"make[2]: Leaving directory '/home/y/SA_CAO/build/sub0227'\n"}
+[11.076778] (sub0227) StdoutLine: {'line': b'[100%] Built target Sub0227\n'}
+[11.077614] (sub0227) StdoutLine: {'line': b"make[1]: Leaving directory '/home/y/SA_CAO/build/sub0227'\n"}
+[11.077888] (sub0227) StdoutLine: {'line': b'/usr/bin/cmake -E cmake_progress_start /home/y/SA_CAO/build/sub0227/CMakeFiles 0\n'}
+[11.081543] (-) TimerEvent: {}
+[11.087765] (sub0227) CommandEnded: {'returncode': 0}
+[11.088361] (sub0227) JobProgress: {'identifier': 'sub0227', 'progress': 'install'}
+[11.096638] (sub0227) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/y/SA_CAO/build/sub0227'], 'cwd': '/home/y/SA_CAO/build/sub0227', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'y'), ('SSH_AGENT_PID', '1474'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/y'), ('OLDPWD', '/home/y'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1378'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/y/oradar_ros/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'y'), ('JOURNAL_STREAM', '8:53373'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'y'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/y/oradar_ros/install/oradar_lidar/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1508,unix/ubuntu:/tmp/.ICE-unix/1508'), ('INVOCATION_ID', 'b07d2cdbd67045849c31318b93625f52'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b2adef72_a303_4ce8_bafc_1a7d52df8bc8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.315'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/y/oradar_ros/install/oradar_lidar:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/y/SA_CAO/build/sub0227'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy:/home/y/oradar_ros/install/oradar_lidar')]), 'shell': False}
+[11.106222] (sub0227) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[11.106733] (sub0227) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/sub0227/lib/sub0227/Sub0227\n'}
+[11.107669] (sub0227) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/sub0227/share/ament_index/resource_index/package_run_dependencies/sub0227\n'}
+[11.108967] (sub0227) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/sub0227/share/ament_index/resource_index/parent_prefix_path/sub0227\n'}
+[11.109144] (sub0227) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/sub0227/share/sub0227/environment/ament_prefix_path.sh\n'}
+[11.109281] (sub0227) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/sub0227/share/sub0227/environment/ament_prefix_path.dsv\n'}
+[11.109335] (sub0227) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/sub0227/share/sub0227/environment/path.sh\n'}
+[11.109382] (sub0227) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/sub0227/share/sub0227/environment/path.dsv\n'}
+[11.109427] (sub0227) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/sub0227/share/sub0227/local_setup.bash\n'}
+[11.109591] (sub0227) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/sub0227/share/sub0227/local_setup.sh\n'}
+[11.109742] (sub0227) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/sub0227/share/sub0227/local_setup.zsh\n'}
+[11.109820] (sub0227) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/sub0227/share/sub0227/local_setup.dsv\n'}
+[11.109875] (sub0227) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/sub0227/share/sub0227/package.dsv\n'}
+[11.109921] (sub0227) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/sub0227/share/ament_index/resource_index/packages/sub0227\n'}
+[11.109966] (sub0227) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/sub0227/share/sub0227/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.110010] (sub0227) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/sub0227/share/sub0227/cmake/sub0227Config.cmake\n'}
+[11.110054] (sub0227) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/sub0227/share/sub0227/cmake/sub0227Config-version.cmake\n'}
+[11.110098] (sub0227) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/sub0227/share/sub0227/package.xml\n'}
+[11.111538] (sub0227) CommandEnded: {'returncode': 0}
+[11.125124] (sub0227) JobEnded: {'identifier': 'sub0227', 'rc': 0}
+[11.125663] (-) EventReactorShutdown: {}

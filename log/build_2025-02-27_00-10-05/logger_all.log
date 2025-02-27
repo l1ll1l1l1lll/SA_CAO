@@ -1,0 +1,243 @@
+[0.159s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.159s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fce4c6f89a0>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=2, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fce4c6f89a0>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fce4c571310>)
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.284s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/y/SA_CAO'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_xbox_joystick) by extensions ['ignore', 'ignore_ament_install']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_xbox_joystick) by extension 'ignore'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_xbox_joystick) by extension 'ignore_ament_install'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_xbox_joystick) by extensions ['colcon_pkg']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_xbox_joystick) by extension 'colcon_pkg'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_xbox_joystick) by extensions ['colcon_meta']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_xbox_joystick) by extension 'colcon_meta'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_xbox_joystick) by extensions ['ros']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_xbox_joystick) by extension 'ros'
+[0.297s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_xbox_joystick' with type 'ros.ament_python' and name 'my_xbox_joystick'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launch) by extension 'ignore'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launch) by extension 'ignore_ament_install'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launch) by extensions ['colcon_pkg']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launch) by extension 'colcon_pkg'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launch) by extensions ['colcon_meta']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launch) by extension 'colcon_meta'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launch) by extensions ['ros']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launch) by extension 'ros'
+[0.298s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_launch' with type 'ros.ament_python' and name 'robot_launch'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub0227) by extensions ['ignore', 'ignore_ament_install']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub0227) by extension 'ignore'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub0227) by extension 'ignore_ament_install'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub0227) by extensions ['colcon_pkg']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub0227) by extension 'colcon_pkg'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub0227) by extensions ['colcon_meta']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub0227) by extension 'colcon_meta'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub0227) by extensions ['ros']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub0227) by extension 'ros'
+[0.298s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sub0227' with type 'ros.ament_cmake' and name 'sub0227'
+[0.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.315s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 19 installed packages in /home/y/ws/install
+[0.316s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 12 installed packages in /home/y/SA_CAO/install
+[0.317s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/y/oradar_ros/install
+[0.318s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 326 installed packages in /opt/ros/foxy
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'my_xbox_joystick' build argument 'cmake_args' from command line to 'None'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'my_xbox_joystick' build argument 'cmake_target' from command line to 'None'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'my_xbox_joystick' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'my_xbox_joystick' build argument 'cmake_clean_cache' from command line to 'False'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'my_xbox_joystick' build argument 'cmake_clean_first' from command line to 'False'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'my_xbox_joystick' build argument 'cmake_force_configure' from command line to 'False'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'my_xbox_joystick' build argument 'ament_cmake_args' from command line to 'None'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'my_xbox_joystick' build argument 'catkin_cmake_args' from command line to 'None'
+[0.385s] Level 5:colcon.colcon_core.verb:set package 'my_xbox_joystick' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.385s] DEBUG:colcon.colcon_core.verb:Building package 'my_xbox_joystick' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/y/SA_CAO/build/my_xbox_joystick', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/y/SA_CAO/install/my_xbox_joystick', 'merge_install': False, 'path': '/home/y/SA_CAO/src/my_xbox_joystick', 'symlink_install': False, 'test_result_base': None}
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'robot_launch' build argument 'cmake_args' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'robot_launch' build argument 'cmake_target' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'robot_launch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'robot_launch' build argument 'cmake_clean_cache' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'robot_launch' build argument 'cmake_clean_first' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'robot_launch' build argument 'cmake_force_configure' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'robot_launch' build argument 'ament_cmake_args' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'robot_launch' build argument 'catkin_cmake_args' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'robot_launch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.386s] DEBUG:colcon.colcon_core.verb:Building package 'robot_launch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/y/SA_CAO/build/robot_launch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/y/SA_CAO/install/robot_launch', 'merge_install': False, 'path': '/home/y/SA_CAO/src/robot_launch', 'symlink_install': False, 'test_result_base': None}
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'sub0227' build argument 'cmake_args' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'sub0227' build argument 'cmake_target' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'sub0227' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'sub0227' build argument 'cmake_clean_cache' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'sub0227' build argument 'cmake_clean_first' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'sub0227' build argument 'cmake_force_configure' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'sub0227' build argument 'ament_cmake_args' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'sub0227' build argument 'catkin_cmake_args' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'sub0227' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.386s] DEBUG:colcon.colcon_core.verb:Building package 'sub0227' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/y/SA_CAO/build/sub0227', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/y/SA_CAO/install/sub0227', 'merge_install': False, 'path': '/home/y/SA_CAO/src/sub0227', 'symlink_install': False, 'test_result_base': None}
+[0.386s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.387s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.388s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/y/SA_CAO/src/my_xbox_joystick' with build type 'ament_python'
+[0.388s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_xbox_joystick', 'ament_prefix_path')
+[0.390s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.390s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/my_xbox_joystick/share/my_xbox_joystick/hook/ament_prefix_path.ps1'
+[0.391s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/SA_CAO/install/my_xbox_joystick/share/my_xbox_joystick/hook/ament_prefix_path.dsv'
+[0.391s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/my_xbox_joystick/share/my_xbox_joystick/hook/ament_prefix_path.sh'
+[0.392s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.392s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.400s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/y/SA_CAO/src/robot_launch' with build type 'ament_python'
+[0.400s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_launch', 'ament_prefix_path')
+[0.401s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/robot_launch/share/robot_launch/hook/ament_prefix_path.ps1'
+[0.401s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/SA_CAO/install/robot_launch/share/robot_launch/hook/ament_prefix_path.dsv'
+[0.402s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/robot_launch/share/robot_launch/hook/ament_prefix_path.sh'
+[0.403s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.403s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.590s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/y/SA_CAO/src/my_xbox_joystick'
+[0.590s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.590s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.777s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/y/SA_CAO/src/robot_launch'
+[0.777s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.777s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.095s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/y/SA_CAO/src/robot_launch': PYTHONPATH=/home/y/SA_CAO/build/robot_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/y/SA_CAO/install/robot_launch/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_launch build --build-base /home/y/SA_CAO/build/robot_launch/build install --record /home/y/SA_CAO/build/robot_launch/install.log --install-scripts $base/lib/robot_launch --single-version-externally-managed install_data
+[1.109s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/y/SA_CAO/src/my_xbox_joystick': PYTHONPATH=/home/y/SA_CAO/build/my_xbox_joystick/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/y/SA_CAO/install/my_xbox_joystick/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_xbox_joystick build --build-base /home/y/SA_CAO/build/my_xbox_joystick/build install --record /home/y/SA_CAO/build/my_xbox_joystick/install.log --install-scripts $base/lib/my_xbox_joystick --single-version-externally-managed install_data
+[1.353s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/y/SA_CAO/src/my_xbox_joystick' returned '0': PYTHONPATH=/home/y/SA_CAO/build/my_xbox_joystick/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/y/SA_CAO/install/my_xbox_joystick/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_xbox_joystick build --build-base /home/y/SA_CAO/build/my_xbox_joystick/build install --record /home/y/SA_CAO/build/my_xbox_joystick/install.log --install-scripts $base/lib/my_xbox_joystick --single-version-externally-managed install_data
+[1.355s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/my_xbox_joystick' for CMake module files
+[1.356s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/my_xbox_joystick' for CMake config files
+[1.356s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/my_xbox_joystick/lib'
+[1.356s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/my_xbox_joystick/bin'
+[1.356s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/my_xbox_joystick/lib/pkgconfig/my_xbox_joystick.pc'
+[1.356s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/my_xbox_joystick/lib/python3.8/site-packages'
+[1.357s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_xbox_joystick', 'pythonpath')
+[1.357s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/my_xbox_joystick/share/my_xbox_joystick/hook/pythonpath.ps1'
+[1.357s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/SA_CAO/install/my_xbox_joystick/share/my_xbox_joystick/hook/pythonpath.dsv'
+[1.358s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/my_xbox_joystick/share/my_xbox_joystick/hook/pythonpath.sh'
+[1.358s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/my_xbox_joystick/bin'
+[1.358s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_xbox_joystick)
+[1.359s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/my_xbox_joystick/share/my_xbox_joystick/package.ps1'
+[1.360s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/y/SA_CAO/install/my_xbox_joystick/share/my_xbox_joystick/package.dsv'
+[1.361s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/my_xbox_joystick/share/my_xbox_joystick/package.sh'
+[1.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/my_xbox_joystick/share/my_xbox_joystick/package.bash'
+[1.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/my_xbox_joystick/share/my_xbox_joystick/package.zsh'
+[1.363s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/y/SA_CAO/install/my_xbox_joystick/share/colcon-core/packages/my_xbox_joystick)
+[1.364s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/y/SA_CAO/src/sub0227' with build type 'ament_cmake'
+[1.364s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/y/SA_CAO/src/sub0227'
+[1.364s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.364s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.372s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/robot_launch' for CMake module files
+[1.372s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/y/SA_CAO/src/robot_launch' returned '0': PYTHONPATH=/home/y/SA_CAO/build/robot_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/y/SA_CAO/install/robot_launch/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_launch build --build-base /home/y/SA_CAO/build/robot_launch/build install --record /home/y/SA_CAO/build/robot_launch/install.log --install-scripts $base/lib/robot_launch --single-version-externally-managed install_data
+[1.373s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/robot_launch' for CMake config files
+[1.373s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/robot_launch/lib'
+[1.373s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/robot_launch/bin'
+[1.373s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/robot_launch/lib/pkgconfig/robot_launch.pc'
+[1.373s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/robot_launch/lib/python3.8/site-packages'
+[1.374s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_launch', 'pythonpath')
+[1.374s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/robot_launch/share/robot_launch/hook/pythonpath.ps1'
+[1.374s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/SA_CAO/install/robot_launch/share/robot_launch/hook/pythonpath.dsv'
+[1.375s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/robot_launch/share/robot_launch/hook/pythonpath.sh'
+[1.375s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/robot_launch/bin'
+[1.376s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_launch)
+[1.376s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/robot_launch/share/robot_launch/package.ps1'
+[1.376s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/y/SA_CAO/install/robot_launch/share/robot_launch/package.dsv'
+[1.377s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/robot_launch/share/robot_launch/package.sh'
+[1.377s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/robot_launch/share/robot_launch/package.bash'
+[1.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/robot_launch/share/robot_launch/package.zsh'
+[1.378s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/y/SA_CAO/install/robot_launch/share/colcon-core/packages/robot_launch)
+[1.387s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/y/SA_CAO/build/sub0227': CMAKE_PREFIX_PATH=/home/y/ws/install/turtlebot3:/home/y/ws/install/turtlebot3_simulations:/home/y/ws/install/turtlebot3_bringup:/home/y/ws/install/turtlebot3_node:/home/y/ws/install/turtlebot3_navigation2:/home/y/ws/install/turtlebot3_fake_node:/home/y/ws/install/turtlebot3_msgs:/home/y/ws/install/turtlebot3_gazebo:/home/y/ws/install/turtlebot3_description:/home/y/ws/install/turtlebot3_cartographer:/home/y/ws/install/sub0227:/home/y/ws/install/hls_lfcd_lds_driver:/home/y/ws/install/dynamixel_sdk_examples:/home/y/ws/install/dynamixel_sdk_custom_interfaces:/home/y/ws/install/dynamixel_sdk:/home/y/SA_CAO/install/sub0227:/home/y/SA_CAO/install/diablo_simpose_trans:/home/y/SA_CAO/install/diablo_ctrl:/home/y/SA_CAO/install/diablo_body:/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/diablo_rviz2_control_plugin:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:/home/y/ws/install/turtlebot3_teleop:/home/y/ws/install/turtlebot3_example:/home/y/ws/install/robot_launch:/home/y/ws/install/my_xbox_joystick:/home/y/SA_CAO/install/robot_launch:/home/y/SA_CAO/install/my_xbox_joystick:/home/y/SA_CAO/install/diablo_teleop:/home/y/SA_CAO/install/diablo_simulation:/opt/ros/foxy:/home/y/oradar_ros/install/oradar_lidar /usr/bin/cmake --build /home/y/SA_CAO/build/sub0227 -- -j2 -l2
+[11.290s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/y/SA_CAO/build/sub0227' returned '0': CMAKE_PREFIX_PATH=/home/y/ws/install/turtlebot3:/home/y/ws/install/turtlebot3_simulations:/home/y/ws/install/turtlebot3_bringup:/home/y/ws/install/turtlebot3_node:/home/y/ws/install/turtlebot3_navigation2:/home/y/ws/install/turtlebot3_fake_node:/home/y/ws/install/turtlebot3_msgs:/home/y/ws/install/turtlebot3_gazebo:/home/y/ws/install/turtlebot3_description:/home/y/ws/install/turtlebot3_cartographer:/home/y/ws/install/sub0227:/home/y/ws/install/hls_lfcd_lds_driver:/home/y/ws/install/dynamixel_sdk_examples:/home/y/ws/install/dynamixel_sdk_custom_interfaces:/home/y/ws/install/dynamixel_sdk:/home/y/SA_CAO/install/sub0227:/home/y/SA_CAO/install/diablo_simpose_trans:/home/y/SA_CAO/install/diablo_ctrl:/home/y/SA_CAO/install/diablo_body:/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/diablo_rviz2_control_plugin:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:/home/y/ws/install/turtlebot3_teleop:/home/y/ws/install/turtlebot3_example:/home/y/ws/install/robot_launch:/home/y/ws/install/my_xbox_joystick:/home/y/SA_CAO/install/robot_launch:/home/y/SA_CAO/install/my_xbox_joystick:/home/y/SA_CAO/install/diablo_teleop:/home/y/SA_CAO/install/diablo_simulation:/opt/ros/foxy:/home/y/oradar_ros/install/oradar_lidar /usr/bin/cmake --build /home/y/SA_CAO/build/sub0227 -- -j2 -l2
+[11.304s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/y/SA_CAO/build/sub0227': CMAKE_PREFIX_PATH=/home/y/ws/install/turtlebot3:/home/y/ws/install/turtlebot3_simulations:/home/y/ws/install/turtlebot3_bringup:/home/y/ws/install/turtlebot3_node:/home/y/ws/install/turtlebot3_navigation2:/home/y/ws/install/turtlebot3_fake_node:/home/y/ws/install/turtlebot3_msgs:/home/y/ws/install/turtlebot3_gazebo:/home/y/ws/install/turtlebot3_description:/home/y/ws/install/turtlebot3_cartographer:/home/y/ws/install/sub0227:/home/y/ws/install/hls_lfcd_lds_driver:/home/y/ws/install/dynamixel_sdk_examples:/home/y/ws/install/dynamixel_sdk_custom_interfaces:/home/y/ws/install/dynamixel_sdk:/home/y/SA_CAO/install/sub0227:/home/y/SA_CAO/install/diablo_simpose_trans:/home/y/SA_CAO/install/diablo_ctrl:/home/y/SA_CAO/install/diablo_body:/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/diablo_rviz2_control_plugin:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:/home/y/ws/install/turtlebot3_teleop:/home/y/ws/install/turtlebot3_example:/home/y/ws/install/robot_launch:/home/y/ws/install/my_xbox_joystick:/home/y/SA_CAO/install/robot_launch:/home/y/SA_CAO/install/my_xbox_joystick:/home/y/SA_CAO/install/diablo_teleop:/home/y/SA_CAO/install/diablo_simulation:/opt/ros/foxy:/home/y/oradar_ros/install/oradar_lidar /usr/bin/cmake --install /home/y/SA_CAO/build/sub0227
+[11.317s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sub0227)
+[11.317s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/sub0227' for CMake module files
+[11.318s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/y/SA_CAO/build/sub0227' returned '0': CMAKE_PREFIX_PATH=/home/y/ws/install/turtlebot3:/home/y/ws/install/turtlebot3_simulations:/home/y/ws/install/turtlebot3_bringup:/home/y/ws/install/turtlebot3_node:/home/y/ws/install/turtlebot3_navigation2:/home/y/ws/install/turtlebot3_fake_node:/home/y/ws/install/turtlebot3_msgs:/home/y/ws/install/turtlebot3_gazebo:/home/y/ws/install/turtlebot3_description:/home/y/ws/install/turtlebot3_cartographer:/home/y/ws/install/sub0227:/home/y/ws/install/hls_lfcd_lds_driver:/home/y/ws/install/dynamixel_sdk_examples:/home/y/ws/install/dynamixel_sdk_custom_interfaces:/home/y/ws/install/dynamixel_sdk:/home/y/SA_CAO/install/sub0227:/home/y/SA_CAO/install/diablo_simpose_trans:/home/y/SA_CAO/install/diablo_ctrl:/home/y/SA_CAO/install/diablo_body:/home/y/SA_CAO/install/diablo_utils:/home/y/SA_CAO/install/diablo_rviz2_control_plugin:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/ception_msgs:/home/y/ws/install/turtlebot3_teleop:/home/y/ws/install/turtlebot3_example:/home/y/ws/install/robot_launch:/home/y/ws/install/my_xbox_joystick:/home/y/SA_CAO/install/robot_launch:/home/y/SA_CAO/install/my_xbox_joystick:/home/y/SA_CAO/install/diablo_teleop:/home/y/SA_CAO/install/diablo_simulation:/opt/ros/foxy:/home/y/oradar_ros/install/oradar_lidar /usr/bin/cmake --install /home/y/SA_CAO/build/sub0227
+[11.318s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/sub0227' for CMake config files
+[11.318s] Level 1:colcon.colcon_core.shell:create_environment_hook('sub0227', 'cmake_prefix_path')
+[11.318s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/sub0227/share/sub0227/hook/cmake_prefix_path.ps1'
+[11.319s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/SA_CAO/install/sub0227/share/sub0227/hook/cmake_prefix_path.dsv'
+[11.319s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/sub0227/share/sub0227/hook/cmake_prefix_path.sh'
+[11.320s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/sub0227/lib'
+[11.320s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/sub0227/bin'
+[11.320s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/sub0227/lib/pkgconfig/sub0227.pc'
+[11.320s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/sub0227/lib/python3.8/site-packages'
+[11.321s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/sub0227/bin'
+[11.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/sub0227/share/sub0227/package.ps1'
+[11.321s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/y/SA_CAO/install/sub0227/share/sub0227/package.dsv'
+[11.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/sub0227/share/sub0227/package.sh'
+[11.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/sub0227/share/sub0227/package.bash'
+[11.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/sub0227/share/sub0227/package.zsh'
+[11.323s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/y/SA_CAO/install/sub0227/share/colcon-core/packages/sub0227)
+[11.324s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sub0227)
+[11.324s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/sub0227' for CMake module files
+[11.325s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/sub0227' for CMake config files
+[11.325s] Level 1:colcon.colcon_core.shell:create_environment_hook('sub0227', 'cmake_prefix_path')
+[11.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/sub0227/share/sub0227/hook/cmake_prefix_path.ps1'
+[11.325s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/SA_CAO/install/sub0227/share/sub0227/hook/cmake_prefix_path.dsv'
+[11.326s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/sub0227/share/sub0227/hook/cmake_prefix_path.sh'
+[11.326s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/sub0227/lib'
+[11.327s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/sub0227/bin'
+[11.327s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/sub0227/lib/pkgconfig/sub0227.pc'
+[11.327s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/sub0227/lib/python3.8/site-packages'
+[11.327s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/sub0227/bin'
+[11.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/sub0227/share/sub0227/package.ps1'
+[11.328s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/y/SA_CAO/install/sub0227/share/sub0227/package.dsv'
+[11.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/sub0227/share/sub0227/package.sh'
+[11.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/sub0227/share/sub0227/package.bash'
+[11.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/sub0227/share/sub0227/package.zsh'
+[11.329s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/y/SA_CAO/install/sub0227/share/colcon-core/packages/sub0227)
+[11.330s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.331s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.331s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.331s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.335s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.336s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.336s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.350s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.350s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/y/SA_CAO/install/local_setup.ps1'
+[11.351s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/y/SA_CAO/install/_local_setup_util_ps1.py'
+[11.352s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/y/SA_CAO/install/setup.ps1'
+[11.355s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/y/SA_CAO/install/local_setup.sh'
+[11.355s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/y/SA_CAO/install/_local_setup_util_sh.py'
+[11.356s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/y/SA_CAO/install/setup.sh'
+[11.358s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/y/SA_CAO/install/local_setup.bash'
+[11.358s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/y/SA_CAO/install/setup.bash'
+[11.360s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/y/SA_CAO/install/local_setup.zsh'
+[11.361s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/y/SA_CAO/install/setup.zsh'

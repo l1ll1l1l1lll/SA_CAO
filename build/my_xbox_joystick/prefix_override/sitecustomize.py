@@ -1,4 +1,4 @@
 import sys
 if sys.prefix == '/usr':
     sys.real_prefix = sys.prefix
-    sys.prefix = sys.exec_prefix = '/home/y/controller_ws/install/my_xbox_joystick'
+    sys.prefix = sys.exec_prefix = '/home/y/SA_CAO/install/my_xbox_joystick'

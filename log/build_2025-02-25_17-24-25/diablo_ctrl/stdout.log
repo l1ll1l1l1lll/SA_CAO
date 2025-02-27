@@ -1,0 +1,26 @@
+[35m[1mScanning dependencies of target diablo_ctrl_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/diablo_ctrl_node.dir/src/diablo_ctrl.cpp.o[0m
+[100%] [32m[1mLinking CXX executable diablo_ctrl_node[0m
+[100%] Built target diablo_ctrl_node
+-- Install configuration: ""
+-- Installing: /home/y/SA_CAO/install/diablo_ctrl/lib/diablo_ctrl/diablo_ctrl_node
+-- Set runtime path of "/home/y/SA_CAO/install/diablo_ctrl/lib/diablo_ctrl/diablo_ctrl_node" to ""
+-- Up-to-date: /home/y/SA_CAO/install/diablo_ctrl/include/diablo_ctrl
+-- Up-to-date: /home/y/SA_CAO/install/diablo_ctrl/include/diablo_ctrl/diablo_ctrl.hpp
+-- Up-to-date: /home/y/SA_CAO/install/diablo_ctrl/share/ament_index/resource_index/package_run_dependencies/diablo_ctrl
+-- Up-to-date: /home/y/SA_CAO/install/diablo_ctrl/share/ament_index/resource_index/parent_prefix_path/diablo_ctrl
+-- Up-to-date: /home/y/SA_CAO/install/diablo_ctrl/share/diablo_ctrl/environment/ament_prefix_path.sh
+-- Up-to-date: /home/y/SA_CAO/install/diablo_ctrl/share/diablo_ctrl/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/y/SA_CAO/install/diablo_ctrl/share/diablo_ctrl/environment/path.sh
+-- Up-to-date: /home/y/SA_CAO/install/diablo_ctrl/share/diablo_ctrl/environment/path.dsv
+-- Up-to-date: /home/y/SA_CAO/install/diablo_ctrl/share/diablo_ctrl/local_setup.bash
+-- Up-to-date: /home/y/SA_CAO/install/diablo_ctrl/share/diablo_ctrl/local_setup.sh
+-- Up-to-date: /home/y/SA_CAO/install/diablo_ctrl/share/diablo_ctrl/local_setup.zsh
+-- Up-to-date: /home/y/SA_CAO/install/diablo_ctrl/share/diablo_ctrl/local_setup.dsv
+-- Installing: /home/y/SA_CAO/install/diablo_ctrl/share/diablo_ctrl/package.dsv
+-- Up-to-date: /home/y/SA_CAO/install/diablo_ctrl/share/ament_index/resource_index/packages/diablo_ctrl
+-- Up-to-date: /home/y/SA_CAO/install/diablo_ctrl/share/diablo_ctrl/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/y/SA_CAO/install/diablo_ctrl/share/diablo_ctrl/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/y/SA_CAO/install/diablo_ctrl/share/diablo_ctrl/cmake/diablo_ctrlConfig.cmake
+-- Up-to-date: /home/y/SA_CAO/install/diablo_ctrl/share/diablo_ctrl/cmake/diablo_ctrlConfig-version.cmake
+-- Up-to-date: /home/y/SA_CAO/install/diablo_ctrl/share/diablo_ctrl/package.xml
