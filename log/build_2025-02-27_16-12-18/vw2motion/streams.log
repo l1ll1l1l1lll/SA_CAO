@@ -1,0 +1,21 @@
+[0.500s] Invoking command in '/home/y/SA_CAO/src/vw2motion': PYTHONPATH=/home/y/SA_CAO/build/vw2motion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/y/SA_CAO/install/vw2motion/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vw2motion build --build-base /home/y/SA_CAO/build/vw2motion/build install --record /home/y/SA_CAO/build/vw2motion/install.log --install-scripts $base/lib/vw2motion --single-version-externally-managed install_data
+[0.655s] running egg_info
+[0.655s] writing ../../build/vw2motion/vw2motion.egg-info/PKG-INFO
+[0.656s] writing dependency_links to ../../build/vw2motion/vw2motion.egg-info/dependency_links.txt
+[0.657s] writing entry points to ../../build/vw2motion/vw2motion.egg-info/entry_points.txt
+[0.657s] writing requirements to ../../build/vw2motion/vw2motion.egg-info/requires.txt
+[0.657s] writing top-level names to ../../build/vw2motion/vw2motion.egg-info/top_level.txt
+[0.683s] reading manifest file '../../build/vw2motion/vw2motion.egg-info/SOURCES.txt'
+[0.684s] writing manifest file '../../build/vw2motion/vw2motion.egg-info/SOURCES.txt'
+[0.685s] running build
+[0.685s] running build_py
+[0.685s] running install
+[0.686s] running install_lib
+[0.687s] running install_data
+[0.687s] running install_egg_info
+[0.688s] removing '/home/y/SA_CAO/install/vw2motion/lib/python3.8/site-packages/vw2motion-0.0.0-py3.8.egg-info' (and everything under it)
+[0.689s] Copying ../../build/vw2motion/vw2motion.egg-info to /home/y/SA_CAO/install/vw2motion/lib/python3.8/site-packages/vw2motion-0.0.0-py3.8.egg-info
+[0.690s] running install_scripts
+[0.701s] Installing vw2motion script to /home/y/SA_CAO/install/vw2motion/lib/vw2motion
+[0.702s] writing list of installed files to '/home/y/SA_CAO/build/vw2motion/install.log'
+[0.718s] Invoked command in '/home/y/SA_CAO/src/vw2motion' returned '0': PYTHONPATH=/home/y/SA_CAO/build/vw2motion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/y/SA_CAO/install/vw2motion/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vw2motion build --build-base /home/y/SA_CAO/build/vw2motion/build install --record /home/y/SA_CAO/build/vw2motion/install.log --install-scripts $base/lib/vw2motion --single-version-externally-managed install_data

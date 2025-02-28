@@ -48,7 +48,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/y/SA_CAO/src/diablo_ros2/diablo_interfaces/motion_msgs
+CMAKE_SOURCE_DIR = /home/y/SA_CAO/src/motion_msgs
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/y/SA_CAO/build/motion_msgs

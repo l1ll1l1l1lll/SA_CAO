@@ -6,6 +6,9 @@ git commit -m "Initial commit"
 git remote add origin <your-repo-url>
 git push -u origin main
 
+
+git remote set-url origin <new_repository_url>
+
 ##akturalisieren
 git pull origin main  # 或者 git pull origin master
 

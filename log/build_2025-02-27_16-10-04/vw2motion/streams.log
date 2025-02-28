@@ -1,0 +1,37 @@
+[0.531s] Invoking command in '/home/y/SA_CAO/src/vw2motion': PYTHONPATH=/home/y/SA_CAO/build/vw2motion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/y/SA_CAO/install/vw2motion/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vw2motion build --build-base /home/y/SA_CAO/build/vw2motion/build install --record /home/y/SA_CAO/build/vw2motion/install.log --install-scripts $base/lib/vw2motion --single-version-externally-managed install_data
+[0.693s] running egg_info
+[0.693s] creating ../../build/vw2motion/vw2motion.egg-info
+[0.693s] writing ../../build/vw2motion/vw2motion.egg-info/PKG-INFO
+[0.694s] writing dependency_links to ../../build/vw2motion/vw2motion.egg-info/dependency_links.txt
+[0.694s] writing entry points to ../../build/vw2motion/vw2motion.egg-info/entry_points.txt
+[0.694s] writing requirements to ../../build/vw2motion/vw2motion.egg-info/requires.txt
+[0.695s] writing top-level names to ../../build/vw2motion/vw2motion.egg-info/top_level.txt
+[0.696s] writing manifest file '../../build/vw2motion/vw2motion.egg-info/SOURCES.txt'
+[0.728s] reading manifest file '../../build/vw2motion/vw2motion.egg-info/SOURCES.txt'
+[0.729s] writing manifest file '../../build/vw2motion/vw2motion.egg-info/SOURCES.txt'
+[0.729s] running build
+[0.729s] running build_py
+[0.730s] creating /home/y/SA_CAO/build/vw2motion/build
+[0.730s] creating /home/y/SA_CAO/build/vw2motion/build/lib
+[0.730s] creating /home/y/SA_CAO/build/vw2motion/build/lib/vw2motion
+[0.730s] copying vw2motion/__init__.py -> /home/y/SA_CAO/build/vw2motion/build/lib/vw2motion
+[0.731s] copying vw2motion/vw2motion.py -> /home/y/SA_CAO/build/vw2motion/build/lib/vw2motion
+[0.731s] running install
+[0.732s] running install_lib
+[0.733s] creating /home/y/SA_CAO/install/vw2motion/lib/python3.8/site-packages/vw2motion
+[0.733s] copying /home/y/SA_CAO/build/vw2motion/build/lib/vw2motion/__init__.py -> /home/y/SA_CAO/install/vw2motion/lib/python3.8/site-packages/vw2motion
+[0.733s] copying /home/y/SA_CAO/build/vw2motion/build/lib/vw2motion/vw2motion.py -> /home/y/SA_CAO/install/vw2motion/lib/python3.8/site-packages/vw2motion
+[0.734s] byte-compiling /home/y/SA_CAO/install/vw2motion/lib/python3.8/site-packages/vw2motion/__init__.py to __init__.cpython-38.pyc
+[0.735s] byte-compiling /home/y/SA_CAO/install/vw2motion/lib/python3.8/site-packages/vw2motion/vw2motion.py to vw2motion.cpython-38.pyc
+[0.736s] running install_data
+[0.736s] creating /home/y/SA_CAO/install/vw2motion/share/ament_index
+[0.736s] creating /home/y/SA_CAO/install/vw2motion/share/ament_index/resource_index
+[0.736s] creating /home/y/SA_CAO/install/vw2motion/share/ament_index/resource_index/packages
+[0.737s] copying resource/vw2motion -> /home/y/SA_CAO/install/vw2motion/share/ament_index/resource_index/packages
+[0.737s] copying package.xml -> /home/y/SA_CAO/install/vw2motion/share/vw2motion
+[0.737s] running install_egg_info
+[0.738s] Copying ../../build/vw2motion/vw2motion.egg-info to /home/y/SA_CAO/install/vw2motion/lib/python3.8/site-packages/vw2motion-0.0.0-py3.8.egg-info
+[0.739s] running install_scripts
+[0.751s] Installing vw2motion script to /home/y/SA_CAO/install/vw2motion/lib/vw2motion
+[0.752s] writing list of installed files to '/home/y/SA_CAO/build/vw2motion/install.log'
+[0.769s] Invoked command in '/home/y/SA_CAO/src/vw2motion' returned '0': PYTHONPATH=/home/y/SA_CAO/build/vw2motion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/y/SA_CAO/install/vw2motion/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vw2motion build --build-base /home/y/SA_CAO/build/vw2motion/build install --record /home/y/SA_CAO/build/vw2motion/install.log --install-scripts $base/lib/vw2motion --single-version-externally-managed install_data

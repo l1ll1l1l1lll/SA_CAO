@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/y/SA_CAO/src/diablo_ros2/diablo_interfaces/motion_msgs
+CMAKE_SOURCE_DIR = /home/y/SA_CAO/src/motion_msgs
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/y/SA_CAO/build/motion_msgs
@@ -201,6 +201,6 @@ motion_msgs__py/CMakeFiles/motion_msgs__py.dir/clean:
 .PHONY : motion_msgs__py/CMakeFiles/motion_msgs__py.dir/clean
 
 motion_msgs__py/CMakeFiles/motion_msgs__py.dir/depend:
-	cd /home/y/SA_CAO/build/motion_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/y/SA_CAO/src/diablo_ros2/diablo_interfaces/motion_msgs /home/y/SA_CAO/build/motion_msgs/motion_msgs__py /home/y/SA_CAO/build/motion_msgs /home/y/SA_CAO/build/motion_msgs/motion_msgs__py /home/y/SA_CAO/build/motion_msgs/motion_msgs__py/CMakeFiles/motion_msgs__py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/y/SA_CAO/build/motion_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/y/SA_CAO/src/motion_msgs /home/y/SA_CAO/build/motion_msgs/motion_msgs__py /home/y/SA_CAO/build/motion_msgs /home/y/SA_CAO/build/motion_msgs/motion_msgs__py /home/y/SA_CAO/build/motion_msgs/motion_msgs__py/CMakeFiles/motion_msgs__py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : motion_msgs__py/CMakeFiles/motion_msgs__py.dir/depend
 

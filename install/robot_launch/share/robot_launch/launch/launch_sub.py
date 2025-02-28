@@ -30,9 +30,17 @@ def generate_launch_description():
 
         # Launch custom subscriber node (Sub0227)
         Node(
-            package='sub0227',
-            executable='Sub0227',
+            package='sub_diablo',
+            executable='Sub_diablo',
             output='screen'
         ),
+        
+                # Launch custom subscriber node (Sub0227)
+        Node(
+            package='vw2motion',
+            executable='vw2motion',
+            output='screen'
+        ),
+        
     ])
 

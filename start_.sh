@@ -27,23 +27,29 @@ gnome-terminal -- bash -c "
 
 # Terminal 4
 gnome-terminal -- bash -c "
-    source ~/ws/install/setup.bash;
+    source ~/SA_CAO/install/setup.bash;
     ros2 run joy joy_node
     
     exec bash
     "
     # Terminal 5
 gnome-terminal -- bash -c "
-    source ~/ws/install/setup.bash;
-    
+    source ~/SA_CAO/install/setup.bash;
     ros2 run my_xbox_joystick xbox_joystick
     exec bash
     "
         # Terminal 6
 gnome-terminal -- bash -c "
-    source ~/ws/install/setup.bash;
+    source ~/SA_CAO/install/setup.bash;
     export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
-    ros2 run sub0227 Sub0227
+    ros2 run sub_diablo Sub_diablo
+    exec bash
+    "
     
+            # Terminal 7
+gnome-terminal -- bash -c "
+    source ~/SA_CAO/install/setup.bash;
+    export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+    ros2 run cmd_vel2motionctrl cmd_vel2motionctrl
     exec bash
     "

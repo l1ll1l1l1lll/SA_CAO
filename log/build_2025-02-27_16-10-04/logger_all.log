@@ -1,0 +1,423 @@
+[0.143s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.143s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f6a5dfc41c0>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=2, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f6a5dfc41c0>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f6a5de32d90>)
+[0.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.253s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/y/SA_CAO'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_vel2motionctrl) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_vel2motionctrl) by extension 'ignore'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_vel2motionctrl) by extension 'ignore_ament_install'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_vel2motionctrl) by extensions ['colcon_pkg']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_vel2motionctrl) by extension 'colcon_pkg'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_vel2motionctrl) by extensions ['colcon_meta']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_vel2motionctrl) by extension 'colcon_meta'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_vel2motionctrl) by extensions ['ros']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_vel2motionctrl) by extension 'ros'
+[0.265s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cmd_vel2motionctrl' with type 'ros.ament_python' and name 'cmd_vel2motionctrl'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_msgs) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_msgs) by extension 'ignore_ament_install'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_msgs) by extensions ['colcon_pkg']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_msgs) by extension 'colcon_pkg'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_msgs) by extensions ['colcon_meta']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_msgs) by extension 'colcon_meta'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_msgs) by extensions ['ros']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_msgs) by extension 'ros'
+[0.265s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motion_msgs' with type 'ros.ament_cmake' and name 'motion_msgs'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_xbox_joystick) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_xbox_joystick) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_xbox_joystick) by extension 'ignore_ament_install'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_xbox_joystick) by extensions ['colcon_pkg']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_xbox_joystick) by extension 'colcon_pkg'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_xbox_joystick) by extensions ['colcon_meta']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_xbox_joystick) by extension 'colcon_meta'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_xbox_joystick) by extensions ['ros']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_xbox_joystick) by extension 'ros'
+[0.266s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_xbox_joystick' with type 'ros.ament_python' and name 'my_xbox_joystick'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launch) by extension 'ignore'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launch) by extension 'ignore_ament_install'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launch) by extensions ['colcon_pkg']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launch) by extension 'colcon_pkg'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launch) by extensions ['colcon_meta']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launch) by extension 'colcon_meta'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launch) by extensions ['ros']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_launch) by extension 'ros'
+[0.267s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_launch' with type 'ros.ament_python' and name 'robot_launch'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_diablo) by extensions ['ignore', 'ignore_ament_install']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_diablo) by extension 'ignore'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_diablo) by extension 'ignore_ament_install'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_diablo) by extensions ['colcon_pkg']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_diablo) by extension 'colcon_pkg'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_diablo) by extensions ['colcon_meta']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_diablo) by extension 'colcon_meta'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_diablo) by extensions ['ros']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/sub_diablo) by extension 'ros'
+[0.268s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sub_diablo' with type 'ros.ament_cmake' and name 'sub_diablo'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/vw2motion) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/vw2motion) by extension 'ignore'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/vw2motion) by extension 'ignore_ament_install'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/vw2motion) by extensions ['colcon_pkg']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/vw2motion) by extension 'colcon_pkg'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/vw2motion) by extensions ['colcon_meta']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/vw2motion) by extension 'colcon_meta'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/vw2motion) by extensions ['ros']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/vw2motion) by extension 'ros'
+[0.269s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vw2motion' with type 'ros.ament_python' and name 'vw2motion'
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.283s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/y/SA_CAO/install/cmd_vel2MotionCtrl' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.284s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/y/SA_CAO/install
+[0.284s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/y/oradar_ros/install
+[0.285s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 326 installed packages in /opt/ros/foxy
+[0.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'motion_msgs' build argument 'cmake_args' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'motion_msgs' build argument 'cmake_target' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'motion_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'motion_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'motion_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'motion_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'motion_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'motion_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'motion_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.347s] DEBUG:colcon.colcon_core.verb:Building package 'motion_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/y/SA_CAO/build/motion_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/y/SA_CAO/install/motion_msgs', 'merge_install': False, 'path': '/home/y/SA_CAO/src/motion_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'my_xbox_joystick' build argument 'cmake_args' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'my_xbox_joystick' build argument 'cmake_target' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'my_xbox_joystick' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'my_xbox_joystick' build argument 'cmake_clean_cache' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'my_xbox_joystick' build argument 'cmake_clean_first' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'my_xbox_joystick' build argument 'cmake_force_configure' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'my_xbox_joystick' build argument 'ament_cmake_args' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'my_xbox_joystick' build argument 'catkin_cmake_args' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'my_xbox_joystick' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.347s] DEBUG:colcon.colcon_core.verb:Building package 'my_xbox_joystick' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/y/SA_CAO/build/my_xbox_joystick', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/y/SA_CAO/install/my_xbox_joystick', 'merge_install': False, 'path': '/home/y/SA_CAO/src/my_xbox_joystick', 'symlink_install': False, 'test_result_base': None}
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'robot_launch' build argument 'cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'robot_launch' build argument 'cmake_target' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'robot_launch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'robot_launch' build argument 'cmake_clean_cache' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'robot_launch' build argument 'cmake_clean_first' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'robot_launch' build argument 'cmake_force_configure' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'robot_launch' build argument 'ament_cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'robot_launch' build argument 'catkin_cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'robot_launch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.348s] DEBUG:colcon.colcon_core.verb:Building package 'robot_launch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/y/SA_CAO/build/robot_launch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/y/SA_CAO/install/robot_launch', 'merge_install': False, 'path': '/home/y/SA_CAO/src/robot_launch', 'symlink_install': False, 'test_result_base': None}
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'sub_diablo' build argument 'cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'sub_diablo' build argument 'cmake_target' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'sub_diablo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'sub_diablo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'sub_diablo' build argument 'cmake_clean_first' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'sub_diablo' build argument 'cmake_force_configure' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'sub_diablo' build argument 'ament_cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'sub_diablo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'sub_diablo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.348s] DEBUG:colcon.colcon_core.verb:Building package 'sub_diablo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/y/SA_CAO/build/sub_diablo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/y/SA_CAO/install/sub_diablo', 'merge_install': False, 'path': '/home/y/SA_CAO/src/sub_diablo', 'symlink_install': False, 'test_result_base': None}
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'vw2motion' build argument 'cmake_args' from command line to 'None'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'vw2motion' build argument 'cmake_target' from command line to 'None'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'vw2motion' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'vw2motion' build argument 'cmake_clean_cache' from command line to 'False'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'vw2motion' build argument 'cmake_clean_first' from command line to 'False'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'vw2motion' build argument 'cmake_force_configure' from command line to 'False'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'vw2motion' build argument 'ament_cmake_args' from command line to 'None'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'vw2motion' build argument 'catkin_cmake_args' from command line to 'None'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'vw2motion' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.349s] DEBUG:colcon.colcon_core.verb:Building package 'vw2motion' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/y/SA_CAO/build/vw2motion', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/y/SA_CAO/install/vw2motion', 'merge_install': False, 'path': '/home/y/SA_CAO/src/vw2motion', 'symlink_install': False, 'test_result_base': None}
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'cmd_vel2motionctrl' build argument 'cmake_args' from command line to 'None'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'cmd_vel2motionctrl' build argument 'cmake_target' from command line to 'None'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'cmd_vel2motionctrl' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'cmd_vel2motionctrl' build argument 'cmake_clean_cache' from command line to 'False'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'cmd_vel2motionctrl' build argument 'cmake_clean_first' from command line to 'False'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'cmd_vel2motionctrl' build argument 'cmake_force_configure' from command line to 'False'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'cmd_vel2motionctrl' build argument 'ament_cmake_args' from command line to 'None'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'cmd_vel2motionctrl' build argument 'catkin_cmake_args' from command line to 'None'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'cmd_vel2motionctrl' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.350s] DEBUG:colcon.colcon_core.verb:Building package 'cmd_vel2motionctrl' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/y/SA_CAO/build/cmd_vel2motionctrl', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/y/SA_CAO/install/cmd_vel2motionctrl', 'merge_install': False, 'path': '/home/y/SA_CAO/src/cmd_vel2motionctrl', 'symlink_install': False, 'test_result_base': None}
+[0.350s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.351s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.351s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/y/SA_CAO/src/motion_msgs' with build type 'ament_cmake'
+[0.351s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/y/SA_CAO/src/motion_msgs'
+[0.353s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.353s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.353s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.358s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/y/SA_CAO/src/my_xbox_joystick' with build type 'ament_python'
+[0.358s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_xbox_joystick', 'ament_prefix_path')
+[0.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/my_xbox_joystick/share/my_xbox_joystick/hook/ament_prefix_path.ps1'
+[0.360s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/SA_CAO/install/my_xbox_joystick/share/my_xbox_joystick/hook/ament_prefix_path.dsv'
+[0.360s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/my_xbox_joystick/share/my_xbox_joystick/hook/ament_prefix_path.sh'
+[0.361s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.361s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.374s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/y/SA_CAO/build/motion_msgs': CMAKE_PREFIX_PATH=/home/y/SA_CAO/install/sub_diablo:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/robot_launch:/home/y/SA_CAO/install/my_xbox_joystick:/home/y/SA_CAO/install/cmd_vel2motionctrl:/home/y/SA_CAO/install/cmd_vel2MotionCtrl:/opt/ros/foxy:/home/y/oradar_ros/install/oradar_lidar /usr/bin/cmake --build /home/y/SA_CAO/build/motion_msgs -- -j2 -l2
+[0.591s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/y/SA_CAO/src/my_xbox_joystick'
+[0.591s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.591s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.712s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/y/SA_CAO/build/motion_msgs' returned '0': CMAKE_PREFIX_PATH=/home/y/SA_CAO/install/sub_diablo:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/robot_launch:/home/y/SA_CAO/install/my_xbox_joystick:/home/y/SA_CAO/install/cmd_vel2motionctrl:/home/y/SA_CAO/install/cmd_vel2MotionCtrl:/opt/ros/foxy:/home/y/oradar_ros/install/oradar_lidar /usr/bin/cmake --build /home/y/SA_CAO/build/motion_msgs -- -j2 -l2
+[0.724s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/y/SA_CAO/build/motion_msgs': CMAKE_PREFIX_PATH=/home/y/SA_CAO/install/sub_diablo:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/robot_launch:/home/y/SA_CAO/install/my_xbox_joystick:/home/y/SA_CAO/install/cmd_vel2motionctrl:/home/y/SA_CAO/install/cmd_vel2MotionCtrl:/opt/ros/foxy:/home/y/oradar_ros/install/oradar_lidar /usr/bin/cmake --install /home/y/SA_CAO/build/motion_msgs
+[0.780s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motion_msgs)
+[0.781s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/motion_msgs' for CMake module files
+[0.782s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/motion_msgs' for CMake config files
+[0.782s] Level 1:colcon.colcon_core.shell:create_environment_hook('motion_msgs', 'cmake_prefix_path')
+[0.782s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/hook/cmake_prefix_path.ps1'
+[0.783s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/hook/cmake_prefix_path.dsv'
+[0.783s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/hook/cmake_prefix_path.sh'
+[0.784s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/motion_msgs/lib'
+[0.784s] Level 1:colcon.colcon_core.shell:create_environment_hook('motion_msgs', 'ld_library_path_lib')
+[0.785s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/hook/ld_library_path_lib.ps1'
+[0.786s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/hook/ld_library_path_lib.dsv'
+[0.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/hook/ld_library_path_lib.sh'
+[0.787s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/motion_msgs/bin'
+[0.787s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/motion_msgs/lib/pkgconfig/motion_msgs.pc'
+[0.787s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages'
+[0.787s] Level 1:colcon.colcon_core.shell:create_environment_hook('motion_msgs', 'pythonpath')
+[0.788s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/hook/pythonpath.ps1'
+[0.788s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/hook/pythonpath.dsv'
+[0.788s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/hook/pythonpath.sh'
+[0.789s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/motion_msgs/bin'
+[0.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/package.ps1'
+[0.791s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/package.dsv'
+[0.791s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/y/SA_CAO/build/motion_msgs' returned '0': CMAKE_PREFIX_PATH=/home/y/SA_CAO/install/sub_diablo:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/robot_launch:/home/y/SA_CAO/install/my_xbox_joystick:/home/y/SA_CAO/install/cmd_vel2motionctrl:/home/y/SA_CAO/install/cmd_vel2MotionCtrl:/opt/ros/foxy:/home/y/oradar_ros/install/oradar_lidar /usr/bin/cmake --install /home/y/SA_CAO/build/motion_msgs
+[0.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/package.sh'
+[0.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/package.bash'
+[0.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/package.zsh'
+[0.794s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/y/SA_CAO/install/motion_msgs/share/colcon-core/packages/motion_msgs)
+[0.795s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motion_msgs)
+[0.795s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/motion_msgs' for CMake module files
+[0.795s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/motion_msgs' for CMake config files
+[0.795s] Level 1:colcon.colcon_core.shell:create_environment_hook('motion_msgs', 'cmake_prefix_path')
+[0.796s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/hook/cmake_prefix_path.ps1'
+[0.796s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/hook/cmake_prefix_path.dsv'
+[0.796s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/hook/cmake_prefix_path.sh'
+[0.797s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/motion_msgs/lib'
+[0.797s] Level 1:colcon.colcon_core.shell:create_environment_hook('motion_msgs', 'ld_library_path_lib')
+[0.797s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/hook/ld_library_path_lib.ps1'
+[0.798s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/hook/ld_library_path_lib.dsv'
+[0.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/hook/ld_library_path_lib.sh'
+[0.799s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/motion_msgs/bin'
+[0.799s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/motion_msgs/lib/pkgconfig/motion_msgs.pc'
+[0.799s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages'
+[0.799s] Level 1:colcon.colcon_core.shell:create_environment_hook('motion_msgs', 'pythonpath')
+[0.799s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/hook/pythonpath.ps1'
+[0.800s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/hook/pythonpath.dsv'
+[0.801s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/hook/pythonpath.sh'
+[0.801s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/motion_msgs/bin'
+[0.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/package.ps1'
+[0.803s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/package.dsv'
+[0.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/package.sh'
+[0.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/package.bash'
+[0.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/package.zsh'
+[0.806s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/y/SA_CAO/install/motion_msgs/share/colcon-core/packages/motion_msgs)
+[0.807s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/y/SA_CAO/src/robot_launch' with build type 'ament_python'
+[0.808s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_launch', 'ament_prefix_path')
+[0.808s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/robot_launch/share/robot_launch/hook/ament_prefix_path.ps1'
+[0.808s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/SA_CAO/install/robot_launch/share/robot_launch/hook/ament_prefix_path.dsv'
+[0.809s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/robot_launch/share/robot_launch/hook/ament_prefix_path.sh'
+[0.810s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.810s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.005s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/y/SA_CAO/src/robot_launch'
+[1.006s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.006s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.014s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/y/SA_CAO/src/my_xbox_joystick': PYTHONPATH=/home/y/SA_CAO/build/my_xbox_joystick/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/y/SA_CAO/install/my_xbox_joystick/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_xbox_joystick build --build-base /home/y/SA_CAO/build/my_xbox_joystick/build install --record /home/y/SA_CAO/build/my_xbox_joystick/install.log --install-scripts $base/lib/my_xbox_joystick --single-version-externally-managed install_data
+[1.242s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/my_xbox_joystick' for CMake module files
+[1.243s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/y/SA_CAO/src/my_xbox_joystick' returned '0': PYTHONPATH=/home/y/SA_CAO/build/my_xbox_joystick/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/y/SA_CAO/install/my_xbox_joystick/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_xbox_joystick build --build-base /home/y/SA_CAO/build/my_xbox_joystick/build install --record /home/y/SA_CAO/build/my_xbox_joystick/install.log --install-scripts $base/lib/my_xbox_joystick --single-version-externally-managed install_data
+[1.243s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/my_xbox_joystick' for CMake config files
+[1.244s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/my_xbox_joystick/lib'
+[1.244s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/my_xbox_joystick/bin'
+[1.244s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/my_xbox_joystick/lib/pkgconfig/my_xbox_joystick.pc'
+[1.244s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/my_xbox_joystick/lib/python3.8/site-packages'
+[1.244s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_xbox_joystick', 'pythonpath')
+[1.244s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/my_xbox_joystick/share/my_xbox_joystick/hook/pythonpath.ps1'
+[1.245s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/SA_CAO/install/my_xbox_joystick/share/my_xbox_joystick/hook/pythonpath.dsv'
+[1.245s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/my_xbox_joystick/share/my_xbox_joystick/hook/pythonpath.sh'
+[1.246s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/my_xbox_joystick/bin'
+[1.246s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_xbox_joystick)
+[1.246s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/my_xbox_joystick/share/my_xbox_joystick/package.ps1'
+[1.247s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/y/SA_CAO/install/my_xbox_joystick/share/my_xbox_joystick/package.dsv'
+[1.247s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/my_xbox_joystick/share/my_xbox_joystick/package.sh'
+[1.248s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/my_xbox_joystick/share/my_xbox_joystick/package.bash'
+[1.248s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/my_xbox_joystick/share/my_xbox_joystick/package.zsh'
+[1.249s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/y/SA_CAO/install/my_xbox_joystick/share/colcon-core/packages/my_xbox_joystick)
+[1.249s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/y/SA_CAO/src/sub_diablo' with build type 'ament_cmake'
+[1.249s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/y/SA_CAO/src/sub_diablo'
+[1.249s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.250s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.264s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/y/SA_CAO/build/sub_diablo': CMAKE_PREFIX_PATH=/home/y/SA_CAO/install/sub_diablo:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/robot_launch:/home/y/SA_CAO/install/my_xbox_joystick:/home/y/SA_CAO/install/cmd_vel2motionctrl:/home/y/SA_CAO/install/cmd_vel2MotionCtrl:/opt/ros/foxy:/home/y/oradar_ros/install/oradar_lidar /usr/bin/cmake --build /home/y/SA_CAO/build/sub_diablo -- -j2 -l2
+[1.334s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/y/SA_CAO/src/robot_launch': PYTHONPATH=/home/y/SA_CAO/build/robot_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/y/SA_CAO/install/robot_launch/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_launch build --build-base /home/y/SA_CAO/build/robot_launch/build install --record /home/y/SA_CAO/build/robot_launch/install.log --install-scripts $base/lib/robot_launch --single-version-externally-managed install_data
+[1.363s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/y/SA_CAO/build/sub_diablo' returned '0': CMAKE_PREFIX_PATH=/home/y/SA_CAO/install/sub_diablo:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/robot_launch:/home/y/SA_CAO/install/my_xbox_joystick:/home/y/SA_CAO/install/cmd_vel2motionctrl:/home/y/SA_CAO/install/cmd_vel2MotionCtrl:/opt/ros/foxy:/home/y/oradar_ros/install/oradar_lidar /usr/bin/cmake --build /home/y/SA_CAO/build/sub_diablo -- -j2 -l2
+[1.366s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/y/SA_CAO/build/sub_diablo': CMAKE_PREFIX_PATH=/home/y/SA_CAO/install/sub_diablo:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/robot_launch:/home/y/SA_CAO/install/my_xbox_joystick:/home/y/SA_CAO/install/cmd_vel2motionctrl:/home/y/SA_CAO/install/cmd_vel2MotionCtrl:/opt/ros/foxy:/home/y/oradar_ros/install/oradar_lidar /usr/bin/cmake --install /home/y/SA_CAO/build/sub_diablo
+[1.382s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sub_diablo)
+[1.382s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/sub_diablo' for CMake module files
+[1.383s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/y/SA_CAO/build/sub_diablo' returned '0': CMAKE_PREFIX_PATH=/home/y/SA_CAO/install/sub_diablo:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/robot_launch:/home/y/SA_CAO/install/my_xbox_joystick:/home/y/SA_CAO/install/cmd_vel2motionctrl:/home/y/SA_CAO/install/cmd_vel2MotionCtrl:/opt/ros/foxy:/home/y/oradar_ros/install/oradar_lidar /usr/bin/cmake --install /home/y/SA_CAO/build/sub_diablo
+[1.383s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/sub_diablo' for CMake config files
+[1.383s] Level 1:colcon.colcon_core.shell:create_environment_hook('sub_diablo', 'cmake_prefix_path')
+[1.383s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/sub_diablo/share/sub_diablo/hook/cmake_prefix_path.ps1'
+[1.384s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/SA_CAO/install/sub_diablo/share/sub_diablo/hook/cmake_prefix_path.dsv'
+[1.384s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/sub_diablo/share/sub_diablo/hook/cmake_prefix_path.sh'
+[1.385s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/sub_diablo/lib'
+[1.385s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/sub_diablo/bin'
+[1.385s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/sub_diablo/lib/pkgconfig/sub_diablo.pc'
+[1.385s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/sub_diablo/lib/python3.8/site-packages'
+[1.385s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/sub_diablo/bin'
+[1.386s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/sub_diablo/share/sub_diablo/package.ps1'
+[1.386s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/y/SA_CAO/install/sub_diablo/share/sub_diablo/package.dsv'
+[1.387s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/sub_diablo/share/sub_diablo/package.sh'
+[1.388s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/sub_diablo/share/sub_diablo/package.bash'
+[1.390s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/sub_diablo/share/sub_diablo/package.zsh'
+[1.391s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/y/SA_CAO/install/sub_diablo/share/colcon-core/packages/sub_diablo)
+[1.392s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sub_diablo)
+[1.392s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/sub_diablo' for CMake module files
+[1.392s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/sub_diablo' for CMake config files
+[1.393s] Level 1:colcon.colcon_core.shell:create_environment_hook('sub_diablo', 'cmake_prefix_path')
+[1.393s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/sub_diablo/share/sub_diablo/hook/cmake_prefix_path.ps1'
+[1.393s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/SA_CAO/install/sub_diablo/share/sub_diablo/hook/cmake_prefix_path.dsv'
+[1.394s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/sub_diablo/share/sub_diablo/hook/cmake_prefix_path.sh'
+[1.395s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/sub_diablo/lib'
+[1.395s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/sub_diablo/bin'
+[1.395s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/sub_diablo/lib/pkgconfig/sub_diablo.pc'
+[1.395s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/sub_diablo/lib/python3.8/site-packages'
+[1.396s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/sub_diablo/bin'
+[1.396s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/sub_diablo/share/sub_diablo/package.ps1'
+[1.397s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/y/SA_CAO/install/sub_diablo/share/sub_diablo/package.dsv'
+[1.398s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/sub_diablo/share/sub_diablo/package.sh'
+[1.398s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/sub_diablo/share/sub_diablo/package.bash'
+[1.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/sub_diablo/share/sub_diablo/package.zsh'
+[1.399s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/y/SA_CAO/install/sub_diablo/share/colcon-core/packages/sub_diablo)
+[1.400s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/y/SA_CAO/src/vw2motion' with build type 'ament_python'
+[1.400s] Level 1:colcon.colcon_core.shell:create_environment_hook('vw2motion', 'ament_prefix_path')
+[1.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/vw2motion/share/vw2motion/hook/ament_prefix_path.ps1'
+[1.401s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/SA_CAO/install/vw2motion/share/vw2motion/hook/ament_prefix_path.dsv'
+[1.402s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/vw2motion/share/vw2motion/hook/ament_prefix_path.sh'
+[1.403s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.403s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.595s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/y/SA_CAO/src/vw2motion'
+[1.595s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.595s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.600s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/robot_launch' for CMake module files
+[1.601s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/y/SA_CAO/src/robot_launch' returned '0': PYTHONPATH=/home/y/SA_CAO/build/robot_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/y/SA_CAO/install/robot_launch/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_launch build --build-base /home/y/SA_CAO/build/robot_launch/build install --record /home/y/SA_CAO/build/robot_launch/install.log --install-scripts $base/lib/robot_launch --single-version-externally-managed install_data
+[1.601s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/robot_launch' for CMake config files
+[1.602s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/robot_launch/lib'
+[1.602s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/robot_launch/bin'
+[1.602s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/robot_launch/lib/pkgconfig/robot_launch.pc'
+[1.602s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/robot_launch/lib/python3.8/site-packages'
+[1.602s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_launch', 'pythonpath')
+[1.603s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/robot_launch/share/robot_launch/hook/pythonpath.ps1'
+[1.603s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/SA_CAO/install/robot_launch/share/robot_launch/hook/pythonpath.dsv'
+[1.604s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/robot_launch/share/robot_launch/hook/pythonpath.sh'
+[1.604s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/robot_launch/bin'
+[1.604s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_launch)
+[1.605s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/robot_launch/share/robot_launch/package.ps1'
+[1.605s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/y/SA_CAO/install/robot_launch/share/robot_launch/package.dsv'
+[1.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/robot_launch/share/robot_launch/package.sh'
+[1.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/robot_launch/share/robot_launch/package.bash'
+[1.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/robot_launch/share/robot_launch/package.zsh'
+[1.607s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/y/SA_CAO/install/robot_launch/share/colcon-core/packages/robot_launch)
+[1.608s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/y/SA_CAO/src/cmd_vel2motionctrl' with build type 'ament_python'
+[1.608s] Level 1:colcon.colcon_core.shell:create_environment_hook('cmd_vel2motionctrl', 'ament_prefix_path')
+[1.608s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/cmd_vel2motionctrl/share/cmd_vel2motionctrl/hook/ament_prefix_path.ps1'
+[1.609s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/SA_CAO/install/cmd_vel2motionctrl/share/cmd_vel2motionctrl/hook/ament_prefix_path.dsv'
+[1.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/cmd_vel2motionctrl/share/cmd_vel2motionctrl/hook/ament_prefix_path.sh'
+[1.611s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.611s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.805s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/y/SA_CAO/src/cmd_vel2motionctrl'
+[1.805s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.805s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.933s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/y/SA_CAO/src/vw2motion': PYTHONPATH=/home/y/SA_CAO/build/vw2motion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/y/SA_CAO/install/vw2motion/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vw2motion build --build-base /home/y/SA_CAO/build/vw2motion/build install --record /home/y/SA_CAO/build/vw2motion/install.log --install-scripts $base/lib/vw2motion --single-version-externally-managed install_data
+[2.127s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/y/SA_CAO/src/cmd_vel2motionctrl': CMAKE_PREFIX_PATH=/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/sub_diablo:/home/y/oradar_ros/install/oradar_lidar PYTHONPATH=/home/y/SA_CAO/build/cmd_vel2motionctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/y/SA_CAO/install/cmd_vel2motionctrl/lib/python3.8/site-packages:/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:/home/y/SA_CAO/install/robot_launch/lib/python3.8/site-packages:/home/y/SA_CAO/install/my_xbox_joystick/lib/python3.8/site-packages:/home/y/SA_CAO/install/cmd_vel2motionctrl/lib/python3.8/site-packages:/home/y/SA_CAO/install/cmd_vel2MotionCtrl/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cmd_vel2motionctrl build --build-base /home/y/SA_CAO/build/cmd_vel2motionctrl/build install --record /home/y/SA_CAO/build/cmd_vel2motionctrl/install.log --install-scripts $base/lib/cmd_vel2MotionCtrl --single-version-externally-managed install_data
+[2.170s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/vw2motion' for CMake module files
+[2.171s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/y/SA_CAO/src/vw2motion' returned '0': PYTHONPATH=/home/y/SA_CAO/build/vw2motion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/y/SA_CAO/install/vw2motion/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vw2motion build --build-base /home/y/SA_CAO/build/vw2motion/build install --record /home/y/SA_CAO/build/vw2motion/install.log --install-scripts $base/lib/vw2motion --single-version-externally-managed install_data
+[2.171s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/vw2motion' for CMake config files
+[2.172s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/vw2motion/lib'
+[2.172s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/vw2motion/bin'
+[2.172s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/vw2motion/lib/pkgconfig/vw2motion.pc'
+[2.172s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/vw2motion/lib/python3.8/site-packages'
+[2.172s] Level 1:colcon.colcon_core.shell:create_environment_hook('vw2motion', 'pythonpath')
+[2.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/vw2motion/share/vw2motion/hook/pythonpath.ps1'
+[2.173s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/SA_CAO/install/vw2motion/share/vw2motion/hook/pythonpath.dsv'
+[2.173s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/vw2motion/share/vw2motion/hook/pythonpath.sh'
+[2.173s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/vw2motion/bin'
+[2.173s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vw2motion)
+[2.174s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/vw2motion/share/vw2motion/package.ps1'
+[2.174s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/y/SA_CAO/install/vw2motion/share/vw2motion/package.dsv'
+[2.174s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/vw2motion/share/vw2motion/package.sh'
+[2.175s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/vw2motion/share/vw2motion/package.bash'
+[2.175s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/vw2motion/share/vw2motion/package.zsh'
+[2.175s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/y/SA_CAO/install/vw2motion/share/colcon-core/packages/vw2motion)
+[2.364s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/cmd_vel2motionctrl' for CMake module files
+[2.364s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/y/SA_CAO/src/cmd_vel2motionctrl' returned '0': CMAKE_PREFIX_PATH=/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/sub_diablo:/home/y/oradar_ros/install/oradar_lidar PYTHONPATH=/home/y/SA_CAO/build/cmd_vel2motionctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/y/SA_CAO/install/cmd_vel2motionctrl/lib/python3.8/site-packages:/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:/home/y/SA_CAO/install/robot_launch/lib/python3.8/site-packages:/home/y/SA_CAO/install/my_xbox_joystick/lib/python3.8/site-packages:/home/y/SA_CAO/install/cmd_vel2motionctrl/lib/python3.8/site-packages:/home/y/SA_CAO/install/cmd_vel2MotionCtrl/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cmd_vel2motionctrl build --build-base /home/y/SA_CAO/build/cmd_vel2motionctrl/build install --record /home/y/SA_CAO/build/cmd_vel2motionctrl/install.log --install-scripts $base/lib/cmd_vel2MotionCtrl --single-version-externally-managed install_data
+[2.365s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/cmd_vel2motionctrl' for CMake config files
+[2.365s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/cmd_vel2motionctrl/lib'
+[2.365s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/cmd_vel2motionctrl/bin'
+[2.365s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/cmd_vel2motionctrl/lib/pkgconfig/cmd_vel2motionctrl.pc'
+[2.365s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/cmd_vel2motionctrl/lib/python3.8/site-packages'
+[2.366s] Level 1:colcon.colcon_core.shell:create_environment_hook('cmd_vel2motionctrl', 'pythonpath')
+[2.366s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/cmd_vel2motionctrl/share/cmd_vel2motionctrl/hook/pythonpath.ps1'
+[2.366s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/SA_CAO/install/cmd_vel2motionctrl/share/cmd_vel2motionctrl/hook/pythonpath.dsv'
+[2.367s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/SA_CAO/install/cmd_vel2motionctrl/share/cmd_vel2motionctrl/hook/pythonpath.sh'
+[2.368s] Level 1:colcon.colcon_core.environment:checking '/home/y/SA_CAO/install/cmd_vel2motionctrl/bin'
+[2.368s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cmd_vel2motionctrl)
+[2.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/cmd_vel2motionctrl/share/cmd_vel2motionctrl/package.ps1'
+[2.368s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/y/SA_CAO/install/cmd_vel2motionctrl/share/cmd_vel2motionctrl/package.dsv'
+[2.369s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/cmd_vel2motionctrl/share/cmd_vel2motionctrl/package.sh'
+[2.369s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/cmd_vel2motionctrl/share/cmd_vel2motionctrl/package.bash'
+[2.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/SA_CAO/install/cmd_vel2motionctrl/share/cmd_vel2motionctrl/package.zsh'
+[2.370s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/y/SA_CAO/install/cmd_vel2motionctrl/share/colcon-core/packages/cmd_vel2motionctrl)
+[2.371s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.371s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.371s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.372s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.375s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.376s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.376s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.390s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.390s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/y/SA_CAO/install/local_setup.ps1'
+[2.391s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/y/SA_CAO/install/_local_setup_util_ps1.py'
+[2.392s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/y/SA_CAO/install/setup.ps1'
+[2.394s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/y/SA_CAO/install/local_setup.sh'
+[2.395s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/y/SA_CAO/install/_local_setup_util_sh.py'
+[2.396s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/y/SA_CAO/install/setup.sh'
+[2.397s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/y/SA_CAO/install/local_setup.bash'
+[2.398s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/y/SA_CAO/install/setup.bash'
+[2.399s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/y/SA_CAO/install/local_setup.zsh'
+[2.400s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/y/SA_CAO/install/setup.zsh'

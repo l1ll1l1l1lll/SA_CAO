@@ -1,0 +1,56 @@
+ROS 2 project directory: /home/y/SA_CAO/src
+Starting >>> sub_diablo
+--- stderr: sub_diablo
+In file included from /home/y/SA_CAO/src/sub_diablo/include/sub_diablo/slros2_initialize.h:7,
+                 from /home/y/SA_CAO/src/sub_diablo/include/sub_diablo/Sub_diablo.h:22,
+                 from /home/y/SA_CAO/src/sub_diablo/src/Sub_diablo.cpp:19:
+/home/y/SA_CAO/src/sub_diablo/include/sub_diablo/slros2_generic_pubsub.h: In member function 'void SimulinkSubscriber<MsgType, BusType>::createSubscriber(const string&, const rmw_qos_profile_t&)':
+/home/y/SA_CAO/src/sub_diablo/include/sub_diablo/slros2_generic_pubsub.h:107:42: error: 'struct rclcpp::SubscriptionEventCallbacks' has no member named 'message_lost_callback'
+  107 |     subscription_options.event_callbacks.message_lost_callback = [this, topic](const rclcpp::QOSMessageLostInfo& event) {
+      |                                          ^~~~~~~~~~~~~~~~~~~~~
+/home/y/SA_CAO/src/sub_diablo/include/sub_diablo/slros2_generic_pubsub.h:107:94: error: 'QOSMessageLostInfo' in namespace 'rclcpp' does not name a type
+  107 |     subscription_options.event_callbacks.message_lost_callback = [this, topic](const rclcpp::QOSMessageLostInfo& event) {
+      |                                                                                              ^~~~~~~~~~~~~~~~~~
+/home/y/SA_CAO/src/sub_diablo/include/sub_diablo/slros2_generic_pubsub.h:109:6: error: expected ')' before ';' token
+  109 |     };
+      |      ^
+      |      )
+/home/y/SA_CAO/src/sub_diablo/include/sub_diablo/slros2_generic_pubsub.h:107:79: note: to match this '('
+  107 |     subscription_options.event_callbacks.message_lost_callback = [this, topic](const rclcpp::QOSMessageLostInfo& event) {
+      |                                                                               ^
+/home/y/SA_CAO/src/sub_diablo/include/sub_diablo/slros2_generic_pubsub.h: In lambda function:
+/home/y/SA_CAO/src/sub_diablo/include/sub_diablo/slros2_generic_pubsub.h:109:6: error: expected '{' before ';' token
+  109 |     };
+      |      ^
+In file included from /home/y/SA_CAO/src/sub_diablo/include/sub_diablo/slros2_initialize.h:7,
+                 from /home/y/SA_CAO/src/sub_diablo/include/sub_diablo/Sub_diablo.h:22,
+                 from /home/y/SA_CAO/src/sub_diablo/src/ros2nodeinterface.cpp:29:
+/home/y/SA_CAO/src/sub_diablo/include/sub_diablo/slros2_generic_pubsub.h: In member function 'void SimulinkSubscriber<MsgType, BusType>::createSubscriber(const string&, const rmw_qos_profile_t&)':
+/home/y/SA_CAO/src/sub_diablo/include/sub_diablo/slros2_generic_pubsub.h:107:42: error: 'struct rclcpp::SubscriptionEventCallbacks' has no member named 'message_lost_callback'
+  107 |     subscription_options.event_callbacks.message_lost_callback = [this, topic](const rclcpp::QOSMessageLostInfo& event) {
+      |                                          ^~~~~~~~~~~~~~~~~~~~~
+/home/y/SA_CAO/src/sub_diablo/include/sub_diablo/slros2_generic_pubsub.h:107:94: error: 'QOSMessageLostInfo' in namespace 'rclcpp' does not name a type
+  107 |     subscription_options.event_callbacks.message_lost_callback = [this, topic](const rclcpp::QOSMessageLostInfo& event) {
+      |                                                                                              ^~~~~~~~~~~~~~~~~~
+/home/y/SA_CAO/src/sub_diablo/include/sub_diablo/slros2_generic_pubsub.h:109:6: error: expected ')' before ';' token
+  109 |     };
+      |      ^
+      |      )
+/home/y/SA_CAO/src/sub_diablo/include/sub_diablo/slros2_generic_pubsub.h:107:79: note: to match this '('
+  107 |     subscription_options.event_callbacks.message_lost_callback = [this, topic](const rclcpp::QOSMessageLostInfo& event) {
+      |                                                                               ^
+/home/y/SA_CAO/src/sub_diablo/include/sub_diablo/slros2_generic_pubsub.h: In lambda function:
+/home/y/SA_CAO/src/sub_diablo/include/sub_diablo/slros2_generic_pubsub.h:109:6: error: expected '{' before ';' token
+  109 |     };
+      |      ^
+make[2]: *** [CMakeFiles/Sub_diablo.dir/build.make:66: CMakeFiles/Sub_diablo.dir/src/Sub_diablo.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/Sub_diablo.dir/build.make:92: CMakeFiles/Sub_diablo.dir/src/ros2nodeinterface.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:81: CMakeFiles/Sub_diablo.dir/all] Error 2
+make: *** [Makefile:144: all] Error 2
+---
+Failed   <<< sub_diablo [4.70s, exited with code 2]
+
+Summary: 0 packages finished [4.99s]
+  1 package failed: sub_diablo
+  1 package had stderr output: sub_diablo

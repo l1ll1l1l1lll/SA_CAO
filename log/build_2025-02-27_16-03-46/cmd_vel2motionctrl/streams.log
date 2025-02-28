@@ -1,0 +1,37 @@
+[0.930s] Invoking command in '/home/y/SA_CAO/src/cmd_vel2motionctrl': CMAKE_PREFIX_PATH=/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/sub_diablo:/home/y/oradar_ros/install/oradar_lidar PYTHONPATH=/home/y/SA_CAO/build/cmd_vel2motionctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/y/SA_CAO/install/cmd_vel2motionctrl/lib/python3.8/site-packages:/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:/home/y/SA_CAO/install/robot_launch/lib/python3.8/site-packages:/home/y/SA_CAO/install/my_xbox_joystick/lib/python3.8/site-packages:/home/y/SA_CAO/install/cmd_vel2motionctrl/lib/python3.8/site-packages:/home/y/SA_CAO/install/cmd_vel2MotionCtrl/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cmd_vel2motionctrl build --build-base /home/y/SA_CAO/build/cmd_vel2motionctrl/build install --record /home/y/SA_CAO/build/cmd_vel2motionctrl/install.log --install-scripts $base/lib/cmd_vel2MotionCtrl --single-version-externally-managed install_data
+[1.128s] running egg_info
+[1.128s] creating ../../build/cmd_vel2motionctrl/cmd_vel2motionctrl.egg-info
+[1.129s] writing ../../build/cmd_vel2motionctrl/cmd_vel2motionctrl.egg-info/PKG-INFO
+[1.129s] writing dependency_links to ../../build/cmd_vel2motionctrl/cmd_vel2motionctrl.egg-info/dependency_links.txt
+[1.130s] writing entry points to ../../build/cmd_vel2motionctrl/cmd_vel2motionctrl.egg-info/entry_points.txt
+[1.130s] writing requirements to ../../build/cmd_vel2motionctrl/cmd_vel2motionctrl.egg-info/requires.txt
+[1.130s] writing top-level names to ../../build/cmd_vel2motionctrl/cmd_vel2motionctrl.egg-info/top_level.txt
+[1.131s] writing manifest file '../../build/cmd_vel2motionctrl/cmd_vel2motionctrl.egg-info/SOURCES.txt'
+[1.162s] reading manifest file '../../build/cmd_vel2motionctrl/cmd_vel2motionctrl.egg-info/SOURCES.txt'
+[1.163s] writing manifest file '../../build/cmd_vel2motionctrl/cmd_vel2motionctrl.egg-info/SOURCES.txt'
+[1.163s] running build
+[1.163s] running build_py
+[1.163s] creating /home/y/SA_CAO/build/cmd_vel2motionctrl/build
+[1.163s] creating /home/y/SA_CAO/build/cmd_vel2motionctrl/build/lib
+[1.164s] creating /home/y/SA_CAO/build/cmd_vel2motionctrl/build/lib/cmd_vel2motionctrl
+[1.164s] copying cmd_vel2motionctrl/__init__.py -> /home/y/SA_CAO/build/cmd_vel2motionctrl/build/lib/cmd_vel2motionctrl
+[1.164s] copying cmd_vel2motionctrl/cmd_vel2motionctrl.py -> /home/y/SA_CAO/build/cmd_vel2motionctrl/build/lib/cmd_vel2motionctrl
+[1.164s] running install
+[1.165s] running install_lib
+[1.166s] creating /home/y/SA_CAO/install/cmd_vel2motionctrl/lib/python3.8/site-packages/cmd_vel2motionctrl
+[1.166s] copying /home/y/SA_CAO/build/cmd_vel2motionctrl/build/lib/cmd_vel2motionctrl/__init__.py -> /home/y/SA_CAO/install/cmd_vel2motionctrl/lib/python3.8/site-packages/cmd_vel2motionctrl
+[1.166s] copying /home/y/SA_CAO/build/cmd_vel2motionctrl/build/lib/cmd_vel2motionctrl/cmd_vel2motionctrl.py -> /home/y/SA_CAO/install/cmd_vel2motionctrl/lib/python3.8/site-packages/cmd_vel2motionctrl
+[1.167s] byte-compiling /home/y/SA_CAO/install/cmd_vel2motionctrl/lib/python3.8/site-packages/cmd_vel2motionctrl/__init__.py to __init__.cpython-38.pyc
+[1.168s] byte-compiling /home/y/SA_CAO/install/cmd_vel2motionctrl/lib/python3.8/site-packages/cmd_vel2motionctrl/cmd_vel2motionctrl.py to cmd_vel2motionctrl.cpython-38.pyc
+[1.168s] running install_data
+[1.169s] creating /home/y/SA_CAO/install/cmd_vel2motionctrl/share/ament_index
+[1.169s] creating /home/y/SA_CAO/install/cmd_vel2motionctrl/share/ament_index/resource_index
+[1.169s] creating /home/y/SA_CAO/install/cmd_vel2motionctrl/share/ament_index/resource_index/packages
+[1.169s] copying resource/cmd_vel2motionctrl -> /home/y/SA_CAO/install/cmd_vel2motionctrl/share/ament_index/resource_index/packages
+[1.169s] copying package.xml -> /home/y/SA_CAO/install/cmd_vel2motionctrl/share/cmd_vel2motionctrl
+[1.170s] running install_egg_info
+[1.171s] Copying ../../build/cmd_vel2motionctrl/cmd_vel2motionctrl.egg-info to /home/y/SA_CAO/install/cmd_vel2motionctrl/lib/python3.8/site-packages/cmd_vel2motionctrl-0.0.0-py3.8.egg-info
+[1.172s] running install_scripts
+[1.185s] Installing cmd_vel2motionctrl script to /home/y/SA_CAO/install/cmd_vel2motionctrl/lib/cmd_vel2MotionCtrl
+[1.185s] writing list of installed files to '/home/y/SA_CAO/build/cmd_vel2motionctrl/install.log'
+[1.202s] Invoked command in '/home/y/SA_CAO/src/cmd_vel2motionctrl' returned '0': CMAKE_PREFIX_PATH=/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/sub_diablo:/home/y/oradar_ros/install/oradar_lidar PYTHONPATH=/home/y/SA_CAO/build/cmd_vel2motionctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/y/SA_CAO/install/cmd_vel2motionctrl/lib/python3.8/site-packages:/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:/home/y/SA_CAO/install/robot_launch/lib/python3.8/site-packages:/home/y/SA_CAO/install/my_xbox_joystick/lib/python3.8/site-packages:/home/y/SA_CAO/install/cmd_vel2motionctrl/lib/python3.8/site-packages:/home/y/SA_CAO/install/cmd_vel2MotionCtrl/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cmd_vel2motionctrl build --build-base /home/y/SA_CAO/build/cmd_vel2motionctrl/build install --record /home/y/SA_CAO/build/cmd_vel2motionctrl/install.log --install-scripts $base/lib/cmd_vel2MotionCtrl --single-version-externally-managed install_data

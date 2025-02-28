@@ -1,5 +1,5 @@
 # CMake generated Testfile for 
-# Source directory: /home/y/SA_CAO/src/diablo_ros2/diablo_interfaces/motion_msgs
+# Source directory: /home/y/SA_CAO/src/motion_msgs
 # Build directory: /home/y/SA_CAO/build/motion_msgs
 # 
 # This file includes the relevant testing commands required for 

@@ -1,0 +1,3 @@
+[console_scripts]
+vw2motion = vw2motion.vw2motion:main
+
