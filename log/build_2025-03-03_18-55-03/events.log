@@ -1,0 +1,531 @@
+[0.000000] (-) TimerEvent: {}
+[0.000108] (launch_diablo) JobQueued: {'identifier': 'launch_diablo', 'dependencies': OrderedDict()}
+[0.001600] (motion_msgs) JobQueued: {'identifier': 'motion_msgs', 'dependencies': OrderedDict()}
+[0.001649] (my_xbox_joystick) JobQueued: {'identifier': 'my_xbox_joystick', 'dependencies': OrderedDict()}
+[0.001666] (launch_diablo) JobStarted: {'identifier': 'launch_diablo'}
+[0.008948] (motion_msgs) JobStarted: {'identifier': 'motion_msgs'}
+[0.099989] (-) TimerEvent: {}
+[0.200696] (-) TimerEvent: {}
+[0.211025] (motion_msgs) JobProgress: {'identifier': 'motion_msgs', 'progress': 'cmake'}
+[0.212454] (motion_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/y/SA_CAO/src/motion_msgs', '-DCMAKE_INSTALL_PREFIX=/home/y/SA_CAO/install/motion_msgs'], 'cwd': '/home/y/SA_CAO/build/motion_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'y'), ('SSH_AGENT_PID', '1458'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/y'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1362'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=190c937714a9df756f01524167c63361'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/y/oradar_ros/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'y'), ('JOURNAL_STREAM', '8:50557'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'y'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/y/oradar_ros/install/oradar_lidar/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1493,unix/ubuntu:/tmp/.ICE-unix/1493'), ('INVOCATION_ID', '781f823f134442618e6c61ae29ceeb37'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d779471c_e7ab_4e77_9c48_da1d1f6a75a2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.136'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/y/oradar_ros/install/oradar_lidar:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/y/SA_CAO/build/motion_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=190c937714a9df756f01524167c63361'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy:/home/y/oradar_ros/install/oradar_lidar')]), 'shell': False}
+[0.270396] (motion_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.301173] (-) TimerEvent: {}
+[0.315443] (motion_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.320288] (motion_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.385110] (motion_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.385979] (motion_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.401665] (-) TimerEvent: {}
+[0.450080] (motion_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.461855] (motion_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.462362] (motion_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.464601] (motion_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.502057] (-) TimerEvent: {}
+[0.551226] (launch_diablo) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/launch_diablo', 'build', '--build-base', '/home/y/SA_CAO/build/launch_diablo/build', 'install', '--record', '/home/y/SA_CAO/build/launch_diablo/install.log', '--install-scripts', '$base/lib/robot_launch', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/y/SA_CAO/src/launch_diablo', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'y', 'SSH_AGENT_PID': '1458', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/y', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1362', 'DBUS_STARTER_BUS_TYPE': 'session', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=190c937714a9df756f01524167c63361', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/y/oradar_ros/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'y', 'JOURNAL_STREAM': '8:50557', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'y', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/y/oradar_ros/install/oradar_lidar/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1493,unix/ubuntu:/tmp/.ICE-unix/1493', 'INVOCATION_ID': '781f823f134442618e6c61ae29ceeb37', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d779471c_e7ab_4e77_9c48_da1d1f6a75a2', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.136', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/y/oradar_ros/install/oradar_lidar:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/y/SA_CAO/build/launch_diablo', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=190c937714a9df756f01524167c63361', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/y/SA_CAO/build/launch_diablo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/y/SA_CAO/install/launch_diablo/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/y/oradar_ros/install/oradar_lidar'}, 'shell': False}
+[0.552510] (motion_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.552597] (motion_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.602847] (-) TimerEvent: {}
+[0.634635] (motion_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.646287] (motion_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.646929] (motion_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.648960] (motion_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.669078] (motion_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.669212] (motion_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.703056] (-) TimerEvent: {}
+[0.726087] (launch_diablo) StdoutLine: {'line': b'running egg_info\n'}
+[0.726511] (launch_diablo) StdoutLine: {'line': b'creating ../../build/launch_diablo/launch_diablo.egg-info\n'}
+[0.726699] (launch_diablo) StdoutLine: {'line': b'writing ../../build/launch_diablo/launch_diablo.egg-info/PKG-INFO\n'}
+[0.727045] (launch_diablo) StdoutLine: {'line': b'writing dependency_links to ../../build/launch_diablo/launch_diablo.egg-info/dependency_links.txt\n'}
+[0.727282] (launch_diablo) StdoutLine: {'line': b'writing entry points to ../../build/launch_diablo/launch_diablo.egg-info/entry_points.txt\n'}
+[0.727481] (launch_diablo) StdoutLine: {'line': b'writing requirements to ../../build/launch_diablo/launch_diablo.egg-info/requires.txt\n'}
+[0.727735] (launch_diablo) StdoutLine: {'line': b'writing top-level names to ../../build/launch_diablo/launch_diablo.egg-info/top_level.txt\n'}
+[0.728711] (launch_diablo) StdoutLine: {'line': b"writing manifest file '../../build/launch_diablo/launch_diablo.egg-info/SOURCES.txt'\n"}
+[0.757959] (launch_diablo) StdoutLine: {'line': b"reading manifest file '../../build/launch_diablo/launch_diablo.egg-info/SOURCES.txt'\n"}
+[0.758533] (launch_diablo) StdoutLine: {'line': b"writing manifest file '../../build/launch_diablo/launch_diablo.egg-info/SOURCES.txt'\n"}
+[0.758910] (launch_diablo) StdoutLine: {'line': b'running build\n'}
+[0.758981] (launch_diablo) StdoutLine: {'line': b'running build_py\n'}
+[0.759220] (launch_diablo) StdoutLine: {'line': b'creating /home/y/SA_CAO/build/launch_diablo/build\n'}
+[0.759429] (launch_diablo) StdoutLine: {'line': b'creating /home/y/SA_CAO/build/launch_diablo/build/lib\n'}
+[0.759691] (launch_diablo) StdoutLine: {'line': b'creating /home/y/SA_CAO/build/launch_diablo/build/lib/launch_diablo\n'}
+[0.760133] (launch_diablo) StdoutLine: {'line': b'copying launch_diablo/__init__.py -> /home/y/SA_CAO/build/launch_diablo/build/lib/launch_diablo\n'}
+[0.760354] (launch_diablo) StdoutLine: {'line': b'running install\n'}
+[0.760963] (launch_diablo) StdoutLine: {'line': b'running install_lib\n'}
+[0.761709] (launch_diablo) StdoutLine: {'line': b'creating /home/y/SA_CAO/install/launch_diablo/lib/python3.8/site-packages/launch_diablo\n'}
+[0.761964] (launch_diablo) StdoutLine: {'line': b'copying /home/y/SA_CAO/build/launch_diablo/build/lib/launch_diablo/__init__.py -> /home/y/SA_CAO/install/launch_diablo/lib/python3.8/site-packages/launch_diablo\n'}
+[0.762361] (launch_diablo) StdoutLine: {'line': b'byte-compiling /home/y/SA_CAO/install/launch_diablo/lib/python3.8/site-packages/launch_diablo/__init__.py to __init__.cpython-38.pyc\n'}
+[0.763344] (launch_diablo) StdoutLine: {'line': b'running install_data\n'}
+[0.763499] (launch_diablo) StdoutLine: {'line': b'copying package.xml -> /home/y/SA_CAO/install/launch_diablo/share/launch_diablo\n'}
+[0.763648] (launch_diablo) StdoutLine: {'line': b'creating /home/y/SA_CAO/install/launch_diablo/share/ament_index\n'}
+[0.763847] (launch_diablo) StdoutLine: {'line': b'creating /home/y/SA_CAO/install/launch_diablo/share/ament_index/resource_index\n'}
+[0.763916] (launch_diablo) StdoutLine: {'line': b'creating /home/y/SA_CAO/install/launch_diablo/share/ament_index/resource_index/packages\n'}
+[0.764170] (launch_diablo) StdoutLine: {'line': b'copying resource/launch_diablo -> /home/y/SA_CAO/install/launch_diablo/share/ament_index/resource_index/packages\n'}
+[0.764496] (launch_diablo) StdoutLine: {'line': b'creating /home/y/SA_CAO/install/launch_diablo/share/launch_diablo/launch\n'}
+[0.764750] (launch_diablo) StdoutLine: {'line': b'copying launch/launch_diablo.py -> /home/y/SA_CAO/install/launch_diablo/share/launch_diablo/launch\n'}
+[0.764932] (launch_diablo) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.766125] (launch_diablo) StdoutLine: {'line': b'Copying ../../build/launch_diablo/launch_diablo.egg-info to /home/y/SA_CAO/install/launch_diablo/lib/python3.8/site-packages/launch_diablo-0.0.0-py3.8.egg-info\n'}
+[0.767442] (launch_diablo) StdoutLine: {'line': b'running install_scripts\n'}
+[0.779668] (launch_diablo) StdoutLine: {'line': b"writing list of installed files to '/home/y/SA_CAO/build/launch_diablo/install.log'\n"}
+[0.795182] (launch_diablo) CommandEnded: {'returncode': 0}
+[0.803887] (-) TimerEvent: {}
+[0.805465] (launch_diablo) JobEnded: {'identifier': 'launch_diablo', 'rc': 0}
+[0.805995] (my_xbox_joystick) JobStarted: {'identifier': 'my_xbox_joystick'}
+[0.853391] (motion_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.857352] (motion_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.863910] (motion_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.905110] (-) TimerEvent: {}
+[0.968675] (motion_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.998103] (motion_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.006352] (-) TimerEvent: {}
+[1.079717] (motion_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.105913] (motion_msgs) StdoutLine: {'line': b'-- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)\n'}
+[1.106801] (-) TimerEvent: {}
+[1.173085] (motion_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.207455] (-) TimerEvent: {}
+[1.307967] (-) TimerEvent: {}
+[1.345457] (motion_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.349816] (my_xbox_joystick) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_xbox_joystick', 'build', '--build-base', '/home/y/SA_CAO/build/my_xbox_joystick/build', 'install', '--record', '/home/y/SA_CAO/build/my_xbox_joystick/install.log', '--install-scripts', '$base/lib/my_xbox_joystick', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/y/SA_CAO/src/my_xbox_joystick', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'y', 'SSH_AGENT_PID': '1458', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/y', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1362', 'DBUS_STARTER_BUS_TYPE': 'session', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=190c937714a9df756f01524167c63361', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/y/oradar_ros/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'y', 'JOURNAL_STREAM': '8:50557', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'y', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/y/oradar_ros/install/oradar_lidar/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1493,unix/ubuntu:/tmp/.ICE-unix/1493', 'INVOCATION_ID': '781f823f134442618e6c61ae29ceeb37', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d779471c_e7ab_4e77_9c48_da1d1f6a75a2', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.136', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/y/oradar_ros/install/oradar_lidar:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/y/SA_CAO/build/my_xbox_joystick', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=190c937714a9df756f01524167c63361', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/y/SA_CAO/build/my_xbox_joystick/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/y/SA_CAO/install/my_xbox_joystick/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/y/oradar_ros/install/oradar_lidar'}, 'shell': False}
+[1.408376] (-) TimerEvent: {}
+[1.509525] (-) TimerEvent: {}
+[1.513488] (my_xbox_joystick) StdoutLine: {'line': b'running egg_info\n'}
+[1.513934] (my_xbox_joystick) StdoutLine: {'line': b'creating ../../build/my_xbox_joystick/my_xbox_joystick.egg-info\n'}
+[1.514115] (my_xbox_joystick) StdoutLine: {'line': b'writing ../../build/my_xbox_joystick/my_xbox_joystick.egg-info/PKG-INFO\n'}
+[1.514465] (my_xbox_joystick) StdoutLine: {'line': b'writing dependency_links to ../../build/my_xbox_joystick/my_xbox_joystick.egg-info/dependency_links.txt\n'}
+[1.514776] (my_xbox_joystick) StdoutLine: {'line': b'writing entry points to ../../build/my_xbox_joystick/my_xbox_joystick.egg-info/entry_points.txt\n'}
+[1.514988] (my_xbox_joystick) StdoutLine: {'line': b'writing requirements to ../../build/my_xbox_joystick/my_xbox_joystick.egg-info/requires.txt\n'}
+[1.515170] (my_xbox_joystick) StdoutLine: {'line': b'writing top-level names to ../../build/my_xbox_joystick/my_xbox_joystick.egg-info/top_level.txt\n'}
+[1.516051] (my_xbox_joystick) StdoutLine: {'line': b"writing manifest file '../../build/my_xbox_joystick/my_xbox_joystick.egg-info/SOURCES.txt'\n"}
+[1.521949] (motion_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.545862] (my_xbox_joystick) StdoutLine: {'line': b"reading manifest file '../../build/my_xbox_joystick/my_xbox_joystick.egg-info/SOURCES.txt'\n"}
+[1.546438] (my_xbox_joystick) StdoutLine: {'line': b"writing manifest file '../../build/my_xbox_joystick/my_xbox_joystick.egg-info/SOURCES.txt'\n"}
+[1.546741] (my_xbox_joystick) StdoutLine: {'line': b'running build\n'}
+[1.547021] (my_xbox_joystick) StdoutLine: {'line': b'running build_py\n'}
+[1.547219] (my_xbox_joystick) StdoutLine: {'line': b'creating /home/y/SA_CAO/build/my_xbox_joystick/build\n'}
+[1.547382] (my_xbox_joystick) StdoutLine: {'line': b'creating /home/y/SA_CAO/build/my_xbox_joystick/build/lib\n'}
+[1.547928] (my_xbox_joystick) StdoutLine: {'line': b'creating /home/y/SA_CAO/build/my_xbox_joystick/build/lib/my_xbox_joystick\n'}
+[1.548110] (my_xbox_joystick) StdoutLine: {'line': b'copying my_xbox_joystick/__init__.py -> /home/y/SA_CAO/build/my_xbox_joystick/build/lib/my_xbox_joystick\n'}
+[1.548391] (my_xbox_joystick) StdoutLine: {'line': b'copying my_xbox_joystick/xbox_joystick_node.py -> /home/y/SA_CAO/build/my_xbox_joystick/build/lib/my_xbox_joystick\n'}
+[1.548652] (my_xbox_joystick) StdoutLine: {'line': b'running install\n'}
+[1.549216] (my_xbox_joystick) StdoutLine: {'line': b'running install_lib\n'}
+[1.549981] (my_xbox_joystick) StdoutLine: {'line': b'creating /home/y/SA_CAO/install/my_xbox_joystick/lib/python3.8/site-packages/my_xbox_joystick\n'}
+[1.550238] (my_xbox_joystick) StdoutLine: {'line': b'copying /home/y/SA_CAO/build/my_xbox_joystick/build/lib/my_xbox_joystick/__init__.py -> /home/y/SA_CAO/install/my_xbox_joystick/lib/python3.8/site-packages/my_xbox_joystick\n'}
+[1.550551] (my_xbox_joystick) StdoutLine: {'line': b'copying /home/y/SA_CAO/build/my_xbox_joystick/build/lib/my_xbox_joystick/xbox_joystick_node.py -> /home/y/SA_CAO/install/my_xbox_joystick/lib/python3.8/site-packages/my_xbox_joystick\n'}
+[1.551097] (my_xbox_joystick) StdoutLine: {'line': b'byte-compiling /home/y/SA_CAO/install/my_xbox_joystick/lib/python3.8/site-packages/my_xbox_joystick/__init__.py to __init__.cpython-38.pyc\n'}
+[1.552228] (my_xbox_joystick) StdoutLine: {'line': b'byte-compiling /home/y/SA_CAO/install/my_xbox_joystick/lib/python3.8/site-packages/my_xbox_joystick/xbox_joystick_node.py to xbox_joystick_node.cpython-38.pyc\n'}
+[1.552742] (my_xbox_joystick) StdoutLine: {'line': b'running install_data\n'}
+[1.552887] (my_xbox_joystick) StdoutLine: {'line': b'creating /home/y/SA_CAO/install/my_xbox_joystick/share/ament_index\n'}
+[1.553066] (my_xbox_joystick) StdoutLine: {'line': b'creating /home/y/SA_CAO/install/my_xbox_joystick/share/ament_index/resource_index\n'}
+[1.553270] (my_xbox_joystick) StdoutLine: {'line': b'creating /home/y/SA_CAO/install/my_xbox_joystick/share/ament_index/resource_index/packages\n'}
+[1.553473] (my_xbox_joystick) StdoutLine: {'line': b'copying resource/my_xbox_joystick -> /home/y/SA_CAO/install/my_xbox_joystick/share/ament_index/resource_index/packages\n'}
+[1.553694] (my_xbox_joystick) StdoutLine: {'line': b'copying package.xml -> /home/y/SA_CAO/install/my_xbox_joystick/share/my_xbox_joystick\n'}
+[1.553943] (my_xbox_joystick) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.555221] (my_xbox_joystick) StdoutLine: {'line': b'Copying ../../build/my_xbox_joystick/my_xbox_joystick.egg-info to /home/y/SA_CAO/install/my_xbox_joystick/lib/python3.8/site-packages/my_xbox_joystick-0.0.0-py3.8.egg-info\n'}
+[1.556147] (my_xbox_joystick) StdoutLine: {'line': b'running install_scripts\n'}
+[1.568661] (my_xbox_joystick) StdoutLine: {'line': b'Installing xbox_joystick script to /home/y/SA_CAO/install/my_xbox_joystick/lib/my_xbox_joystick\n'}
+[1.568964] (my_xbox_joystick) StdoutLine: {'line': b"writing list of installed files to '/home/y/SA_CAO/build/my_xbox_joystick/install.log'\n"}
+[1.585733] (my_xbox_joystick) CommandEnded: {'returncode': 0}
+[1.591259] (my_xbox_joystick) JobEnded: {'identifier': 'my_xbox_joystick', 'rc': 0}
+[1.593751] (motion_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.610001] (-) TimerEvent: {}
+[1.613251] (motion_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.614686] (motion_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[1.640525] (motion_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.640833] (motion_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.640899] (motion_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[1.640950] (motion_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[1.658251] (motion_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.710555] (-) TimerEvent: {}
+[1.719295] (motion_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.779498] (motion_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.796976] (motion_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/y/SA_CAO/build/motion_msgs\n'}
+[1.802281] (motion_msgs) CommandEnded: {'returncode': 0}
+[1.802679] (motion_msgs) JobProgress: {'identifier': 'motion_msgs', 'progress': 'build'}
+[1.805127] (motion_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/y/SA_CAO/build/motion_msgs', '--', '-j2', '-l2'], 'cwd': '/home/y/SA_CAO/build/motion_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'y'), ('SSH_AGENT_PID', '1458'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/y'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1362'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=190c937714a9df756f01524167c63361'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/y/oradar_ros/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'y'), ('JOURNAL_STREAM', '8:50557'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'y'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/y/oradar_ros/install/oradar_lidar/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1493,unix/ubuntu:/tmp/.ICE-unix/1493'), ('INVOCATION_ID', '781f823f134442618e6c61ae29ceeb37'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d779471c_e7ab_4e77_9c48_da1d1f6a75a2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.136'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/y/oradar_ros/install/oradar_lidar:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/y/SA_CAO/build/motion_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=190c937714a9df756f01524167c63361'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy:/home/y/oradar_ros/install/oradar_lidar')]), 'shell': False}
+[1.810842] (-) TimerEvent: {}
+[1.850407] (motion_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.850708] (motion_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target motion_msgs__cpp\x1b[0m\n'}
+[1.860917] (motion_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.911737] (-) TimerEvent: {}
+[2.012383] (-) TimerEvent: {}
+[2.113063] (-) TimerEvent: {}
+[2.213830] (-) TimerEvent: {}
+[2.314383] (-) TimerEvent: {}
+[2.414934] (-) TimerEvent: {}
+[2.427274] (motion_msgs) StdoutLine: {'line': b'[  2%] Built target motion_msgs__cpp\n'}
+[2.437934] (motion_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.469999] (motion_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target motion_msgs__rosidl_generator_c\x1b[0m\n'}
+[2.484164] (motion_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/motion_msgs__rosidl_generator_c.dir/rosidl_generator_c/motion_msgs/msg/detail/ctrl_plot__functions.c.o\x1b[0m\n'}
+[2.515663] (-) TimerEvent: {}
+[2.523828] (motion_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/motion_msgs__rosidl_generator_c.dir/rosidl_generator_c/motion_msgs/msg/detail/leg_motors__functions.c.o\x1b[0m\n'}
+[2.568064] (motion_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/motion_msgs__rosidl_generator_c.dir/rosidl_generator_c/motion_msgs/msg/detail/motion_ctrl__functions.c.o\x1b[0m\n'}
+[2.609137] (motion_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/motion_msgs__rosidl_generator_c.dir/rosidl_generator_c/motion_msgs/msg/detail/robot_status__functions.c.o\x1b[0m\n'}
+[2.615921] (-) TimerEvent: {}
+[2.650954] (motion_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/motion_msgs__rosidl_generator_c.dir/rosidl_generator_c/motion_msgs/msg/detail/movement_ctrl_data__functions.c.o\x1b[0m\n'}
+[2.691778] (motion_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/motion_msgs__rosidl_generator_c.dir/rosidl_generator_c/motion_msgs/msg/detail/movement_ctrl_mode__functions.c.o\x1b[0m\n'}
+[2.716507] (-) TimerEvent: {}
+[2.730447] (motion_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libmotion_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[2.746691] (motion_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target motion_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.760356] (motion_msgs) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/motion_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motion_msgs/msg/ctrl_plot__type_support.cpp.o\x1b[0m\n'}
+[2.764063] (motion_msgs) StdoutLine: {'line': b'[ 15%] Built target motion_msgs__rosidl_generator_c\n'}
+[2.774338] (motion_msgs) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.816947] (-) TimerEvent: {}
+[2.917512] (-) TimerEvent: {}
+[3.003309] (motion_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/motion_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motion_msgs/msg/leg_motors__type_support.cpp.o\x1b[0m\n'}
+[3.017739] (-) TimerEvent: {}
+[3.118506] (-) TimerEvent: {}
+[3.197701] (motion_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target motion_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[3.215678] (motion_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/motion_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motion_msgs/msg/detail/dds_fastrtps/ctrl_plot__type_support.cpp.o\x1b[0m\n'}
+[3.218716] (-) TimerEvent: {}
+[3.256265] (motion_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/motion_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motion_msgs/msg/motion_ctrl__type_support.cpp.o\x1b[0m\n'}
+[3.319042] (-) TimerEvent: {}
+[3.419896] (-) TimerEvent: {}
+[3.520336] (-) TimerEvent: {}
+[3.531955] (motion_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/motion_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motion_msgs/msg/robot_status__type_support.cpp.o\x1b[0m\n'}
+[3.589733] (motion_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/motion_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motion_msgs/msg/detail/dds_fastrtps/leg_motors__type_support.cpp.o\x1b[0m\n'}
+[3.620872] (-) TimerEvent: {}
+[3.721449] (-) TimerEvent: {}
+[3.778732] (motion_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/motion_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motion_msgs/msg/movement_ctrl_data__type_support.cpp.o\x1b[0m\n'}
+[3.822415] (-) TimerEvent: {}
+[3.923095] (-) TimerEvent: {}
+[3.945628] (motion_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/motion_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motion_msgs/msg/detail/dds_fastrtps/motion_ctrl__type_support.cpp.o\x1b[0m\n'}
+[4.023438] (-) TimerEvent: {}
+[4.024667] (motion_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/motion_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motion_msgs/msg/movement_ctrl_mode__type_support.cpp.o\x1b[0m\n'}
+[4.123977] (-) TimerEvent: {}
+[4.224556] (-) TimerEvent: {}
+[4.280601] (motion_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32m\x1b[1mLinking CXX shared library libmotion_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.310837] (motion_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/motion_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motion_msgs/msg/detail/dds_fastrtps/robot_status__type_support.cpp.o\x1b[0m\n'}
+[4.319424] (motion_msgs) StdoutLine: {'line': b'[ 30%] Built target motion_msgs__rosidl_typesupport_cpp\n'}
+[4.325123] (-) TimerEvent: {}
+[4.329466] (motion_msgs) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.425419] (-) TimerEvent: {}
+[4.526225] (-) TimerEvent: {}
+[4.627140] (-) TimerEvent: {}
+[4.655547] (motion_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/motion_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motion_msgs/msg/detail/dds_fastrtps/movement_ctrl_data__type_support.cpp.o\x1b[0m\n'}
+[4.727488] (motion_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target motion_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[4.727660] (-) TimerEvent: {}
+[4.742290] (motion_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object CMakeFiles/motion_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motion_msgs/msg/detail/ctrl_plot__type_support.c.o\x1b[0m\n'}
+[4.776645] (motion_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object CMakeFiles/motion_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motion_msgs/msg/detail/leg_motors__type_support.c.o\x1b[0m\n'}
+[4.806194] (motion_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/motion_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motion_msgs/msg/detail/motion_ctrl__type_support.c.o\x1b[0m\n'}
+[4.828111] (-) TimerEvent: {}
+[4.838024] (motion_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object CMakeFiles/motion_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motion_msgs/msg/detail/robot_status__type_support.c.o\x1b[0m\n'}
+[4.870150] (motion_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/motion_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motion_msgs/msg/detail/movement_ctrl_data__type_support.c.o\x1b[0m\n'}
+[4.900835] (motion_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/motion_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motion_msgs/msg/detail/movement_ctrl_mode__type_support.c.o\x1b[0m\n'}
+[4.927940] (motion_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking C shared library libmotion_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.928099] (-) TimerEvent: {}
+[4.961597] (motion_msgs) StdoutLine: {'line': b'[ 43%] Built target motion_msgs__rosidl_typesupport_introspection_c\n'}
+[4.971538] (motion_msgs) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.022301] (motion_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/motion_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motion_msgs/msg/detail/dds_fastrtps/movement_ctrl_mode__type_support.cpp.o\x1b[0m\n'}
+[5.028642] (-) TimerEvent: {}
+[5.129266] (-) TimerEvent: {}
+[5.229746] (-) TimerEvent: {}
+[5.284143] (motion_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target motion_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[5.298023] (motion_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/motion_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/motion_msgs/msg/ctrl_plot__type_support.cpp.o\x1b[0m\n'}
+[5.325552] (motion_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/motion_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/motion_msgs/msg/leg_motors__type_support.cpp.o\x1b[0m\n'}
+[5.330364] (-) TimerEvent: {}
+[5.352588] (motion_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/motion_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/motion_msgs/msg/motion_ctrl__type_support.cpp.o\x1b[0m\n'}
+[5.373968] (motion_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32m\x1b[1mLinking CXX shared library libmotion_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.381207] (motion_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/motion_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/motion_msgs/msg/robot_status__type_support.cpp.o\x1b[0m\n'}
+[5.406994] (motion_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/motion_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/motion_msgs/msg/movement_ctrl_data__type_support.cpp.o\x1b[0m\n'}
+[5.430771] (-) TimerEvent: {}
+[5.437231] (motion_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/motion_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/motion_msgs/msg/movement_ctrl_mode__type_support.cpp.o\x1b[0m\n'}
+[5.446461] (motion_msgs) StdoutLine: {'line': b'[ 56%] Built target motion_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[5.457979] (motion_msgs) StdoutLine: {'line': b'[ 57%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.466015] (motion_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX shared library libmotion_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.504811] (motion_msgs) StdoutLine: {'line': b'[ 59%] Built target motion_msgs__rosidl_typesupport_c\n'}
+[5.514951] (motion_msgs) StdoutLine: {'line': b'[ 60%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.531224] (-) TimerEvent: {}
+[5.631584] (-) TimerEvent: {}
+[5.732093] (-) TimerEvent: {}
+[5.824422] (motion_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target motion_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[5.832255] (-) TimerEvent: {}
+[5.838773] (motion_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/motion_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motion_msgs/msg/detail/ctrl_plot__type_support.cpp.o\x1b[0m\n'}
+[5.932892] (-) TimerEvent: {}
+[5.941239] (motion_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target motion_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[5.967274] (motion_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/motion_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/motion_msgs/msg/detail/ctrl_plot__type_support_c.cpp.o\x1b[0m\n'}
+[6.033413] (-) TimerEvent: {}
+[6.086311] (motion_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/motion_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motion_msgs/msg/detail/leg_motors__type_support.cpp.o\x1b[0m\n'}
+[6.134021] (-) TimerEvent: {}
+[6.234554] (-) TimerEvent: {}
+[6.265749] (motion_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/motion_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/motion_msgs/msg/detail/leg_motors__type_support_c.cpp.o\x1b[0m\n'}
+[6.333698] (motion_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/motion_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motion_msgs/msg/detail/motion_ctrl__type_support.cpp.o\x1b[0m\n'}
+[6.334853] (-) TimerEvent: {}
+[6.435472] (-) TimerEvent: {}
+[6.536346] (-) TimerEvent: {}
+[6.569349] (motion_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/motion_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/motion_msgs/msg/detail/motion_ctrl__type_support_c.cpp.o\x1b[0m\n'}
+[6.569863] (motion_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/motion_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motion_msgs/msg/detail/robot_status__type_support.cpp.o\x1b[0m\n'}
+[6.636623] (-) TimerEvent: {}
+[6.737145] (-) TimerEvent: {}
+[6.812267] (motion_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/motion_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motion_msgs/msg/detail/movement_ctrl_data__type_support.cpp.o\x1b[0m\n'}
+[6.837398] (-) TimerEvent: {}
+[6.867555] (motion_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/motion_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/motion_msgs/msg/detail/robot_status__type_support_c.cpp.o\x1b[0m\n'}
+[6.937690] (-) TimerEvent: {}
+[7.038537] (-) TimerEvent: {}
+[7.049510] (motion_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/motion_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motion_msgs/msg/detail/movement_ctrl_mode__type_support.cpp.o\x1b[0m\n'}
+[7.138872] (-) TimerEvent: {}
+[7.164267] (motion_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/motion_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/motion_msgs/msg/detail/movement_ctrl_data__type_support_c.cpp.o\x1b[0m\n'}
+[7.239082] (-) TimerEvent: {}
+[7.290898] (motion_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libmotion_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[7.339405] (-) TimerEvent: {}
+[7.347296] (motion_msgs) StdoutLine: {'line': b'[ 77%] Built target motion_msgs__rosidl_typesupport_introspection_cpp\n'}
+[7.355969] (motion_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/motion_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/motion_msgs/msg/detail/movement_ctrl_mode__type_support_c.cpp.o\x1b[0m\n'}
+[7.439960] (-) TimerEvent: {}
+[7.540952] (-) TimerEvent: {}
+[7.641931] (-) TimerEvent: {}
+[7.650427] (motion_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX shared library libmotion_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.721256] (motion_msgs) StdoutLine: {'line': b'[ 80%] Built target motion_msgs__rosidl_typesupport_fastrtps_c\n'}
+[7.729986] (motion_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target motion_msgs\x1b[0m\n'}
+[7.739332] (motion_msgs) StdoutLine: {'line': b'[ 80%] Built target motion_msgs\n'}
+[7.742061] (-) TimerEvent: {}
+[7.748273] (motion_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target motion_msgs__py\x1b[0m\n'}
+[7.759613] (motion_msgs) StdoutLine: {'line': b'[ 81%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.842480] (-) TimerEvent: {}
+[7.943048] (-) TimerEvent: {}
+[8.044227] (-) TimerEvent: {}
+[8.145455] (-) TimerEvent: {}
+[8.246050] (-) TimerEvent: {}
+[8.346666] (-) TimerEvent: {}
+[8.447518] (-) TimerEvent: {}
+[8.519842] (motion_msgs) StdoutLine: {'line': b'[ 81%] Built target motion_msgs__py\n'}
+[8.529112] (motion_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target motion_msgs__python\x1b[0m\n'}
+[8.548101] (-) TimerEvent: {}
+[8.560739] (motion_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/motion_msgs__python.dir/rosidl_generator_py/motion_msgs/msg/_leg_motors_s.c.o\x1b[0m\n'}
+[8.561069] (motion_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/motion_msgs__python.dir/rosidl_generator_py/motion_msgs/msg/_ctrl_plot_s.c.o\x1b[0m\n'}
+[8.646163] (motion_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/motion_msgs__python.dir/rosidl_generator_py/motion_msgs/msg/_motion_ctrl_s.c.o\x1b[0m\n'}
+[8.648480] (-) TimerEvent: {}
+[8.663207] (motion_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/motion_msgs__python.dir/rosidl_generator_py/motion_msgs/msg/_robot_status_s.c.o\x1b[0m\n'}
+[8.730656] (motion_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/motion_msgs__python.dir/rosidl_generator_py/motion_msgs/msg/_movement_ctrl_data_s.c.o\x1b[0m\n'}
+[8.748981] (-) TimerEvent: {}
+[8.750739] (motion_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/motion_msgs__python.dir/rosidl_generator_py/motion_msgs/msg/_movement_ctrl_mode_s.c.o\x1b[0m\n'}
+[8.834775] (motion_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/motion_msgs/libmotion_msgs__python.so\x1b[0m\n'}
+[8.849410] (-) TimerEvent: {}
+[8.875570] (motion_msgs) StdoutLine: {'line': b'[ 91%] Built target motion_msgs__python\n'}
+[8.886670] (motion_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target motion_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[8.887073] (motion_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target motion_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[8.909349] (motion_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/motion_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/motion_msgs/_motion_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[8.909912] (motion_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/motion_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/motion_msgs/_motion_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[8.949601] (-) TimerEvent: {}
+[8.998672] (motion_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/motion_msgs/motion_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.998837] (motion_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/motion_msgs/motion_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.033575] (motion_msgs) StdoutLine: {'line': b'[ 97%] Built target motion_msgs__rosidl_typesupport_c__pyext\n'}
+[9.034946] (motion_msgs) StdoutLine: {'line': b'[ 97%] Built target motion_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[9.046159] (motion_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target motion_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[9.050475] (-) TimerEvent: {}
+[9.065776] (motion_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding C object CMakeFiles/motion_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/motion_msgs/_motion_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[9.151088] (-) TimerEvent: {}
+[9.157445] (motion_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/motion_msgs/motion_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.217865] (motion_msgs) StdoutLine: {'line': b'[100%] Built target motion_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[9.229373] (motion_msgs) CommandEnded: {'returncode': 0}
+[9.231391] (motion_msgs) JobProgress: {'identifier': 'motion_msgs', 'progress': 'install'}
+[9.240789] (motion_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/y/SA_CAO/build/motion_msgs'], 'cwd': '/home/y/SA_CAO/build/motion_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'y'), ('SSH_AGENT_PID', '1458'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/y'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1362'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=190c937714a9df756f01524167c63361'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/y/oradar_ros/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'y'), ('JOURNAL_STREAM', '8:50557'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'y'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/y/oradar_ros/install/oradar_lidar/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1493,unix/ubuntu:/tmp/.ICE-unix/1493'), ('INVOCATION_ID', '781f823f134442618e6c61ae29ceeb37'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d779471c_e7ab_4e77_9c48_da1d1f6a75a2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.136'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/y/oradar_ros/install/oradar_lidar:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/y/SA_CAO/build/motion_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=190c937714a9df756f01524167c63361'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy:/home/y/oradar_ros/install/oradar_lidar')]), 'shell': False}
+[9.250116] (motion_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.250562] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/share/ament_index/resource_index/rosidl_interfaces/motion_msgs\n'}
+[9.251094] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs\n'}
+[9.251165] (-) TimerEvent: {}
+[9.251578] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg\n'}
+[9.251838] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/movement_ctrl_mode.h\n'}
+[9.252352] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[9.252597] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/robot_status.h\n'}
+[9.252869] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/leg_motors.h\n'}
+[9.253105] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/ctrl_plot.h\n'}
+[9.253342] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/motion_ctrl.h\n'}
+[9.253577] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/movement_ctrl_data.h\n'}
+[9.253990] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail\n'}
+[9.254231] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/robot_status__type_support.h\n'}
+[9.254476] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_data__functions.h\n'}
+[9.254812] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_mode__type_support.h\n'}
+[9.255264] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/motion_ctrl__functions.c\n'}
+[9.255353] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_data__functions.c\n'}
+[9.255623] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/ctrl_plot__type_support.h\n'}
+[9.256025] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/leg_motors__struct.h\n'}
+[9.256334] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_data__struct.h\n'}
+[9.256573] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_mode__struct.h\n'}
+[9.256831] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/ctrl_plot__functions.h\n'}
+[9.257241] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/leg_motors__type_support.h\n'}
+[9.257503] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/motion_ctrl__functions.h\n'}
+[9.257744] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/motion_ctrl__type_support.h\n'}
+[9.257979] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/leg_motors__functions.h\n'}
+[9.258226] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/robot_status__struct.h\n'}
+[9.258463] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_mode__functions.c\n'}
+[9.258784] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/robot_status__functions.h\n'}
+[9.259110] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_mode__functions.h\n'}
+[9.259349] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/leg_motors__functions.c\n'}
+[9.259616] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/robot_status__functions.c\n'}
+[9.260032] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/motion_ctrl__struct.h\n'}
+[9.260330] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/ctrl_plot__struct.h\n'}
+[9.260686] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_data__type_support.h\n'}
+[9.261148] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/ctrl_plot__functions.c\n'}
+[9.261657] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/environment/library_path.sh\n'}
+[9.261937] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/environment/library_path.dsv\n'}
+[9.262473] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/lib/libmotion_msgs__rosidl_generator_c.so\n'}
+[9.262893] (motion_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/y/SA_CAO/install/motion_msgs/lib/libmotion_msgs__rosidl_generator_c.so" to ""\n'}
+[9.263244] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs\n'}
+[9.263314] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg\n'}
+[9.263806] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail\n'}
+[9.263879] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/motion_ctrl__rosidl_typesupport_fastrtps_c.h\n'}
+[9.264324] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/leg_motors__rosidl_typesupport_fastrtps_c.h\n'}
+[9.264660] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_mode__rosidl_typesupport_fastrtps_c.h\n'}
+[9.264945] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/robot_status__rosidl_typesupport_fastrtps_c.h\n'}
+[9.265217] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_data__rosidl_typesupport_fastrtps_c.h\n'}
+[9.265618] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/ctrl_plot__rosidl_typesupport_fastrtps_c.h\n'}
+[9.266107] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[9.266430] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/lib/libmotion_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[9.266896] (motion_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/y/SA_CAO/install/motion_msgs/lib/libmotion_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[9.267454] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs\n'}
+[9.267524] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg\n'}
+[9.267574] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[9.267638] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail\n'}
+[9.267900] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.268136] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/leg_motors__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.268533] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/dds_fastrtps\n'}
+[9.268974] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/ctrl_plot__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.269040] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/motion_ctrl__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.269267] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/robot_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.269503] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_mode__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.269820] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/lib/libmotion_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[9.270127] (motion_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/y/SA_CAO/install/motion_msgs/lib/libmotion_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[9.270382] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs\n'}
+[9.270794] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg\n'}
+[9.271044] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[9.271108] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail\n'}
+[9.271202] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/ctrl_plot__type_support.c\n'}
+[9.271475] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/robot_status__rosidl_typesupport_introspection_c.h\n'}
+[9.271650] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_mode__rosidl_typesupport_introspection_c.h\n'}
+[9.271828] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_data__rosidl_typesupport_introspection_c.h\n'}
+[9.272041] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/robot_status__type_support.c\n'}
+[9.272367] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_mode__type_support.c\n'}
+[9.272558] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/motion_ctrl__rosidl_typesupport_introspection_c.h\n'}
+[9.272743] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_data__type_support.c\n'}
+[9.272930] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/leg_motors__type_support.c\n'}
+[9.273083] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/motion_ctrl__type_support.c\n'}
+[9.273362] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/ctrl_plot__rosidl_typesupport_introspection_c.h\n'}
+[9.273557] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/leg_motors__rosidl_typesupport_introspection_c.h\n'}
+[9.273871] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/lib/libmotion_msgs__rosidl_typesupport_introspection_c.so\n'}
+[9.274182] (motion_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/y/SA_CAO/install/motion_msgs/lib/libmotion_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[9.274339] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/lib/libmotion_msgs__rosidl_typesupport_c.so\n'}
+[9.274628] (motion_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/y/SA_CAO/install/motion_msgs/lib/libmotion_msgs__rosidl_typesupport_c.so" to ""\n'}
+[9.275029] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs\n'}
+[9.275202] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg\n'}
+[9.275395] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[9.275528] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/robot_status.hpp\n'}
+[9.275581] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/movement_ctrl_mode.hpp\n'}
+[9.275717] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/ctrl_plot.hpp\n'}
+[9.275917] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/leg_motors.hpp\n'}
+[9.276126] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/motion_ctrl.hpp\n'}
+[9.276291] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail\n'}
+[9.276562] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/robot_status__type_support.hpp\n'}
+[9.277811] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/robot_status__struct.hpp\n'}
+[9.277883] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_data__type_support.hpp\n'}
+[9.278035] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_mode__builder.hpp\n'}
+[9.278104] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/ctrl_plot__struct.hpp\n'}
+[9.278906] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/leg_motors__struct.hpp\n'}
+[9.279119] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_mode__type_support.hpp\n'}
+[9.280183] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/robot_status__builder.hpp\n'}
+[9.280406] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/motion_ctrl__traits.hpp\n'}
+[9.280461] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/motion_ctrl__type_support.hpp\n'}
+[9.280624] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/ctrl_plot__type_support.hpp\n'}
+[9.280725] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/leg_motors__builder.hpp\n'}
+[9.281042] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/ctrl_plot__builder.hpp\n'}
+[9.281114] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_mode__struct.hpp\n'}
+[9.281588] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/robot_status__traits.hpp\n'}
+[9.281790] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_mode__traits.hpp\n'}
+[9.281969] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/ctrl_plot__traits.hpp\n'}
+[9.282150] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/leg_motors__type_support.hpp\n'}
+[9.282455] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/leg_motors__traits.hpp\n'}
+[9.282579] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_data__builder.hpp\n'}
+[9.283028] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_data__traits.hpp\n'}
+[9.283226] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/motion_ctrl__struct.hpp\n'}
+[9.283411] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_data__struct.hpp\n'}
+[9.283567] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/motion_ctrl__builder.hpp\n'}
+[9.283782] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/movement_ctrl_data.hpp\n'}
+[9.283958] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs\n'}
+[9.284237] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg\n'}
+[9.284299] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail\n'}
+[9.284347] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_data__type_support.cpp\n'}
+[9.284605] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_mode__type_support.cpp\n'}
+[9.284956] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/robot_status__type_support.cpp\n'}
+[9.285141] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/ctrl_plot__type_support.cpp\n'}
+[9.285336] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.285595] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/robot_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.285794] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/leg_motors__type_support.cpp\n'}
+[9.286116] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/leg_motors__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.286339] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/motion_ctrl__type_support.cpp\n'}
+[9.286579] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/motion_ctrl__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.286794] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/ctrl_plot__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.286984] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_mode__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.287233] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/lib/libmotion_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[9.287593] (motion_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/y/SA_CAO/install/motion_msgs/lib/libmotion_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[9.287748] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/lib/libmotion_msgs__rosidl_typesupport_cpp.so\n'}
+[9.288227] (motion_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/y/SA_CAO/install/motion_msgs/lib/libmotion_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[9.288414] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/environment/pythonpath.sh\n'}
+[9.288577] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/environment/pythonpath.dsv\n'}
+[9.288843] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/__init__.py\n'}
+[9.311097] (motion_msgs) StdoutLine: {'line': b"Compiling '/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/__init__.py'...\n"}
+[9.314282] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/msg\n'}
+[9.314456] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/msg/_ctrl_plot_s.c\n'}
+[9.314874] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/msg/_robot_status.py\n'}
+[9.314963] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/msg/_movement_ctrl_mode_s.c\n'}
+[9.315183] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/msg/_leg_motors_s.c\n'}
+[9.315378] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/msg/__init__.py\n'}
+[9.315545] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/msg/_movement_ctrl_data.py\n'}
+[9.315745] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/msg/_ctrl_plot.py\n'}
+[9.315932] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/msg/_motion_ctrl.py\n'}
+[9.316317] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/msg/_motion_ctrl_s.c\n'}
+[9.316541] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/msg/_leg_motors.py\n'}
+[9.316687] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/msg/_robot_status_s.c\n'}
+[9.316852] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/msg/_movement_ctrl_data_s.c\n'}
+[9.317025] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/msg/_movement_ctrl_mode.py\n'}
+[9.317445] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/motion_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[9.317905] (motion_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/motion_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[9.318171] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/motion_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[9.318617] (motion_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/motion_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[9.318954] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/motion_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[9.319404] (motion_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/motion_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[9.319985] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/lib/libmotion_msgs__python.so\n'}
+[9.320586] (motion_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/y/SA_CAO/install/motion_msgs/lib/libmotion_msgs__python.so" to ""\n'}
+[9.320877] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/msg/CtrlPlot.idl\n'}
+[9.321052] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/msg/LegMotors.idl\n'}
+[9.321267] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/msg/MotionCtrl.idl\n'}
+[9.321667] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/msg/RobotStatus.idl\n'}
+[9.321835] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/msg/MovementCtrlData.idl\n'}
+[9.322045] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/msg/MovementCtrlMode.idl\n'}
+[9.322432] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/msg/CtrlPlot.msg\n'}
+[9.322596] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/msg/LegMotors.msg\n'}
+[9.322832] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/msg/MotionCtrl.msg\n'}
+[9.323042] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/msg/RobotStatus.msg\n'}
+[9.323215] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/msg/MovementCtrlData.msg\n'}
+[9.323391] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/msg/MovementCtrlMode.msg\n'}
+[9.323604] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/share/ament_index/resource_index/package_run_dependencies/motion_msgs\n'}
+[9.323985] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/share/ament_index/resource_index/parent_prefix_path/motion_msgs\n'}
+[9.324188] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/environment/ament_prefix_path.sh\n'}
+[9.324408] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/environment/ament_prefix_path.dsv\n'}
+[9.324584] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/environment/path.sh\n'}
+[9.325043] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/environment/path.dsv\n'}
+[9.325215] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/local_setup.bash\n'}
+[9.325853] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/local_setup.sh\n'}
+[9.326025] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/local_setup.zsh\n'}
+[9.326186] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/local_setup.dsv\n'}
+[9.326361] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/package.dsv\n'}
+[9.326561] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/share/ament_index/resource_index/packages/motion_msgs\n'}
+[9.326805] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/motion_msgs__rosidl_generator_cExport.cmake\n'}
+[9.327130] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/motion_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[9.327375] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/motion_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[9.327553] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/motion_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[9.327776] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/motion_msgs__rosidl_typesupport_cExport.cmake\n'}
+[9.327957] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/motion_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[9.328358] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/motion_msgs__rosidl_generator_cppExport.cmake\n'}
+[9.328586] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/motion_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[9.328880] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/motion_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[9.329087] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/motion_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[9.329345] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/motion_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[9.329524] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[9.329827] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.330333] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[9.330564] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[9.330741] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.331079] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[9.331221] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[9.331411] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/motion_msgsConfig.cmake\n'}
+[9.331667] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/motion_msgsConfig-version.cmake\n'}
+[9.331993] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/package.xml\n'}
+[9.334499] (motion_msgs) CommandEnded: {'returncode': 0}
+[9.351424] (motion_msgs) JobEnded: {'identifier': 'motion_msgs', 'rc': 0}
+[9.352361] (-) TimerEvent: {}
+[9.352441] (-) EventReactorShutdown: {}

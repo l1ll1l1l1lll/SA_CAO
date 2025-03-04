@@ -1,0 +1,17 @@
+/home/y/SA_CAO/install/sub_diablo2023a/lib/sub_diablo2023a/Sub_diablo2023a
+/home/y/SA_CAO/install/sub_diablo2023a/share/ament_index/resource_index/package_run_dependencies/sub_diablo2023a
+/home/y/SA_CAO/install/sub_diablo2023a/share/ament_index/resource_index/parent_prefix_path/sub_diablo2023a
+/home/y/SA_CAO/install/sub_diablo2023a/share/sub_diablo2023a/environment/ament_prefix_path.sh
+/home/y/SA_CAO/install/sub_diablo2023a/share/sub_diablo2023a/environment/ament_prefix_path.dsv
+/home/y/SA_CAO/install/sub_diablo2023a/share/sub_diablo2023a/environment/path.sh
+/home/y/SA_CAO/install/sub_diablo2023a/share/sub_diablo2023a/environment/path.dsv
+/home/y/SA_CAO/install/sub_diablo2023a/share/sub_diablo2023a/local_setup.bash
+/home/y/SA_CAO/install/sub_diablo2023a/share/sub_diablo2023a/local_setup.sh
+/home/y/SA_CAO/install/sub_diablo2023a/share/sub_diablo2023a/local_setup.zsh
+/home/y/SA_CAO/install/sub_diablo2023a/share/sub_diablo2023a/local_setup.dsv
+/home/y/SA_CAO/install/sub_diablo2023a/share/sub_diablo2023a/package.dsv
+/home/y/SA_CAO/install/sub_diablo2023a/share/ament_index/resource_index/packages/sub_diablo2023a
+/home/y/SA_CAO/install/sub_diablo2023a/share/sub_diablo2023a/cmake/ament_cmake_export_include_directories-extras.cmake
+/home/y/SA_CAO/install/sub_diablo2023a/share/sub_diablo2023a/cmake/sub_diablo2023aConfig.cmake
+/home/y/SA_CAO/install/sub_diablo2023a/share/sub_diablo2023a/cmake/sub_diablo2023aConfig-version.cmake
+/home/y/SA_CAO/install/sub_diablo2023a/share/sub_diablo2023a/package.xml

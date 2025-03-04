@@ -1,6 +1,0 @@
-source;share/vw2motion/hook/pythonpath.ps1
-source;share/vw2motion/hook/pythonpath.dsv
-source;share/vw2motion/hook/pythonpath.sh
-source;share/vw2motion/hook/ament_prefix_path.ps1
-source;share/vw2motion/hook/ament_prefix_path.dsv
-source;share/vw2motion/hook/ament_prefix_path.sh

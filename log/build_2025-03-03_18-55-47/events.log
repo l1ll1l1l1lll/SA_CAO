@@ -1,0 +1,487 @@
+[0.000000] (-) TimerEvent: {}
+[0.001401] (-) JobUnselected: {'identifier': 'launch_diablo'}
+[0.001457] (-) JobUnselected: {'identifier': 'my_xbox_joystick'}
+[0.001477] (motion_msgs) JobQueued: {'identifier': 'motion_msgs', 'dependencies': OrderedDict()}
+[0.001527] (sub_diablo2023a) JobQueued: {'identifier': 'sub_diablo2023a', 'dependencies': OrderedDict([('motion_msgs', '/home/y/SA_CAO/install/motion_msgs')])}
+[0.001894] (motion_msgs) JobStarted: {'identifier': 'motion_msgs'}
+[0.012484] (motion_msgs) JobProgress: {'identifier': 'motion_msgs', 'progress': 'cmake'}
+[0.015777] (motion_msgs) JobProgress: {'identifier': 'motion_msgs', 'progress': 'build'}
+[0.015980] (motion_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/y/SA_CAO/build/motion_msgs', '--', '-j2', '-l2'], 'cwd': '/home/y/SA_CAO/build/motion_msgs', 'env': OrderedDict([('USER', 'y'), ('SSH_CLIENT', '192.168.134.1 13727 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/y/SA_CAO/install/motion_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/y'), ('OLDPWD', '/home/y'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/y/SA_CAO/install:/home/y/oradar_ros/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'y'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('XDG_SESSION_ID', '12'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/y/oradar_ros/install/oradar_lidar/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('AMENT_PREFIX_PATH', '/home/y/SA_CAO/install/my_xbox_joystick:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/launch_diablo:/home/y/oradar_ros/install/oradar_lidar:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('PWD', '/home/y/SA_CAO/build/motion_msgs'), ('LC_ALL', 'C'), ('SSH_CONNECTION', '192.168.134.1 13727 192.168.134.129 22'), ('PYTHONPATH', '/home/y/SA_CAO/install/my_xbox_joystick/lib/python3.8/site-packages:/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:/home/y/SA_CAO/install/launch_diablo/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/my_xbox_joystick:/home/y/SA_CAO/install/launch_diablo:/opt/ros/foxy:/home/y/oradar_ros/install/oradar_lidar')]), 'shell': False}
+[0.083003] (motion_msgs) StdoutLine: {'line': b'[  1%] Built target motion_msgs__cpp\n'}
+[0.088130] (motion_msgs) StdoutLine: {'line': b'[ 12%] Built target motion_msgs__rosidl_generator_c\n'}
+[0.100349] (-) TimerEvent: {}
+[0.110157] (motion_msgs) StdoutLine: {'line': b'[ 23%] Built target motion_msgs__rosidl_typesupport_cpp\n'}
+[0.120403] (motion_msgs) StdoutLine: {'line': b'[ 35%] Built target motion_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.137153] (motion_msgs) StdoutLine: {'line': b'[ 46%] Built target motion_msgs__rosidl_typesupport_introspection_c\n'}
+[0.144506] (motion_msgs) StdoutLine: {'line': b'[ 57%] Built target motion_msgs__rosidl_typesupport_c\n'}
+[0.166246] (motion_msgs) StdoutLine: {'line': b'[ 69%] Built target motion_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.176560] (motion_msgs) StdoutLine: {'line': b'[ 80%] Built target motion_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.200397] (motion_msgs) StdoutLine: {'line': b'[ 80%] Built target motion_msgs\n'}
+[0.200574] (-) TimerEvent: {}
+[0.224667] (motion_msgs) StdoutLine: {'line': b'[ 81%] Built target motion_msgs__py\n'}
+[0.257136] (motion_msgs) StdoutLine: {'line': b'[ 91%] Built target motion_msgs__python\n'}
+[0.284879] (motion_msgs) StdoutLine: {'line': b'[ 94%] Built target motion_msgs__rosidl_typesupport_c__pyext\n'}
+[0.285418] (motion_msgs) StdoutLine: {'line': b'[ 97%] Built target motion_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[0.301693] (-) TimerEvent: {}
+[0.313903] (motion_msgs) StdoutLine: {'line': b'[100%] Built target motion_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.327087] (motion_msgs) CommandEnded: {'returncode': 0}
+[0.327860] (motion_msgs) JobProgress: {'identifier': 'motion_msgs', 'progress': 'install'}
+[0.339275] (motion_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/y/SA_CAO/build/motion_msgs'], 'cwd': '/home/y/SA_CAO/build/motion_msgs', 'env': OrderedDict([('USER', 'y'), ('SSH_CLIENT', '192.168.134.1 13727 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/y/SA_CAO/install/motion_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/y'), ('OLDPWD', '/home/y'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/y/SA_CAO/install:/home/y/oradar_ros/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'y'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('XDG_SESSION_ID', '12'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/y/oradar_ros/install/oradar_lidar/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('AMENT_PREFIX_PATH', '/home/y/SA_CAO/install/my_xbox_joystick:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/launch_diablo:/home/y/oradar_ros/install/oradar_lidar:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('PWD', '/home/y/SA_CAO/build/motion_msgs'), ('LC_ALL', 'C'), ('SSH_CONNECTION', '192.168.134.1 13727 192.168.134.129 22'), ('PYTHONPATH', '/home/y/SA_CAO/install/my_xbox_joystick/lib/python3.8/site-packages:/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:/home/y/SA_CAO/install/launch_diablo/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/my_xbox_joystick:/home/y/SA_CAO/install/launch_diablo:/opt/ros/foxy:/home/y/oradar_ros/install/oradar_lidar')]), 'shell': False}
+[0.350896] (motion_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.351038] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/share/ament_index/resource_index/rosidl_interfaces/motion_msgs\n'}
+[0.351289] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs\n'}
+[0.351441] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg\n'}
+[0.351492] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/movement_ctrl_mode.h\n'}
+[0.351541] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.351583] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/robot_status.h\n'}
+[0.351658] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/leg_motors.h\n'}
+[0.351733] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/ctrl_plot.h\n'}
+[0.351778] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/motion_ctrl.h\n'}
+[0.351819] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/movement_ctrl_data.h\n'}
+[0.351859] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail\n'}
+[0.351899] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/robot_status__type_support.h\n'}
+[0.351966] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_data__functions.h\n'}
+[0.352024] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_mode__type_support.h\n'}
+[0.352068] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/motion_ctrl__functions.c\n'}
+[0.352109] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_data__functions.c\n'}
+[0.352150] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/ctrl_plot__type_support.h\n'}
+[0.352191] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/leg_motors__struct.h\n'}
+[0.352231] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_data__struct.h\n'}
+[0.352271] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_mode__struct.h\n'}
+[0.352311] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/ctrl_plot__functions.h\n'}
+[0.352358] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/leg_motors__type_support.h\n'}
+[0.352399] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/motion_ctrl__functions.h\n'}
+[0.352439] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/motion_ctrl__type_support.h\n'}
+[0.352482] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/leg_motors__functions.h\n'}
+[0.352522] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/robot_status__struct.h\n'}
+[0.352562] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_mode__functions.c\n'}
+[0.352602] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/robot_status__functions.h\n'}
+[0.352718] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_mode__functions.h\n'}
+[0.352863] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/leg_motors__functions.c\n'}
+[0.352911] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/robot_status__functions.c\n'}
+[0.352952] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/motion_ctrl__struct.h\n'}
+[0.352992] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/ctrl_plot__struct.h\n'}
+[0.353042] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_data__type_support.h\n'}
+[0.353083] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/ctrl_plot__functions.c\n'}
+[0.353124] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/environment/library_path.sh\n'}
+[0.353163] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/environment/library_path.dsv\n'}
+[0.353456] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/lib/libmotion_msgs__rosidl_generator_c.so\n'}
+[0.353587] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs\n'}
+[0.353697] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg\n'}
+[0.353833] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail\n'}
+[0.353892] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/motion_ctrl__rosidl_typesupport_fastrtps_c.h\n'}
+[0.353936] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/leg_motors__rosidl_typesupport_fastrtps_c.h\n'}
+[0.353977] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_mode__rosidl_typesupport_fastrtps_c.h\n'}
+[0.354018] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/robot_status__rosidl_typesupport_fastrtps_c.h\n'}
+[0.354059] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_data__rosidl_typesupport_fastrtps_c.h\n'}
+[0.354098] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/ctrl_plot__rosidl_typesupport_fastrtps_c.h\n'}
+[0.354138] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.354178] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/lib/libmotion_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.354218] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs\n'}
+[0.354259] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg\n'}
+[0.354300] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.354340] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail\n'}
+[0.354380] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.354421] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/leg_motors__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.354462] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/dds_fastrtps\n'}
+[0.354508] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/ctrl_plot__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.354549] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/motion_ctrl__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.354590] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/robot_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.354658] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_mode__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.355075] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/lib/libmotion_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.355124] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs\n'}
+[0.355166] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg\n'}
+[0.355486] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.355586] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail\n'}
+[0.355648] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/ctrl_plot__type_support.c\n'}
+[0.355704] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/robot_status__rosidl_typesupport_introspection_c.h\n'}
+[0.355760] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_mode__rosidl_typesupport_introspection_c.h\n'}
+[0.355848] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_data__rosidl_typesupport_introspection_c.h\n'}
+[0.355937] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/robot_status__type_support.c\n'}
+[0.356010] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_mode__type_support.c\n'}
+[0.356066] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/motion_ctrl__rosidl_typesupport_introspection_c.h\n'}
+[0.356122] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_data__type_support.c\n'}
+[0.356177] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/leg_motors__type_support.c\n'}
+[0.356231] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/motion_ctrl__type_support.c\n'}
+[0.356421] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/ctrl_plot__rosidl_typesupport_introspection_c.h\n'}
+[0.356502] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/leg_motors__rosidl_typesupport_introspection_c.h\n'}
+[0.356561] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/lib/libmotion_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.356620] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/lib/libmotion_msgs__rosidl_typesupport_c.so\n'}
+[0.356684] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs\n'}
+[0.356748] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg\n'}
+[0.356845] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.356918] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/robot_status.hpp\n'}
+[0.356985] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/movement_ctrl_mode.hpp\n'}
+[0.357052] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/ctrl_plot.hpp\n'}
+[0.357118] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/leg_motors.hpp\n'}
+[0.357184] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/motion_ctrl.hpp\n'}
+[0.357249] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail\n'}
+[0.357347] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/robot_status__type_support.hpp\n'}
+[0.357440] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/robot_status__struct.hpp\n'}
+[0.357506] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_data__type_support.hpp\n'}
+[0.357581] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_mode__builder.hpp\n'}
+[0.357650] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/ctrl_plot__struct.hpp\n'}
+[0.357737] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/leg_motors__struct.hpp\n'}
+[0.357804] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_mode__type_support.hpp\n'}
+[0.357866] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/robot_status__builder.hpp\n'}
+[0.357984] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/motion_ctrl__traits.hpp\n'}
+[0.358030] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/motion_ctrl__type_support.hpp\n'}
+[0.358072] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/ctrl_plot__type_support.hpp\n'}
+[0.358112] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/leg_motors__builder.hpp\n'}
+[0.358153] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/ctrl_plot__builder.hpp\n'}
+[0.358193] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_mode__struct.hpp\n'}
+[0.358232] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/robot_status__traits.hpp\n'}
+[0.358272] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_mode__traits.hpp\n'}
+[0.358312] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/ctrl_plot__traits.hpp\n'}
+[0.358351] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/leg_motors__type_support.hpp\n'}
+[0.358435] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/leg_motors__traits.hpp\n'}
+[0.358540] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_data__builder.hpp\n'}
+[0.358604] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_data__traits.hpp\n'}
+[0.358678] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/motion_ctrl__struct.hpp\n'}
+[0.358743] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_data__struct.hpp\n'}
+[0.358811] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/motion_ctrl__builder.hpp\n'}
+[0.358879] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/movement_ctrl_data.hpp\n'}
+[0.358953] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs\n'}
+[0.359186] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg\n'}
+[0.359294] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail\n'}
+[0.359370] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_data__type_support.cpp\n'}
+[0.359415] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_mode__type_support.cpp\n'}
+[0.359455] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/robot_status__type_support.cpp\n'}
+[0.359498] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/ctrl_plot__type_support.cpp\n'}
+[0.359541] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.359629] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/robot_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.359677] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/leg_motors__type_support.cpp\n'}
+[0.359718] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/leg_motors__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.359774] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/motion_ctrl__type_support.cpp\n'}
+[0.359832] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/motion_ctrl__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.359882] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/ctrl_plot__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.359924] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_mode__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.359964] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/lib/libmotion_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.360005] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/lib/libmotion_msgs__rosidl_typesupport_cpp.so\n'}
+[0.360046] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/environment/pythonpath.sh\n'}
+[0.360086] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/environment/pythonpath.dsv\n'}
+[0.360126] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/__init__.py\n'}
+[0.383057] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/msg\n'}
+[0.383258] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/msg/_ctrl_plot_s.c\n'}
+[0.383452] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/msg/_robot_status.py\n'}
+[0.383504] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/msg/_movement_ctrl_mode_s.c\n'}
+[0.383548] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/msg/_leg_motors_s.c\n'}
+[0.383589] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/msg/__init__.py\n'}
+[0.383630] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/msg/_movement_ctrl_data.py\n'}
+[0.383736] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/msg/_ctrl_plot.py\n'}
+[0.383873] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/msg/_motion_ctrl.py\n'}
+[0.384075] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/msg/_motion_ctrl_s.c\n'}
+[0.384137] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/msg/_leg_motors.py\n'}
+[0.384181] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/msg/_robot_status_s.c\n'}
+[0.384404] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/msg/_movement_ctrl_data_s.c\n'}
+[0.384467] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/msg/_movement_ctrl_mode.py\n'}
+[0.384549] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/motion_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.384654] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/motion_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.384762] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/motion_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.384946] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/lib/libmotion_msgs__python.so\n'}
+[0.384993] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/msg/CtrlPlot.idl\n'}
+[0.385036] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/msg/LegMotors.idl\n'}
+[0.385407] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/msg/MotionCtrl.idl\n'}
+[0.385936] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/msg/RobotStatus.idl\n'}
+[0.386387] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/msg/MovementCtrlData.idl\n'}
+[0.386558] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/msg/MovementCtrlMode.idl\n'}
+[0.386650] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/msg/CtrlPlot.msg\n'}
+[0.386822] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/msg/LegMotors.msg\n'}
+[0.386870] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/msg/MotionCtrl.msg\n'}
+[0.387032] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/msg/RobotStatus.msg\n'}
+[0.387287] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/msg/MovementCtrlData.msg\n'}
+[0.387343] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/msg/MovementCtrlMode.msg\n'}
+[0.387504] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/share/ament_index/resource_index/package_run_dependencies/motion_msgs\n'}
+[0.387606] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/share/ament_index/resource_index/parent_prefix_path/motion_msgs\n'}
+[0.388147] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/environment/ament_prefix_path.sh\n'}
+[0.388208] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/environment/ament_prefix_path.dsv\n'}
+[0.388252] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/environment/path.sh\n'}
+[0.388294] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/environment/path.dsv\n'}
+[0.388335] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/local_setup.bash\n'}
+[0.388376] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/local_setup.sh\n'}
+[0.388417] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/local_setup.zsh\n'}
+[0.388458] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/local_setup.dsv\n'}
+[0.388640] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/package.dsv\n'}
+[0.388689] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/share/ament_index/resource_index/packages/motion_msgs\n'}
+[0.388731] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/motion_msgs__rosidl_generator_cExport.cmake\n'}
+[0.388774] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/motion_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.388814] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/motion_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.388855] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/motion_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.388896] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/motion_msgs__rosidl_typesupport_cExport.cmake\n'}
+[0.388937] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/motion_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.388977] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/motion_msgs__rosidl_generator_cppExport.cmake\n'}
+[0.389018] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/motion_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.389059] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/motion_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.389108] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/motion_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[0.389149] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/motion_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.389225] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[0.389299] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.389347] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.389388] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.389429] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.389477] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.389517] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.390754] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/motion_msgsConfig.cmake\n'}
+[0.390888] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/motion_msgsConfig-version.cmake\n'}
+[0.391008] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO/install/motion_msgs/share/motion_msgs/package.xml\n'}
+[0.391060] (motion_msgs) CommandEnded: {'returncode': 0}
+[0.403278] (-) TimerEvent: {}
+[0.419703] (motion_msgs) JobEnded: {'identifier': 'motion_msgs', 'rc': 0}
+[0.420314] (sub_diablo2023a) JobStarted: {'identifier': 'sub_diablo2023a'}
+[0.432843] (sub_diablo2023a) JobProgress: {'identifier': 'sub_diablo2023a', 'progress': 'cmake'}
+[0.433057] (sub_diablo2023a) Command: {'cmd': ['/usr/bin/cmake', '/home/y/SA_CAO/src/sub_diablo2023a', '-DCMAKE_INSTALL_PREFIX=/home/y/SA_CAO/install/sub_diablo2023a'], 'cwd': '/home/y/SA_CAO/build/sub_diablo2023a', 'env': OrderedDict([('USER', 'y'), ('SSH_CLIENT', '192.168.134.1 13727 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/y/SA_CAO/install/motion_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/y'), ('OLDPWD', '/home/y'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/y/SA_CAO/install:/home/y/oradar_ros/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'y'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('XDG_SESSION_ID', '12'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/y/oradar_ros/install/oradar_lidar/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('AMENT_PREFIX_PATH', '/home/y/SA_CAO/install/my_xbox_joystick:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/launch_diablo:/home/y/oradar_ros/install/oradar_lidar:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('PWD', '/home/y/SA_CAO/build/sub_diablo2023a'), ('LC_ALL', 'C'), ('SSH_CONNECTION', '192.168.134.1 13727 192.168.134.129 22'), ('PYTHONPATH', '/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:/home/y/SA_CAO/install/my_xbox_joystick/lib/python3.8/site-packages:/home/y/SA_CAO/install/launch_diablo/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/my_xbox_joystick:/home/y/SA_CAO/install/launch_diablo:/opt/ros/foxy:/home/y/oradar_ros/install/oradar_lidar')]), 'shell': False}
+[0.491170] (sub_diablo2023a) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.503721] (-) TimerEvent: {}
+[0.541669] (sub_diablo2023a) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.545680] (sub_diablo2023a) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.604215] (-) TimerEvent: {}
+[0.614304] (sub_diablo2023a) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.615120] (sub_diablo2023a) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.686266] (sub_diablo2023a) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.695063] (sub_diablo2023a) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.695647] (sub_diablo2023a) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.698253] (sub_diablo2023a) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.704545] (-) TimerEvent: {}
+[0.777554] (sub_diablo2023a) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.778527] (sub_diablo2023a) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.805891] (-) TimerEvent: {}
+[0.858881] (sub_diablo2023a) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.870205] (sub_diablo2023a) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.870675] (sub_diablo2023a) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.873848] (sub_diablo2023a) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.896435] (sub_diablo2023a) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.896646] (sub_diablo2023a) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.906815] (-) TimerEvent: {}
+[1.007518] (-) TimerEvent: {}
+[1.073197] (sub_diablo2023a) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.081296] (sub_diablo2023a) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[1.107909] (-) TimerEvent: {}
+[1.118346] (sub_diablo2023a) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.126431] (sub_diablo2023a) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.208588] (-) TimerEvent: {}
+[1.216451] (sub_diablo2023a) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.245263] (sub_diablo2023a) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.309006] (-) TimerEvent: {}
+[1.326454] (sub_diablo2023a) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.409206] (-) TimerEvent: {}
+[1.410335] (sub_diablo2023a) StdoutLine: {'line': b'-- Found motion_msgs: 1.0.0 (/home/y/SA_CAO/install/motion_msgs/share/motion_msgs/cmake)\n'}
+[1.449608] (sub_diablo2023a) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.500982] (sub_diablo2023a) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.502371] (sub_diablo2023a) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.503610] (sub_diablo2023a) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.509473] (-) TimerEvent: {}
+[1.578662] (sub_diablo2023a) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.578877] (sub_diablo2023a) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.610113] (-) TimerEvent: {}
+[1.652088] (sub_diablo2023a) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.652220] (sub_diablo2023a) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.710637] (-) TimerEvent: {}
+[1.713143] (sub_diablo2023a) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.713269] (sub_diablo2023a) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.785016] (sub_diablo2023a) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.786071] (sub_diablo2023a) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.811551] (-) TimerEvent: {}
+[1.911800] (-) TimerEvent: {}
+[1.933398] (sub_diablo2023a) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[2.011976] (-) TimerEvent: {}
+[2.059573] (sub_diablo2023a) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.070756] (sub_diablo2023a) StdoutLine: {'line': b'-- Generating done\n'}
+[2.076396] (sub_diablo2023a) StdoutLine: {'line': b'-- Build files have been written to: /home/y/SA_CAO/build/sub_diablo2023a\n'}
+[2.086737] (sub_diablo2023a) CommandEnded: {'returncode': 0}
+[2.087847] (sub_diablo2023a) JobProgress: {'identifier': 'sub_diablo2023a', 'progress': 'build'}
+[2.087871] (sub_diablo2023a) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/y/SA_CAO/build/sub_diablo2023a', '--', '-j2', '-l2'], 'cwd': '/home/y/SA_CAO/build/sub_diablo2023a', 'env': OrderedDict([('USER', 'y'), ('SSH_CLIENT', '192.168.134.1 13727 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/y/SA_CAO/install/motion_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/y'), ('OLDPWD', '/home/y'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/y/SA_CAO/install:/home/y/oradar_ros/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'y'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('XDG_SESSION_ID', '12'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/y/oradar_ros/install/oradar_lidar/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('AMENT_PREFIX_PATH', '/home/y/SA_CAO/install/my_xbox_joystick:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/launch_diablo:/home/y/oradar_ros/install/oradar_lidar:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('PWD', '/home/y/SA_CAO/build/sub_diablo2023a'), ('LC_ALL', 'C'), ('SSH_CONNECTION', '192.168.134.1 13727 192.168.134.129 22'), ('PYTHONPATH', '/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:/home/y/SA_CAO/install/my_xbox_joystick/lib/python3.8/site-packages:/home/y/SA_CAO/install/launch_diablo/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/my_xbox_joystick:/home/y/SA_CAO/install/launch_diablo:/opt/ros/foxy:/home/y/oradar_ros/install/oradar_lidar')]), 'shell': False}
+[2.098928] (sub_diablo2023a) StdoutLine: {'line': b'/usr/bin/cmake -S/home/y/SA_CAO/src/sub_diablo2023a -B/home/y/SA_CAO/build/sub_diablo2023a --check-build-system CMakeFiles/Makefile.cmake 0\n'}
+[2.110147] (sub_diablo2023a) StdoutLine: {'line': b'/usr/bin/cmake -E cmake_progress_start /home/y/SA_CAO/build/sub_diablo2023a/CMakeFiles /home/y/SA_CAO/build/sub_diablo2023a/CMakeFiles/progress.marks\n'}
+[2.113129] (-) TimerEvent: {}
+[2.119376] (sub_diablo2023a) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/Makefile2 all\n'}
+[2.120684] (sub_diablo2023a) StdoutLine: {'line': b"make[1]: Entering directory '/home/y/SA_CAO/build/sub_diablo2023a'\n"}
+[2.120777] (sub_diablo2023a) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/Sub_diablo2023a.dir/build.make CMakeFiles/Sub_diablo2023a.dir/depend\n'}
+[2.121997] (sub_diablo2023a) StdoutLine: {'line': b"make[2]: Entering directory '/home/y/SA_CAO/build/sub_diablo2023a'\n"}
+[2.122078] (sub_diablo2023a) StdoutLine: {'line': b'cd /home/y/SA_CAO/build/sub_diablo2023a && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/y/SA_CAO/src/sub_diablo2023a /home/y/SA_CAO/src/sub_diablo2023a /home/y/SA_CAO/build/sub_diablo2023a /home/y/SA_CAO/build/sub_diablo2023a /home/y/SA_CAO/build/sub_diablo2023a/CMakeFiles/Sub_diablo2023a.dir/DependInfo.cmake --color=\n'}
+[2.189372] (sub_diablo2023a) StdoutLine: {'line': b'Scanning dependencies of target Sub_diablo2023a\n'}
+[2.190721] (sub_diablo2023a) StdoutLine: {'line': b"make[2]: Leaving directory '/home/y/SA_CAO/build/sub_diablo2023a'\n"}
+[2.190846] (sub_diablo2023a) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/Sub_diablo2023a.dir/build.make CMakeFiles/Sub_diablo2023a.dir/build\n'}
+[2.202931] (sub_diablo2023a) StdoutLine: {'line': b"make[2]: Entering directory '/home/y/SA_CAO/build/sub_diablo2023a'\n"}
+[2.211941] (sub_diablo2023a) StdoutLine: {'line': b'[ 11%] Building CXX object CMakeFiles/Sub_diablo2023a.dir/src/main.cpp.o\n'}
+[2.212083] (sub_diablo2023a) StdoutLine: {'line': b'[ 22%] Building CXX object CMakeFiles/Sub_diablo2023a.dir/src/Sub_diablo2023a.cpp.o\n'}
+[2.212954] (sub_diablo2023a) StdoutLine: {'line': b'/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"sub_diablo2023a\\" -DSPDLOG_COMPILED_LIB -I/home/y/SA_CAO/src/sub_diablo2023a/include/sub_diablo2023a -I/home/y/SA_CAO/src/sub_diablo2023a/include -isystem /home/y/SA_CAO/install/motion_msgs/include -isystem /opt/ros/foxy/include  -O3 -DNDEBUG   -Wall -Wextra -Wpedantic -DMODEL=Sub_diablo2023a -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -std=gnu++14 -o CMakeFiles/Sub_diablo2023a.dir/src/main.cpp.o -c /home/y/SA_CAO/src/sub_diablo2023a/src/main.cpp\n'}
+[2.213407] (sub_diablo2023a) StdoutLine: {'line': b'/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"sub_diablo2023a\\" -DSPDLOG_COMPILED_LIB -I/home/y/SA_CAO/src/sub_diablo2023a/include/sub_diablo2023a -I/home/y/SA_CAO/src/sub_diablo2023a/include -isystem /home/y/SA_CAO/install/motion_msgs/include -isystem /opt/ros/foxy/include  -O3 -DNDEBUG   -Wall -Wextra -Wpedantic -DMODEL=Sub_diablo2023a -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -std=gnu++14 -o CMakeFiles/Sub_diablo2023a.dir/src/Sub_diablo2023a.cpp.o -c /home/y/SA_CAO/src/sub_diablo2023a/src/Sub_diablo2023a.cpp\n'}
+[2.213481] (-) TimerEvent: {}
+[2.314012] (-) TimerEvent: {}
+[2.414672] (-) TimerEvent: {}
+[2.515304] (-) TimerEvent: {}
+[2.615731] (-) TimerEvent: {}
+[2.716154] (-) TimerEvent: {}
+[2.816843] (-) TimerEvent: {}
+[2.917210] (-) TimerEvent: {}
+[3.017521] (-) TimerEvent: {}
+[3.118209] (-) TimerEvent: {}
+[3.218897] (-) TimerEvent: {}
+[3.319492] (-) TimerEvent: {}
+[3.419924] (-) TimerEvent: {}
+[3.520300] (-) TimerEvent: {}
+[3.620684] (-) TimerEvent: {}
+[3.721288] (-) TimerEvent: {}
+[3.821959] (-) TimerEvent: {}
+[3.922370] (-) TimerEvent: {}
+[4.022846] (-) TimerEvent: {}
+[4.123614] (-) TimerEvent: {}
+[4.223980] (-) TimerEvent: {}
+[4.324686] (-) TimerEvent: {}
+[4.425396] (-) TimerEvent: {}
+[4.526193] (-) TimerEvent: {}
+[4.626942] (-) TimerEvent: {}
+[4.727772] (-) TimerEvent: {}
+[4.828333] (-) TimerEvent: {}
+[4.929171] (-) TimerEvent: {}
+[5.029788] (-) TimerEvent: {}
+[5.130626] (-) TimerEvent: {}
+[5.231439] (-) TimerEvent: {}
+[5.332236] (-) TimerEvent: {}
+[5.433251] (-) TimerEvent: {}
+[5.533720] (-) TimerEvent: {}
+[5.634303] (-) TimerEvent: {}
+[5.734731] (-) TimerEvent: {}
+[5.834997] (-) TimerEvent: {}
+[5.939592] (-) TimerEvent: {}
+[6.040263] (-) TimerEvent: {}
+[6.141679] (-) TimerEvent: {}
+[6.242427] (-) TimerEvent: {}
+[6.342998] (-) TimerEvent: {}
+[6.347451] (sub_diablo2023a) StdoutLine: {'line': b'[ 33%] Building CXX object CMakeFiles/Sub_diablo2023a.dir/src/ros2nodeinterface.cpp.o\n'}
+[6.348434] (sub_diablo2023a) StdoutLine: {'line': b'/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"sub_diablo2023a\\" -DSPDLOG_COMPILED_LIB -I/home/y/SA_CAO/src/sub_diablo2023a/include/sub_diablo2023a -I/home/y/SA_CAO/src/sub_diablo2023a/include -isystem /home/y/SA_CAO/install/motion_msgs/include -isystem /opt/ros/foxy/include  -O3 -DNDEBUG   -Wall -Wextra -Wpedantic -DMODEL=Sub_diablo2023a -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -std=gnu++14 -o CMakeFiles/Sub_diablo2023a.dir/src/ros2nodeinterface.cpp.o -c /home/y/SA_CAO/src/sub_diablo2023a/src/ros2nodeinterface.cpp\n'}
+[6.443546] (-) TimerEvent: {}
+[6.544107] (-) TimerEvent: {}
+[6.644631] (-) TimerEvent: {}
+[6.744895] (-) TimerEvent: {}
+[6.846144] (-) TimerEvent: {}
+[6.947161] (-) TimerEvent: {}
+[7.048724] (-) TimerEvent: {}
+[7.151297] (-) TimerEvent: {}
+[7.251780] (-) TimerEvent: {}
+[7.352812] (-) TimerEvent: {}
+[7.453401] (-) TimerEvent: {}
+[7.554016] (-) TimerEvent: {}
+[7.654523] (-) TimerEvent: {}
+[7.755400] (-) TimerEvent: {}
+[7.856217] (-) TimerEvent: {}
+[7.957010] (-) TimerEvent: {}
+[8.057800] (-) TimerEvent: {}
+[8.158523] (-) TimerEvent: {}
+[8.259015] (-) TimerEvent: {}
+[8.359521] (-) TimerEvent: {}
+[8.460397] (-) TimerEvent: {}
+[8.561125] (-) TimerEvent: {}
+[8.661643] (-) TimerEvent: {}
+[8.762469] (-) TimerEvent: {}
+[8.863120] (-) TimerEvent: {}
+[8.963722] (-) TimerEvent: {}
+[9.064398] (-) TimerEvent: {}
+[9.165079] (-) TimerEvent: {}
+[9.266134] (-) TimerEvent: {}
+[9.366524] (-) TimerEvent: {}
+[9.467183] (-) TimerEvent: {}
+[9.567728] (-) TimerEvent: {}
+[9.668285] (-) TimerEvent: {}
+[9.768882] (-) TimerEvent: {}
+[9.869362] (-) TimerEvent: {}
+[9.888586] (sub_diablo2023a) StdoutLine: {'line': b'[ 44%] Building CXX object CMakeFiles/Sub_diablo2023a.dir/src/rtGetInf.cpp.o\n'}
+[9.889473] (sub_diablo2023a) StdoutLine: {'line': b'/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"sub_diablo2023a\\" -DSPDLOG_COMPILED_LIB -I/home/y/SA_CAO/src/sub_diablo2023a/include/sub_diablo2023a -I/home/y/SA_CAO/src/sub_diablo2023a/include -isystem /home/y/SA_CAO/install/motion_msgs/include -isystem /opt/ros/foxy/include  -O3 -DNDEBUG   -Wall -Wextra -Wpedantic -DMODEL=Sub_diablo2023a -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -std=gnu++14 -o CMakeFiles/Sub_diablo2023a.dir/src/rtGetInf.cpp.o -c /home/y/SA_CAO/src/sub_diablo2023a/src/rtGetInf.cpp\n'}
+[9.925336] (sub_diablo2023a) StdoutLine: {'line': b'[ 55%] Building CXX object CMakeFiles/Sub_diablo2023a.dir/src/rtGetNaN.cpp.o\n'}
+[9.926229] (sub_diablo2023a) StdoutLine: {'line': b'/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"sub_diablo2023a\\" -DSPDLOG_COMPILED_LIB -I/home/y/SA_CAO/src/sub_diablo2023a/include/sub_diablo2023a -I/home/y/SA_CAO/src/sub_diablo2023a/include -isystem /home/y/SA_CAO/install/motion_msgs/include -isystem /opt/ros/foxy/include  -O3 -DNDEBUG   -Wall -Wextra -Wpedantic -DMODEL=Sub_diablo2023a -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -std=gnu++14 -o CMakeFiles/Sub_diablo2023a.dir/src/rtGetNaN.cpp.o -c /home/y/SA_CAO/src/sub_diablo2023a/src/rtGetNaN.cpp\n'}
+[9.953345] (sub_diablo2023a) StdoutLine: {'line': b'[ 66%] Building CXX object CMakeFiles/Sub_diablo2023a.dir/src/rt_nonfinite.cpp.o\n'}
+[9.954179] (sub_diablo2023a) StdoutLine: {'line': b'/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"sub_diablo2023a\\" -DSPDLOG_COMPILED_LIB -I/home/y/SA_CAO/src/sub_diablo2023a/include/sub_diablo2023a -I/home/y/SA_CAO/src/sub_diablo2023a/include -isystem /home/y/SA_CAO/install/motion_msgs/include -isystem /opt/ros/foxy/include  -O3 -DNDEBUG   -Wall -Wextra -Wpedantic -DMODEL=Sub_diablo2023a -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -std=gnu++14 -o CMakeFiles/Sub_diablo2023a.dir/src/rt_nonfinite.cpp.o -c /home/y/SA_CAO/src/sub_diablo2023a/src/rt_nonfinite.cpp\n'}
+[9.969944] (-) TimerEvent: {}
+[9.985714] (sub_diablo2023a) StdoutLine: {'line': b'[ 77%] Building CXX object CMakeFiles/Sub_diablo2023a.dir/src/slros2_initialize.cpp.o\n'}
+[9.986451] (sub_diablo2023a) StdoutLine: {'line': b'/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"sub_diablo2023a\\" -DSPDLOG_COMPILED_LIB -I/home/y/SA_CAO/src/sub_diablo2023a/include/sub_diablo2023a -I/home/y/SA_CAO/src/sub_diablo2023a/include -isystem /home/y/SA_CAO/install/motion_msgs/include -isystem /opt/ros/foxy/include  -O3 -DNDEBUG   -Wall -Wextra -Wpedantic -DMODEL=Sub_diablo2023a -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -std=gnu++14 -o CMakeFiles/Sub_diablo2023a.dir/src/slros2_initialize.cpp.o -c /home/y/SA_CAO/src/sub_diablo2023a/src/slros2_initialize.cpp\n'}
+[10.070231] (-) TimerEvent: {}
+[10.170933] (-) TimerEvent: {}
+[10.271742] (-) TimerEvent: {}
+[10.372452] (-) TimerEvent: {}
+[10.473325] (-) TimerEvent: {}
+[10.573824] (-) TimerEvent: {}
+[10.674454] (-) TimerEvent: {}
+[10.775019] (-) TimerEvent: {}
+[10.875248] (-) TimerEvent: {}
+[10.976010] (-) TimerEvent: {}
+[11.076442] (-) TimerEvent: {}
+[11.176795] (-) TimerEvent: {}
+[11.277657] (-) TimerEvent: {}
+[11.378456] (-) TimerEvent: {}
+[11.478703] (-) TimerEvent: {}
+[11.579196] (-) TimerEvent: {}
+[11.679932] (-) TimerEvent: {}
+[11.781177] (-) TimerEvent: {}
+[11.881572] (-) TimerEvent: {}
+[11.884185] (sub_diablo2023a) StdoutLine: {'line': b'[ 88%] Building CXX object CMakeFiles/Sub_diablo2023a.dir/src/slros_busmsg_conversion.cpp.o\n'}
+[11.884928] (sub_diablo2023a) StdoutLine: {'line': b'/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"sub_diablo2023a\\" -DSPDLOG_COMPILED_LIB -I/home/y/SA_CAO/src/sub_diablo2023a/include/sub_diablo2023a -I/home/y/SA_CAO/src/sub_diablo2023a/include -isystem /home/y/SA_CAO/install/motion_msgs/include -isystem /opt/ros/foxy/include  -O3 -DNDEBUG   -Wall -Wextra -Wpedantic -DMODEL=Sub_diablo2023a -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -std=gnu++14 -o CMakeFiles/Sub_diablo2023a.dir/src/slros_busmsg_conversion.cpp.o -c /home/y/SA_CAO/src/sub_diablo2023a/src/slros_busmsg_conversion.cpp\n'}
+[11.981968] (-) TimerEvent: {}
+[12.082326] (-) TimerEvent: {}
+[12.183054] (-) TimerEvent: {}
+[12.283461] (-) TimerEvent: {}
+[12.383905] (-) TimerEvent: {}
+[12.484453] (-) TimerEvent: {}
+[12.584936] (-) TimerEvent: {}
+[12.685398] (-) TimerEvent: {}
+[12.786040] (-) TimerEvent: {}
+[12.886990] (-) TimerEvent: {}
+[12.987701] (-) TimerEvent: {}
+[13.087886] (-) TimerEvent: {}
+[13.188493] (-) TimerEvent: {}
+[13.288965] (-) TimerEvent: {}
+[13.390076] (-) TimerEvent: {}
+[13.490738] (-) TimerEvent: {}
+[13.591309] (-) TimerEvent: {}
+[13.692352] (-) TimerEvent: {}
+[13.792744] (-) TimerEvent: {}
+[13.893284] (-) TimerEvent: {}
+[13.993874] (-) TimerEvent: {}
+[14.094301] (-) TimerEvent: {}
+[14.194766] (-) TimerEvent: {}
+[14.295510] (-) TimerEvent: {}
+[14.395991] (-) TimerEvent: {}
+[14.496341] (-) TimerEvent: {}
+[14.596610] (-) TimerEvent: {}
+[14.696975] (-) TimerEvent: {}
+[14.797583] (-) TimerEvent: {}
+[14.898256] (-) TimerEvent: {}
+[14.998763] (-) TimerEvent: {}
+[15.099110] (-) TimerEvent: {}
+[15.200115] (-) TimerEvent: {}
+[15.300414] (-) TimerEvent: {}
+[15.401179] (-) TimerEvent: {}
+[15.502021] (-) TimerEvent: {}
+[15.603207] (-) TimerEvent: {}
+[15.631544] (sub_diablo2023a) StdoutLine: {'line': b'[100%] Linking CXX executable Sub_diablo2023a\n'}
+[15.632468] (sub_diablo2023a) StdoutLine: {'line': b'/usr/bin/cmake -E cmake_link_script CMakeFiles/Sub_diablo2023a.dir/link.txt --verbose=1\n'}
+[15.641040] (sub_diablo2023a) StdoutLine: {'line': b'/usr/bin/c++  -O3 -DNDEBUG   CMakeFiles/Sub_diablo2023a.dir/src/Sub_diablo2023a.cpp.o CMakeFiles/Sub_diablo2023a.dir/src/main.cpp.o CMakeFiles/Sub_diablo2023a.dir/src/ros2nodeinterface.cpp.o CMakeFiles/Sub_diablo2023a.dir/src/rtGetInf.cpp.o CMakeFiles/Sub_diablo2023a.dir/src/rtGetNaN.cpp.o CMakeFiles/Sub_diablo2023a.dir/src/rt_nonfinite.cpp.o CMakeFiles/Sub_diablo2023a.dir/src/slros2_initialize.cpp.o CMakeFiles/Sub_diablo2023a.dir/src/slros_busmsg_conversion.cpp.o  -o Sub_diablo2023a  -Wl,-rpath,/home/y/SA_CAO/install/sub_diablo2023a/lib:/home/y/SA_CAO/install/motion_msgs/lib:/opt/ros/foxy/lib /home/y/SA_CAO/install/motion_msgs/lib/libmotion_msgs__rosidl_typesupport_introspection_c.so /home/y/SA_CAO/install/motion_msgs/lib/libmotion_msgs__rosidl_typesupport_c.so /home/y/SA_CAO/install/motion_msgs/lib/libmotion_msgs__rosidl_typesupport_introspection_cpp.so /home/y/SA_CAO/install/motion_msgs/lib/libmotion_msgs__rosidl_typesupport_cpp.so /opt/ros/foxy/lib/librclcpp.so /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_c.so /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_cpp.so -ldl /home/y/SA_CAO/install/motion_msgs/lib/libmotion_msgs__rosidl_generator_c.so /opt/ros/foxy/lib/liblibstatistics_collector.so /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_c.so /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_generator_c.so /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_c.so /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_cpp.so /opt/ros/foxy/lib/librcl.so /opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so /opt/ros/foxy/lib/librcl_interfaces__rosidl_generator_c.so /opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_c.so /opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so /opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_cpp.so /opt/ros/foxy/lib/librmw_implementation.so /opt/ros/foxy/lib/librmw.so /opt/ros/foxy/lib/librcl_logging_spdlog.so /usr/lib/x86_64-linux-gnu/libspdlog.so.1.5.0 -lpthread /opt/ros/foxy/lib/librcl_yaml_param_parser.so /opt/ros/foxy/lib/libyaml.so /opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so /opt/ros/foxy/lib/librosgraph_msgs__rosidl_generator_c.so /opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_c.so /opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_cpp.so /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so /opt/ros/foxy/lib/libstatistics_msgs__rosidl_generator_c.so /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_c.so /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_cpp.so /opt/ros/foxy/lib/libtracetools.so /opt/ros/foxy/lib/libsensor_msgs__rosidl_generator_c.so /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so /opt/ros/foxy/lib/libgeometry_msgs__rosidl_generator_c.so /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_c.so /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so /opt/ros/foxy/lib/libstd_msgs__rosidl_generator_c.so /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_c.so /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_cpp.so /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_generator_c.so /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so /opt/ros/foxy/lib/librosidl_typesupport_introspection_cpp.so /opt/ros/foxy/lib/librosidl_typesupport_introspection_c.so /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so /opt/ros/foxy/lib/librosidl_typesupport_cpp.so /opt/ros/foxy/lib/librosidl_typesupport_c.so /opt/ros/foxy/lib/librosidl_runtime_c.so /opt/ros/foxy/lib/librcpputils.so /opt/ros/foxy/lib/librcutils.so -ldl \n'}
+[15.703517] (-) TimerEvent: {}
+[15.768139] (sub_diablo2023a) StdoutLine: {'line': b"make[2]: Leaving directory '/home/y/SA_CAO/build/sub_diablo2023a'\n"}
+[15.778579] (sub_diablo2023a) StdoutLine: {'line': b'[100%] Built target Sub_diablo2023a\n'}
+[15.779861] (sub_diablo2023a) StdoutLine: {'line': b"make[1]: Leaving directory '/home/y/SA_CAO/build/sub_diablo2023a'\n"}
+[15.779935] (sub_diablo2023a) StdoutLine: {'line': b'/usr/bin/cmake -E cmake_progress_start /home/y/SA_CAO/build/sub_diablo2023a/CMakeFiles 0\n'}
+[15.790892] (sub_diablo2023a) CommandEnded: {'returncode': 0}
+[15.791822] (sub_diablo2023a) JobProgress: {'identifier': 'sub_diablo2023a', 'progress': 'install'}
+[15.791880] (sub_diablo2023a) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/y/SA_CAO/build/sub_diablo2023a'], 'cwd': '/home/y/SA_CAO/build/sub_diablo2023a', 'env': OrderedDict([('USER', 'y'), ('SSH_CLIENT', '192.168.134.1 13727 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/y/SA_CAO/install/motion_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/y'), ('OLDPWD', '/home/y'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/y/SA_CAO/install:/home/y/oradar_ros/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'y'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('XDG_SESSION_ID', '12'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/y/oradar_ros/install/oradar_lidar/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('AMENT_PREFIX_PATH', '/home/y/SA_CAO/install/my_xbox_joystick:/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/launch_diablo:/home/y/oradar_ros/install/oradar_lidar:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('PWD', '/home/y/SA_CAO/build/sub_diablo2023a'), ('LC_ALL', 'C'), ('SSH_CONNECTION', '192.168.134.1 13727 192.168.134.129 22'), ('PYTHONPATH', '/home/y/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:/home/y/SA_CAO/install/my_xbox_joystick/lib/python3.8/site-packages:/home/y/SA_CAO/install/launch_diablo/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/y/SA_CAO/install/motion_msgs:/home/y/SA_CAO/install/my_xbox_joystick:/home/y/SA_CAO/install/launch_diablo:/opt/ros/foxy:/home/y/oradar_ros/install/oradar_lidar')]), 'shell': False}
+[15.799857] (sub_diablo2023a) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[15.800118] (sub_diablo2023a) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/sub_diablo2023a/lib/sub_diablo2023a/Sub_diablo2023a\n'}
+[15.801112] (sub_diablo2023a) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/sub_diablo2023a/share/ament_index/resource_index/package_run_dependencies/sub_diablo2023a\n'}
+[15.801497] (sub_diablo2023a) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/sub_diablo2023a/share/ament_index/resource_index/parent_prefix_path/sub_diablo2023a\n'}
+[15.802052] (sub_diablo2023a) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/sub_diablo2023a/share/sub_diablo2023a/environment/ament_prefix_path.sh\n'}
+[15.802280] (sub_diablo2023a) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/sub_diablo2023a/share/sub_diablo2023a/environment/ament_prefix_path.dsv\n'}
+[15.802451] (sub_diablo2023a) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/sub_diablo2023a/share/sub_diablo2023a/environment/path.sh\n'}
+[15.802666] (sub_diablo2023a) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/sub_diablo2023a/share/sub_diablo2023a/environment/path.dsv\n'}
+[15.802866] (sub_diablo2023a) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/sub_diablo2023a/share/sub_diablo2023a/local_setup.bash\n'}
+[15.803077] (sub_diablo2023a) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/sub_diablo2023a/share/sub_diablo2023a/local_setup.sh\n'}
+[15.803300] (sub_diablo2023a) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/sub_diablo2023a/share/sub_diablo2023a/local_setup.zsh\n'}
+[15.803492] (sub_diablo2023a) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/sub_diablo2023a/share/sub_diablo2023a/local_setup.dsv\n'}
+[15.803583] (-) TimerEvent: {}
+[15.803943] (sub_diablo2023a) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/sub_diablo2023a/share/sub_diablo2023a/package.dsv\n'}
+[15.804199] (sub_diablo2023a) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/sub_diablo2023a/share/ament_index/resource_index/packages/sub_diablo2023a\n'}
+[15.804419] (sub_diablo2023a) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/sub_diablo2023a/share/sub_diablo2023a/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[15.804647] (sub_diablo2023a) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/sub_diablo2023a/share/sub_diablo2023a/cmake/sub_diablo2023aConfig.cmake\n'}
+[15.804810] (sub_diablo2023a) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/sub_diablo2023a/share/sub_diablo2023a/cmake/sub_diablo2023aConfig-version.cmake\n'}
+[15.805030] (sub_diablo2023a) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO/install/sub_diablo2023a/share/sub_diablo2023a/package.xml\n'}
+[15.807718] (sub_diablo2023a) CommandEnded: {'returncode': 0}
+[15.819964] (sub_diablo2023a) JobEnded: {'identifier': 'sub_diablo2023a', 'rc': 0}
+[15.820997] (-) EventReactorShutdown: {}

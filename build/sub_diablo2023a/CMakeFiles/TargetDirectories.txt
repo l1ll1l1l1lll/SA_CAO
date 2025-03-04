@@ -1,0 +1,10 @@
+/home/y/SA_CAO/build/sub_diablo2023a/CMakeFiles/install/strip.dir
+/home/y/SA_CAO/build/sub_diablo2023a/CMakeFiles/install/local.dir
+/home/y/SA_CAO/build/sub_diablo2023a/CMakeFiles/install.dir
+/home/y/SA_CAO/build/sub_diablo2023a/CMakeFiles/list_install_components.dir
+/home/y/SA_CAO/build/sub_diablo2023a/CMakeFiles/rebuild_cache.dir
+/home/y/SA_CAO/build/sub_diablo2023a/CMakeFiles/edit_cache.dir
+/home/y/SA_CAO/build/sub_diablo2023a/CMakeFiles/test.dir
+/home/y/SA_CAO/build/sub_diablo2023a/CMakeFiles/sub_diablo2023a_uninstall.dir
+/home/y/SA_CAO/build/sub_diablo2023a/CMakeFiles/Sub_diablo2023a.dir
+/home/y/SA_CAO/build/sub_diablo2023a/CMakeFiles/uninstall.dir

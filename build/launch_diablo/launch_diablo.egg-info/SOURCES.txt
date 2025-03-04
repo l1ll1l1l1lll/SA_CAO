@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/launch_diablo/launch_diablo.egg-info/PKG-INFO
+../../build/launch_diablo/launch_diablo.egg-info/SOURCES.txt
+../../build/launch_diablo/launch_diablo.egg-info/dependency_links.txt
+../../build/launch_diablo/launch_diablo.egg-info/entry_points.txt
+../../build/launch_diablo/launch_diablo.egg-info/requires.txt
+../../build/launch_diablo/launch_diablo.egg-info/top_level.txt
+../../build/launch_diablo/launch_diablo.egg-info/zip-safe
+launch/launch_diablo.py
+launch_diablo/__init__.py
+resource/launch_diablo
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
