@@ -1,8 +1,8 @@
-# Install script for directory: /home/y/SA_CAO/build/motion_msgs/motion_msgs__py
+# Install script for directory: /home/y/SA_CAO_test_ws/build/motion_msgs/motion_msgs__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/y/SA_CAO/install/motion_msgs")
+  set(CMAKE_INSTALL_PREFIX "/home/y/SA_CAO_test_ws/install/motion_msgs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

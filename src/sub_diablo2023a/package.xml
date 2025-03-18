@@ -11,10 +11,11 @@
   <depend>motion_msgs</depend>
   <depend>rclcpp</depend>
   <depend>sensor_msgs</depend>
+  <depend>tf2_msgs</depend>
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
   <export>
     <build_type>ament_cmake</build_type>
   </export>
 </package>
-<!-- Generated on Tue Mar 04 03:55:45 2025 -->
+<!-- Generated on Tue Mar 18 14:57:34 2025 -->

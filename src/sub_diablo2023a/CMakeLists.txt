@@ -23,6 +23,7 @@ find_package( geometry_msgs REQUIRED)
 find_package( motion_msgs REQUIRED)
 find_package( rclcpp REQUIRED)
 find_package( sensor_msgs REQUIRED)
+find_package( tf2_msgs REQUIRED)
 include_directories("include/sub_diablo2023a")
 set (CMAKE_SKIP_BUILD_RPATH false)
 set (CMAKE_BUILD_WITH_INSTALL_RPATH true)
@@ -73,6 +74,7 @@ ament_target_dependencies(
   "motion_msgs"
   "rclcpp"
   "sensor_msgs"
+  "tf2_msgs"
 )
 target_include_directories(Sub_diablo2023a PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
@@ -101,4 +103,4 @@ add_custom_command(
 				   )				   
 endforeach(file_i)
 ament_package()
-# Generated on Tue Mar 04 03:55:45 2025
+# Generated on Tue Mar 18 14:57:34 2025

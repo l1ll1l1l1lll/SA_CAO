@@ -51,10 +51,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/y/SA_CAO/src/sub_diablo2023a
+CMAKE_SOURCE_DIR = /home/y/SA_CAO_test_ws/src/sub_diablo2023a
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/y/SA_CAO/build/sub_diablo2023a
+CMAKE_BINARY_DIR = /home/y/SA_CAO_test_ws/build/sub_diablo2023a
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -140,9 +140,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/y/SA_CAO/build/sub_diablo2023a/CMakeFiles /home/y/SA_CAO/build/sub_diablo2023a/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/y/SA_CAO_test_ws/build/sub_diablo2023a/CMakeFiles /home/y/SA_CAO_test_ws/build/sub_diablo2023a/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/y/SA_CAO/build/sub_diablo2023a/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/y/SA_CAO_test_ws/build/sub_diablo2023a/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

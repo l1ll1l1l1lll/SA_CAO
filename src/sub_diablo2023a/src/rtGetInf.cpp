@@ -7,9 +7,9 @@
 //
 // Code generated for Simulink model 'Sub_diablo2023a'.
 //
-// Model version                  : 11.3
+// Model version                  : 11.25
 // Simulink Coder version         : 9.9 (R2023a) 19-Nov-2022
-// C/C++ source code generated on : Tue Mar  4 03:55:39 2025
+// C/C++ source code generated on : Tue Mar 18 14:57:28 2025
 //
 // Target selection: ert.tlc
 // Embedded hardware selection: ARM Compatible->ARM Cortex-A (64-bit)

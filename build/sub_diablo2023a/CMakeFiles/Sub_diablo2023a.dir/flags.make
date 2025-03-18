@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -DNDEBUG   -Wall -Wextra -Wpedantic -DMODEL=Sub_diablo2023a -DNU
 
 CXX_DEFINES = -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\"sub_diablo2023a\" -DSPDLOG_COMPILED_LIB
 
-CXX_INCLUDES = -I/home/y/SA_CAO/src/sub_diablo2023a/include/sub_diablo2023a -I/home/y/SA_CAO/src/sub_diablo2023a/include -isystem /home/y/SA_CAO/install/motion_msgs/include -isystem /opt/ros/foxy/include 
+CXX_INCLUDES = -I/home/y/SA_CAO_test_ws/src/sub_diablo2023a/include/sub_diablo2023a -I/home/y/SA_CAO_test_ws/src/sub_diablo2023a/include -isystem /home/y/SA_CAO_test_ws/install/motion_msgs/include -isystem /opt/ros/foxy/include 
 

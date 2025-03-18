@@ -20,6 +20,69 @@ void convertToBus(SL_Bus_builtin_interfaces_Time* busPtr, const builtin_interfac
 }
 
 
+// Conversions between SL_Bus_geometry_msgs_Quaternion and geometry_msgs::msg::Quaternion
+
+void convertFromBus(geometry_msgs::msg::Quaternion& msgPtr, SL_Bus_geometry_msgs_Quaternion const* busPtr)
+{
+  const std::string rosMessageType("geometry_msgs/Quaternion");
+
+  msgPtr.w =  busPtr->w;
+  msgPtr.x =  busPtr->x;
+  msgPtr.y =  busPtr->y;
+  msgPtr.z =  busPtr->z;
+}
+
+void convertToBus(SL_Bus_geometry_msgs_Quaternion* busPtr, const geometry_msgs::msg::Quaternion& msgPtr)
+{
+  const std::string rosMessageType("geometry_msgs/Quaternion");
+
+  busPtr->w =  msgPtr.w;
+  busPtr->x =  msgPtr.x;
+  busPtr->y =  msgPtr.y;
+  busPtr->z =  msgPtr.z;
+}
+
+
+// Conversions between SL_Bus_geometry_msgs_Transform and geometry_msgs::msg::Transform
+
+void convertFromBus(geometry_msgs::msg::Transform& msgPtr, SL_Bus_geometry_msgs_Transform const* busPtr)
+{
+  const std::string rosMessageType("geometry_msgs/Transform");
+
+  convertFromBus(msgPtr.rotation, &busPtr->rotation);
+  convertFromBus(msgPtr.translation, &busPtr->translation);
+}
+
+void convertToBus(SL_Bus_geometry_msgs_Transform* busPtr, const geometry_msgs::msg::Transform& msgPtr)
+{
+  const std::string rosMessageType("geometry_msgs/Transform");
+
+  convertToBus(&busPtr->rotation, msgPtr.rotation);
+  convertToBus(&busPtr->translation, msgPtr.translation);
+}
+
+
+// Conversions between SL_Bus_geometry_msgs_TransformStamped and geometry_msgs::msg::TransformStamped
+
+void convertFromBus(geometry_msgs::msg::TransformStamped& msgPtr, SL_Bus_geometry_msgs_TransformStamped const* busPtr)
+{
+  const std::string rosMessageType("geometry_msgs/TransformStamped");
+
+  convertFromBusVariablePrimitiveArray(msgPtr.child_frame_id, busPtr->child_frame_id, busPtr->child_frame_id_SL_Info);
+  convertFromBus(msgPtr.header, &busPtr->header);
+  convertFromBus(msgPtr.transform, &busPtr->transform);
+}
+
+void convertToBus(SL_Bus_geometry_msgs_TransformStamped* busPtr, const geometry_msgs::msg::TransformStamped& msgPtr)
+{
+  const std::string rosMessageType("geometry_msgs/TransformStamped");
+
+  convertToBusVariablePrimitiveArray(busPtr->child_frame_id, busPtr->child_frame_id_SL_Info, msgPtr.child_frame_id, slros::EnabledWarning(rosMessageType, "child_frame_id"));
+  convertToBus(&busPtr->header, msgPtr.header);
+  convertToBus(&busPtr->transform, msgPtr.transform);
+}
+
+
 // Conversions between SL_Bus_geometry_msgs_Twist and geometry_msgs::msg::Twist
 
 void convertFromBus(geometry_msgs::msg::Twist& msgPtr, SL_Bus_geometry_msgs_Twist const* busPtr)
@@ -207,5 +270,22 @@ void convertToBus(SL_Bus_std_msgs_Header* busPtr, const std_msgs::msg::Header& m
 
   convertToBusVariablePrimitiveArray(busPtr->frame_id, busPtr->frame_id_SL_Info, msgPtr.frame_id, slros::EnabledWarning(rosMessageType, "frame_id"));
   convertToBus(&busPtr->stamp, msgPtr.stamp);
+}
+
+
+// Conversions between SL_Bus_tf2_msgs_TFMessage and tf2_msgs::msg::TFMessage
+
+void convertFromBus(tf2_msgs::msg::TFMessage& msgPtr, SL_Bus_tf2_msgs_TFMessage const* busPtr)
+{
+  const std::string rosMessageType("tf2_msgs/TFMessage");
+
+  convertFromBusVariableNestedArray(msgPtr.transforms, busPtr->transforms, busPtr->transforms_SL_Info);
+}
+
+void convertToBus(SL_Bus_tf2_msgs_TFMessage* busPtr, const tf2_msgs::msg::TFMessage& msgPtr)
+{
+  const std::string rosMessageType("tf2_msgs/TFMessage");
+
+  convertToBusVariableNestedArray(busPtr->transforms, busPtr->transforms_SL_Info, msgPtr.transforms, slros::EnabledWarning(rosMessageType, "transforms"));
 }
 

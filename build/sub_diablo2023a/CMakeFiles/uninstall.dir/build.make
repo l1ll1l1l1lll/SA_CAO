@@ -46,10 +46,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/y/SA_CAO/src/sub_diablo2023a
+CMAKE_SOURCE_DIR = /home/y/SA_CAO_test_ws/src/sub_diablo2023a
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/y/SA_CAO/build/sub_diablo2023a
+CMAKE_BINARY_DIR = /home/y/SA_CAO_test_ws/build/sub_diablo2023a
 
 # Utility rule file for uninstall.
 
@@ -70,6 +70,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/y/SA_CAO/build/sub_diablo2023a && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/y/SA_CAO/src/sub_diablo2023a /home/y/SA_CAO/src/sub_diablo2023a /home/y/SA_CAO/build/sub_diablo2023a /home/y/SA_CAO/build/sub_diablo2023a /home/y/SA_CAO/build/sub_diablo2023a/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/y/SA_CAO_test_ws/build/sub_diablo2023a && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/y/SA_CAO_test_ws/src/sub_diablo2023a /home/y/SA_CAO_test_ws/src/sub_diablo2023a /home/y/SA_CAO_test_ws/build/sub_diablo2023a /home/y/SA_CAO_test_ws/build/sub_diablo2023a /home/y/SA_CAO_test_ws/build/sub_diablo2023a/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

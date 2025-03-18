@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC   -Wall -std=gnu++14
 
 CXX_DEFINES = -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\"motion_msgs\" -Dmotion_msgs__rosidl_typesupport_introspection_cpp_EXPORTS
 
-CXX_INCLUDES = -I/home/y/SA_CAO/build/motion_msgs/rosidl_generator_cpp -isystem /opt/ros/foxy/include 
+CXX_INCLUDES = -I/home/y/SA_CAO_test_ws/build/motion_msgs/rosidl_generator_cpp -isystem /opt/ros/foxy/include 
 

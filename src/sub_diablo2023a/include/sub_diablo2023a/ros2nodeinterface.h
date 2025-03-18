@@ -4,9 +4,9 @@
 //
 // Code generated for Simulink model 'Sub_diablo2023a'.
 //
-// Model version                  : 11.3
+// Model version                  : 11.25
 // Simulink Coder version         : 9.9 (R2023a) 19-Nov-2022
-// C/C++ source code generated on : Tue Mar 04 03:55:43 2025
+// C/C++ source code generated on : Tue Mar 18 14:57:32 2025
 //
 #ifndef _ROS2_MATLAB_NODEINTERFACE_
 #define _ROS2_MATLAB_NODEINTERFACE_
@@ -34,6 +34,7 @@ class Sub_diablo2023a;
 #include "motion_msgs/msg/motion_ctrl.hpp"
 #include "sensor_msgs/msg/joy.hpp"
 #include "sensor_msgs/msg/laser_scan.hpp"
+#include "tf2_msgs/msg/tf_message.hpp"
 namespace ros2 {
 namespace matlab {
   //Semaphore using std::CV and std::mutex

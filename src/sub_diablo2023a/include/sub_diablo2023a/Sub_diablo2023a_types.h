@@ -7,9 +7,9 @@
 //
 // Code generated for Simulink model 'Sub_diablo2023a'.
 //
-// Model version                  : 11.3
+// Model version                  : 11.25
 // Simulink Coder version         : 9.9 (R2023a) 19-Nov-2022
-// C/C++ source code generated on : Tue Mar  4 03:55:39 2025
+// C/C++ source code generated on : Tue Mar 18 14:57:28 2025
 //
 // Target selection: ert.tlc
 // Embedded hardware selection: ARM Compatible->ARM Cortex-A (64-bit)
@@ -140,30 +140,6 @@ struct SL_Bus_sensor_msgs_LaserScan
 
 #endif
 
-#ifndef DEFINED_TYPEDEF_FOR_SL_Bus_sensor_msgs_Joy_
-#define DEFINED_TYPEDEF_FOR_SL_Bus_sensor_msgs_Joy_
-
-// MsgType=sensor_msgs/Joy
-struct SL_Bus_sensor_msgs_Joy
-{
-  // MsgType=std_msgs/Header
-  SL_Bus_std_msgs_Header header;
-
-  // IsVarLen=1:VarLenCategory=data:VarLenElem=axes_SL_Info:TruncateAction=warn
-  real32_T axes[128];
-
-  // IsVarLen=1:VarLenCategory=length:VarLenElem=axes
-  SL_Bus_ROSVariableLengthArrayInfo axes_SL_Info;
-
-  // IsVarLen=1:VarLenCategory=data:VarLenElem=buttons_SL_Info:TruncateAction=warn 
-  int32_T buttons[128];
-
-  // IsVarLen=1:VarLenCategory=length:VarLenElem=buttons
-  SL_Bus_ROSVariableLengthArrayInfo buttons_SL_Info;
-};
-
-#endif
-
 #ifndef DEFINED_TYPEDEF_FOR_SL_Bus_geometry_msgs_Vector3_
 #define DEFINED_TYPEDEF_FOR_SL_Bus_geometry_msgs_Vector3_
 
@@ -192,7 +168,96 @@ struct SL_Bus_geometry_msgs_Twist
 
 #endif
 
-// Custom Type definition for MATLABSystem: '<S11>/SourceBlock'
+#ifndef DEFINED_TYPEDEF_FOR_SL_Bus_sensor_msgs_Joy_
+#define DEFINED_TYPEDEF_FOR_SL_Bus_sensor_msgs_Joy_
+
+// MsgType=sensor_msgs/Joy
+struct SL_Bus_sensor_msgs_Joy
+{
+  // MsgType=std_msgs/Header
+  SL_Bus_std_msgs_Header header;
+
+  // IsVarLen=1:VarLenCategory=data:VarLenElem=axes_SL_Info:TruncateAction=warn
+  real32_T axes[128];
+
+  // IsVarLen=1:VarLenCategory=length:VarLenElem=axes
+  SL_Bus_ROSVariableLengthArrayInfo axes_SL_Info;
+
+  // IsVarLen=1:VarLenCategory=data:VarLenElem=buttons_SL_Info:TruncateAction=warn 
+  int32_T buttons[128];
+
+  // IsVarLen=1:VarLenCategory=length:VarLenElem=buttons
+  SL_Bus_ROSVariableLengthArrayInfo buttons_SL_Info;
+};
+
+#endif
+
+#ifndef DEFINED_TYPEDEF_FOR_SL_Bus_geometry_msgs_Quaternion_
+#define DEFINED_TYPEDEF_FOR_SL_Bus_geometry_msgs_Quaternion_
+
+// MsgType=geometry_msgs/Quaternion
+struct SL_Bus_geometry_msgs_Quaternion
+{
+  real_T x;
+  real_T y;
+  real_T z;
+  real_T w;
+};
+
+#endif
+
+#ifndef DEFINED_TYPEDEF_FOR_SL_Bus_geometry_msgs_Transform_
+#define DEFINED_TYPEDEF_FOR_SL_Bus_geometry_msgs_Transform_
+
+// MsgType=geometry_msgs/Transform
+struct SL_Bus_geometry_msgs_Transform
+{
+  // MsgType=geometry_msgs/Vector3
+  SL_Bus_geometry_msgs_Vector3 translation;
+
+  // MsgType=geometry_msgs/Quaternion
+  SL_Bus_geometry_msgs_Quaternion rotation;
+};
+
+#endif
+
+#ifndef DEFINED_TYPEDEF_FOR_SL_Bus_geometry_msgs_TransformStamped_
+#define DEFINED_TYPEDEF_FOR_SL_Bus_geometry_msgs_TransformStamped_
+
+// MsgType=geometry_msgs/TransformStamped
+struct SL_Bus_geometry_msgs_TransformStamped
+{
+  // MsgType=std_msgs/Header
+  SL_Bus_std_msgs_Header header;
+
+  // PrimitiveROSType=string:IsVarLen=1:VarLenCategory=data:VarLenElem=child_frame_id_SL_Info:TruncateAction=warn 
+  uint8_T child_frame_id[128];
+
+  // IsVarLen=1:VarLenCategory=length:VarLenElem=child_frame_id
+  SL_Bus_ROSVariableLengthArrayInfo child_frame_id_SL_Info;
+
+  // MsgType=geometry_msgs/Transform
+  SL_Bus_geometry_msgs_Transform transform;
+};
+
+#endif
+
+#ifndef DEFINED_TYPEDEF_FOR_SL_Bus_tf2_msgs_TFMessage_
+#define DEFINED_TYPEDEF_FOR_SL_Bus_tf2_msgs_TFMessage_
+
+// MsgType=tf2_msgs/TFMessage
+struct SL_Bus_tf2_msgs_TFMessage
+{
+  // MsgType=geometry_msgs/TransformStamped:IsVarLen=1:VarLenCategory=data:VarLenElem=transforms_SL_Info:TruncateAction=warn 
+  SL_Bus_geometry_msgs_TransformStamped transforms[16];
+
+  // IsVarLen=1:VarLenCategory=length:VarLenElem=transforms
+  SL_Bus_ROSVariableLengthArrayInfo transforms_SL_Info;
+};
+
+#endif
+
+// Custom Type definition for MATLABSystem: '<S14>/SourceBlock'
 #include "rmw/qos_profiles.h"
 #include "rmw/types.h"
 #include "rmw/types.h"
@@ -220,6 +285,20 @@ struct ros_slros2_internal_block_Pub_T
 };
 
 #endif                                // struct_ros_slros2_internal_block_Pub_T
+
+#ifndef struct_emxArray_real32_T_Sub_diablo2_T
+#define struct_emxArray_real32_T_Sub_diablo2_T
+
+struct emxArray_real32_T_Sub_diablo2_T
+{
+  real32_T *data;
+  int32_T *size;
+  int32_T allocatedSize;
+  int32_T numDimensions;
+  boolean_T canFreeData;
+};
+
+#endif                                // struct_emxArray_real32_T_Sub_diablo2_T
 
 // Forward declaration for rtModel
 typedef struct tag_RTM_Sub_diablo2023a_T RT_MODEL_Sub_diablo2023a_T;
