@@ -1,0 +1,35 @@
+[1.441s] Invoking command in '/home/y/SA_CAO_test_ws/src/launch_diablo': PYTHONPATH=/home/y/SA_CAO_test_ws/build/launch_diablo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/y/SA_CAO_test_ws/install/launch_diablo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/launch_diablo build --build-base /home/y/SA_CAO_test_ws/build/launch_diablo/build install --record /home/y/SA_CAO_test_ws/build/launch_diablo/install.log --install-scripts $base/lib/robot_launch --single-version-externally-managed install_data
+[1.934s] running egg_info
+[1.935s] creating ../../build/launch_diablo/launch_diablo.egg-info
+[1.936s] writing ../../build/launch_diablo/launch_diablo.egg-info/PKG-INFO
+[1.937s] writing dependency_links to ../../build/launch_diablo/launch_diablo.egg-info/dependency_links.txt
+[1.938s] writing entry points to ../../build/launch_diablo/launch_diablo.egg-info/entry_points.txt
+[1.939s] writing requirements to ../../build/launch_diablo/launch_diablo.egg-info/requires.txt
+[1.939s] writing top-level names to ../../build/launch_diablo/launch_diablo.egg-info/top_level.txt
+[1.942s] writing manifest file '../../build/launch_diablo/launch_diablo.egg-info/SOURCES.txt'
+[1.987s] reading manifest file '../../build/launch_diablo/launch_diablo.egg-info/SOURCES.txt'
+[1.989s] writing manifest file '../../build/launch_diablo/launch_diablo.egg-info/SOURCES.txt'
+[1.991s] running build
+[1.991s] running build_py
+[1.992s] creating /home/y/SA_CAO_test_ws/build/launch_diablo/build
+[1.992s] creating /home/y/SA_CAO_test_ws/build/launch_diablo/build/lib
+[1.993s] creating /home/y/SA_CAO_test_ws/build/launch_diablo/build/lib/launch_diablo
+[1.993s] copying launch_diablo/__init__.py -> /home/y/SA_CAO_test_ws/build/launch_diablo/build/lib/launch_diablo
+[1.995s] running install
+[1.996s] running install_lib
+[1.998s] creating /home/y/SA_CAO_test_ws/install/launch_diablo/lib/python3.8/site-packages/launch_diablo
+[1.999s] copying /home/y/SA_CAO_test_ws/build/launch_diablo/build/lib/launch_diablo/__init__.py -> /home/y/SA_CAO_test_ws/install/launch_diablo/lib/python3.8/site-packages/launch_diablo
+[2.001s] byte-compiling /home/y/SA_CAO_test_ws/install/launch_diablo/lib/python3.8/site-packages/launch_diablo/__init__.py to __init__.cpython-38.pyc
+[2.003s] running install_data
+[2.003s] copying package.xml -> /home/y/SA_CAO_test_ws/install/launch_diablo/share/launch_diablo
+[2.004s] creating /home/y/SA_CAO_test_ws/install/launch_diablo/share/ament_index
+[2.004s] creating /home/y/SA_CAO_test_ws/install/launch_diablo/share/ament_index/resource_index
+[2.005s] creating /home/y/SA_CAO_test_ws/install/launch_diablo/share/ament_index/resource_index/packages
+[2.005s] copying resource/launch_diablo -> /home/y/SA_CAO_test_ws/install/launch_diablo/share/ament_index/resource_index/packages
+[2.006s] creating /home/y/SA_CAO_test_ws/install/launch_diablo/share/launch_diablo/launch
+[2.007s] copying launch/launch_diablo.py -> /home/y/SA_CAO_test_ws/install/launch_diablo/share/launch_diablo/launch
+[2.008s] running install_egg_info
+[2.011s] Copying ../../build/launch_diablo/launch_diablo.egg-info to /home/y/SA_CAO_test_ws/install/launch_diablo/lib/python3.8/site-packages/launch_diablo-0.0.0-py3.8.egg-info
+[2.015s] running install_scripts
+[2.046s] writing list of installed files to '/home/y/SA_CAO_test_ws/build/launch_diablo/install.log'
+[2.088s] Invoked command in '/home/y/SA_CAO_test_ws/src/launch_diablo' returned '0': PYTHONPATH=/home/y/SA_CAO_test_ws/build/launch_diablo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/y/SA_CAO_test_ws/install/launch_diablo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/launch_diablo build --build-base /home/y/SA_CAO_test_ws/build/launch_diablo/build install --record /home/y/SA_CAO_test_ws/build/launch_diablo/install.log --install-scripts $base/lib/robot_launch --single-version-externally-managed install_data

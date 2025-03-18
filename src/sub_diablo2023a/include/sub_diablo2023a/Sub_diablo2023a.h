@@ -7,9 +7,9 @@
 //
 // Code generated for Simulink model 'Sub_diablo2023a'.
 //
-// Model version                  : 11.25
+// Model version                  : 11.26
 // Simulink Coder version         : 9.9 (R2023a) 19-Nov-2022
-// C/C++ source code generated on : Tue Mar 18 14:57:28 2025
+// C/C++ source code generated on : Tue Mar 18 23:29:50 2025
 //
 // Target selection: ert.tlc
 // Embedded hardware selection: ARM Compatible->ARM Cortex-A (64-bit)
@@ -18,6 +18,7 @@
 //
 #ifndef RTW_HEADER_Sub_diablo2023a_h_
 #define RTW_HEADER_Sub_diablo2023a_h_
+#include <cstdio>
 #include "rtwtypes.h"
 #include "slros2_initialize.h"
 #include "Sub_diablo2023a_types.h"
@@ -58,24 +59,30 @@ extern "C"
 struct B_Sub_diablo2023a_T {
   SL_Bus_sensor_msgs_LaserScan In1;    // '<S15>/In1'
   SL_Bus_sensor_msgs_LaserScan b_varargout_2;
-  real_T x[720];
-  real_T b_x[720];
+  real_T F_x[720];
+  real_T F_y[720];
   SL_Bus_tf2_msgs_TFMessage b_varargout_2_m;
   real32_T tmp_data[720];
-  SL_Bus_sensor_msgs_Joy In1_a;        // '<S30>/In1'
+  boolean_T b_x_data[1440];
+  SL_Bus_sensor_msgs_Joy In1_a;        // '<S31>/In1'
   SL_Bus_sensor_msgs_Joy b_varargout_2_c;
+  boolean_T x_data[720];
   SL_Bus_motion_msgs_MotionCtrl BusAssignment;// '<Root>/Bus Assignment'
-  SL_Bus_geometry_msgs_Twist In1_l;    // '<S32>/In1'
+  SL_Bus_geometry_msgs_Twist In1_l;    // '<S33>/In1'
   SL_Bus_geometry_msgs_Twist b_varargout_2_k;
   SL_Bus_geometry_msgs_Twist BusAssignment_a;// '<S5>/Bus Assignment'
   real_T dv[2];
   real_T up;
   real_T roll;
   real_T pitch;
-  real_T apnd;
-  real_T cdiff;
-  real_T u0;
+  real_T factor;
+  real_T rtb_Gain3_idx_0;
+  real_T d;
+  real_T d1;
   int32_T xo[2];
+  real32_T kd;
+  int32_T nm1d2;
+  int32_T b_k;
 };
 
 // Block states (default storage) for system '<Root>'
@@ -92,7 +99,9 @@ struct DW_Sub_diablo2023a_T {
   real_T value[3];                     // '<S3>/Data Store Memory11'
   real_T k1;                           // '<S3>/Data Store Memory17'
   real_T krit;                         // '<S3>/Data Store Memory18'
+  real_T deceleration;                 // '<S3>/Data Store Memory19'
   real_T k2;                           // '<S3>/Data Store Memory2'
+  real_T acceleration;                 // '<S3>/Data Store Memory22'
   real_T max_scan;                     // '<S3>/Data Store Memory3'
   real_T behaviorSwitch;               // '<S3>/Data Store Memory6'
   real_T WanderVelocity;               // '<S3>/Data Store Memory9'
@@ -145,11 +154,12 @@ class Sub_diablo2023a
     int32_T oldNumel);
   void Sub_diablo2023_emxFree_real32_T(emxArray_real32_T_Sub_diablo2_T
     **pEmxArray);
+  real_T Sub_diablo2023a_rt_powd_snf(real_T u0, real_T u1);
   boolean_T Sub_diablo2023a_isequal(const int32_T varargin_1[2], const real_T
     varargin_2[2]);
   void Sub_diablo20_SystemCore_setup_p(ros_slros2_internal_block_Sub_T *obj);
-  void Sub_diabl_SystemCore_setup_p3pb(ros_slros2_internal_block_Sub_T *obj);
   void Sub_diablo2023_SystemCore_setup(ros_slros2_internal_block_Sub_T *obj);
+  void Sub_diabl_SystemCore_setup_p3pb(ros_slros2_internal_block_Sub_T *obj);
   void Sub_diab_SystemCore_setup_p3pbu(ros_slros2_internal_block_Sub_T *obj);
   void Sub_diablo2_SystemCore_setup_p3(ros_slros2_internal_block_Pub_T *obj);
   void Sub_diablo_SystemCore_setup_p3p(ros_slros2_internal_block_Pub_T *obj);
@@ -164,12 +174,9 @@ extern volatile boolean_T runModel;
 //-
 //  These blocks were eliminated from the model due to optimizations:
 //
-//  Block '<S3>/LiDAR' : Unused code path elimination
 //  Block '<S3>/Reshape4' : Unused code path elimination
-//  Block '<S3>/repulsive 2' : Unused code path elimination
-//  Block '<S3>/v' : Unused code path elimination
-//  Block '<S3>/w' : Unused code path elimination
 //  Block '<S3>/Manual Switch1' : Eliminated due to constant selection input
+//  Block '<S3>/Manual Switch2' : Eliminated due to constant selection input
 //  Block '<S3>/Reshape1' : Reshape block reduction
 //  Block '<S3>/Reshape2' : Reshape block reduction
 //  Block '<S3>/Reshape3' : Reshape block reduction
@@ -180,6 +187,7 @@ extern volatile boolean_T runModel;
 //  Block '<S3>/Force to stop' : Unused code path elimination
 //  Block '<S20>/Velocity Controller' : Unused code path elimination
 //  Block '<S22>/simulation LiDAR' : Unused code path elimination
+//  Block '<S3>/take repulsive out' : Unused code path elimination
 
 
 //-
@@ -214,22 +222,23 @@ extern volatile boolean_T runModel;
 //  '<S15>'  : 'Sub_diablo2023a/LIdar scan/Enabled Subsystem'
 //  '<S16>'  : 'Sub_diablo2023a/Subsumtion Architecture/Behavior Switcher'
 //  '<S17>'  : 'Sub_diablo2023a/Subsumtion Architecture/CalculateRepulsiveForce'
-//  '<S18>'  : 'Sub_diablo2023a/Subsumtion Architecture/MATLAB Function'
-//  '<S19>'  : 'Sub_diablo2023a/Subsumtion Architecture/ReadRanges'
+//  '<S18>'  : 'Sub_diablo2023a/Subsumtion Architecture/Collision Detection'
+//  '<S19>'  : 'Sub_diablo2023a/Subsumtion Architecture/MATLAB Function'
 //  '<S20>'  : 'Sub_diablo2023a/Subsumtion Architecture/Velocity calculator'
 //  '<S21>'  : 'Sub_diablo2023a/Subsumtion Architecture/force to stop'
 //  '<S22>'  : 'Sub_diablo2023a/Subsumtion Architecture/is simulation£¿'
 //  '<S23>'  : 'Sub_diablo2023a/Subsumtion Architecture/tf bus select'
 //  '<S24>'  : 'Sub_diablo2023a/Subsumtion Architecture/CalculateRepulsiveForce/MATLAB Function'
-//  '<S25>'  : 'Sub_diablo2023a/Subsumtion Architecture/Velocity calculator/real'
-//  '<S26>'  : 'Sub_diablo2023a/Subsumtion Architecture/force to stop/Force to stop'
-//  '<S27>'  : 'Sub_diablo2023a/Subsystem/read scan'
-//  '<S28>'  : 'Sub_diablo2023a/Subsystem1/Msg Format lesen'
-//  '<S29>'  : 'Sub_diablo2023a/Subsystem1/[v,w]==>geometry_msgs//Twist'
-//  '<S30>'  : 'Sub_diablo2023a/keyboard-telelop/Enabled Subsystem'
-//  '<S31>'  : 'Sub_diablo2023a/read_Keyboard/vw_calculator'
-//  '<S32>'  : 'Sub_diablo2023a/vel_cmd from PP controller/Enabled Subsystem'
-//  '<S33>'  : 'Sub_diablo2023a/vel_cmd from PP controller1/Enabled Subsystem'
+//  '<S25>'  : 'Sub_diablo2023a/Subsumtion Architecture/Collision Detection/ReadRanges'
+//  '<S26>'  : 'Sub_diablo2023a/Subsumtion Architecture/Velocity calculator/real'
+//  '<S27>'  : 'Sub_diablo2023a/Subsumtion Architecture/force to stop/Force to stop'
+//  '<S28>'  : 'Sub_diablo2023a/Subsystem/read scan'
+//  '<S29>'  : 'Sub_diablo2023a/Subsystem1/Msg Format lesen'
+//  '<S30>'  : 'Sub_diablo2023a/Subsystem1/[v,w]==>geometry_msgs//Twist'
+//  '<S31>'  : 'Sub_diablo2023a/keyboard-telelop/Enabled Subsystem'
+//  '<S32>'  : 'Sub_diablo2023a/read_Keyboard/vw_calculator'
+//  '<S33>'  : 'Sub_diablo2023a/vel_cmd from PP controller/Enabled Subsystem'
+//  '<S34>'  : 'Sub_diablo2023a/vel_cmd from PP controller1/Enabled Subsystem'
 
 #endif                                 // RTW_HEADER_Sub_diablo2023a_h_
 

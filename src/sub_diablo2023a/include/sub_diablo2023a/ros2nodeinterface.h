@@ -4,9 +4,9 @@
 //
 // Code generated for Simulink model 'Sub_diablo2023a'.
 //
-// Model version                  : 11.25
+// Model version                  : 11.26
 // Simulink Coder version         : 9.9 (R2023a) 19-Nov-2022
-// C/C++ source code generated on : Tue Mar 18 14:57:32 2025
+// C/C++ source code generated on : Tue Mar 18 23:30:00 2025
 //
 #ifndef _ROS2_MATLAB_NODEINTERFACE_
 #define _ROS2_MATLAB_NODEINTERFACE_

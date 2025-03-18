@@ -42,12 +42,7 @@ def generate_launch_description():
             output='screen'
         ),
         
-        # Launch Xbox joystick node
-        Node(
-            package='sub_diablo2023a',
-            executable='Sub_diablo2023a',
-            output='screen'
-        ),
+        
 
        
         

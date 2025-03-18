@@ -7,9 +7,9 @@
 //
 // Code generated for Simulink model 'Sub_diablo2023a'.
 //
-// Model version                  : 11.25
+// Model version                  : 11.26
 // Simulink Coder version         : 9.9 (R2023a) 19-Nov-2022
-// C/C++ source code generated on : Tue Mar 18 14:57:28 2025
+// C/C++ source code generated on : Tue Mar 18 23:29:50 2025
 //
 // Target selection: ert.tlc
 // Embedded hardware selection: ARM Compatible->ARM Cortex-A (64-bit)
@@ -132,20 +132,18 @@ void Sub_diablo2023a::Sub_diablo2023_emxFree_real32_T
   }
 }
 
-real_T rt_powd_snf(real_T u0, real_T u1)
+real_T Sub_diablo2023a::Sub_diablo2023a_rt_powd_snf(real_T u0, real_T u1)
 {
   real_T y;
   if (rtIsNaN(u0) || rtIsNaN(u1)) {
     y = (rtNaN);
   } else {
-    real_T tmp;
-    real_T tmp_0;
-    tmp = fabs(u0);
-    tmp_0 = fabs(u1);
+    Sub_diablo2023a_B.d = fabs(u0);
+    Sub_diablo2023a_B.d1 = fabs(u1);
     if (rtIsInf(u1)) {
-      if (tmp == 1.0) {
+      if (Sub_diablo2023a_B.d == 1.0) {
         y = 1.0;
-      } else if (tmp > 1.0) {
+      } else if (Sub_diablo2023a_B.d > 1.0) {
         if (u1 > 0.0) {
           y = (rtInf);
         } else {
@@ -156,9 +154,9 @@ real_T rt_powd_snf(real_T u0, real_T u1)
       } else {
         y = (rtInf);
       }
-    } else if (tmp_0 == 0.0) {
+    } else if (Sub_diablo2023a_B.d1 == 0.0) {
       y = 1.0;
-    } else if (tmp_0 == 1.0) {
+    } else if (Sub_diablo2023a_B.d1 == 1.0) {
       if (u1 > 0.0) {
         y = u0;
       } else {
@@ -280,31 +278,6 @@ void Sub_diablo2023a::Sub_diablo20_SystemCore_setup_p
   obj->isSetupComplete = true;
 }
 
-void Sub_diablo2023a::Sub_diabl_SystemCore_setup_p3pb
-  (ros_slros2_internal_block_Sub_T *obj)
-{
-  rmw_qos_durability_policy_t durability;
-  rmw_qos_history_policy_t history;
-  rmw_qos_profile_t qos_profile;
-  rmw_qos_reliability_policy_t reliability;
-  char_T b_zeroDelimTopic[8];
-  static const char_T tmp[7] = { '/', 'p', 'p', '_', 'v', 'e', 'l' };
-
-  obj->isInitialized = 1;
-  qos_profile = rmw_qos_profile_default;
-  history = RMW_QOS_POLICY_HISTORY_KEEP_LAST;
-  reliability = RMW_QOS_POLICY_RELIABILITY_RELIABLE;
-  durability = RMW_QOS_POLICY_DURABILITY_VOLATILE;
-  SET_QOS_VALUES(qos_profile, history, (size_t)1.0, durability, reliability);
-  for (int32_T i = 0; i < 7; i++) {
-    b_zeroDelimTopic[i] = tmp[i];
-  }
-
-  b_zeroDelimTopic[7] = '\x00';
-  Sub_Sub_diablo2023a_1887.createSubscriber(&b_zeroDelimTopic[0], qos_profile);
-  obj->isSetupComplete = true;
-}
-
 void Sub_diablo2023a::Sub_diablo2023_SystemCore_setup
   (ros_slros2_internal_block_Sub_T *obj)
 {
@@ -327,6 +300,31 @@ void Sub_diablo2023a::Sub_diablo2023_SystemCore_setup
 
   b_zeroDelimTopic[5] = '\x00';
   Sub_Sub_diablo2023a_1432.createSubscriber(&b_zeroDelimTopic[0], qos_profile);
+  obj->isSetupComplete = true;
+}
+
+void Sub_diablo2023a::Sub_diabl_SystemCore_setup_p3pb
+  (ros_slros2_internal_block_Sub_T *obj)
+{
+  rmw_qos_durability_policy_t durability;
+  rmw_qos_history_policy_t history;
+  rmw_qos_profile_t qos_profile;
+  rmw_qos_reliability_policy_t reliability;
+  char_T b_zeroDelimTopic[8];
+  static const char_T tmp[7] = { '/', 'p', 'p', '_', 'v', 'e', 'l' };
+
+  obj->isInitialized = 1;
+  qos_profile = rmw_qos_profile_default;
+  history = RMW_QOS_POLICY_HISTORY_KEEP_LAST;
+  reliability = RMW_QOS_POLICY_RELIABILITY_RELIABLE;
+  durability = RMW_QOS_POLICY_DURABILITY_VOLATILE;
+  SET_QOS_VALUES(qos_profile, history, (size_t)1.0, durability, reliability);
+  for (int32_T i = 0; i < 7; i++) {
+    b_zeroDelimTopic[i] = tmp[i];
+  }
+
+  b_zeroDelimTopic[7] = '\x00';
+  Sub_Sub_diablo2023a_1887.createSubscriber(&b_zeroDelimTopic[0], qos_profile);
   obj->isSetupComplete = true;
 }
 
@@ -407,14 +405,16 @@ void Sub_diablo2023a::Sub_diablo_SystemCore_setup_p3p
 void Sub_diablo2023a::step()
 {
   emxArray_real32_T_Sub_diablo2_T *b;
-  real_T u1;
   int32_T StateControl;
   int32_T StateFollowWaypoints;
   int32_T StateTeachandRepeat;
   int32_T StateWander;
-  real32_T kd;
+  int32_T b_ix;
+  int32_T i;
   real32_T tmp;
   real32_T y;
+  boolean_T c_x[2];
+  boolean_T exitg1;
   boolean_T guard1;
   boolean_T guard2;
   boolean_T height_ctrl_mode;
@@ -426,10 +426,10 @@ void Sub_diablo2023a::step()
     (&Sub_diablo2023a_B.b_varargout_2_c);
 
   // Outputs for Enabled SubSystem: '<S7>/Enabled Subsystem' incorporates:
-  //   EnablePort: '<S30>/Enable'
+  //   EnablePort: '<S31>/Enable'
 
   if (pitch_ctrl_mode) {
-    // SignalConversion generated from: '<S30>/In1'
+    // SignalConversion generated from: '<S31>/In1'
     Sub_diablo2023a_B.In1_a = Sub_diablo2023a_B.b_varargout_2_c;
   }
 
@@ -629,15 +629,324 @@ void Sub_diablo2023a::step()
   Sub_diablo2023a_DW.mode[2] = roll_ctrl_mode;
   Sub_diablo2023a_DW.mode[3] = height_ctrl_mode;
 
+  // MATLABSystem: '<S2>/SourceBlock'
+  pitch_ctrl_mode = Sub_Sub_diablo2023a_1432.getLatestMessage
+    (&Sub_diablo2023a_B.b_varargout_2);
+
+  // Outputs for Enabled SubSystem: '<S2>/Enabled Subsystem' incorporates:
+  //   EnablePort: '<S15>/Enable'
+
+  if (pitch_ctrl_mode) {
+    // SignalConversion generated from: '<S15>/In1'
+    Sub_diablo2023a_B.In1 = Sub_diablo2023a_B.b_varargout_2;
+  }
+
+  // End of MATLABSystem: '<S2>/SourceBlock'
+  // End of Outputs for SubSystem: '<S2>/Enabled Subsystem'
+  Sub_diablo2023_emxInit_real32_T(&b, 2);
+
+  // MATLAB Function: '<S4>/read scan'
+  if (rtIsNaNF(Sub_diablo2023a_B.In1.angle_min)) {
+    Sub_diablo2023a_B.b_k = b->size[0] * b->size[1];
+    b->size[0] = 1;
+    b->size[1] = 1;
+    Sub__emxEnsureCapacity_real32_T(b, Sub_diablo2023a_B.b_k);
+    b->data[0] = (rtNaNF);
+  } else if (rtIsNaNF(Sub_diablo2023a_B.In1.angle_increment)) {
+    Sub_diablo2023a_B.b_k = b->size[0] * b->size[1];
+    b->size[0] = 1;
+    b->size[1] = 1;
+    Sub__emxEnsureCapacity_real32_T(b, Sub_diablo2023a_B.b_k);
+    b->data[0] = (rtNaNF);
+  } else if (rtIsNaNF(Sub_diablo2023a_B.In1.angle_max)) {
+    Sub_diablo2023a_B.b_k = b->size[0] * b->size[1];
+    b->size[0] = 1;
+    b->size[1] = 1;
+    Sub__emxEnsureCapacity_real32_T(b, Sub_diablo2023a_B.b_k);
+    b->data[0] = (rtNaNF);
+  } else if ((Sub_diablo2023a_B.In1.angle_increment == 0.0F) ||
+             ((Sub_diablo2023a_B.In1.angle_min < Sub_diablo2023a_B.In1.angle_max)
+              && (Sub_diablo2023a_B.In1.angle_increment < 0.0F)) ||
+             ((Sub_diablo2023a_B.In1.angle_max < Sub_diablo2023a_B.In1.angle_min)
+              && (Sub_diablo2023a_B.In1.angle_increment > 0.0F))) {
+    b->size[0] = 1;
+    b->size[1] = 0;
+  } else {
+    guard1 = false;
+    guard2 = false;
+    if (rtIsInfF(Sub_diablo2023a_B.In1.angle_min) || rtIsInfF
+        (Sub_diablo2023a_B.In1.angle_max)) {
+      if (rtIsInfF(Sub_diablo2023a_B.In1.angle_increment)) {
+        Sub_diablo2023a_B.b_k = b->size[0] * b->size[1];
+        b->size[0] = 1;
+        b->size[1] = 1;
+        Sub__emxEnsureCapacity_real32_T(b, Sub_diablo2023a_B.b_k);
+        b->data[0] = (rtNaNF);
+      } else if (Sub_diablo2023a_B.In1.angle_min ==
+                 Sub_diablo2023a_B.In1.angle_max) {
+        Sub_diablo2023a_B.b_k = b->size[0] * b->size[1];
+        b->size[0] = 1;
+        b->size[1] = 1;
+        Sub__emxEnsureCapacity_real32_T(b, Sub_diablo2023a_B.b_k);
+        b->data[0] = (rtNaNF);
+      } else {
+        guard2 = true;
+      }
+    } else {
+      guard2 = true;
+    }
+
+    if (guard2) {
+      if (rtIsInfF(Sub_diablo2023a_B.In1.angle_increment)) {
+        Sub_diablo2023a_B.b_k = b->size[0] * b->size[1];
+        b->size[0] = 1;
+        b->size[1] = 1;
+        Sub__emxEnsureCapacity_real32_T(b, Sub_diablo2023a_B.b_k);
+        b->data[0] = Sub_diablo2023a_B.In1.angle_min;
+      } else {
+        y = static_cast<real32_T>(floor(static_cast<real_T>
+          (Sub_diablo2023a_B.In1.angle_min)));
+        if (y == Sub_diablo2023a_B.In1.angle_min) {
+          Sub_diablo2023a_B.kd = static_cast<real32_T>(floor(static_cast<real_T>
+            (Sub_diablo2023a_B.In1.angle_increment)));
+          if (Sub_diablo2023a_B.kd == Sub_diablo2023a_B.In1.angle_increment) {
+            if (static_cast<real32_T>(fabs(static_cast<real_T>
+                  (Sub_diablo2023a_B.In1.angle_min))) >= 1.07374182E+9F) {
+              Sub_diablo2023a_B.b_k = b->size[0] * b->size[1];
+              b->size[0] = 1;
+              Sub_diablo2023a_B.nm1d2 = static_cast<int32_T>((static_cast<real_T>
+                (Sub_diablo2023a_B.In1.angle_max) -
+                Sub_diablo2023a_B.In1.angle_min) /
+                Sub_diablo2023a_B.In1.angle_increment);
+              b->size[1] = Sub_diablo2023a_B.nm1d2 + 1;
+              Sub__emxEnsureCapacity_real32_T(b, Sub_diablo2023a_B.b_k);
+              for (i = 0; i <= Sub_diablo2023a_B.nm1d2; i++) {
+                b->data[i] = static_cast<real32_T>
+                  (Sub_diablo2023a_B.In1.angle_increment * static_cast<real_T>(i)
+                   + Sub_diablo2023a_B.In1.angle_min);
+              }
+            } else if (static_cast<real32_T>(fabs(static_cast<real_T>
+                         (Sub_diablo2023a_B.In1.angle_increment))) >=
+                       1.07374182E+9F) {
+              Sub_diablo2023a_B.b_k = b->size[0] * b->size[1];
+              b->size[0] = 1;
+              Sub_diablo2023a_B.nm1d2 = static_cast<int32_T>((static_cast<real_T>
+                (Sub_diablo2023a_B.In1.angle_max) -
+                Sub_diablo2023a_B.In1.angle_min) /
+                Sub_diablo2023a_B.In1.angle_increment);
+              b->size[1] = Sub_diablo2023a_B.nm1d2 + 1;
+              Sub__emxEnsureCapacity_real32_T(b, Sub_diablo2023a_B.b_k);
+              for (i = 0; i <= Sub_diablo2023a_B.nm1d2; i++) {
+                b->data[i] = static_cast<real32_T>
+                  (Sub_diablo2023a_B.In1.angle_increment * static_cast<real_T>(i)
+                   + Sub_diablo2023a_B.In1.angle_min);
+              }
+            } else if (static_cast<real32_T>(fabs(static_cast<real_T>
+                         (Sub_diablo2023a_B.In1.angle_max))) >= 1.07374182E+9F)
+            {
+              Sub_diablo2023a_B.b_k = b->size[0] * b->size[1];
+              b->size[0] = 1;
+              Sub_diablo2023a_B.nm1d2 = static_cast<int32_T>((static_cast<real_T>
+                (Sub_diablo2023a_B.In1.angle_max) -
+                Sub_diablo2023a_B.In1.angle_min) /
+                Sub_diablo2023a_B.In1.angle_increment);
+              b->size[1] = Sub_diablo2023a_B.nm1d2 + 1;
+              Sub__emxEnsureCapacity_real32_T(b, Sub_diablo2023a_B.b_k);
+              for (i = 0; i <= Sub_diablo2023a_B.nm1d2; i++) {
+                b->data[i] = static_cast<real32_T>
+                  (Sub_diablo2023a_B.In1.angle_increment * static_cast<real_T>(i)
+                   + Sub_diablo2023a_B.In1.angle_min);
+              }
+            } else {
+              if (Sub_diablo2023a_B.In1.angle_max < 0.0F) {
+                tmp = static_cast<real32_T>(ceil(static_cast<real_T>
+                  (Sub_diablo2023a_B.In1.angle_max)));
+              } else {
+                tmp = static_cast<real32_T>(floor(static_cast<real_T>
+                  (Sub_diablo2023a_B.In1.angle_max)));
+              }
+
+              Sub_diablo2023a_B.nm1d2 = div_s32(static_cast<int32_T>(tmp) -
+                static_cast<int32_T>(y), static_cast<int32_T>
+                (Sub_diablo2023a_B.kd));
+              Sub_diablo2023a_B.b_k = b->size[0] * b->size[1];
+              b->size[0] = 1;
+              Sub__emxEnsureCapacity_real32_T(b, Sub_diablo2023a_B.b_k);
+              if (Sub_diablo2023a_B.In1.angle_max < 0.0F) {
+                tmp = static_cast<real32_T>(ceil(static_cast<real_T>
+                  (Sub_diablo2023a_B.In1.angle_max)));
+              } else {
+                tmp = static_cast<real32_T>(floor(static_cast<real_T>
+                  (Sub_diablo2023a_B.In1.angle_max)));
+              }
+
+              Sub_diablo2023a_B.b_k = b->size[0] * b->size[1];
+              b->size[1] = div_s32(static_cast<int32_T>(tmp) -
+                                   static_cast<int32_T>(y), static_cast<int32_T>
+                                   (Sub_diablo2023a_B.kd)) + 1;
+              Sub__emxEnsureCapacity_real32_T(b, Sub_diablo2023a_B.b_k);
+              for (i = 0; i <= Sub_diablo2023a_B.nm1d2; i++) {
+                b->data[i] = static_cast<real32_T>(i * static_cast<int32_T>
+                  (Sub_diablo2023a_B.kd) + static_cast<int32_T>(y));
+              }
+            }
+          } else {
+            guard1 = true;
+          }
+        } else {
+          guard1 = true;
+        }
+      }
+    }
+
+    if (guard1) {
+      Sub_diablo2023a_B.up = floor((static_cast<real_T>
+        (Sub_diablo2023a_B.In1.angle_max) - Sub_diablo2023a_B.In1.angle_min) /
+        Sub_diablo2023a_B.In1.angle_increment + 0.5);
+      Sub_diablo2023a_B.roll = Sub_diablo2023a_B.up *
+        Sub_diablo2023a_B.In1.angle_increment + Sub_diablo2023a_B.In1.angle_min;
+      if (Sub_diablo2023a_B.In1.angle_increment > 0.0F) {
+        Sub_diablo2023a_B.pitch = Sub_diablo2023a_B.roll -
+          Sub_diablo2023a_B.In1.angle_max;
+      } else {
+        Sub_diablo2023a_B.pitch = Sub_diablo2023a_B.In1.angle_max -
+          Sub_diablo2023a_B.roll;
+      }
+
+      Sub_diablo2023a_B.rtb_Gain3_idx_0 = fabs(static_cast<real_T>
+        (Sub_diablo2023a_B.In1.angle_min));
+      Sub_diablo2023a_B.factor = fabs(static_cast<real_T>
+        (Sub_diablo2023a_B.In1.angle_max));
+      if ((Sub_diablo2023a_B.rtb_Gain3_idx_0 >= Sub_diablo2023a_B.factor) ||
+          rtIsNaN(Sub_diablo2023a_B.factor)) {
+        Sub_diablo2023a_B.factor = Sub_diablo2023a_B.rtb_Gain3_idx_0;
+      }
+
+      if (fabs(Sub_diablo2023a_B.pitch) < 2.384185791015625E-7 *
+          Sub_diablo2023a_B.factor) {
+        Sub_diablo2023a_B.up++;
+        y = Sub_diablo2023a_B.In1.angle_max;
+      } else if (Sub_diablo2023a_B.pitch > 0.0) {
+        y = static_cast<real32_T>((Sub_diablo2023a_B.up - 1.0) *
+          Sub_diablo2023a_B.In1.angle_increment +
+          Sub_diablo2023a_B.In1.angle_min);
+      } else {
+        Sub_diablo2023a_B.up++;
+        y = static_cast<real32_T>(Sub_diablo2023a_B.roll);
+      }
+
+      if (Sub_diablo2023a_B.up >= 0.0) {
+        i = static_cast<int32_T>(Sub_diablo2023a_B.up) - 1;
+      } else {
+        i = -1;
+      }
+
+      Sub_diablo2023a_B.b_k = b->size[0] * b->size[1];
+      b->size[0] = 1;
+      b->size[1] = i + 1;
+      Sub__emxEnsureCapacity_real32_T(b, Sub_diablo2023a_B.b_k);
+      if (i + 1 > 0) {
+        b->data[0] = Sub_diablo2023a_B.In1.angle_min;
+        if (i + 1 > 1) {
+          b->data[i] = y;
+          Sub_diablo2023a_B.nm1d2 = i / 2;
+          for (Sub_diablo2023a_B.b_k = 0; Sub_diablo2023a_B.b_k <=
+               Sub_diablo2023a_B.nm1d2 - 2; Sub_diablo2023a_B.b_k++) {
+            Sub_diablo2023a_B.kd = static_cast<real32_T>(Sub_diablo2023a_B.b_k +
+              1) * Sub_diablo2023a_B.In1.angle_increment;
+            b->data[Sub_diablo2023a_B.b_k + 1] = Sub_diablo2023a_B.In1.angle_min
+              + Sub_diablo2023a_B.kd;
+            b->data[(i - Sub_diablo2023a_B.b_k) - 1] = y - Sub_diablo2023a_B.kd;
+          }
+
+          if (Sub_diablo2023a_B.nm1d2 << 1 == i) {
+            b->data[Sub_diablo2023a_B.nm1d2] = (Sub_diablo2023a_B.In1.angle_min
+              + y) / 2.0F;
+          } else {
+            Sub_diablo2023a_B.kd = static_cast<real32_T>(Sub_diablo2023a_B.nm1d2)
+              * Sub_diablo2023a_B.In1.angle_increment;
+            b->data[Sub_diablo2023a_B.nm1d2] = Sub_diablo2023a_B.In1.angle_min +
+              Sub_diablo2023a_B.kd;
+            b->data[Sub_diablo2023a_B.nm1d2 + 1] = y - Sub_diablo2023a_B.kd;
+          }
+        }
+      }
+    }
+  }
+
+  Sub_diablo2023a_DW.SFunction_DIMS3 = b->size[1];
+  Sub_diablo2023a_B.nm1d2 = b->size[1];
+  if (Sub_diablo2023a_B.nm1d2 - 1 >= 0) {
+    memcpy(&Sub_diablo2023a_B.tmp_data[0], &b->data[0], static_cast<uint32_T>
+           (Sub_diablo2023a_B.nm1d2) * sizeof(real32_T));
+  }
+
+  Sub_diablo2023_emxFree_real32_T(&b);
+
+  // MATLAB Function: '<S18>/ReadRanges' incorporates:
+  //   MATLAB Function: '<S4>/read scan'
+
+  for (i = 0; i < 60; i++) {
+    Sub_diablo2023a_B.x_data[i] = (Sub_diablo2023a_B.In1.ranges[i + 330] <= 0.45);
+  }
+
+  roll_ctrl_mode = false;
+  i = 1;
+  exitg1 = false;
+  while ((!exitg1) && (i <= 60)) {
+    if (Sub_diablo2023a_B.x_data[i - 1]) {
+      roll_ctrl_mode = true;
+      exitg1 = true;
+    } else {
+      i++;
+    }
+  }
+
+  for (i = 0; i < 30; i++) {
+    Sub_diablo2023a_B.b_x_data[i] = (Sub_diablo2023a_B.In1.ranges[i] <= 0.45);
+    Sub_diablo2023a_B.b_x_data[i + 30] = (Sub_diablo2023a_B.In1.ranges[i + 690] <=
+      0.45);
+  }
+
+  c_x[0] = false;
+  c_x[1] = false;
+  Sub_diablo2023a_B.nm1d2 = 0;
+  for (i = 0; i < 2; i++) {
+    Sub_diablo2023a_B.b_k = Sub_diablo2023a_B.nm1d2 + 30;
+    b_ix = Sub_diablo2023a_B.nm1d2;
+    Sub_diablo2023a_B.nm1d2 += 30;
+    exitg1 = false;
+    while ((!exitg1) && (b_ix + 1 <= Sub_diablo2023a_B.b_k)) {
+      if (Sub_diablo2023a_B.b_x_data[b_ix]) {
+        c_x[i] = true;
+        exitg1 = true;
+      } else {
+        b_ix++;
+      }
+    }
+  }
+
+  height_ctrl_mode = true;
+  i = 0;
+  exitg1 = false;
+  while ((!exitg1) && (i < 2)) {
+    if (!c_x[i]) {
+      height_ctrl_mode = false;
+      exitg1 = true;
+    } else {
+      i++;
+    }
+  }
+
   // MATLABSystem: '<S13>/SourceBlock'
   pitch_ctrl_mode = Sub_Sub_diablo2023a_1887.getLatestMessage
     (&Sub_diablo2023a_B.b_varargout_2_k);
 
   // Outputs for Enabled SubSystem: '<S13>/Enabled Subsystem' incorporates:
-  //   EnablePort: '<S32>/Enable'
+  //   EnablePort: '<S33>/Enable'
 
   if (pitch_ctrl_mode) {
-    // SignalConversion generated from: '<S32>/In1'
+    // SignalConversion generated from: '<S33>/In1'
     Sub_diablo2023a_B.In1_l = Sub_diablo2023a_B.b_varargout_2_k;
   }
 
@@ -701,259 +1010,6 @@ void Sub_diablo2023a::step()
 
   // End of Switch: '<S3>/Subsume3'
 
-  // MATLABSystem: '<S2>/SourceBlock'
-  pitch_ctrl_mode = Sub_Sub_diablo2023a_1432.getLatestMessage
-    (&Sub_diablo2023a_B.b_varargout_2);
-
-  // Outputs for Enabled SubSystem: '<S2>/Enabled Subsystem' incorporates:
-  //   EnablePort: '<S15>/Enable'
-
-  if (pitch_ctrl_mode) {
-    // SignalConversion generated from: '<S15>/In1'
-    Sub_diablo2023a_B.In1 = Sub_diablo2023a_B.b_varargout_2;
-  }
-
-  // End of MATLABSystem: '<S2>/SourceBlock'
-  // End of Outputs for SubSystem: '<S2>/Enabled Subsystem'
-  Sub_diablo2023_emxInit_real32_T(&b, 2);
-
-  // MATLAB Function: '<S4>/read scan'
-  if (rtIsNaNF(Sub_diablo2023a_B.In1.angle_min)) {
-    StateFollowWaypoints = b->size[0] * b->size[1];
-    b->size[0] = 1;
-    b->size[1] = 1;
-    Sub__emxEnsureCapacity_real32_T(b, StateFollowWaypoints);
-    b->data[0] = (rtNaNF);
-  } else if (rtIsNaNF(Sub_diablo2023a_B.In1.angle_increment)) {
-    StateFollowWaypoints = b->size[0] * b->size[1];
-    b->size[0] = 1;
-    b->size[1] = 1;
-    Sub__emxEnsureCapacity_real32_T(b, StateFollowWaypoints);
-    b->data[0] = (rtNaNF);
-  } else if (rtIsNaNF(Sub_diablo2023a_B.In1.angle_max)) {
-    StateFollowWaypoints = b->size[0] * b->size[1];
-    b->size[0] = 1;
-    b->size[1] = 1;
-    Sub__emxEnsureCapacity_real32_T(b, StateFollowWaypoints);
-    b->data[0] = (rtNaNF);
-  } else if ((Sub_diablo2023a_B.In1.angle_increment == 0.0F) ||
-             ((Sub_diablo2023a_B.In1.angle_min < Sub_diablo2023a_B.In1.angle_max)
-              && (Sub_diablo2023a_B.In1.angle_increment < 0.0F)) ||
-             ((Sub_diablo2023a_B.In1.angle_max < Sub_diablo2023a_B.In1.angle_min)
-              && (Sub_diablo2023a_B.In1.angle_increment > 0.0F))) {
-    b->size[0] = 1;
-    b->size[1] = 0;
-  } else {
-    guard1 = false;
-    guard2 = false;
-    if (rtIsInfF(Sub_diablo2023a_B.In1.angle_min) || rtIsInfF
-        (Sub_diablo2023a_B.In1.angle_max)) {
-      if (rtIsInfF(Sub_diablo2023a_B.In1.angle_increment)) {
-        StateFollowWaypoints = b->size[0] * b->size[1];
-        b->size[0] = 1;
-        b->size[1] = 1;
-        Sub__emxEnsureCapacity_real32_T(b, StateFollowWaypoints);
-        b->data[0] = (rtNaNF);
-      } else if (Sub_diablo2023a_B.In1.angle_min ==
-                 Sub_diablo2023a_B.In1.angle_max) {
-        StateFollowWaypoints = b->size[0] * b->size[1];
-        b->size[0] = 1;
-        b->size[1] = 1;
-        Sub__emxEnsureCapacity_real32_T(b, StateFollowWaypoints);
-        b->data[0] = (rtNaNF);
-      } else {
-        guard2 = true;
-      }
-    } else {
-      guard2 = true;
-    }
-
-    if (guard2) {
-      if (rtIsInfF(Sub_diablo2023a_B.In1.angle_increment)) {
-        StateFollowWaypoints = b->size[0] * b->size[1];
-        b->size[0] = 1;
-        b->size[1] = 1;
-        Sub__emxEnsureCapacity_real32_T(b, StateFollowWaypoints);
-        b->data[0] = Sub_diablo2023a_B.In1.angle_min;
-      } else {
-        y = static_cast<real32_T>(floor(static_cast<real_T>
-          (Sub_diablo2023a_B.In1.angle_min)));
-        if (y == Sub_diablo2023a_B.In1.angle_min) {
-          kd = static_cast<real32_T>(floor(static_cast<real_T>
-            (Sub_diablo2023a_B.In1.angle_increment)));
-          if (kd == Sub_diablo2023a_B.In1.angle_increment) {
-            if (static_cast<real32_T>(fabs(static_cast<real_T>
-                  (Sub_diablo2023a_B.In1.angle_min))) >= 1.07374182E+9F) {
-              StateFollowWaypoints = b->size[0] * b->size[1];
-              b->size[0] = 1;
-              StateWander = static_cast<int32_T>((static_cast<real_T>
-                (Sub_diablo2023a_B.In1.angle_max) -
-                Sub_diablo2023a_B.In1.angle_min) /
-                Sub_diablo2023a_B.In1.angle_increment);
-              b->size[1] = StateWander + 1;
-              Sub__emxEnsureCapacity_real32_T(b, StateFollowWaypoints);
-              for (StateTeachandRepeat = 0; StateTeachandRepeat <= StateWander;
-                   StateTeachandRepeat++) {
-                b->data[StateTeachandRepeat] = static_cast<real32_T>
-                  (Sub_diablo2023a_B.In1.angle_increment * static_cast<real_T>
-                   (StateTeachandRepeat) + Sub_diablo2023a_B.In1.angle_min);
-              }
-            } else if (static_cast<real32_T>(fabs(static_cast<real_T>
-                         (Sub_diablo2023a_B.In1.angle_increment))) >=
-                       1.07374182E+9F) {
-              StateFollowWaypoints = b->size[0] * b->size[1];
-              b->size[0] = 1;
-              StateWander = static_cast<int32_T>((static_cast<real_T>
-                (Sub_diablo2023a_B.In1.angle_max) -
-                Sub_diablo2023a_B.In1.angle_min) /
-                Sub_diablo2023a_B.In1.angle_increment);
-              b->size[1] = StateWander + 1;
-              Sub__emxEnsureCapacity_real32_T(b, StateFollowWaypoints);
-              for (StateTeachandRepeat = 0; StateTeachandRepeat <= StateWander;
-                   StateTeachandRepeat++) {
-                b->data[StateTeachandRepeat] = static_cast<real32_T>
-                  (Sub_diablo2023a_B.In1.angle_increment * static_cast<real_T>
-                   (StateTeachandRepeat) + Sub_diablo2023a_B.In1.angle_min);
-              }
-            } else if (static_cast<real32_T>(fabs(static_cast<real_T>
-                         (Sub_diablo2023a_B.In1.angle_max))) >= 1.07374182E+9F)
-            {
-              StateFollowWaypoints = b->size[0] * b->size[1];
-              b->size[0] = 1;
-              StateWander = static_cast<int32_T>((static_cast<real_T>
-                (Sub_diablo2023a_B.In1.angle_max) -
-                Sub_diablo2023a_B.In1.angle_min) /
-                Sub_diablo2023a_B.In1.angle_increment);
-              b->size[1] = StateWander + 1;
-              Sub__emxEnsureCapacity_real32_T(b, StateFollowWaypoints);
-              for (StateTeachandRepeat = 0; StateTeachandRepeat <= StateWander;
-                   StateTeachandRepeat++) {
-                b->data[StateTeachandRepeat] = static_cast<real32_T>
-                  (Sub_diablo2023a_B.In1.angle_increment * static_cast<real_T>
-                   (StateTeachandRepeat) + Sub_diablo2023a_B.In1.angle_min);
-              }
-            } else {
-              if (Sub_diablo2023a_B.In1.angle_max < 0.0F) {
-                tmp = static_cast<real32_T>(ceil(static_cast<real_T>
-                  (Sub_diablo2023a_B.In1.angle_max)));
-              } else {
-                tmp = static_cast<real32_T>(floor(static_cast<real_T>
-                  (Sub_diablo2023a_B.In1.angle_max)));
-              }
-
-              StateTeachandRepeat = div_s32(static_cast<int32_T>(tmp) -
-                static_cast<int32_T>(y), static_cast<int32_T>(kd));
-              StateFollowWaypoints = b->size[0] * b->size[1];
-              b->size[0] = 1;
-              Sub__emxEnsureCapacity_real32_T(b, StateFollowWaypoints);
-              if (Sub_diablo2023a_B.In1.angle_max < 0.0F) {
-                tmp = static_cast<real32_T>(ceil(static_cast<real_T>
-                  (Sub_diablo2023a_B.In1.angle_max)));
-              } else {
-                tmp = static_cast<real32_T>(floor(static_cast<real_T>
-                  (Sub_diablo2023a_B.In1.angle_max)));
-              }
-
-              StateFollowWaypoints = b->size[0] * b->size[1];
-              b->size[1] = div_s32(static_cast<int32_T>(tmp) -
-                                   static_cast<int32_T>(y), static_cast<int32_T>
-                                   (kd)) + 1;
-              Sub__emxEnsureCapacity_real32_T(b, StateFollowWaypoints);
-              for (StateWander = 0; StateWander <= StateTeachandRepeat;
-                   StateWander++) {
-                b->data[StateWander] = static_cast<real32_T>(StateWander *
-                  static_cast<int32_T>(kd) + static_cast<int32_T>(y));
-              }
-            }
-          } else {
-            guard1 = true;
-          }
-        } else {
-          guard1 = true;
-        }
-      }
-    }
-
-    if (guard1) {
-      Sub_diablo2023a_B.pitch = floor((static_cast<real_T>
-        (Sub_diablo2023a_B.In1.angle_max) - Sub_diablo2023a_B.In1.angle_min) /
-        Sub_diablo2023a_B.In1.angle_increment + 0.5);
-      Sub_diablo2023a_B.apnd = Sub_diablo2023a_B.pitch *
-        Sub_diablo2023a_B.In1.angle_increment + Sub_diablo2023a_B.In1.angle_min;
-      if (Sub_diablo2023a_B.In1.angle_increment > 0.0F) {
-        Sub_diablo2023a_B.cdiff = Sub_diablo2023a_B.apnd -
-          Sub_diablo2023a_B.In1.angle_max;
-      } else {
-        Sub_diablo2023a_B.cdiff = Sub_diablo2023a_B.In1.angle_max -
-          Sub_diablo2023a_B.apnd;
-      }
-
-      Sub_diablo2023a_B.u0 = fabs(static_cast<real_T>
-        (Sub_diablo2023a_B.In1.angle_min));
-      u1 = fabs(static_cast<real_T>(Sub_diablo2023a_B.In1.angle_max));
-      if ((Sub_diablo2023a_B.u0 >= u1) || rtIsNaN(u1)) {
-        u1 = Sub_diablo2023a_B.u0;
-      }
-
-      if (fabs(Sub_diablo2023a_B.cdiff) < 2.384185791015625E-7 * u1) {
-        Sub_diablo2023a_B.pitch++;
-        y = Sub_diablo2023a_B.In1.angle_max;
-      } else if (Sub_diablo2023a_B.cdiff > 0.0) {
-        y = static_cast<real32_T>((Sub_diablo2023a_B.pitch - 1.0) *
-          Sub_diablo2023a_B.In1.angle_increment +
-          Sub_diablo2023a_B.In1.angle_min);
-      } else {
-        Sub_diablo2023a_B.pitch++;
-        y = static_cast<real32_T>(Sub_diablo2023a_B.apnd);
-      }
-
-      if (Sub_diablo2023a_B.pitch >= 0.0) {
-        StateWander = static_cast<int32_T>(Sub_diablo2023a_B.pitch) - 1;
-      } else {
-        StateWander = -1;
-      }
-
-      StateFollowWaypoints = b->size[0] * b->size[1];
-      b->size[0] = 1;
-      b->size[1] = StateWander + 1;
-      Sub__emxEnsureCapacity_real32_T(b, StateFollowWaypoints);
-      if (StateWander + 1 > 0) {
-        b->data[0] = Sub_diablo2023a_B.In1.angle_min;
-        if (StateWander + 1 > 1) {
-          b->data[StateWander] = y;
-          StateTeachandRepeat = StateWander / 2;
-          for (StateFollowWaypoints = 0; StateFollowWaypoints <=
-               StateTeachandRepeat - 2; StateFollowWaypoints++) {
-            kd = static_cast<real32_T>(StateFollowWaypoints + 1) *
-              Sub_diablo2023a_B.In1.angle_increment;
-            b->data[StateFollowWaypoints + 1] = Sub_diablo2023a_B.In1.angle_min
-              + kd;
-            b->data[(StateWander - StateFollowWaypoints) - 1] = y - kd;
-          }
-
-          if (StateTeachandRepeat << 1 == StateWander) {
-            b->data[StateTeachandRepeat] = (Sub_diablo2023a_B.In1.angle_min + y)
-              / 2.0F;
-          } else {
-            kd = static_cast<real32_T>(StateTeachandRepeat) *
-              Sub_diablo2023a_B.In1.angle_increment;
-            b->data[StateTeachandRepeat] = Sub_diablo2023a_B.In1.angle_min + kd;
-            b->data[StateTeachandRepeat + 1] = y - kd;
-          }
-        }
-      }
-    }
-  }
-
-  Sub_diablo2023a_DW.SFunction_DIMS3 = b->size[1];
-  StateWander = b->size[1];
-  if (StateWander - 1 >= 0) {
-    memcpy(&Sub_diablo2023a_B.tmp_data[0], &b->data[0], static_cast<uint32_T>
-           (StateWander) * sizeof(real32_T));
-  }
-
-  Sub_diablo2023_emxFree_real32_T(&b);
-
   // MATLAB Function: '<S17>/MATLAB Function' incorporates:
   //   DataStoreRead: '<S17>/Data Store Read'
   //   DataStoreRead: '<S17>/Data Store Read1'
@@ -962,15 +1018,13 @@ void Sub_diablo2023a::step()
   //   MATLAB Function: '<S4>/read scan'
 
   Sub_diablo2023a_B.pitch = 0.0;
-  for (StateWander = 0; StateWander < 720; StateWander++) {
+  for (i = 0; i < 720; i++) {
     // MATLAB Function: '<S4>/read scan'
-    y = Sub_diablo2023a_B.In1.ranges[StateWander];
+    y = Sub_diablo2023a_B.In1.ranges[i];
     if (y > Sub_diablo2023a_DW.max_scan) {
       y = (rtNaNF);
     }
 
-    Sub_diablo2023a_B.x[StateWander] = 0.0;
-    Sub_diablo2023a_B.b_x[StateWander] = 0.0;
     if (y > 0.0F) {
       if (y >= Sub_diablo2023a_DW.max_scan) {
         Sub_diablo2023a_B.pitch = 0.0;
@@ -982,36 +1036,72 @@ void Sub_diablo2023a::step()
       } else if (y < Sub_diablo2023a_DW.krit) {
         Sub_diablo2023a_B.pitch = static_cast<real32_T>((1.0 /
           Sub_diablo2023a_DW.krit - 1.0 / Sub_diablo2023a_DW.max_scan) *
-          Sub_diablo2023a_DW.k1 * rt_powd_snf(Sub_diablo2023a_DW.krit,
-          Sub_diablo2023a_DW.k2)) * rt_powf_snf(1.0F / y, static_cast<real32_T>
-          (Sub_diablo2023a_DW.k2));
+          Sub_diablo2023a_DW.k1 * Sub_diablo2023a_rt_powd_snf
+          (Sub_diablo2023a_DW.krit, Sub_diablo2023a_DW.k2)) * rt_powf_snf(1.0F /
+          y, static_cast<real32_T>(Sub_diablo2023a_DW.k2));
       }
-
-      y = Sub_diablo2023a_B.tmp_data[StateWander];
-      Sub_diablo2023a_B.x[StateWander] = static_cast<real32_T>
-        (Sub_diablo2023a_B.pitch) * static_cast<real32_T>(cos(static_cast<real_T>
-        (y)));
-      Sub_diablo2023a_B.b_x[StateWander] = static_cast<real32_T>
-        (Sub_diablo2023a_B.pitch) * static_cast<real32_T>(sin(static_cast<real_T>
-        (y)));
     }
+
+    // MATLAB Function: '<S4>/read scan' incorporates:
+    //   DataStoreRead: '<S17>/Data Store Read'
+    //   DataStoreRead: '<S17>/Data Store Read1'
+    //   DataStoreRead: '<S17>/Data Store Read2'
+    //   DataStoreRead: '<S17>/Data Store Read3'
+
+    y = Sub_diablo2023a_B.tmp_data[i];
+    Sub_diablo2023a_B.F_x[i] = static_cast<real32_T>(Sub_diablo2023a_B.pitch) *
+      static_cast<real32_T>(cos(static_cast<real_T>(y)));
+    Sub_diablo2023a_B.F_y[i] = static_cast<real32_T>(Sub_diablo2023a_B.pitch) *
+      static_cast<real32_T>(sin(static_cast<real_T>(y)));
   }
 
-  Sub_diablo2023a_B.apnd = Sub_diablo2023a_B.x[0];
-  Sub_diablo2023a_B.pitch = Sub_diablo2023a_B.b_x[0];
-  for (StateWander = 0; StateWander < 719; StateWander++) {
-    Sub_diablo2023a_B.apnd += Sub_diablo2023a_B.x[StateWander + 1];
-    Sub_diablo2023a_B.pitch += Sub_diablo2023a_B.b_x[StateWander + 1];
+  Sub_diablo2023a_B.rtb_Gain3_idx_0 = Sub_diablo2023a_B.F_x[0];
+  Sub_diablo2023a_B.pitch = Sub_diablo2023a_B.F_y[0];
+  for (i = 0; i < 719; i++) {
+    Sub_diablo2023a_B.rtb_Gain3_idx_0 += Sub_diablo2023a_B.F_x[i + 1];
+    Sub_diablo2023a_B.pitch += Sub_diablo2023a_B.F_y[i + 1];
   }
+
+  // Gain: '<S22>/Gain3' incorporates:
+  //   MATLAB Function: '<S17>/MATLAB Function'
+
+  Sub_diablo2023a_B.rtb_Gain3_idx_0 = -(Sub_diablo2023a_B.rtb_Gain3_idx_0 / 20.0);
 
   // MATLAB Function: '<S20>/real' incorporates:
   //   DataStoreRead: '<S20>/Data Store Read'
+  //   DataStoreRead: '<S20>/Data Store Read1'
+  //   DataStoreRead: '<S20>/Data Store Read2'
   //   DataStoreRead: '<S20>/Data Store Read3'
   //   Gain: '<S22>/Gain3'
   //   MATLAB Function: '<S17>/MATLAB Function'
+  //   MATLAB Function: '<S18>/ReadRanges'
+  //   Switch: '<S22>/Switch'
 
-  Sub_diablo2023a_B.roll += -(Sub_diablo2023a_B.apnd / 20.0) *
-    Sub_diablo2023a_DW.k_v * 0.05;
+  if (Sub_diablo2023a_B.roll * Sub_diablo2023a_B.rtb_Gain3_idx_0 <= 0.0) {
+    Sub_diablo2023a_B.factor = fabs(Sub_diablo2023a_B.rtb_Gain3_idx_0 + 1.0) *
+      Sub_diablo2023a_DW.deceleration;
+    if (height_ctrl_mode) {
+      Sub_diablo2023a_B.roll = Sub_diablo2023a_DW.k_v *
+        Sub_diablo2023a_B.rtb_Gain3_idx_0 * 0.05 *
+        Sub_diablo2023a_DW.deceleration + Sub_diablo2023a_B.roll /
+        Sub_diablo2023a_B.factor;
+    } else if (roll_ctrl_mode) {
+      Sub_diablo2023a_B.roll = Sub_diablo2023a_DW.k_v *
+        Sub_diablo2023a_B.rtb_Gain3_idx_0 * 0.05 *
+        Sub_diablo2023a_DW.deceleration + Sub_diablo2023a_B.roll /
+        Sub_diablo2023a_B.factor;
+    } else {
+      Sub_diablo2023a_B.roll += Sub_diablo2023a_DW.k_v *
+        Sub_diablo2023a_B.rtb_Gain3_idx_0 * 0.05;
+    }
+  } else {
+    std::printf("%s\n", "acc");
+    std::fflush(stdout);
+    Sub_diablo2023a_B.roll += Sub_diablo2023a_DW.k_v *
+      Sub_diablo2023a_B.rtb_Gain3_idx_0 * 0.05 * Sub_diablo2023a_DW.acceleration
+      / 100.0;
+  }
+
   if (!(Sub_diablo2023a_B.roll <= 1.0)) {
     Sub_diablo2023a_B.roll = 1.0;
   }
@@ -1074,17 +1164,27 @@ void Sub_diablo2023a::step()
   // DataStoreWrite: '<S3>/Data Store Write18' incorporates:
   //   Constant: '<S3>/kritt'
 
-  Sub_diablo2023a_DW.krit = 0.6;
+  Sub_diablo2023a_DW.krit = 0.45;
 
   // DataStoreWrite: '<S3>/Data Store Write2' incorporates:
   //   Constant: '<S3>/k2 how quick  repulsive at d< krit  increased '
 
-  Sub_diablo2023a_DW.k2 = 2.0;
+  Sub_diablo2023a_DW.k2 = 3.0;
+
+  // DataStoreWrite: '<S3>/Data Store Write21' incorporates:
+  //   Constant: '<S3>/acceleration//100'
+
+  Sub_diablo2023a_DW.acceleration = 4.0;
+
+  // DataStoreWrite: '<S3>/Data Store Write22' incorporates:
+  //   Constant: '<S3>/deceleration'
+
+  Sub_diablo2023a_DW.deceleration = 10.0;
 
   // DataStoreWrite: '<S3>/Data Store Write3' incorporates:
   //   Constant: '<S3>/max_scan'
 
-  Sub_diablo2023a_DW.max_scan = 0.9;
+  Sub_diablo2023a_DW.max_scan = 0.6;
 
   // MATLABSystem: '<S14>/SourceBlock'
   Sub_Sub_diablo2023a_1933.getLatestMessage(&Sub_diablo2023a_B.b_varargout_2_m);
@@ -1137,11 +1237,11 @@ void Sub_diablo2023a::initialize()
   // Start for MATLABSystem: '<S7>/SourceBlock'
   Sub_diablo20_SystemCore_setup_p(&Sub_diablo2023a_DW.obj_e);
 
-  // Start for MATLABSystem: '<S13>/SourceBlock'
-  Sub_diabl_SystemCore_setup_p3pb(&Sub_diablo2023a_DW.obj_d);
-
   // Start for MATLABSystem: '<S2>/SourceBlock'
   Sub_diablo2023_SystemCore_setup(&Sub_diablo2023a_DW.obj_g);
+
+  // Start for MATLABSystem: '<S13>/SourceBlock'
+  Sub_diabl_SystemCore_setup_p3pb(&Sub_diablo2023a_DW.obj_d);
 
   // Start for MATLABSystem: '<S14>/SourceBlock'
   Sub_diab_SystemCore_setup_p3pbu(&Sub_diablo2023a_DW.obj);
@@ -1163,19 +1263,19 @@ void Sub_diablo2023a::terminate()
 
   // End of Terminate for MATLABSystem: '<S7>/SourceBlock'
 
-  // Terminate for MATLABSystem: '<S13>/SourceBlock'
-  if (!Sub_diablo2023a_DW.obj_d.matlabCodegenIsDeleted) {
-    Sub_diablo2023a_DW.obj_d.matlabCodegenIsDeleted = true;
-  }
-
-  // End of Terminate for MATLABSystem: '<S13>/SourceBlock'
-
   // Terminate for MATLABSystem: '<S2>/SourceBlock'
   if (!Sub_diablo2023a_DW.obj_g.matlabCodegenIsDeleted) {
     Sub_diablo2023a_DW.obj_g.matlabCodegenIsDeleted = true;
   }
 
   // End of Terminate for MATLABSystem: '<S2>/SourceBlock'
+
+  // Terminate for MATLABSystem: '<S13>/SourceBlock'
+  if (!Sub_diablo2023a_DW.obj_d.matlabCodegenIsDeleted) {
+    Sub_diablo2023a_DW.obj_d.matlabCodegenIsDeleted = true;
+  }
+
+  // End of Terminate for MATLABSystem: '<S13>/SourceBlock'
 
   // Terminate for MATLABSystem: '<S14>/SourceBlock'
   if (!Sub_diablo2023a_DW.obj.matlabCodegenIsDeleted) {

@@ -7,9 +7,9 @@
 //
 // Code generated for Simulink model 'Sub_diablo2023a'.
 //
-// Model version                  : 11.25
+// Model version                  : 11.26
 // Simulink Coder version         : 9.9 (R2023a) 19-Nov-2022
-// C/C++ source code generated on : Tue Mar 18 14:57:28 2025
+// C/C++ source code generated on : Tue Mar 18 23:29:50 2025
 //
 // Target selection: ert.tlc
 // Embedded hardware selection: ARM Compatible->ARM Cortex-A (64-bit)
@@ -22,7 +22,6 @@
 #include "Sub_diablo2023a_types.h"
 #include "Sub_diablo2023a.h"
 
-extern real_T rt_powd_snf(real_T u0, real_T u1);
 extern real32_T rt_powf_snf(real32_T u0, real32_T u1);
 extern int32_T div_s32(int32_T numerator, int32_T denominator);
 

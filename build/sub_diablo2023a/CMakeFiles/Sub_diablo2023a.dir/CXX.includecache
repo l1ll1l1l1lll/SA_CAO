@@ -179,6 +179,8 @@ motion_msgs/msg/detail/movement_ctrl_mode__type_support.hpp
 /home/y/SA_CAO_test_ws/install/motion_msgs/include/motion_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
 
 /home/y/SA_CAO_test_ws/src/sub_diablo2023a/include/sub_diablo2023a/Sub_diablo2023a.h
+cstdio
+-
 rtwtypes.h
 /home/y/SA_CAO_test_ws/src/sub_diablo2023a/include/sub_diablo2023a/rtwtypes.h
 slros2_initialize.h

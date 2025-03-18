@@ -1,0 +1,74 @@
+[0.083s] Invoking command in '/home/y/SA_CAO_test_ws/build/hls_lfcd_lds_driver': CMAKE_PREFIX_PATH=/home/y/SA_CAO_test_ws/install/turtlebot3:/home/y/SA_CAO_test_ws/install/turtlebot3_simulations:/home/y/SA_CAO_test_ws/install/turtlebot3_bringup:/home/y/SA_CAO_test_ws/install/turtlebot3_node:/home/y/SA_CAO_test_ws/install/turtlebot3_navigation2:/home/y/SA_CAO_test_ws/install/turtlebot3_fake_node:/home/y/SA_CAO_test_ws/install/turtlebot3_msgs:/home/y/SA_CAO_test_ws/install/turtlebot3_gazebo:/home/y/SA_CAO_test_ws/install/turtlebot3_description:/home/y/SA_CAO_test_ws/install/turtlebot3_cartographer:/home/y/SA_CAO_test_ws/install/sub_diablo2023a:/home/y/SA_CAO_test_ws/install/motion_msgs:/home/y/SA_CAO_test_ws/install/hls_lfcd_lds_driver:/home/y/SA_CAO_test_ws/install/dynamixel_sdk_examples:/home/y/SA_CAO_test_ws/install/dynamixel_sdk_custom_interfaces:/home/y/SA_CAO_test_ws/install/dynamixel_sdk:/home/y/SA_CAO_test_ws/install/turtlebot3_teleop:/home/y/SA_CAO_test_ws/install/turtlebot3_example:/home/y/SA_CAO_test_ws/install/my_joystick:/home/y/SA_CAO_test_ws/install/launch_diablo:/opt/ros/foxy:/home/y/oradar_ros/install/oradar_lidar /usr/bin/cmake /home/y/SA_CAO_test_ws/src/utils/hls_lfcd_lds_driver -DCMAKE_INSTALL_PREFIX=/home/y/SA_CAO_test_ws/install/hls_lfcd_lds_driver
+[0.585s] -- The C compiler identification is GNU 9.4.0
+[1.169s] -- The CXX compiler identification is GNU 9.4.0
+[1.217s] -- Check for working C compiler: /usr/bin/cc
+[1.961s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.964s] -- Detecting C compiler ABI info
+[2.443s] -- Detecting C compiler ABI info - done
+[2.469s] -- Detecting C compile features
+[2.470s] -- Detecting C compile features - done
+[2.475s] -- Check for working CXX compiler: /usr/bin/c++
+[3.012s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.015s] -- Detecting CXX compiler ABI info
+[3.587s] -- Detecting CXX compiler ABI info - done
+[3.620s] -- Detecting CXX compile features
+[3.622s] -- Detecting CXX compile features - done
+[3.639s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.740s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.741s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.616s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[4.913s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.953s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[5.689s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.802s] -- Found FastRTPS: /opt/ros/foxy/include  
+[6.022s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.169s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[6.176s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.184s] -- Looking for pthread.h
+[6.743s] -- Looking for pthread.h - found
+[6.744s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.231s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[7.232s] -- Looking for pthread_create in pthreads
+[7.883s] -- Looking for pthread_create in pthreads - not found
+[7.884s] -- Looking for pthread_create in pthread
+[8.488s] -- Looking for pthread_create in pthread - found
+[8.494s] -- Found Threads: TRUE  
+[8.883s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[9.204s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system 
+[9.357s] -- Configuring done
+[9.380s] -- Generating done
+[9.387s] -- Build files have been written to: /home/y/SA_CAO_test_ws/build/hls_lfcd_lds_driver
+[9.411s] Invoked command in '/home/y/SA_CAO_test_ws/build/hls_lfcd_lds_driver' returned '0': CMAKE_PREFIX_PATH=/home/y/SA_CAO_test_ws/install/turtlebot3:/home/y/SA_CAO_test_ws/install/turtlebot3_simulations:/home/y/SA_CAO_test_ws/install/turtlebot3_bringup:/home/y/SA_CAO_test_ws/install/turtlebot3_node:/home/y/SA_CAO_test_ws/install/turtlebot3_navigation2:/home/y/SA_CAO_test_ws/install/turtlebot3_fake_node:/home/y/SA_CAO_test_ws/install/turtlebot3_msgs:/home/y/SA_CAO_test_ws/install/turtlebot3_gazebo:/home/y/SA_CAO_test_ws/install/turtlebot3_description:/home/y/SA_CAO_test_ws/install/turtlebot3_cartographer:/home/y/SA_CAO_test_ws/install/sub_diablo2023a:/home/y/SA_CAO_test_ws/install/motion_msgs:/home/y/SA_CAO_test_ws/install/hls_lfcd_lds_driver:/home/y/SA_CAO_test_ws/install/dynamixel_sdk_examples:/home/y/SA_CAO_test_ws/install/dynamixel_sdk_custom_interfaces:/home/y/SA_CAO_test_ws/install/dynamixel_sdk:/home/y/SA_CAO_test_ws/install/turtlebot3_teleop:/home/y/SA_CAO_test_ws/install/turtlebot3_example:/home/y/SA_CAO_test_ws/install/my_joystick:/home/y/SA_CAO_test_ws/install/launch_diablo:/opt/ros/foxy:/home/y/oradar_ros/install/oradar_lidar /usr/bin/cmake /home/y/SA_CAO_test_ws/src/utils/hls_lfcd_lds_driver -DCMAKE_INSTALL_PREFIX=/home/y/SA_CAO_test_ws/install/hls_lfcd_lds_driver
+[9.426s] Invoking command in '/home/y/SA_CAO_test_ws/build/hls_lfcd_lds_driver': CMAKE_PREFIX_PATH=/home/y/SA_CAO_test_ws/install/turtlebot3:/home/y/SA_CAO_test_ws/install/turtlebot3_simulations:/home/y/SA_CAO_test_ws/install/turtlebot3_bringup:/home/y/SA_CAO_test_ws/install/turtlebot3_node:/home/y/SA_CAO_test_ws/install/turtlebot3_navigation2:/home/y/SA_CAO_test_ws/install/turtlebot3_fake_node:/home/y/SA_CAO_test_ws/install/turtlebot3_msgs:/home/y/SA_CAO_test_ws/install/turtlebot3_gazebo:/home/y/SA_CAO_test_ws/install/turtlebot3_description:/home/y/SA_CAO_test_ws/install/turtlebot3_cartographer:/home/y/SA_CAO_test_ws/install/sub_diablo2023a:/home/y/SA_CAO_test_ws/install/motion_msgs:/home/y/SA_CAO_test_ws/install/hls_lfcd_lds_driver:/home/y/SA_CAO_test_ws/install/dynamixel_sdk_examples:/home/y/SA_CAO_test_ws/install/dynamixel_sdk_custom_interfaces:/home/y/SA_CAO_test_ws/install/dynamixel_sdk:/home/y/SA_CAO_test_ws/install/turtlebot3_teleop:/home/y/SA_CAO_test_ws/install/turtlebot3_example:/home/y/SA_CAO_test_ws/install/my_joystick:/home/y/SA_CAO_test_ws/install/launch_diablo:/opt/ros/foxy:/home/y/oradar_ros/install/oradar_lidar /usr/bin/cmake --build /home/y/SA_CAO_test_ws/build/hls_lfcd_lds_driver -- -j2 -l2
+[9.852s] [35m[1mScanning dependencies of target hlds_laser_publisher[0m
+[10.320s] [ 50%] [32mBuilding CXX object CMakeFiles/hlds_laser_publisher.dir/src/hlds_laser_publisher.cpp.o[0m
+[21.380s] [100%] [32m[1mLinking CXX executable hlds_laser_publisher[0m
+[22.132s] [100%] Built target hlds_laser_publisher
+[22.174s] Invoked command in '/home/y/SA_CAO_test_ws/build/hls_lfcd_lds_driver' returned '0': CMAKE_PREFIX_PATH=/home/y/SA_CAO_test_ws/install/turtlebot3:/home/y/SA_CAO_test_ws/install/turtlebot3_simulations:/home/y/SA_CAO_test_ws/install/turtlebot3_bringup:/home/y/SA_CAO_test_ws/install/turtlebot3_node:/home/y/SA_CAO_test_ws/install/turtlebot3_navigation2:/home/y/SA_CAO_test_ws/install/turtlebot3_fake_node:/home/y/SA_CAO_test_ws/install/turtlebot3_msgs:/home/y/SA_CAO_test_ws/install/turtlebot3_gazebo:/home/y/SA_CAO_test_ws/install/turtlebot3_description:/home/y/SA_CAO_test_ws/install/turtlebot3_cartographer:/home/y/SA_CAO_test_ws/install/sub_diablo2023a:/home/y/SA_CAO_test_ws/install/motion_msgs:/home/y/SA_CAO_test_ws/install/hls_lfcd_lds_driver:/home/y/SA_CAO_test_ws/install/dynamixel_sdk_examples:/home/y/SA_CAO_test_ws/install/dynamixel_sdk_custom_interfaces:/home/y/SA_CAO_test_ws/install/dynamixel_sdk:/home/y/SA_CAO_test_ws/install/turtlebot3_teleop:/home/y/SA_CAO_test_ws/install/turtlebot3_example:/home/y/SA_CAO_test_ws/install/my_joystick:/home/y/SA_CAO_test_ws/install/launch_diablo:/opt/ros/foxy:/home/y/oradar_ros/install/oradar_lidar /usr/bin/cmake --build /home/y/SA_CAO_test_ws/build/hls_lfcd_lds_driver -- -j2 -l2
+[22.185s] Invoking command in '/home/y/SA_CAO_test_ws/build/hls_lfcd_lds_driver': CMAKE_PREFIX_PATH=/home/y/SA_CAO_test_ws/install/turtlebot3:/home/y/SA_CAO_test_ws/install/turtlebot3_simulations:/home/y/SA_CAO_test_ws/install/turtlebot3_bringup:/home/y/SA_CAO_test_ws/install/turtlebot3_node:/home/y/SA_CAO_test_ws/install/turtlebot3_navigation2:/home/y/SA_CAO_test_ws/install/turtlebot3_fake_node:/home/y/SA_CAO_test_ws/install/turtlebot3_msgs:/home/y/SA_CAO_test_ws/install/turtlebot3_gazebo:/home/y/SA_CAO_test_ws/install/turtlebot3_description:/home/y/SA_CAO_test_ws/install/turtlebot3_cartographer:/home/y/SA_CAO_test_ws/install/sub_diablo2023a:/home/y/SA_CAO_test_ws/install/motion_msgs:/home/y/SA_CAO_test_ws/install/hls_lfcd_lds_driver:/home/y/SA_CAO_test_ws/install/dynamixel_sdk_examples:/home/y/SA_CAO_test_ws/install/dynamixel_sdk_custom_interfaces:/home/y/SA_CAO_test_ws/install/dynamixel_sdk:/home/y/SA_CAO_test_ws/install/turtlebot3_teleop:/home/y/SA_CAO_test_ws/install/turtlebot3_example:/home/y/SA_CAO_test_ws/install/my_joystick:/home/y/SA_CAO_test_ws/install/launch_diablo:/opt/ros/foxy:/home/y/oradar_ros/install/oradar_lidar /usr/bin/cmake --install /home/y/SA_CAO_test_ws/build/hls_lfcd_lds_driver
+[22.221s] -- Install configuration: ""
+[22.222s] -- Installing: /home/y/SA_CAO_test_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/launch
+[22.223s] -- Installing: /home/y/SA_CAO_test_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/launch/hlds_laser.launch.py
+[22.224s] -- Installing: /home/y/SA_CAO_test_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/launch/view_hlds_laser.launch.py
+[22.224s] -- Installing: /home/y/SA_CAO_test_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/rviz
+[22.225s] -- Installing: /home/y/SA_CAO_test_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/rviz/hlds_laser.rviz
+[22.226s] -- Installing: /home/y/SA_CAO_test_ws/install/hls_lfcd_lds_driver/lib/hls_lfcd_lds_driver/hlds_laser_publisher
+[22.235s] -- Set runtime path of "/home/y/SA_CAO_test_ws/install/hls_lfcd_lds_driver/lib/hls_lfcd_lds_driver/hlds_laser_publisher" to ""
+[22.236s] -- Installing: /home/y/SA_CAO_test_ws/install/hls_lfcd_lds_driver/share/ament_index/resource_index/package_run_dependencies/hls_lfcd_lds_driver
+[22.237s] -- Installing: /home/y/SA_CAO_test_ws/install/hls_lfcd_lds_driver/share/ament_index/resource_index/parent_prefix_path/hls_lfcd_lds_driver
+[22.238s] -- Installing: /home/y/SA_CAO_test_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/environment/ament_prefix_path.sh
+[22.239s] -- Installing: /home/y/SA_CAO_test_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/environment/ament_prefix_path.dsv
+[22.239s] -- Installing: /home/y/SA_CAO_test_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/environment/path.sh
+[22.240s] -- Installing: /home/y/SA_CAO_test_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/environment/path.dsv
+[22.241s] -- Installing: /home/y/SA_CAO_test_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/local_setup.bash
+[22.242s] -- Installing: /home/y/SA_CAO_test_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/local_setup.sh
+[22.243s] -- Installing: /home/y/SA_CAO_test_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/local_setup.zsh
+[22.244s] -- Installing: /home/y/SA_CAO_test_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/local_setup.dsv
+[22.245s] -- Installing: /home/y/SA_CAO_test_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/package.dsv
+[22.246s] -- Installing: /home/y/SA_CAO_test_ws/install/hls_lfcd_lds_driver/share/ament_index/resource_index/packages/hls_lfcd_lds_driver
+[22.247s] -- Installing: /home/y/SA_CAO_test_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[22.248s] -- Installing: /home/y/SA_CAO_test_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[22.249s] -- Installing: /home/y/SA_CAO_test_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/cmake/hls_lfcd_lds_driverConfig.cmake
+[22.250s] -- Installing: /home/y/SA_CAO_test_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/cmake/hls_lfcd_lds_driverConfig-version.cmake
+[22.250s] -- Installing: /home/y/SA_CAO_test_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/package.xml
+[22.259s] Invoked command in '/home/y/SA_CAO_test_ws/build/hls_lfcd_lds_driver' returned '0': CMAKE_PREFIX_PATH=/home/y/SA_CAO_test_ws/install/turtlebot3:/home/y/SA_CAO_test_ws/install/turtlebot3_simulations:/home/y/SA_CAO_test_ws/install/turtlebot3_bringup:/home/y/SA_CAO_test_ws/install/turtlebot3_node:/home/y/SA_CAO_test_ws/install/turtlebot3_navigation2:/home/y/SA_CAO_test_ws/install/turtlebot3_fake_node:/home/y/SA_CAO_test_ws/install/turtlebot3_msgs:/home/y/SA_CAO_test_ws/install/turtlebot3_gazebo:/home/y/SA_CAO_test_ws/install/turtlebot3_description:/home/y/SA_CAO_test_ws/install/turtlebot3_cartographer:/home/y/SA_CAO_test_ws/install/sub_diablo2023a:/home/y/SA_CAO_test_ws/install/motion_msgs:/home/y/SA_CAO_test_ws/install/hls_lfcd_lds_driver:/home/y/SA_CAO_test_ws/install/dynamixel_sdk_examples:/home/y/SA_CAO_test_ws/install/dynamixel_sdk_custom_interfaces:/home/y/SA_CAO_test_ws/install/dynamixel_sdk:/home/y/SA_CAO_test_ws/install/turtlebot3_teleop:/home/y/SA_CAO_test_ws/install/turtlebot3_example:/home/y/SA_CAO_test_ws/install/my_joystick:/home/y/SA_CAO_test_ws/install/launch_diablo:/opt/ros/foxy:/home/y/oradar_ros/install/oradar_lidar /usr/bin/cmake --install /home/y/SA_CAO_test_ws/build/hls_lfcd_lds_driver
