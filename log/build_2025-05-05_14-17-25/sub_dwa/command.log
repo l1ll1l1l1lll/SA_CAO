@@ -1,0 +1,2 @@
+Invoking command in '/home/y/SA_CAO/build/sub_dwa': CMAKE_PREFIX_PATH=/home/y/SA_CAO/install/ultrasound_package:/home/y/SA_CAO/install/launch_diablo:/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/y/SA_CAO/src/sub_dwa -DCMAKE_INSTALL_PREFIX=/home/y/SA_CAO/install/sub_dwa
+Invoked command in '/home/y/SA_CAO/build/sub_dwa' returned '1': CMAKE_PREFIX_PATH=/home/y/SA_CAO/install/ultrasound_package:/home/y/SA_CAO/install/launch_diablo:/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/y/SA_CAO/src/sub_dwa -DCMAKE_INSTALL_PREFIX=/home/y/SA_CAO/install/sub_dwa

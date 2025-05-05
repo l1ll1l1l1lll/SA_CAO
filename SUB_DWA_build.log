@@ -1,0 +1,26 @@
+ROS 2 project directory: /home/y/SA_CAO/src
+Starting >>> sub_dwa
+--- stderr: sub_dwa
+CMake Error at CMakeLists.txt:23 (find_package):
+  By not providing "Findmotion_msgs.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "motion_msgs", but CMake did not find one.
+
+  Could not find a package configuration file provided by "motion_msgs" with
+  any of the following names:
+
+    motion_msgsConfig.cmake
+    motion_msgs-config.cmake
+
+  Add the installation prefix of "motion_msgs" to CMAKE_PREFIX_PATH or set
+  "motion_msgs_DIR" to a directory containing one of the above files.  If
+  "motion_msgs" provides a separate development package or SDK, be sure it
+  has been installed.
+
+
+---
+Failed   <<< sub_dwa [3.64s, exited with code 1]
+
+Summary: 0 packages finished [4.24s]
+  1 package failed: sub_dwa
+  1 package had stderr output: sub_dwa

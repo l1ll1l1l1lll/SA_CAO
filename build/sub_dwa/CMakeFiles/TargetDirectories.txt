@@ -1,0 +1,10 @@
+/home/y/SA_CAO/build/sub_dwa/CMakeFiles/install/strip.dir
+/home/y/SA_CAO/build/sub_dwa/CMakeFiles/install/local.dir
+/home/y/SA_CAO/build/sub_dwa/CMakeFiles/install.dir
+/home/y/SA_CAO/build/sub_dwa/CMakeFiles/list_install_components.dir
+/home/y/SA_CAO/build/sub_dwa/CMakeFiles/rebuild_cache.dir
+/home/y/SA_CAO/build/sub_dwa/CMakeFiles/edit_cache.dir
+/home/y/SA_CAO/build/sub_dwa/CMakeFiles/test.dir
+/home/y/SA_CAO/build/sub_dwa/CMakeFiles/SUB_DWA.dir
+/home/y/SA_CAO/build/sub_dwa/CMakeFiles/sub_dwa_uninstall.dir
+/home/y/SA_CAO/build/sub_dwa/CMakeFiles/uninstall.dir

@@ -1,0 +1,89 @@
+[0.000000] (-) TimerEvent: {}
+[0.000287] (-) JobUnselected: {'identifier': 'launch_diablo'}
+[0.000582] (-) JobUnselected: {'identifier': 'ultrasound_package'}
+[0.000689] (sub_dwa) JobQueued: {'identifier': 'sub_dwa', 'dependencies': OrderedDict()}
+[0.000756] (sub_dwa) JobStarted: {'identifier': 'sub_dwa'}
+[0.029421] (sub_dwa) JobProgress: {'identifier': 'sub_dwa', 'progress': 'cmake'}
+[0.031490] (sub_dwa) Command: {'cmd': ['/usr/bin/cmake', '/home/y/SA_CAO/src/sub_dwa', '-DCMAKE_INSTALL_PREFIX=/home/y/SA_CAO/install/sub_dwa'], 'cwd': '/home/y/SA_CAO/build/sub_dwa', 'env': OrderedDict([('USER', 'y'), ('SSH_CLIENT', '192.168.134.1 11506 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/y'), ('OLDPWD', '/home/y'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/y/SA_CAO/install:/home/y/oradar_ros/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'y'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('XDG_SESSION_ID', '18'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/y/oradar_ros/install/oradar_lidar/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('AMENT_PREFIX_PATH', '/home/y/SA_CAO/install/ultrasound_package:/home/y/SA_CAO/install/launch_diablo:/home/y/oradar_ros/install/oradar_lidar:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('PWD', '/home/y/SA_CAO/build/sub_dwa'), ('LC_ALL', 'C'), ('SSH_CONNECTION', '192.168.134.1 11506 192.168.134.129 22'), ('PYTHONPATH', '/home/y/SA_CAO/install/ultrasound_package/lib/python3.8/site-packages:/home/y/SA_CAO/install/launch_diablo/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/y/SA_CAO/install/ultrasound_package:/home/y/SA_CAO/install/launch_diablo:/opt/ros/foxy:/home/y/oradar_ros/install/oradar_lidar')]), 'shell': False}
+[0.098798] (-) TimerEvent: {}
+[0.199614] (-) TimerEvent: {}
+[0.300599] (-) TimerEvent: {}
+[0.401076] (-) TimerEvent: {}
+[0.473640] (sub_dwa) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.501417] (-) TimerEvent: {}
+[0.602126] (-) TimerEvent: {}
+[0.702714] (-) TimerEvent: {}
+[0.803349] (-) TimerEvent: {}
+[0.857127] (sub_dwa) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.877996] (sub_dwa) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.903728] (-) TimerEvent: {}
+[1.004897] (-) TimerEvent: {}
+[1.105436] (-) TimerEvent: {}
+[1.128742] (sub_dwa) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.132584] (sub_dwa) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.205828] (-) TimerEvent: {}
+[1.306332] (-) TimerEvent: {}
+[1.390761] (sub_dwa) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.403726] (sub_dwa) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.405435] (sub_dwa) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.407020] (-) TimerEvent: {}
+[1.412801] (sub_dwa) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.507636] (-) TimerEvent: {}
+[1.608541] (-) TimerEvent: {}
+[1.688868] (sub_dwa) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.691347] (sub_dwa) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.708949] (-) TimerEvent: {}
+[1.809435] (-) TimerEvent: {}
+[1.910022] (-) TimerEvent: {}
+[1.979901] (sub_dwa) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.993427] (sub_dwa) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.994124] (sub_dwa) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.005384] (sub_dwa) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[2.010305] (-) TimerEvent: {}
+[2.073889] (sub_dwa) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[2.074714] (sub_dwa) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.110861] (-) TimerEvent: {}
+[2.211400] (-) TimerEvent: {}
+[2.312106] (-) TimerEvent: {}
+[2.412668] (-) TimerEvent: {}
+[2.513248] (-) TimerEvent: {}
+[2.540626] (sub_dwa) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[2.578182] (sub_dwa) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[2.614000] (-) TimerEvent: {}
+[2.678088] (sub_dwa) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.703493] (sub_dwa) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[2.714500] (-) TimerEvent: {}
+[2.816832] (-) TimerEvent: {}
+[2.917686] (-) TimerEvent: {}
+[3.018074] (-) TimerEvent: {}
+[3.046536] (sub_dwa) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[3.114946] (sub_dwa) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[3.118415] (-) TimerEvent: {}
+[3.218883] (-) TimerEvent: {}
+[3.319746] (sub_dwa) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.320021] (-) TimerEvent: {}
+[3.420989] (-) TimerEvent: {}
+[3.522032] (-) TimerEvent: {}
+[3.541416] (sub_dwa) StderrLine: {'line': b'CMake Error at CMakeLists.txt:23 (find_package):\n'}
+[3.541900] (sub_dwa) StderrLine: {'line': b'  By not providing "Findmotion_msgs.cmake" in CMAKE_MODULE_PATH this project\n'}
+[3.542439] (sub_dwa) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[3.542611] (sub_dwa) StderrLine: {'line': b'  "motion_msgs", but CMake did not find one.\n'}
+[3.542778] (sub_dwa) StderrLine: {'line': b'\n'}
+[3.542953] (sub_dwa) StderrLine: {'line': b'  Could not find a package configuration file provided by "motion_msgs" with\n'}
+[3.543119] (sub_dwa) StderrLine: {'line': b'  any of the following names:\n'}
+[3.543285] (sub_dwa) StderrLine: {'line': b'\n'}
+[3.543451] (sub_dwa) StderrLine: {'line': b'    motion_msgsConfig.cmake\n'}
+[3.543621] (sub_dwa) StderrLine: {'line': b'    motion_msgs-config.cmake\n'}
+[3.543788] (sub_dwa) StderrLine: {'line': b'\n'}
+[3.543963] (sub_dwa) StderrLine: {'line': b'  Add the installation prefix of "motion_msgs" to CMAKE_PREFIX_PATH or set\n'}
+[3.544129] (sub_dwa) StderrLine: {'line': b'  "motion_msgs_DIR" to a directory containing one of the above files.  If\n'}
+[3.544295] (sub_dwa) StderrLine: {'line': b'  "motion_msgs" provides a separate development package or SDK, be sure it\n'}
+[3.544461] (sub_dwa) StderrLine: {'line': b'  has been installed.\n'}
+[3.544631] (sub_dwa) StderrLine: {'line': b'\n'}
+[3.544797] (sub_dwa) StderrLine: {'line': b'\n'}
+[3.551291] (sub_dwa) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.551512] (sub_dwa) StdoutLine: {'line': b'See also "/home/y/SA_CAO/build/sub_dwa/CMakeFiles/CMakeOutput.log".\n'}
+[3.567398] (sub_dwa) CommandEnded: {'returncode': 1}
+[3.624521] (-) TimerEvent: {}
+[3.636666] (sub_dwa) JobEnded: {'identifier': 'sub_dwa', 'rc': 1}
+[3.648664] (-) EventReactorShutdown: {}
