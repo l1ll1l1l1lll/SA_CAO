@@ -29,7 +29,7 @@ def generate_launch_description():
             output='screen',
              
         ),
-	    #SetEnvironmentVariable('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'),
+
         # Launch joy node for joystick input
         Node(
             package='joy',
@@ -37,12 +37,6 @@ def generate_launch_description():
             output='screen'
         ),
 
-        # Launch Xbox joystick node
-        Node(
-            package='my_joystick',
-            executable='my_joystick',
-            output='screen'
-        ),
 
         Node(
             package='ultrasound_package',
