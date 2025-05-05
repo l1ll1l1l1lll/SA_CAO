@@ -1,0 +1,3 @@
+[console_scripts]
+ultrasonic_range_publisher = ultrasonic_range_publisher:main
+

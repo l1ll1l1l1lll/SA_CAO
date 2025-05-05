@@ -1,0 +1,150 @@
+[0.000000] (-) TimerEvent: {}
+[0.000235] (launch_diablo) JobQueued: {'identifier': 'launch_diablo', 'dependencies': OrderedDict()}
+[0.000424] (my_joystick) JobQueued: {'identifier': 'my_joystick', 'dependencies': OrderedDict()}
+[0.000524] (ultrasound_package) JobQueued: {'identifier': 'ultrasound_package', 'dependencies': OrderedDict()}
+[0.000958] (launch_diablo) JobStarted: {'identifier': 'launch_diablo'}
+[0.036346] (my_joystick) JobStarted: {'identifier': 'my_joystick'}
+[0.070488] (ultrasound_package) JobStarted: {'identifier': 'ultrasound_package'}
+[0.099718] (-) TimerEvent: {}
+[0.202156] (-) TimerEvent: {}
+[0.303372] (-) TimerEvent: {}
+[0.404068] (-) TimerEvent: {}
+[0.504759] (-) TimerEvent: {}
+[0.606365] (-) TimerEvent: {}
+[0.709172] (-) TimerEvent: {}
+[0.810066] (-) TimerEvent: {}
+[0.910676] (-) TimerEvent: {}
+[1.013199] (-) TimerEvent: {}
+[1.116335] (-) TimerEvent: {}
+[1.219097] (-) TimerEvent: {}
+[1.320135] (-) TimerEvent: {}
+[1.421193] (-) TimerEvent: {}
+[1.522912] (-) TimerEvent: {}
+[1.624590] (-) TimerEvent: {}
+[1.726227] (-) TimerEvent: {}
+[1.828085] (-) TimerEvent: {}
+[1.930255] (-) TimerEvent: {}
+[2.032064] (-) TimerEvent: {}
+[2.133986] (-) TimerEvent: {}
+[2.235275] (-) TimerEvent: {}
+[2.336617] (-) TimerEvent: {}
+[2.397092] (ultrasound_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ultrasound_package', 'build', '--build-base', '/home/y/SA_CAO/build/ultrasound_package/build', 'install', '--record', '/home/y/SA_CAO/build/ultrasound_package/install.log', '--install-scripts', '$base/lib/ultrasound_package', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/y/SA_CAO/src/ultrasound_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'y', 'SSH_AGENT_PID': '1547', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/y', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1449', 'DBUS_STARTER_BUS_TYPE': 'session', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=4adba6c23e8e7c3863a2f8d96810db04', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/y/oradar_ros/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'y', 'JOURNAL_STREAM': '8:55673', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'y', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/y/oradar_ros/install/oradar_lidar/bin:/opt/ros/foxy/bin:/home/y/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1582,unix/ubuntu:/tmp/.ICE-unix/1582', 'INVOCATION_ID': '435c8754ea864e04bb5c35b88333621c', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ba20955e_5626_42a8_8e47_c734be9ddf3f', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '5', 'AMENT_PREFIX_PATH': '/home/y/oradar_ros/install/oradar_lidar:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'WEBOTS_HOME': '/usr/local/webots', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/y/SA_CAO/build/ultrasound_package', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=4adba6c23e8e7c3863a2f8d96810db04', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/y/SA_CAO/build/ultrasound_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/y/SA_CAO/install/ultrasound_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/y/oradar_ros/install/oradar_lidar'}, 'shell': False}
+[2.420366] (my_joystick) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_joystick', 'build', '--build-base', '/home/y/SA_CAO/build/my_joystick/build', 'install', '--record', '/home/y/SA_CAO/build/my_joystick/install.log', '--install-scripts', '$base/lib/my_joystick', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/y/SA_CAO/src/my_joystick', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'y', 'SSH_AGENT_PID': '1547', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/y', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1449', 'DBUS_STARTER_BUS_TYPE': 'session', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=4adba6c23e8e7c3863a2f8d96810db04', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/y/oradar_ros/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'y', 'JOURNAL_STREAM': '8:55673', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'y', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/y/oradar_ros/install/oradar_lidar/bin:/opt/ros/foxy/bin:/home/y/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1582,unix/ubuntu:/tmp/.ICE-unix/1582', 'INVOCATION_ID': '435c8754ea864e04bb5c35b88333621c', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ba20955e_5626_42a8_8e47_c734be9ddf3f', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '5', 'AMENT_PREFIX_PATH': '/home/y/oradar_ros/install/oradar_lidar:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'WEBOTS_HOME': '/usr/local/webots', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/y/SA_CAO/build/my_joystick', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=4adba6c23e8e7c3863a2f8d96810db04', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/y/SA_CAO/build/my_joystick/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/y/SA_CAO/install/my_joystick/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/y/oradar_ros/install/oradar_lidar'}, 'shell': False}
+[2.438856] (launch_diablo) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/launch_diablo', 'build', '--build-base', '/home/y/SA_CAO/build/launch_diablo/build', 'install', '--record', '/home/y/SA_CAO/build/launch_diablo/install.log', '--install-scripts', '$base/lib/robot_launch', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/y/SA_CAO/src/launch_diablo', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'y', 'SSH_AGENT_PID': '1547', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/y', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1449', 'DBUS_STARTER_BUS_TYPE': 'session', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=4adba6c23e8e7c3863a2f8d96810db04', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/y/oradar_ros/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'y', 'JOURNAL_STREAM': '8:55673', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'y', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/y/oradar_ros/install/oradar_lidar/bin:/opt/ros/foxy/bin:/home/y/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1582,unix/ubuntu:/tmp/.ICE-unix/1582', 'INVOCATION_ID': '435c8754ea864e04bb5c35b88333621c', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ba20955e_5626_42a8_8e47_c734be9ddf3f', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '5', 'AMENT_PREFIX_PATH': '/home/y/oradar_ros/install/oradar_lidar:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'WEBOTS_HOME': '/usr/local/webots', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/y/SA_CAO/build/launch_diablo', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=4adba6c23e8e7c3863a2f8d96810db04', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/y/SA_CAO/build/launch_diablo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/y/SA_CAO/install/launch_diablo/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/y/oradar_ros/install/oradar_lidar'}, 'shell': False}
+[2.444950] (-) TimerEvent: {}
+[2.547246] (-) TimerEvent: {}
+[2.649442] (-) TimerEvent: {}
+[2.750938] (-) TimerEvent: {}
+[2.851768] (ultrasound_package) StdoutLine: {'line': b'running egg_info\n'}
+[2.852188] (-) TimerEvent: {}
+[2.853603] (ultrasound_package) StdoutLine: {'line': b'creating ../../build/ultrasound_package/ultrasound_package.egg-info\n'}
+[2.854258] (ultrasound_package) StdoutLine: {'line': b'writing ../../build/ultrasound_package/ultrasound_package.egg-info/PKG-INFO\n'}
+[2.854452] (ultrasound_package) StdoutLine: {'line': b'writing dependency_links to ../../build/ultrasound_package/ultrasound_package.egg-info/dependency_links.txt\n'}
+[2.854625] (ultrasound_package) StdoutLine: {'line': b'writing entry points to ../../build/ultrasound_package/ultrasound_package.egg-info/entry_points.txt\n'}
+[2.854814] (ultrasound_package) StdoutLine: {'line': b'writing requirements to ../../build/ultrasound_package/ultrasound_package.egg-info/requires.txt\n'}
+[2.855145] (ultrasound_package) StdoutLine: {'line': b'writing top-level names to ../../build/ultrasound_package/ultrasound_package.egg-info/top_level.txt\n'}
+[2.871163] (my_joystick) StdoutLine: {'line': b'running egg_info\n'}
+[2.871481] (my_joystick) StdoutLine: {'line': b'creating ../../build/my_joystick/my_joystick.egg-info\n'}
+[2.871656] (my_joystick) StdoutLine: {'line': b'writing ../../build/my_joystick/my_joystick.egg-info/PKG-INFO\n'}
+[2.871830] (my_joystick) StdoutLine: {'line': b'writing dependency_links to ../../build/my_joystick/my_joystick.egg-info/dependency_links.txt\n'}
+[2.872106] (my_joystick) StdoutLine: {'line': b'writing entry points to ../../build/my_joystick/my_joystick.egg-info/entry_points.txt\n'}
+[2.872299] (my_joystick) StdoutLine: {'line': b'writing requirements to ../../build/my_joystick/my_joystick.egg-info/requires.txt\n'}
+[2.872472] (my_joystick) StdoutLine: {'line': b'writing top-level names to ../../build/my_joystick/my_joystick.egg-info/top_level.txt\n'}
+[2.872644] (my_joystick) StdoutLine: {'line': b"writing manifest file '../../build/my_joystick/my_joystick.egg-info/SOURCES.txt'\n"}
+[2.872816] (ultrasound_package) StdoutLine: {'line': b"writing manifest file '../../build/ultrasound_package/ultrasound_package.egg-info/SOURCES.txt'\n"}
+[2.878169] (launch_diablo) StdoutLine: {'line': b'running egg_info\n'}
+[2.878914] (launch_diablo) StdoutLine: {'line': b'creating ../../build/launch_diablo/launch_diablo.egg-info\n'}
+[2.879387] (launch_diablo) StdoutLine: {'line': b'writing ../../build/launch_diablo/launch_diablo.egg-info/PKG-INFO\n'}
+[2.879809] (launch_diablo) StdoutLine: {'line': b'writing dependency_links to ../../build/launch_diablo/launch_diablo.egg-info/dependency_links.txt\n'}
+[2.880287] (launch_diablo) StdoutLine: {'line': b'writing entry points to ../../build/launch_diablo/launch_diablo.egg-info/entry_points.txt\n'}
+[2.880459] (launch_diablo) StdoutLine: {'line': b'writing requirements to ../../build/launch_diablo/launch_diablo.egg-info/requires.txt\n'}
+[2.880631] (launch_diablo) StdoutLine: {'line': b'writing top-level names to ../../build/launch_diablo/launch_diablo.egg-info/top_level.txt\n'}
+[2.882545] (launch_diablo) StdoutLine: {'line': b"writing manifest file '../../build/launch_diablo/launch_diablo.egg-info/SOURCES.txt'\n"}
+[2.909671] (ultrasound_package) StdoutLine: {'line': b"reading manifest file '../../build/ultrasound_package/ultrasound_package.egg-info/SOURCES.txt'\n"}
+[2.910939] (ultrasound_package) StdoutLine: {'line': b"writing manifest file '../../build/ultrasound_package/ultrasound_package.egg-info/SOURCES.txt'\n"}
+[2.911316] (ultrasound_package) StdoutLine: {'line': b'running build\n'}
+[2.912160] (ultrasound_package) StdoutLine: {'line': b'running build_py\n'}
+[2.912649] (ultrasound_package) StdoutLine: {'line': b'creating /home/y/SA_CAO/build/ultrasound_package/build\n'}
+[2.913230] (ultrasound_package) StdoutLine: {'line': b'creating /home/y/SA_CAO/build/ultrasound_package/build/lib\n'}
+[2.913405] (ultrasound_package) StdoutLine: {'line': b'creating /home/y/SA_CAO/build/ultrasound_package/build/lib/ultrasound_package\n'}
+[2.913580] (ultrasound_package) StdoutLine: {'line': b'copying ultrasound_package/ultrasonic_range_publisher.py -> /home/y/SA_CAO/build/ultrasound_package/build/lib/ultrasound_package\n'}
+[2.913755] (ultrasound_package) StdoutLine: {'line': b'copying ultrasound_package/__init__.py -> /home/y/SA_CAO/build/ultrasound_package/build/lib/ultrasound_package\n'}
+[2.914298] (ultrasound_package) StdoutLine: {'line': b'running install\n'}
+[2.914635] (ultrasound_package) StdoutLine: {'line': b'running install_lib\n'}
+[2.915453] (my_joystick) StdoutLine: {'line': b"reading manifest file '../../build/my_joystick/my_joystick.egg-info/SOURCES.txt'\n"}
+[2.916006] (ultrasound_package) StdoutLine: {'line': b'creating /home/y/SA_CAO/install/ultrasound_package/lib/python3.8/site-packages/ultrasound_package\n'}
+[2.916698] (ultrasound_package) StdoutLine: {'line': b'copying /home/y/SA_CAO/build/ultrasound_package/build/lib/ultrasound_package/ultrasonic_range_publisher.py -> /home/y/SA_CAO/install/ultrasound_package/lib/python3.8/site-packages/ultrasound_package\n'}
+[2.917546] (ultrasound_package) StdoutLine: {'line': b'copying /home/y/SA_CAO/build/ultrasound_package/build/lib/ultrasound_package/__init__.py -> /home/y/SA_CAO/install/ultrasound_package/lib/python3.8/site-packages/ultrasound_package\n'}
+[2.919202] (my_joystick) StdoutLine: {'line': b"writing manifest file '../../build/my_joystick/my_joystick.egg-info/SOURCES.txt'\n"}
+[2.919497] (my_joystick) StdoutLine: {'line': b'running build\n'}
+[2.919672] (my_joystick) StdoutLine: {'line': b'running build_py\n'}
+[2.920548] (ultrasound_package) StdoutLine: {'line': b'byte-compiling /home/y/SA_CAO/install/ultrasound_package/lib/python3.8/site-packages/ultrasound_package/ultrasonic_range_publisher.py to ultrasonic_range_publisher.cpython-38.pyc\n'}
+[2.920850] (my_joystick) StdoutLine: {'line': b'creating /home/y/SA_CAO/build/my_joystick/build\n'}
+[2.921040] (my_joystick) StdoutLine: {'line': b'creating /home/y/SA_CAO/build/my_joystick/build/lib\n'}
+[2.921795] (my_joystick) StdoutLine: {'line': b'creating /home/y/SA_CAO/build/my_joystick/build/lib/my_joystick\n'}
+[2.922198] (my_joystick) StdoutLine: {'line': b'copying my_joystick/__init__.py -> /home/y/SA_CAO/build/my_joystick/build/lib/my_joystick\n'}
+[2.922427] (my_joystick) StdoutLine: {'line': b'copying my_joystick/my_joystick_node.py -> /home/y/SA_CAO/build/my_joystick/build/lib/my_joystick\n'}
+[2.922640] (my_joystick) StdoutLine: {'line': b'running install\n'}
+[2.922851] (ultrasound_package) StdoutLine: {'line': b'byte-compiling /home/y/SA_CAO/install/ultrasound_package/lib/python3.8/site-packages/ultrasound_package/__init__.py to __init__.cpython-38.pyc\n'}
+[2.923057] (ultrasound_package) StdoutLine: {'line': b'running install_data\n'}
+[2.923235] (ultrasound_package) StdoutLine: {'line': b'creating /home/y/SA_CAO/install/ultrasound_package/share/ament_index\n'}
+[2.923841] (ultrasound_package) StdoutLine: {'line': b'creating /home/y/SA_CAO/install/ultrasound_package/share/ament_index/resource_index\n'}
+[2.924684] (ultrasound_package) StdoutLine: {'line': b'creating /home/y/SA_CAO/install/ultrasound_package/share/ament_index/resource_index/packages\n'}
+[2.924903] (ultrasound_package) StdoutLine: {'line': b'copying resource/ultrasound_package -> /home/y/SA_CAO/install/ultrasound_package/share/ament_index/resource_index/packages\n'}
+[2.925461] (ultrasound_package) StdoutLine: {'line': b'copying package.xml -> /home/y/SA_CAO/install/ultrasound_package/share/ultrasound_package\n'}
+[2.927035] (ultrasound_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.927850] (my_joystick) StdoutLine: {'line': b'running install_lib\n'}
+[2.928168] (my_joystick) StdoutLine: {'line': b'creating /home/y/SA_CAO/install/my_joystick/lib/python3.8/site-packages/my_joystick\n'}
+[2.929443] (my_joystick) StdoutLine: {'line': b'copying /home/y/SA_CAO/build/my_joystick/build/lib/my_joystick/__init__.py -> /home/y/SA_CAO/install/my_joystick/lib/python3.8/site-packages/my_joystick\n'}
+[2.929894] (my_joystick) StdoutLine: {'line': b'copying /home/y/SA_CAO/build/my_joystick/build/lib/my_joystick/my_joystick_node.py -> /home/y/SA_CAO/install/my_joystick/lib/python3.8/site-packages/my_joystick\n'}
+[2.930236] (launch_diablo) StdoutLine: {'line': b"reading manifest file '../../build/launch_diablo/launch_diablo.egg-info/SOURCES.txt'\n"}
+[2.930414] (ultrasound_package) StdoutLine: {'line': b'Copying ../../build/ultrasound_package/ultrasound_package.egg-info to /home/y/SA_CAO/install/ultrasound_package/lib/python3.8/site-packages/ultrasound_package-0.0.0-py3.8.egg-info\n'}
+[2.930589] (launch_diablo) StdoutLine: {'line': b"writing manifest file '../../build/launch_diablo/launch_diablo.egg-info/SOURCES.txt'\n"}
+[2.930759] (launch_diablo) StdoutLine: {'line': b'running build\n'}
+[2.931360] (launch_diablo) StdoutLine: {'line': b'running build_py\n'}
+[2.931539] (my_joystick) StdoutLine: {'line': b'byte-compiling /home/y/SA_CAO/install/my_joystick/lib/python3.8/site-packages/my_joystick/__init__.py to __init__.cpython-38.pyc\n'}
+[2.931712] (launch_diablo) StdoutLine: {'line': b'creating /home/y/SA_CAO/build/launch_diablo/build\n'}
+[2.931883] (launch_diablo) StdoutLine: {'line': b'creating /home/y/SA_CAO/build/launch_diablo/build/lib\n'}
+[2.932067] (launch_diablo) StdoutLine: {'line': b'creating /home/y/SA_CAO/build/launch_diablo/build/lib/launch_diablo\n'}
+[2.932539] (launch_diablo) StdoutLine: {'line': b'copying launch_diablo/__init__.py -> /home/y/SA_CAO/build/launch_diablo/build/lib/launch_diablo\n'}
+[2.932957] (my_joystick) StdoutLine: {'line': b'byte-compiling /home/y/SA_CAO/install/my_joystick/lib/python3.8/site-packages/my_joystick/my_joystick_node.py to my_joystick_node.cpython-38.pyc\n'}
+[2.933129] (ultrasound_package) StdoutLine: {'line': b'running install_scripts\n'}
+[2.933300] (launch_diablo) StdoutLine: {'line': b'running install\n'}
+[2.933471] (my_joystick) StdoutLine: {'line': b'running install_data\n'}
+[2.933644] (my_joystick) StdoutLine: {'line': b'creating /home/y/SA_CAO/install/my_joystick/share/ament_index\n'}
+[2.934416] (my_joystick) StdoutLine: {'line': b'creating /home/y/SA_CAO/install/my_joystick/share/ament_index/resource_index\n'}
+[2.935101] (my_joystick) StdoutLine: {'line': b'creating /home/y/SA_CAO/install/my_joystick/share/ament_index/resource_index/packages\n'}
+[2.935713] (launch_diablo) StdoutLine: {'line': b'running install_lib\n'}
+[2.936193] (my_joystick) StdoutLine: {'line': b'copying resource/my_joystick -> /home/y/SA_CAO/install/my_joystick/share/ament_index/resource_index/packages\n'}
+[2.936368] (my_joystick) StdoutLine: {'line': b'copying package.xml -> /home/y/SA_CAO/install/my_joystick/share/my_joystick\n'}
+[2.936542] (my_joystick) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.936716] (launch_diablo) StdoutLine: {'line': b'creating /home/y/SA_CAO/install/launch_diablo/lib/python3.8/site-packages/launch_diablo\n'}
+[2.936890] (launch_diablo) StdoutLine: {'line': b'copying /home/y/SA_CAO/build/launch_diablo/build/lib/launch_diablo/__init__.py -> /home/y/SA_CAO/install/launch_diablo/lib/python3.8/site-packages/launch_diablo\n'}
+[2.937073] (my_joystick) StdoutLine: {'line': b'Copying ../../build/my_joystick/my_joystick.egg-info to /home/y/SA_CAO/install/my_joystick/lib/python3.8/site-packages/my_joystick-0.0.0-py3.8.egg-info\n'}
+[2.937338] (launch_diablo) StdoutLine: {'line': b'byte-compiling /home/y/SA_CAO/install/launch_diablo/lib/python3.8/site-packages/launch_diablo/__init__.py to __init__.cpython-38.pyc\n'}
+[2.937513] (launch_diablo) StdoutLine: {'line': b'running install_data\n'}
+[2.937686] (launch_diablo) StdoutLine: {'line': b'copying package.xml -> /home/y/SA_CAO/install/launch_diablo/share/launch_diablo\n'}
+[2.938364] (launch_diablo) StdoutLine: {'line': b'creating /home/y/SA_CAO/install/launch_diablo/share/ament_index\n'}
+[2.938576] (launch_diablo) StdoutLine: {'line': b'creating /home/y/SA_CAO/install/launch_diablo/share/ament_index/resource_index\n'}
+[2.938750] (launch_diablo) StdoutLine: {'line': b'creating /home/y/SA_CAO/install/launch_diablo/share/ament_index/resource_index/packages\n'}
+[2.938929] (launch_diablo) StdoutLine: {'line': b'copying resource/launch_diablo -> /home/y/SA_CAO/install/launch_diablo/share/ament_index/resource_index/packages\n'}
+[2.939252] (launch_diablo) StdoutLine: {'line': b'creating /home/y/SA_CAO/install/launch_diablo/share/launch_diablo/launch\n'}
+[2.939594] (launch_diablo) StdoutLine: {'line': b'copying launch/launch_diablo.py -> /home/y/SA_CAO/install/launch_diablo/share/launch_diablo/launch\n'}
+[2.939769] (my_joystick) StdoutLine: {'line': b'running install_scripts\n'}
+[2.939962] (launch_diablo) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.940135] (launch_diablo) StdoutLine: {'line': b'Copying ../../build/launch_diablo/launch_diablo.egg-info to /home/y/SA_CAO/install/launch_diablo/lib/python3.8/site-packages/launch_diablo-0.0.0-py3.8.egg-info\n'}
+[2.942648] (launch_diablo) StdoutLine: {'line': b'running install_scripts\n'}
+[2.953164] (-) TimerEvent: {}
+[2.957532] (ultrasound_package) StdoutLine: {'line': b'Installing ultrasonic_range_publisher script to /home/y/SA_CAO/install/ultrasound_package/lib/ultrasound_package\n'}
+[2.958169] (ultrasound_package) StdoutLine: {'line': b"writing list of installed files to '/home/y/SA_CAO/build/ultrasound_package/install.log'\n"}
+[2.968225] (my_joystick) StdoutLine: {'line': b'Installing my_joystick script to /home/y/SA_CAO/install/my_joystick/lib/my_joystick\n'}
+[2.968856] (my_joystick) StdoutLine: {'line': b"writing list of installed files to '/home/y/SA_CAO/build/my_joystick/install.log'\n"}
+[2.971972] (launch_diablo) StdoutLine: {'line': b"writing list of installed files to '/home/y/SA_CAO/build/launch_diablo/install.log'\n"}
+[2.994953] (ultrasound_package) CommandEnded: {'returncode': 0}
+[3.032993] (ultrasound_package) JobEnded: {'identifier': 'ultrasound_package', 'rc': 0}
+[3.038679] (my_joystick) CommandEnded: {'returncode': 0}
+[3.049817] (my_joystick) JobEnded: {'identifier': 'my_joystick', 'rc': 0}
+[3.050458] (launch_diablo) CommandEnded: {'returncode': 0}
+[3.054854] (-) TimerEvent: {}
+[3.066754] (launch_diablo) JobEnded: {'identifier': 'launch_diablo', 'rc': 0}
+[3.069104] (-) EventReactorShutdown: {}
