@@ -10,6 +10,7 @@ To start all nodes simultaneously, run:
 ros2 launch launch_diablo launch_diablo.py
 ```
 
+## **If you need to debug individual nodes:**
 ## 1. LiDAR 
 launch the LiDAR --/scan
 ```bash
