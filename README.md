@@ -20,6 +20,7 @@ ros2 run sub_dwa SUB_DWA
 ```
 The subsumption architecture implements:
 Dynamic Window Approach (DWA) for obstacle avoidance
+
 note: the model is using PS5 controller mapping
 
 ---
