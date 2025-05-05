@@ -1,6 +1,7 @@
 # **ROS2 Packages for Diablo Robot (SA)**  
 
 This repository contains ROS 2 packages for controlling the **Diablo Robot**, integrating sensor inputs (LiDAR, ultrasonic) and joystick control.  
+All packages must be depolyed on **Diablo Robot**.
 
 ---
 
