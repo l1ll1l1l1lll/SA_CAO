@@ -8,3 +8,14 @@ launch file contains:
 2.run dialbo control node
 3.run joy node, it reads the command from joystick -- /joy
 4.run ultrasonic range publisher -- /ultrasonic/front /ultrasonic/left /ultrasonic/right 
+
+# **ROS2 Packages for Diablo Robot (SA)**  
+
+This repository contains ROS 2 packages for controlling the **Diablo Robot**, integrating sensor inputs (LiDAR, ultrasonic) and joystick control.  
+
+---
+
+## **Launch All Packages**  
+To start all nodes simultaneously, run:  
+```bash
+ros2 launch launch_diablo launch_diablo.py
