@@ -4,7 +4,7 @@ This repository contains ROS 2 packages for controlling the **Diablo Robot**, in
 
 ---
 
-# **Launch All support Packages**  
+# **Launch All Support Packages**  
 To start all nodes simultaneously, run:  
 ```bash
 ros2 launch launch_diablo launch_diablo.py
