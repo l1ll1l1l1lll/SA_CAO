@@ -1,0 +1,40 @@
+#include <NewPing.h>
+
+#define MAX_DISTANCE 250  // 最大测距距离（厘米）
+#define TRIG1 19  // A2
+#define ECHO1 20  // A3
+#define TRIG2 21  // A4
+#define ECHO2 22  // A5
+#define TRIG3 23  // A6
+#define ECHO3 24  // A7
+
+
+// 初始化三个 NewPing 实例
+NewPing sonar1(TRIG1, ECHO1, MAX_DISTANCE);
+NewPing sonar2(TRIG2, ECHO2, MAX_DISTANCE);
+NewPing sonar3(TRIG3, ECHO3, MAX_DISTANCE);
+int d1 = 0, d2 = 0, d3 = 0;
+int sensor_index = 0;
+
+void setup() {
+  Serial.begin(9600);
+}
+
+void loop() {
+  // 依次读取每个传感器
+  delay(10); // 给传感器一点时间
+
+  if (sensor_index == 0) {
+        d1 = (int)sonar1.ping_cm();
+    } else if (sensor_index == 1) {
+        d2 = (int)sonar2.ping_cm();;
+    } else if (sensor_index == 2) {
+        d3 = (int)sonar3.ping_cm();;
+    }
+  
+  // 输出当前的三路数据
+    String output = String(d1) + "\t" + String(d2) + "\t" + String(d3);
+    Serial.println(output);
+
+    sensor_index = (sensor_index + 1) % 3;  // 轮换测量下一个
+}
