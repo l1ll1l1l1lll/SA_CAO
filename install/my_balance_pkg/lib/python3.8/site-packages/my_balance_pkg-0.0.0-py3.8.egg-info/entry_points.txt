@@ -1,0 +1,3 @@
+[console_scripts]
+balance_controller = my_balance_pkg.balance_node:main
+

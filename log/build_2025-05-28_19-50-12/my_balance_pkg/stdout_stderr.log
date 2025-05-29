@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/my_balance_pkg/my_balance_pkg.egg-info
+writing ../../build/my_balance_pkg/my_balance_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_balance_pkg/my_balance_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/my_balance_pkg/my_balance_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/my_balance_pkg/my_balance_pkg.egg-info/requires.txt
+writing top-level names to ../../build/my_balance_pkg/my_balance_pkg.egg-info/top_level.txt
+writing manifest file '../../build/my_balance_pkg/my_balance_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/my_balance_pkg/my_balance_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_balance_pkg/my_balance_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/y/SA_CAO_Simu/SA_CAO/build/my_balance_pkg/build
+creating /home/y/SA_CAO_Simu/SA_CAO/build/my_balance_pkg/build/lib
+creating /home/y/SA_CAO_Simu/SA_CAO/build/my_balance_pkg/build/lib/my_balance_pkg
+copying my_balance_pkg/balance_node.py -> /home/y/SA_CAO_Simu/SA_CAO/build/my_balance_pkg/build/lib/my_balance_pkg
+copying my_balance_pkg/__init__.py -> /home/y/SA_CAO_Simu/SA_CAO/build/my_balance_pkg/build/lib/my_balance_pkg
+running install
+running install_lib
+creating /home/y/SA_CAO_Simu/SA_CAO/install/my_balance_pkg/lib/python3.8/site-packages/my_balance_pkg
+copying /home/y/SA_CAO_Simu/SA_CAO/build/my_balance_pkg/build/lib/my_balance_pkg/balance_node.py -> /home/y/SA_CAO_Simu/SA_CAO/install/my_balance_pkg/lib/python3.8/site-packages/my_balance_pkg
+copying /home/y/SA_CAO_Simu/SA_CAO/build/my_balance_pkg/build/lib/my_balance_pkg/__init__.py -> /home/y/SA_CAO_Simu/SA_CAO/install/my_balance_pkg/lib/python3.8/site-packages/my_balance_pkg
+byte-compiling /home/y/SA_CAO_Simu/SA_CAO/install/my_balance_pkg/lib/python3.8/site-packages/my_balance_pkg/balance_node.py to balance_node.cpython-38.pyc
+byte-compiling /home/y/SA_CAO_Simu/SA_CAO/install/my_balance_pkg/lib/python3.8/site-packages/my_balance_pkg/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/y/SA_CAO_Simu/SA_CAO/install/my_balance_pkg/share/ament_index
+creating /home/y/SA_CAO_Simu/SA_CAO/install/my_balance_pkg/share/ament_index/resource_index
+creating /home/y/SA_CAO_Simu/SA_CAO/install/my_balance_pkg/share/ament_index/resource_index/packages
+copying resource/my_balance_pkg -> /home/y/SA_CAO_Simu/SA_CAO/install/my_balance_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/y/SA_CAO_Simu/SA_CAO/install/my_balance_pkg/share/my_balance_pkg
+running install_egg_info
+Copying ../../build/my_balance_pkg/my_balance_pkg.egg-info to /home/y/SA_CAO_Simu/SA_CAO/install/my_balance_pkg/lib/python3.8/site-packages/my_balance_pkg-0.0.0-py3.8.egg-info
+running install_scripts
+Installing balance_controller script to /home/y/SA_CAO_Simu/SA_CAO/install/my_balance_pkg/lib/my_balance_pkg
+writing list of installed files to '/home/y/SA_CAO_Simu/SA_CAO/build/my_balance_pkg/install.log'

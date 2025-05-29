@@ -1,3 +1,0 @@
-[console_scripts]
-my_joystick = my_joystick.my_joystick_node:main
-

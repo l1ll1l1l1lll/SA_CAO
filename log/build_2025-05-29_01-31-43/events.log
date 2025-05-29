@@ -1,0 +1,445 @@
+[0.000000] (-) TimerEvent: {}
+[0.000034] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.000050] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.000060] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.000071] (-) JobUnselected: {'identifier': 'hls_lfcd_lds_driver'}
+[0.000077] (-) JobUnselected: {'identifier': 'launch_diablo'}
+[0.000086] (-) JobUnselected: {'identifier': 'my_balance_pkg'}
+[0.000094] (-) JobUnselected: {'identifier': 'pure_pursuit'}
+[0.000102] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.000111] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.000119] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.000127] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.000135] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.000143] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.000152] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.000160] (-) JobUnselected: {'identifier': 'turtlebot3_msgs'}
+[0.000168] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.000176] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.000185] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.000193] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.000203] (motion_msgs) JobQueued: {'identifier': 'motion_msgs', 'dependencies': OrderedDict()}
+[0.000213] (sub_dwav17) JobQueued: {'identifier': 'sub_dwav17', 'dependencies': OrderedDict([('motion_msgs', '/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs')])}
+[0.000706] (motion_msgs) JobStarted: {'identifier': 'motion_msgs'}
+[0.006527] (motion_msgs) JobProgress: {'identifier': 'motion_msgs', 'progress': 'cmake'}
+[0.006987] (motion_msgs) JobProgress: {'identifier': 'motion_msgs', 'progress': 'build'}
+[0.018322] (motion_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/y/SA_CAO_Simu/SA_CAO/build/motion_msgs', '--', '-j2', '-l2'], 'cwd': '/home/y/SA_CAO_Simu/SA_CAO/build/motion_msgs', 'env': OrderedDict([('USER', 'y'), ('SSH_CLIENT', '192.168.3.53 52144 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_msgs/lib:/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_custom_interfaces/lib:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/y'), ('OLDPWD', '/home/y'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/y/SA_CAO_Simu/SA_CAO/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'y'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('XDG_SESSION_ID', '26'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('AMENT_PREFIX_PATH', '/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_teleop:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_simulations:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_bringup:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_node:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_navigation2:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_fake_node:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_example:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_msgs:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_gazebo:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_description:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_cartographer:/home/y/SA_CAO_Simu/SA_CAO/install/sub_dwav15:/home/y/SA_CAO_Simu/SA_CAO/install/pure_pursuit:/home/y/SA_CAO_Simu/SA_CAO/install/my_balance_pkg:/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs:/home/y/SA_CAO_Simu/SA_CAO/install/launch_diablo:/home/y/SA_CAO_Simu/SA_CAO/install/hls_lfcd_lds_driver:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_examples:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_custom_interfaces:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('PWD', '/home/y/SA_CAO_Simu/SA_CAO/build/motion_msgs'), ('LC_ALL', 'C'), ('SSH_CONNECTION', '192.168.3.53 52144 192.168.3.181 22'), ('PYTHONPATH', '/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_example/lib/python3.8/site-packages:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/y/SA_CAO_Simu/SA_CAO/install/pure_pursuit/lib/python3.8/site-packages:/home/y/SA_CAO_Simu/SA_CAO/install/my_balance_pkg/lib/python3.8/site-packages:/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:/home/y/SA_CAO_Simu/SA_CAO/install/launch_diablo/lib/python3.8/site-packages:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_simulations:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_bringup:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_node:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_navigation2:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_fake_node:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_msgs:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_gazebo:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_description:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_cartographer:/home/y/SA_CAO_Simu/SA_CAO/install/sub_dwav15:/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs:/home/y/SA_CAO_Simu/SA_CAO/install/hls_lfcd_lds_driver:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_examples:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_custom_interfaces:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_teleop:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_example:/home/y/SA_CAO_Simu/SA_CAO/install/pure_pursuit:/home/y/SA_CAO_Simu/SA_CAO/install/my_balance_pkg:/home/y/SA_CAO_Simu/SA_CAO/install/launch_diablo:/opt/ros/foxy')]), 'shell': False}
+[0.099877] (-) TimerEvent: {}
+[0.108573] (motion_msgs) StdoutLine: {'line': b'[  1%] Built target motion_msgs__cpp\n'}
+[0.109054] (motion_msgs) StdoutLine: {'line': b'[ 12%] Built target motion_msgs__rosidl_generator_c\n'}
+[0.130511] (motion_msgs) StdoutLine: {'line': b'[ 23%] Built target motion_msgs__rosidl_typesupport_cpp\n'}
+[0.136350] (motion_msgs) StdoutLine: {'line': b'[ 35%] Built target motion_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.150361] (motion_msgs) StdoutLine: {'line': b'[ 46%] Built target motion_msgs__rosidl_typesupport_introspection_c\n'}
+[0.154063] (motion_msgs) StdoutLine: {'line': b'[ 57%] Built target motion_msgs__rosidl_typesupport_c\n'}
+[0.168046] (motion_msgs) StdoutLine: {'line': b'[ 69%] Built target motion_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.174359] (motion_msgs) StdoutLine: {'line': b'[ 80%] Built target motion_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.184443] (motion_msgs) StdoutLine: {'line': b'[ 80%] Built target motion_msgs\n'}
+[0.194522] (motion_msgs) StdoutLine: {'line': b'[ 81%] Built target motion_msgs__py\n'}
+[0.200001] (-) TimerEvent: {}
+[0.209229] (motion_msgs) StdoutLine: {'line': b'[ 91%] Built target motion_msgs__python\n'}
+[0.226707] (motion_msgs) StdoutLine: {'line': b'[ 94%] Built target motion_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[0.231707] (motion_msgs) StdoutLine: {'line': b'[ 97%] Built target motion_msgs__rosidl_typesupport_c__pyext\n'}
+[0.240438] (motion_msgs) StdoutLine: {'line': b'[100%] Built target motion_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.245827] (motion_msgs) CommandEnded: {'returncode': 0}
+[0.246280] (motion_msgs) JobProgress: {'identifier': 'motion_msgs', 'progress': 'install'}
+[0.251534] (motion_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/y/SA_CAO_Simu/SA_CAO/build/motion_msgs'], 'cwd': '/home/y/SA_CAO_Simu/SA_CAO/build/motion_msgs', 'env': OrderedDict([('USER', 'y'), ('SSH_CLIENT', '192.168.3.53 52144 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_msgs/lib:/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_custom_interfaces/lib:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/y'), ('OLDPWD', '/home/y'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/y/SA_CAO_Simu/SA_CAO/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'y'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('XDG_SESSION_ID', '26'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('AMENT_PREFIX_PATH', '/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_teleop:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_simulations:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_bringup:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_node:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_navigation2:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_fake_node:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_example:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_msgs:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_gazebo:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_description:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_cartographer:/home/y/SA_CAO_Simu/SA_CAO/install/sub_dwav15:/home/y/SA_CAO_Simu/SA_CAO/install/pure_pursuit:/home/y/SA_CAO_Simu/SA_CAO/install/my_balance_pkg:/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs:/home/y/SA_CAO_Simu/SA_CAO/install/launch_diablo:/home/y/SA_CAO_Simu/SA_CAO/install/hls_lfcd_lds_driver:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_examples:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_custom_interfaces:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('PWD', '/home/y/SA_CAO_Simu/SA_CAO/build/motion_msgs'), ('LC_ALL', 'C'), ('SSH_CONNECTION', '192.168.3.53 52144 192.168.3.181 22'), ('PYTHONPATH', '/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_example/lib/python3.8/site-packages:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/y/SA_CAO_Simu/SA_CAO/install/pure_pursuit/lib/python3.8/site-packages:/home/y/SA_CAO_Simu/SA_CAO/install/my_balance_pkg/lib/python3.8/site-packages:/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:/home/y/SA_CAO_Simu/SA_CAO/install/launch_diablo/lib/python3.8/site-packages:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_simulations:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_bringup:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_node:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_navigation2:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_fake_node:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_msgs:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_gazebo:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_description:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_cartographer:/home/y/SA_CAO_Simu/SA_CAO/install/sub_dwav15:/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs:/home/y/SA_CAO_Simu/SA_CAO/install/hls_lfcd_lds_driver:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_examples:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_custom_interfaces:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_teleop:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_example:/home/y/SA_CAO_Simu/SA_CAO/install/pure_pursuit:/home/y/SA_CAO_Simu/SA_CAO/install/my_balance_pkg:/home/y/SA_CAO_Simu/SA_CAO/install/launch_diablo:/opt/ros/foxy')]), 'shell': False}
+[0.256581] (motion_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.256677] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/share/ament_index/resource_index/rosidl_interfaces/motion_msgs\n'}
+[0.256775] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs\n'}
+[0.256808] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg\n'}
+[0.256832] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/robot_status.h\n'}
+[0.256856] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/movement_ctrl_data.h\n'}
+[0.256884] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/motion_ctrl.h\n'}
+[0.256909] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail\n'}
+[0.257051] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/ctrl_plot__functions.h\n'}
+[0.257082] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_data__functions.h\n'}
+[0.257103] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/ctrl_plot__struct.h\n'}
+[0.257122] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_mode__functions.h\n'}
+[0.257140] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/leg_motors__functions.h\n'}
+[0.257158] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/robot_status__functions.c\n'}
+[0.257183] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/robot_status__functions.h\n'}
+[0.257203] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_mode__functions.c\n'}
+[0.257224] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_data__struct.h\n'}
+[0.257242] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/motion_ctrl__functions.h\n'}
+[0.257260] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/ctrl_plot__functions.c\n'}
+[0.257278] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/robot_status__struct.h\n'}
+[0.257295] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/robot_status__type_support.h\n'}
+[0.257313] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_data__type_support.h\n'}
+[0.257331] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_data__functions.c\n'}
+[0.257349] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/motion_ctrl__functions.c\n'}
+[0.257368] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/leg_motors__type_support.h\n'}
+[0.257392] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/leg_motors__functions.c\n'}
+[0.257412] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/leg_motors__struct.h\n'}
+[0.257430] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/motion_ctrl__type_support.h\n'}
+[0.257447] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_mode__type_support.h\n'}
+[0.257465] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/motion_ctrl__struct.h\n'}
+[0.257486] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_mode__struct.h\n'}
+[0.257504] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/ctrl_plot__type_support.h\n'}
+[0.257522] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.257539] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/movement_ctrl_mode.h\n'}
+[0.257557] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/leg_motors.h\n'}
+[0.257575] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/ctrl_plot.h\n'}
+[0.257821] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/share/motion_msgs/environment/library_path.sh\n'}
+[0.257845] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/share/motion_msgs/environment/library_path.dsv\n'}
+[0.257864] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib/libmotion_msgs__rosidl_generator_c.so\n'}
+[0.257882] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs\n'}
+[0.257901] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg\n'}
+[0.257924] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.257942] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail\n'}
+[0.257960] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/motion_ctrl__rosidl_typesupport_fastrtps_c.h\n'}
+[0.257978] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_mode__rosidl_typesupport_fastrtps_c.h\n'}
+[0.258001] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/robot_status__rosidl_typesupport_fastrtps_c.h\n'}
+[0.258020] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/ctrl_plot__rosidl_typesupport_fastrtps_c.h\n'}
+[0.258037] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_data__rosidl_typesupport_fastrtps_c.h\n'}
+[0.258056] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/leg_motors__rosidl_typesupport_fastrtps_c.h\n'}
+[0.258075] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib/libmotion_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.258093] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs\n'}
+[0.258111] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg\n'}
+[0.258128] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail\n'}
+[0.258154] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/motion_ctrl__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.258175] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/robot_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.258193] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_mode__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.258210] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.258228] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/dds_fastrtps\n'}
+[0.258245] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/ctrl_plot__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.258263] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/leg_motors__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.258280] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.258350] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib/libmotion_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.258371] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs\n'}
+[0.258389] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg\n'}
+[0.258407] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail\n'}
+[0.258428] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_data__type_support.c\n'}
+[0.258454] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_mode__rosidl_typesupport_introspection_c.h\n'}
+[0.258472] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/motion_ctrl__type_support.c\n'}
+[0.258489] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/leg_motors__type_support.c\n'}
+[0.258512] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_data__rosidl_typesupport_introspection_c.h\n'}
+[0.258530] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/leg_motors__rosidl_typesupport_introspection_c.h\n'}
+[0.258553] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_mode__type_support.c\n'}
+[0.258575] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/ctrl_plot__type_support.c\n'}
+[0.258593] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/robot_status__type_support.c\n'}
+[0.258611] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/robot_status__rosidl_typesupport_introspection_c.h\n'}
+[0.258629] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/ctrl_plot__rosidl_typesupport_introspection_c.h\n'}
+[0.258647] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/motion_ctrl__rosidl_typesupport_introspection_c.h\n'}
+[0.258672] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.258702] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib/libmotion_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.259041] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib/libmotion_msgs__rosidl_typesupport_c.so\n'}
+[0.259067] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs\n'}
+[0.259086] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg\n'}
+[0.259104] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/leg_motors.hpp\n'}
+[0.259128] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail\n'}
+[0.259145] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/ctrl_plot__traits.hpp\n'}
+[0.259163] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/robot_status__type_support.hpp\n'}
+[0.259181] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_mode__builder.hpp\n'}
+[0.259198] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/ctrl_plot__builder.hpp\n'}
+[0.259216] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/robot_status__builder.hpp\n'}
+[0.259234] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/leg_motors__builder.hpp\n'}
+[0.259252] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_data__builder.hpp\n'}
+[0.259269] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/leg_motors__type_support.hpp\n'}
+[0.259287] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/leg_motors__struct.hpp\n'}
+[0.259304] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/motion_ctrl__builder.hpp\n'}
+[0.259322] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/motion_ctrl__type_support.hpp\n'}
+[0.259339] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/motion_ctrl__traits.hpp\n'}
+[0.259368] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/leg_motors__traits.hpp\n'}
+[0.259392] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_data__traits.hpp\n'}
+[0.259411] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/motion_ctrl__struct.hpp\n'}
+[0.259431] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/robot_status__struct.hpp\n'}
+[0.259452] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_data__type_support.hpp\n'}
+[0.259470] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/robot_status__traits.hpp\n'}
+[0.259487] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_mode__struct.hpp\n'}
+[0.259505] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_data__struct.hpp\n'}
+[0.259522] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/ctrl_plot__type_support.hpp\n'}
+[0.259540] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_mode__type_support.hpp\n'}
+[0.259558] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_mode__traits.hpp\n'}
+[0.259575] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/ctrl_plot__struct.hpp\n'}
+[0.259593] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/ctrl_plot.hpp\n'}
+[0.259610] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/movement_ctrl_mode.hpp\n'}
+[0.259628] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.259645] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/motion_ctrl.hpp\n'}
+[0.259664] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/movement_ctrl_data.hpp\n'}
+[0.259681] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/robot_status.hpp\n'}
+[0.259699] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs\n'}
+[0.259716] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg\n'}
+[0.259733] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail\n'}
+[0.259755] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_mode__type_support.cpp\n'}
+[0.259773] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/leg_motors__type_support.cpp\n'}
+[0.259791] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/robot_status__type_support.cpp\n'}
+[0.259810] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/ctrl_plot__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.259828] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_mode__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.259846] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.259864] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/ctrl_plot__type_support.cpp\n'}
+[0.259881] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/leg_motors__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.259898] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/motion_ctrl__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.259916] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/robot_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.259933] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/movement_ctrl_data__type_support.cpp\n'}
+[0.259950] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include/motion_msgs/msg/detail/motion_ctrl__type_support.cpp\n'}
+[0.260161] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib/libmotion_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.260183] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib/libmotion_msgs__rosidl_typesupport_cpp.so\n'}
+[0.260201] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/share/motion_msgs/environment/pythonpath.sh\n'}
+[0.260219] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/share/motion_msgs/environment/pythonpath.dsv\n'}
+[0.260238] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/__init__.py\n'}
+[0.276041] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/msg\n'}
+[0.276086] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/msg/_leg_motors_s.c\n'}
+[0.276108] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/msg/_movement_ctrl_mode.py\n'}
+[0.276128] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/msg/_leg_motors.py\n'}
+[0.276146] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/msg/__init__.py\n'}
+[0.276164] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/msg/_ctrl_plot_s.c\n'}
+[0.276182] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/msg/_robot_status.py\n'}
+[0.276207] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/msg/_motion_ctrl_s.c\n'}
+[0.276226] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/msg/_motion_ctrl.py\n'}
+[0.276279] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/msg/_movement_ctrl_data.py\n'}
+[0.276300] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/msg/_movement_ctrl_data_s.c\n'}
+[0.276325] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/msg/_movement_ctrl_mode_s.c\n'}
+[0.276343] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/msg/_ctrl_plot.py\n'}
+[0.276361] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/msg/_robot_status_s.c\n'}
+[0.276379] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/motion_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[0.276651] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/motion_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[0.277043] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib/python3.8/site-packages/motion_msgs/motion_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[0.277268] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib/libmotion_msgs__python.so\n'}
+[0.277352] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/share/motion_msgs/msg/CtrlPlot.idl\n'}
+[0.277435] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/share/motion_msgs/msg/LegMotors.idl\n'}
+[0.277533] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/share/motion_msgs/msg/MotionCtrl.idl\n'}
+[0.277593] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/share/motion_msgs/msg/RobotStatus.idl\n'}
+[0.277684] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/share/motion_msgs/msg/MovementCtrlData.idl\n'}
+[0.277764] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/share/motion_msgs/msg/MovementCtrlMode.idl\n'}
+[0.277836] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/share/motion_msgs/msg/CtrlPlot.msg\n'}
+[0.277861] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/share/motion_msgs/msg/LegMotors.msg\n'}
+[0.277879] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/share/motion_msgs/msg/MotionCtrl.msg\n'}
+[0.277897] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/share/motion_msgs/msg/RobotStatus.msg\n'}
+[0.278048] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/share/motion_msgs/msg/MovementCtrlData.msg\n'}
+[0.278070] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/share/motion_msgs/msg/MovementCtrlMode.msg\n'}
+[0.278088] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/share/ament_index/resource_index/package_run_dependencies/motion_msgs\n'}
+[0.278106] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/share/ament_index/resource_index/parent_prefix_path/motion_msgs\n'}
+[0.278238] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/share/motion_msgs/environment/ament_prefix_path.sh\n'}
+[0.278261] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/share/motion_msgs/environment/ament_prefix_path.dsv\n'}
+[0.278321] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/share/motion_msgs/environment/path.sh\n'}
+[0.278340] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/share/motion_msgs/environment/path.dsv\n'}
+[0.278358] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/share/motion_msgs/local_setup.bash\n'}
+[0.278381] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/share/motion_msgs/local_setup.sh\n'}
+[0.278414] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/share/motion_msgs/local_setup.zsh\n'}
+[0.278432] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/share/motion_msgs/local_setup.dsv\n'}
+[0.278450] (motion_msgs) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/share/motion_msgs/package.dsv\n'}
+[0.278473] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/share/ament_index/resource_index/packages/motion_msgs\n'}
+[0.278527] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/motion_msgs__rosidl_generator_cExport.cmake\n'}
+[0.278546] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/motion_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.278570] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/motion_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.278657] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/motion_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.278725] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/motion_msgs__rosidl_typesupport_cExport.cmake\n'}
+[0.278828] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/motion_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.278849] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/motion_msgs__rosidl_generator_cppExport.cmake\n'}
+[0.279039] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/motion_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.279057] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/motion_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.279075] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/motion_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[0.279092] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/motion_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.279110] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[0.279127] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.279145] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.279165] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.279182] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.279200] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.279217] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.279235] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/motion_msgsConfig.cmake\n'}
+[0.279252] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/share/motion_msgs/cmake/motion_msgsConfig-version.cmake\n'}
+[0.279269] (motion_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/share/motion_msgs/package.xml\n'}
+[0.285698] (motion_msgs) CommandEnded: {'returncode': 0}
+[0.290633] (motion_msgs) JobEnded: {'identifier': 'motion_msgs', 'rc': 0}
+[0.290847] (sub_dwav17) JobStarted: {'identifier': 'sub_dwav17'}
+[0.295852] (sub_dwav17) JobProgress: {'identifier': 'sub_dwav17', 'progress': 'cmake'}
+[0.295903] (sub_dwav17) Command: {'cmd': ['/usr/bin/cmake', '/home/y/SA_CAO_Simu/SA_CAO/src/sub_dwav17', '-DCMAKE_INSTALL_PREFIX=/home/y/SA_CAO_Simu/SA_CAO/install/sub_dwav17'], 'cwd': '/home/y/SA_CAO_Simu/SA_CAO/build/sub_dwav17', 'env': OrderedDict([('USER', 'y'), ('SSH_CLIENT', '192.168.3.53 52144 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_msgs/lib:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_custom_interfaces/lib:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/y'), ('OLDPWD', '/home/y'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/y/SA_CAO_Simu/SA_CAO/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'y'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('XDG_SESSION_ID', '26'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('AMENT_PREFIX_PATH', '/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_teleop:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_simulations:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_bringup:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_node:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_navigation2:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_fake_node:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_example:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_msgs:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_gazebo:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_description:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_cartographer:/home/y/SA_CAO_Simu/SA_CAO/install/sub_dwav15:/home/y/SA_CAO_Simu/SA_CAO/install/pure_pursuit:/home/y/SA_CAO_Simu/SA_CAO/install/my_balance_pkg:/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs:/home/y/SA_CAO_Simu/SA_CAO/install/launch_diablo:/home/y/SA_CAO_Simu/SA_CAO/install/hls_lfcd_lds_driver:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_examples:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_custom_interfaces:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('PWD', '/home/y/SA_CAO_Simu/SA_CAO/build/sub_dwav17'), ('LC_ALL', 'C'), ('SSH_CONNECTION', '192.168.3.53 52144 192.168.3.181 22'), ('PYTHONPATH', '/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_example/lib/python3.8/site-packages:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/y/SA_CAO_Simu/SA_CAO/install/pure_pursuit/lib/python3.8/site-packages:/home/y/SA_CAO_Simu/SA_CAO/install/my_balance_pkg/lib/python3.8/site-packages:/home/y/SA_CAO_Simu/SA_CAO/install/launch_diablo/lib/python3.8/site-packages:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_simulations:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_bringup:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_node:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_navigation2:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_fake_node:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_msgs:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_gazebo:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_description:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_cartographer:/home/y/SA_CAO_Simu/SA_CAO/install/sub_dwav15:/home/y/SA_CAO_Simu/SA_CAO/install/hls_lfcd_lds_driver:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_examples:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_custom_interfaces:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_teleop:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_example:/home/y/SA_CAO_Simu/SA_CAO/install/pure_pursuit:/home/y/SA_CAO_Simu/SA_CAO/install/my_balance_pkg:/home/y/SA_CAO_Simu/SA_CAO/install/launch_diablo:/opt/ros/foxy')]), 'shell': False}
+[0.300065] (-) TimerEvent: {}
+[0.341104] (sub_dwav17) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.376816] (sub_dwav17) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.379601] (sub_dwav17) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.400209] (-) TimerEvent: {}
+[0.412762] (sub_dwav17) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.413148] (sub_dwav17) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.445575] (sub_dwav17) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.450656] (sub_dwav17) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.450825] (sub_dwav17) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.451928] (sub_dwav17) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.489553] (sub_dwav17) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.490065] (sub_dwav17) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500316] (-) TimerEvent: {}
+[0.525584] (sub_dwav17) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.530817] (sub_dwav17) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.531068] (sub_dwav17) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.533204] (sub_dwav17) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.547089] (sub_dwav17) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.547147] (sub_dwav17) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.600377] (-) TimerEvent: {}
+[0.635471] (sub_dwav17) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[0.644324] (sub_dwav17) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[0.671883] (sub_dwav17) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.677813] (sub_dwav17) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.700471] (-) TimerEvent: {}
+[0.752201] (sub_dwav17) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.770092] (sub_dwav17) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.800568] (-) TimerEvent: {}
+[0.817845] (sub_dwav17) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.862540] (sub_dwav17) StdoutLine: {'line': b'-- Found motion_msgs: 1.0.0 (/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/share/motion_msgs/cmake)\n'}
+[0.882567] (sub_dwav17) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.900611] (-) TimerEvent: {}
+[0.913569] (sub_dwav17) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.915060] (sub_dwav17) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.917128] (sub_dwav17) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.953027] (sub_dwav17) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.953130] (sub_dwav17) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.995706] (sub_dwav17) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[0.995809] (sub_dwav17) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.000685] (-) TimerEvent: {}
+[1.022427] (sub_dwav17) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.022501] (sub_dwav17) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.052350] (sub_dwav17) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.052948] (sub_dwav17) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.100783] (-) TimerEvent: {}
+[1.131251] (sub_dwav17) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[1.200886] (-) TimerEvent: {}
+[1.202197] (sub_dwav17) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.206613] (sub_dwav17) StdoutLine: {'line': b'-- Generating done\n'}
+[1.208663] (sub_dwav17) StdoutLine: {'line': b'-- Build files have been written to: /home/y/SA_CAO_Simu/SA_CAO/build/sub_dwav17\n'}
+[1.212934] (sub_dwav17) CommandEnded: {'returncode': 0}
+[1.213212] (sub_dwav17) JobProgress: {'identifier': 'sub_dwav17', 'progress': 'build'}
+[1.213223] (sub_dwav17) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/y/SA_CAO_Simu/SA_CAO/build/sub_dwav17', '--', '-j2', '-l2'], 'cwd': '/home/y/SA_CAO_Simu/SA_CAO/build/sub_dwav17', 'env': OrderedDict([('USER', 'y'), ('SSH_CLIENT', '192.168.3.53 52144 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_msgs/lib:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_custom_interfaces/lib:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/y'), ('OLDPWD', '/home/y'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/y/SA_CAO_Simu/SA_CAO/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'y'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('XDG_SESSION_ID', '26'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('AMENT_PREFIX_PATH', '/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_teleop:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_simulations:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_bringup:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_node:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_navigation2:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_fake_node:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_example:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_msgs:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_gazebo:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_description:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_cartographer:/home/y/SA_CAO_Simu/SA_CAO/install/sub_dwav15:/home/y/SA_CAO_Simu/SA_CAO/install/pure_pursuit:/home/y/SA_CAO_Simu/SA_CAO/install/my_balance_pkg:/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs:/home/y/SA_CAO_Simu/SA_CAO/install/launch_diablo:/home/y/SA_CAO_Simu/SA_CAO/install/hls_lfcd_lds_driver:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_examples:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_custom_interfaces:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('PWD', '/home/y/SA_CAO_Simu/SA_CAO/build/sub_dwav17'), ('LC_ALL', 'C'), ('SSH_CONNECTION', '192.168.3.53 52144 192.168.3.181 22'), ('PYTHONPATH', '/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_example/lib/python3.8/site-packages:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/y/SA_CAO_Simu/SA_CAO/install/pure_pursuit/lib/python3.8/site-packages:/home/y/SA_CAO_Simu/SA_CAO/install/my_balance_pkg/lib/python3.8/site-packages:/home/y/SA_CAO_Simu/SA_CAO/install/launch_diablo/lib/python3.8/site-packages:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_simulations:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_bringup:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_node:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_navigation2:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_fake_node:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_msgs:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_gazebo:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_description:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_cartographer:/home/y/SA_CAO_Simu/SA_CAO/install/sub_dwav15:/home/y/SA_CAO_Simu/SA_CAO/install/hls_lfcd_lds_driver:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_examples:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_custom_interfaces:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_teleop:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_example:/home/y/SA_CAO_Simu/SA_CAO/install/pure_pursuit:/home/y/SA_CAO_Simu/SA_CAO/install/my_balance_pkg:/home/y/SA_CAO_Simu/SA_CAO/install/launch_diablo:/opt/ros/foxy')]), 'shell': False}
+[1.217495] (sub_dwav17) StdoutLine: {'line': b'/usr/bin/cmake -S/home/y/SA_CAO_Simu/SA_CAO/src/sub_dwav17 -B/home/y/SA_CAO_Simu/SA_CAO/build/sub_dwav17 --check-build-system CMakeFiles/Makefile.cmake 0\n'}
+[1.222400] (sub_dwav17) StdoutLine: {'line': b'/usr/bin/cmake -E cmake_progress_start /home/y/SA_CAO_Simu/SA_CAO/build/sub_dwav17/CMakeFiles /home/y/SA_CAO_Simu/SA_CAO/build/sub_dwav17/CMakeFiles/progress.marks\n'}
+[1.225718] (sub_dwav17) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/Makefile2 all\n'}
+[1.226191] (sub_dwav17) StdoutLine: {'line': b"make[1]: Entering directory '/home/y/SA_CAO_Simu/SA_CAO/build/sub_dwav17'\n"}
+[1.226393] (sub_dwav17) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/SUB_DWAV17.dir/build.make CMakeFiles/SUB_DWAV17.dir/depend\n'}
+[1.226626] (sub_dwav17) StdoutLine: {'line': b"make[2]: Entering directory '/home/y/SA_CAO_Simu/SA_CAO/build/sub_dwav17'\n"}
+[1.226653] (sub_dwav17) StdoutLine: {'line': b'cd /home/y/SA_CAO_Simu/SA_CAO/build/sub_dwav17 && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/y/SA_CAO_Simu/SA_CAO/src/sub_dwav17 /home/y/SA_CAO_Simu/SA_CAO/src/sub_dwav17 /home/y/SA_CAO_Simu/SA_CAO/build/sub_dwav17 /home/y/SA_CAO_Simu/SA_CAO/build/sub_dwav17 /home/y/SA_CAO_Simu/SA_CAO/build/sub_dwav17/CMakeFiles/SUB_DWAV17.dir/DependInfo.cmake --color=\n'}
+[1.247801] (sub_dwav17) StdoutLine: {'line': b'Scanning dependencies of target SUB_DWAV17\n'}
+[1.248192] (sub_dwav17) StdoutLine: {'line': b"make[2]: Leaving directory '/home/y/SA_CAO_Simu/SA_CAO/build/sub_dwav17'\n"}
+[1.248259] (sub_dwav17) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/SUB_DWAV17.dir/build.make CMakeFiles/SUB_DWAV17.dir/build\n'}
+[1.253482] (sub_dwav17) StdoutLine: {'line': b"make[2]: Entering directory '/home/y/SA_CAO_Simu/SA_CAO/build/sub_dwav17'\n"}
+[1.257209] (sub_dwav17) StdoutLine: {'line': b'[ 11%] Building CXX object CMakeFiles/SUB_DWAV17.dir/src/SUB_DWAV17.cpp.o\n'}
+[1.257439] (sub_dwav17) StdoutLine: {'line': b'/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"sub_dwav17\\" -DSPDLOG_COMPILED_LIB -I/home/y/SA_CAO_Simu/SA_CAO/src/sub_dwav17/include/sub_dwav17 -I/home/y/SA_CAO_Simu/SA_CAO/src/sub_dwav17/include -isystem /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include -isystem /opt/ros/foxy/include  -O3 -DNDEBUG   -Wall -Wextra -Wpedantic -DMODEL=SUB_DWAV17 -DNUMST=2 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=1 -DINTEGER_CODE=0 -DMT=1 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -std=gnu++17 -o CMakeFiles/SUB_DWAV17.dir/src/SUB_DWAV17.cpp.o -c /home/y/SA_CAO_Simu/SA_CAO/src/sub_dwav17/src/SUB_DWAV17.cpp\n'}
+[1.259062] (sub_dwav17) StdoutLine: {'line': b'[ 22%] Building CXX object CMakeFiles/SUB_DWAV17.dir/src/main.cpp.o\n'}
+[1.259384] (sub_dwav17) StdoutLine: {'line': b'/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"sub_dwav17\\" -DSPDLOG_COMPILED_LIB -I/home/y/SA_CAO_Simu/SA_CAO/src/sub_dwav17/include/sub_dwav17 -I/home/y/SA_CAO_Simu/SA_CAO/src/sub_dwav17/include -isystem /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include -isystem /opt/ros/foxy/include  -O3 -DNDEBUG   -Wall -Wextra -Wpedantic -DMODEL=SUB_DWAV17 -DNUMST=2 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=1 -DINTEGER_CODE=0 -DMT=1 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -std=gnu++17 -o CMakeFiles/SUB_DWAV17.dir/src/main.cpp.o -c /home/y/SA_CAO_Simu/SA_CAO/src/sub_dwav17/src/main.cpp\n'}
+[1.301144] (-) TimerEvent: {}
+[1.401283] (-) TimerEvent: {}
+[1.501428] (-) TimerEvent: {}
+[1.601563] (-) TimerEvent: {}
+[1.701704] (-) TimerEvent: {}
+[1.804609] (-) TimerEvent: {}
+[1.904786] (-) TimerEvent: {}
+[2.004943] (-) TimerEvent: {}
+[2.105173] (-) TimerEvent: {}
+[2.205385] (-) TimerEvent: {}
+[2.305519] (-) TimerEvent: {}
+[2.405683] (-) TimerEvent: {}
+[2.505814] (-) TimerEvent: {}
+[2.558077] (sub_dwav17) StdoutLine: {'line': b'[ 33%] Building CXX object CMakeFiles/SUB_DWAV17.dir/src/ros2nodeinterface.cpp.o\n'}
+[2.558603] (sub_dwav17) StdoutLine: {'line': b'/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"sub_dwav17\\" -DSPDLOG_COMPILED_LIB -I/home/y/SA_CAO_Simu/SA_CAO/src/sub_dwav17/include/sub_dwav17 -I/home/y/SA_CAO_Simu/SA_CAO/src/sub_dwav17/include -isystem /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include -isystem /opt/ros/foxy/include  -O3 -DNDEBUG   -Wall -Wextra -Wpedantic -DMODEL=SUB_DWAV17 -DNUMST=2 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=1 -DINTEGER_CODE=0 -DMT=1 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -std=gnu++17 -o CMakeFiles/SUB_DWAV17.dir/src/ros2nodeinterface.cpp.o -c /home/y/SA_CAO_Simu/SA_CAO/src/sub_dwav17/src/ros2nodeinterface.cpp\n'}
+[2.605896] (-) TimerEvent: {}
+[2.706019] (-) TimerEvent: {}
+[2.806146] (-) TimerEvent: {}
+[2.906269] (-) TimerEvent: {}
+[3.006394] (-) TimerEvent: {}
+[3.106519] (-) TimerEvent: {}
+[3.206650] (-) TimerEvent: {}
+[3.306779] (-) TimerEvent: {}
+[3.407116] (-) TimerEvent: {}
+[3.507251] (-) TimerEvent: {}
+[3.607378] (-) TimerEvent: {}
+[3.707508] (-) TimerEvent: {}
+[3.807639] (-) TimerEvent: {}
+[3.907765] (-) TimerEvent: {}
+[3.989553] (sub_dwav17) StdoutLine: {'line': b'[ 44%] Building CXX object CMakeFiles/SUB_DWAV17.dir/src/rtGetInf.cpp.o\n'}
+[3.990042] (sub_dwav17) StdoutLine: {'line': b'/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"sub_dwav17\\" -DSPDLOG_COMPILED_LIB -I/home/y/SA_CAO_Simu/SA_CAO/src/sub_dwav17/include/sub_dwav17 -I/home/y/SA_CAO_Simu/SA_CAO/src/sub_dwav17/include -isystem /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include -isystem /opt/ros/foxy/include  -O3 -DNDEBUG   -Wall -Wextra -Wpedantic -DMODEL=SUB_DWAV17 -DNUMST=2 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=1 -DINTEGER_CODE=0 -DMT=1 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -std=gnu++17 -o CMakeFiles/SUB_DWAV17.dir/src/rtGetInf.cpp.o -c /home/y/SA_CAO_Simu/SA_CAO/src/sub_dwav17/src/rtGetInf.cpp\n'}
+[4.007846] (-) TimerEvent: {}
+[4.020684] (sub_dwav17) StdoutLine: {'line': b'[ 55%] Building CXX object CMakeFiles/SUB_DWAV17.dir/src/rtGetNaN.cpp.o\n'}
+[4.021028] (sub_dwav17) StdoutLine: {'line': b'/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"sub_dwav17\\" -DSPDLOG_COMPILED_LIB -I/home/y/SA_CAO_Simu/SA_CAO/src/sub_dwav17/include/sub_dwav17 -I/home/y/SA_CAO_Simu/SA_CAO/src/sub_dwav17/include -isystem /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include -isystem /opt/ros/foxy/include  -O3 -DNDEBUG   -Wall -Wextra -Wpedantic -DMODEL=SUB_DWAV17 -DNUMST=2 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=1 -DINTEGER_CODE=0 -DMT=1 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -std=gnu++17 -o CMakeFiles/SUB_DWAV17.dir/src/rtGetNaN.cpp.o -c /home/y/SA_CAO_Simu/SA_CAO/src/sub_dwav17/src/rtGetNaN.cpp\n'}
+[4.044671] (sub_dwav17) StdoutLine: {'line': b'[ 66%] Building CXX object CMakeFiles/SUB_DWAV17.dir/src/rt_nonfinite.cpp.o\n'}
+[4.045160] (sub_dwav17) StdoutLine: {'line': b'/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"sub_dwav17\\" -DSPDLOG_COMPILED_LIB -I/home/y/SA_CAO_Simu/SA_CAO/src/sub_dwav17/include/sub_dwav17 -I/home/y/SA_CAO_Simu/SA_CAO/src/sub_dwav17/include -isystem /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include -isystem /opt/ros/foxy/include  -O3 -DNDEBUG   -Wall -Wextra -Wpedantic -DMODEL=SUB_DWAV17 -DNUMST=2 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=1 -DINTEGER_CODE=0 -DMT=1 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -std=gnu++17 -o CMakeFiles/SUB_DWAV17.dir/src/rt_nonfinite.cpp.o -c /home/y/SA_CAO_Simu/SA_CAO/src/sub_dwav17/src/rt_nonfinite.cpp\n'}
+[4.076771] (sub_dwav17) StdoutLine: {'line': b'[ 77%] Building CXX object CMakeFiles/SUB_DWAV17.dir/src/slros2_initialize.cpp.o\n'}
+[4.077121] (sub_dwav17) StdoutLine: {'line': b'/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"sub_dwav17\\" -DSPDLOG_COMPILED_LIB -I/home/y/SA_CAO_Simu/SA_CAO/src/sub_dwav17/include/sub_dwav17 -I/home/y/SA_CAO_Simu/SA_CAO/src/sub_dwav17/include -isystem /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include -isystem /opt/ros/foxy/include  -O3 -DNDEBUG   -Wall -Wextra -Wpedantic -DMODEL=SUB_DWAV17 -DNUMST=2 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=1 -DINTEGER_CODE=0 -DMT=1 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -std=gnu++17 -o CMakeFiles/SUB_DWAV17.dir/src/slros2_initialize.cpp.o -c /home/y/SA_CAO_Simu/SA_CAO/src/sub_dwav17/src/slros2_initialize.cpp\n'}
+[4.107932] (-) TimerEvent: {}
+[4.208138] (-) TimerEvent: {}
+[4.308287] (-) TimerEvent: {}
+[4.408425] (-) TimerEvent: {}
+[4.508556] (-) TimerEvent: {}
+[4.608695] (-) TimerEvent: {}
+[4.708829] (-) TimerEvent: {}
+[4.808984] (-) TimerEvent: {}
+[4.909133] (-) TimerEvent: {}
+[5.009285] (-) TimerEvent: {}
+[5.109446] (-) TimerEvent: {}
+[5.209579] (-) TimerEvent: {}
+[5.213180] (sub_dwav17) StdoutLine: {'line': b'[ 88%] Building CXX object CMakeFiles/SUB_DWAV17.dir/src/slros_busmsg_conversion.cpp.o\n'}
+[5.213717] (sub_dwav17) StdoutLine: {'line': b'/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"sub_dwav17\\" -DSPDLOG_COMPILED_LIB -I/home/y/SA_CAO_Simu/SA_CAO/src/sub_dwav17/include/sub_dwav17 -I/home/y/SA_CAO_Simu/SA_CAO/src/sub_dwav17/include -isystem /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/include -isystem /opt/ros/foxy/include  -O3 -DNDEBUG   -Wall -Wextra -Wpedantic -DMODEL=SUB_DWAV17 -DNUMST=2 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=1 -DINTEGER_CODE=0 -DMT=1 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT=RT -fpermissive -std=gnu++17 -o CMakeFiles/SUB_DWAV17.dir/src/slros_busmsg_conversion.cpp.o -c /home/y/SA_CAO_Simu/SA_CAO/src/sub_dwav17/src/slros_busmsg_conversion.cpp\n'}
+[5.309662] (-) TimerEvent: {}
+[5.409790] (-) TimerEvent: {}
+[5.509915] (-) TimerEvent: {}
+[5.610040] (-) TimerEvent: {}
+[5.710168] (-) TimerEvent: {}
+[5.810296] (-) TimerEvent: {}
+[5.910454] (-) TimerEvent: {}
+[6.010618] (-) TimerEvent: {}
+[6.110749] (-) TimerEvent: {}
+[6.210876] (-) TimerEvent: {}
+[6.311012] (-) TimerEvent: {}
+[6.411142] (-) TimerEvent: {}
+[6.511267] (-) TimerEvent: {}
+[6.611393] (-) TimerEvent: {}
+[6.711520] (-) TimerEvent: {}
+[6.811659] (-) TimerEvent: {}
+[6.911800] (-) TimerEvent: {}
+[7.011955] (-) TimerEvent: {}
+[7.112084] (-) TimerEvent: {}
+[7.212213] (-) TimerEvent: {}
+[7.312337] (-) TimerEvent: {}
+[7.412461] (-) TimerEvent: {}
+[7.512555] (-) TimerEvent: {}
+[7.612678] (-) TimerEvent: {}
+[7.712808] (-) TimerEvent: {}
+[7.812939] (-) TimerEvent: {}
+[7.913097] (-) TimerEvent: {}
+[8.013222] (-) TimerEvent: {}
+[8.113354] (-) TimerEvent: {}
+[8.213480] (-) TimerEvent: {}
+[8.313611] (-) TimerEvent: {}
+[8.413739] (-) TimerEvent: {}
+[8.513872] (-) TimerEvent: {}
+[8.614004] (-) TimerEvent: {}
+[8.714138] (-) TimerEvent: {}
+[8.814345] (-) TimerEvent: {}
+[8.914566] (-) TimerEvent: {}
+[9.015188] (-) TimerEvent: {}
+[9.115336] (-) TimerEvent: {}
+[9.215478] (-) TimerEvent: {}
+[9.315634] (-) TimerEvent: {}
+[9.415761] (-) TimerEvent: {}
+[9.515900] (-) TimerEvent: {}
+[9.616033] (-) TimerEvent: {}
+[9.716174] (-) TimerEvent: {}
+[9.749081] (sub_dwav17) StdoutLine: {'line': b'[100%] Linking CXX executable SUB_DWAV17\n'}
+[9.749561] (sub_dwav17) StdoutLine: {'line': b'/usr/bin/cmake -E cmake_link_script CMakeFiles/SUB_DWAV17.dir/link.txt --verbose=1\n'}
+[9.753427] (sub_dwav17) StdoutLine: {'line': b'/usr/bin/c++  -O3 -DNDEBUG   CMakeFiles/SUB_DWAV17.dir/src/SUB_DWAV17.cpp.o CMakeFiles/SUB_DWAV17.dir/src/main.cpp.o CMakeFiles/SUB_DWAV17.dir/src/ros2nodeinterface.cpp.o CMakeFiles/SUB_DWAV17.dir/src/rtGetInf.cpp.o CMakeFiles/SUB_DWAV17.dir/src/rtGetNaN.cpp.o CMakeFiles/SUB_DWAV17.dir/src/rt_nonfinite.cpp.o CMakeFiles/SUB_DWAV17.dir/src/slros2_initialize.cpp.o CMakeFiles/SUB_DWAV17.dir/src/slros_busmsg_conversion.cpp.o  -o SUB_DWAV17  -Wl,-rpath,/home/y/SA_CAO_Simu/SA_CAO/install/sub_dwav17/lib:/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib:/opt/ros/foxy/lib /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib/libmotion_msgs__rosidl_typesupport_introspection_c.so /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib/libmotion_msgs__rosidl_typesupport_c.so /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib/libmotion_msgs__rosidl_typesupport_introspection_cpp.so /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib/libmotion_msgs__rosidl_typesupport_cpp.so /opt/ros/foxy/lib/librclcpp.so /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_c.so /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_cpp.so -ldl /home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib/libmotion_msgs__rosidl_generator_c.so /opt/ros/foxy/lib/liblibstatistics_collector.so /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_c.so /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_generator_c.so /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_c.so /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_cpp.so /opt/ros/foxy/lib/librcl.so /opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so /opt/ros/foxy/lib/librcl_interfaces__rosidl_generator_c.so /opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_c.so /opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so /opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_cpp.so /opt/ros/foxy/lib/librmw_implementation.so /opt/ros/foxy/lib/librmw.so /opt/ros/foxy/lib/librcl_logging_spdlog.so /usr/lib/aarch64-linux-gnu/libspdlog.so.1.5.0 -lpthread /opt/ros/foxy/lib/librcl_yaml_param_parser.so /opt/ros/foxy/lib/libyaml.so /opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so /opt/ros/foxy/lib/librosgraph_msgs__rosidl_generator_c.so /opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_c.so /opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_cpp.so /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so /opt/ros/foxy/lib/libstatistics_msgs__rosidl_generator_c.so /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_c.so /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_cpp.so /opt/ros/foxy/lib/libtracetools.so /opt/ros/foxy/lib/libsensor_msgs__rosidl_generator_c.so /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so /opt/ros/foxy/lib/libgeometry_msgs__rosidl_generator_c.so /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_c.so /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so /opt/ros/foxy/lib/libstd_msgs__rosidl_generator_c.so /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_c.so /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_cpp.so /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_generator_c.so /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so /opt/ros/foxy/lib/librosidl_typesupport_introspection_cpp.so /opt/ros/foxy/lib/librosidl_typesupport_introspection_c.so /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so /opt/ros/foxy/lib/librosidl_typesupport_cpp.so /opt/ros/foxy/lib/librosidl_typesupport_c.so /opt/ros/foxy/lib/librosidl_runtime_c.so /opt/ros/foxy/lib/librcpputils.so /opt/ros/foxy/lib/librcutils.so -ldl \n'}
+[9.816311] (-) TimerEvent: {}
+[9.865169] (sub_dwav17) StdoutLine: {'line': b"make[2]: Leaving directory '/home/y/SA_CAO_Simu/SA_CAO/build/sub_dwav17'\n"}
+[9.871442] (sub_dwav17) StdoutLine: {'line': b'[100%] Built target SUB_DWAV17\n'}
+[9.871891] (sub_dwav17) StdoutLine: {'line': b"make[1]: Leaving directory '/home/y/SA_CAO_Simu/SA_CAO/build/sub_dwav17'\n"}
+[9.871968] (sub_dwav17) StdoutLine: {'line': b'/usr/bin/cmake -E cmake_progress_start /home/y/SA_CAO_Simu/SA_CAO/build/sub_dwav17/CMakeFiles 0\n'}
+[9.876878] (sub_dwav17) CommandEnded: {'returncode': 0}
+[9.878208] (sub_dwav17) JobProgress: {'identifier': 'sub_dwav17', 'progress': 'install'}
+[9.878457] (sub_dwav17) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/y/SA_CAO_Simu/SA_CAO/build/sub_dwav17'], 'cwd': '/home/y/SA_CAO_Simu/SA_CAO/build/sub_dwav17', 'env': OrderedDict([('USER', 'y'), ('SSH_CLIENT', '192.168.3.53 52144 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_msgs/lib:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_custom_interfaces/lib:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/y'), ('OLDPWD', '/home/y'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/y/SA_CAO_Simu/SA_CAO/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'y'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('XDG_SESSION_ID', '26'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('AMENT_PREFIX_PATH', '/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_teleop:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_simulations:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_bringup:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_node:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_navigation2:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_fake_node:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_example:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_msgs:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_gazebo:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_description:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_cartographer:/home/y/SA_CAO_Simu/SA_CAO/install/sub_dwav15:/home/y/SA_CAO_Simu/SA_CAO/install/pure_pursuit:/home/y/SA_CAO_Simu/SA_CAO/install/my_balance_pkg:/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs:/home/y/SA_CAO_Simu/SA_CAO/install/launch_diablo:/home/y/SA_CAO_Simu/SA_CAO/install/hls_lfcd_lds_driver:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_examples:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_custom_interfaces:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('PWD', '/home/y/SA_CAO_Simu/SA_CAO/build/sub_dwav17'), ('LC_ALL', 'C'), ('SSH_CONNECTION', '192.168.3.53 52144 192.168.3.181 22'), ('PYTHONPATH', '/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_example/lib/python3.8/site-packages:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/y/SA_CAO_Simu/SA_CAO/install/pure_pursuit/lib/python3.8/site-packages:/home/y/SA_CAO_Simu/SA_CAO/install/my_balance_pkg/lib/python3.8/site-packages:/home/y/SA_CAO_Simu/SA_CAO/install/launch_diablo/lib/python3.8/site-packages:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_simulations:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_bringup:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_node:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_navigation2:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_fake_node:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_msgs:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_gazebo:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_description:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_cartographer:/home/y/SA_CAO_Simu/SA_CAO/install/sub_dwav15:/home/y/SA_CAO_Simu/SA_CAO/install/hls_lfcd_lds_driver:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_examples:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_custom_interfaces:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_teleop:/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_example:/home/y/SA_CAO_Simu/SA_CAO/install/pure_pursuit:/home/y/SA_CAO_Simu/SA_CAO/install/my_balance_pkg:/home/y/SA_CAO_Simu/SA_CAO/install/launch_diablo:/opt/ros/foxy')]), 'shell': False}
+[9.884116] (sub_dwav17) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[9.884285] (sub_dwav17) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/sub_dwav17/lib/sub_dwav17/SUB_DWAV17\n'}
+[9.885127] (sub_dwav17) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/sub_dwav17/share/ament_index/resource_index/package_run_dependencies/sub_dwav17\n'}
+[9.885400] (sub_dwav17) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/sub_dwav17/share/ament_index/resource_index/parent_prefix_path/sub_dwav17\n'}
+[9.886004] (sub_dwav17) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/sub_dwav17/share/sub_dwav17/environment/ament_prefix_path.sh\n'}
+[9.886088] (sub_dwav17) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/sub_dwav17/share/sub_dwav17/environment/ament_prefix_path.dsv\n'}
+[9.886381] (sub_dwav17) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/sub_dwav17/share/sub_dwav17/environment/path.sh\n'}
+[9.886449] (sub_dwav17) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/sub_dwav17/share/sub_dwav17/environment/path.dsv\n'}
+[9.886936] (sub_dwav17) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/sub_dwav17/share/sub_dwav17/local_setup.bash\n'}
+[9.887015] (sub_dwav17) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/sub_dwav17/share/sub_dwav17/local_setup.sh\n'}
+[9.887212] (sub_dwav17) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/sub_dwav17/share/sub_dwav17/local_setup.zsh\n'}
+[9.887236] (sub_dwav17) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/sub_dwav17/share/sub_dwav17/local_setup.dsv\n'}
+[9.887421] (sub_dwav17) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/sub_dwav17/share/sub_dwav17/package.dsv\n'}
+[9.887536] (sub_dwav17) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/sub_dwav17/share/ament_index/resource_index/packages/sub_dwav17\n'}
+[9.887611] (sub_dwav17) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/sub_dwav17/share/sub_dwav17/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.887745] (sub_dwav17) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/sub_dwav17/share/sub_dwav17/cmake/sub_dwav17Config.cmake\n'}
+[9.887835] (sub_dwav17) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/sub_dwav17/share/sub_dwav17/cmake/sub_dwav17Config-version.cmake\n'}
+[9.888037] (sub_dwav17) StdoutLine: {'line': b'-- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/sub_dwav17/share/sub_dwav17/package.xml\n'}
+[9.889569] (sub_dwav17) CommandEnded: {'returncode': 0}
+[9.896581] (sub_dwav17) JobEnded: {'identifier': 'sub_dwav17', 'rc': 0}
+[9.896977] (-) EventReactorShutdown: {}

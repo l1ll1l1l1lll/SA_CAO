@@ -31,5 +31,7 @@ export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
 sudo apt install ros-foxy-rmw-cyclonedds-cpp
 export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
 
+export RMW_IMPLEMENTATION=rmw_fastrtps_cpp
+
 export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
 ros2 run mrsdiffdrivesubsumtionmodel0225 mrsDiffDriveSubsumtionModel0225

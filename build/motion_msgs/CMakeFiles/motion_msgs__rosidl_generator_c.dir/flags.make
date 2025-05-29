@@ -6,5 +6,5 @@ C_FLAGS = -fPIC   -Wall -std=gnu11
 
 C_DEFINES = -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\"motion_msgs\" -Dmotion_msgs__rosidl_generator_c_EXPORTS
 
-C_INCLUDES = -I/home/y/SA_CAO_test_ws/build/motion_msgs/rosidl_generator_c -isystem /opt/ros/foxy/include 
+C_INCLUDES = -I/home/y/SA_CAO_Simu/SA_CAO/build/motion_msgs/rosidl_generator_c -isystem /opt/ros/foxy/include 
 

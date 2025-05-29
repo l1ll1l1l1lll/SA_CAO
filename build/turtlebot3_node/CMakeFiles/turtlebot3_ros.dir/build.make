@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/y/SA_CAO_test_ws/src/turtlebot3/turtlebot3/turtlebot3_node
+CMAKE_SOURCE_DIR = /home/y/SA_CAO_Simu/SA_CAO/src/turtlebot3/turtlebot3/turtlebot3_node
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/y/SA_CAO_test_ws/build/turtlebot3_node
+CMAKE_BINARY_DIR = /home/y/SA_CAO_Simu/SA_CAO/build/turtlebot3_node
 
 # Include any dependencies generated for this target.
 include CMakeFiles/turtlebot3_ros.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/turtlebot3_ros.dir/progress.make
 include CMakeFiles/turtlebot3_ros.dir/flags.make
 
 CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.o: CMakeFiles/turtlebot3_ros.dir/flags.make
-CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.o: /home/y/SA_CAO_test_ws/src/turtlebot3/turtlebot3/turtlebot3_node/src/node_main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/y/SA_CAO_test_ws/build/turtlebot3_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.o -c /home/y/SA_CAO_test_ws/src/turtlebot3/turtlebot3/turtlebot3_node/src/node_main.cpp
+CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.o: /home/y/SA_CAO_Simu/SA_CAO/src/turtlebot3/turtlebot3/turtlebot3_node/src/node_main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/y/SA_CAO_Simu/SA_CAO/build/turtlebot3_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.o -c /home/y/SA_CAO_Simu/SA_CAO/src/turtlebot3/turtlebot3/turtlebot3_node/src/node_main.cpp
 
 CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/y/SA_CAO_test_ws/src/turtlebot3/turtlebot3/turtlebot3_node/src/node_main.cpp > CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/y/SA_CAO_Simu/SA_CAO/src/turtlebot3/turtlebot3/turtlebot3_node/src/node_main.cpp > CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.i
 
 CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/y/SA_CAO_test_ws/src/turtlebot3/turtlebot3/turtlebot3_node/src/node_main.cpp -o CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/y/SA_CAO_Simu/SA_CAO/src/turtlebot3/turtlebot3/turtlebot3_node/src/node_main.cpp -o CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.s
 
 # Object files for target turtlebot3_ros
 turtlebot3_ros_OBJECTS = \
@@ -93,11 +93,11 @@ turtlebot3_ros: /opt/ros/foxy/lib/libstd_srvs__rosidl_typesupport_c.so
 turtlebot3_ros: /opt/ros/foxy/lib/libstd_srvs__rosidl_typesupport_introspection_cpp.so
 turtlebot3_ros: /opt/ros/foxy/lib/libstd_srvs__rosidl_typesupport_cpp.so
 turtlebot3_ros: /opt/ros/foxy/lib/libstatic_transform_broadcaster_node.so
-turtlebot3_ros: /home/y/SA_CAO_test_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_introspection_c.so
-turtlebot3_ros: /home/y/SA_CAO_test_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_c.so
-turtlebot3_ros: /home/y/SA_CAO_test_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_introspection_cpp.so
-turtlebot3_ros: /home/y/SA_CAO_test_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_cpp.so
-turtlebot3_ros: /home/y/SA_CAO_test_ws/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+turtlebot3_ros: /home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_introspection_c.so
+turtlebot3_ros: /home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_c.so
+turtlebot3_ros: /home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_introspection_cpp.so
+turtlebot3_ros: /home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_cpp.so
+turtlebot3_ros: /home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk/lib/libdynamixel_sdk.so
 turtlebot3_ros: /opt/ros/foxy/lib/libnav_msgs__rosidl_generator_c.so
 turtlebot3_ros: /opt/ros/foxy/lib/libsensor_msgs__rosidl_generator_c.so
 turtlebot3_ros: /opt/ros/foxy/lib/libstd_srvs__rosidl_generator_c.so
@@ -128,7 +128,7 @@ turtlebot3_ros: /opt/ros/foxy/lib/librcl.so
 turtlebot3_ros: /opt/ros/foxy/lib/librmw_implementation.so
 turtlebot3_ros: /opt/ros/foxy/lib/librmw.so
 turtlebot3_ros: /opt/ros/foxy/lib/librcl_logging_spdlog.so
-turtlebot3_ros: /usr/lib/x86_64-linux-gnu/libspdlog.so.1.5.0
+turtlebot3_ros: /usr/lib/aarch64-linux-gnu/libspdlog.so.1.5.0
 turtlebot3_ros: /opt/ros/foxy/lib/librcl_yaml_param_parser.so
 turtlebot3_ros: /opt/ros/foxy/lib/libyaml.so
 turtlebot3_ros: /opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so
@@ -144,7 +144,7 @@ turtlebot3_ros: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_cpp.so
 turtlebot3_ros: /opt/ros/foxy/lib/libtracetools.so
 turtlebot3_ros: /opt/ros/foxy/lib/libament_index_cpp.so
 turtlebot3_ros: /opt/ros/foxy/lib/libclass_loader.so
-turtlebot3_ros: /opt/ros/foxy/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0
+turtlebot3_ros: /opt/ros/foxy/lib/aarch64-linux-gnu/libconsole_bridge.so.1.0
 turtlebot3_ros: /opt/ros/foxy/lib/libcomposition_interfaces__rosidl_typesupport_introspection_c.so
 turtlebot3_ros: /opt/ros/foxy/lib/libcomposition_interfaces__rosidl_generator_c.so
 turtlebot3_ros: /opt/ros/foxy/lib/libcomposition_interfaces__rosidl_typesupport_c.so
@@ -155,7 +155,7 @@ turtlebot3_ros: /opt/ros/foxy/lib/librcl_interfaces__rosidl_generator_c.so
 turtlebot3_ros: /opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_c.so
 turtlebot3_ros: /opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so
 turtlebot3_ros: /opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_cpp.so
-turtlebot3_ros: /home/y/SA_CAO_test_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_generator_c.so
+turtlebot3_ros: /home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_generator_c.so
 turtlebot3_ros: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
 turtlebot3_ros: /opt/ros/foxy/lib/libstd_msgs__rosidl_generator_c.so
 turtlebot3_ros: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_c.so
@@ -184,7 +184,7 @@ turtlebot3_ros: /opt/ros/foxy/lib/librosidl_runtime_c.so
 turtlebot3_ros: /opt/ros/foxy/lib/librcpputils.so
 turtlebot3_ros: /opt/ros/foxy/lib/librcutils.so
 turtlebot3_ros: CMakeFiles/turtlebot3_ros.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/y/SA_CAO_test_ws/build/turtlebot3_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable turtlebot3_ros"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/y/SA_CAO_Simu/SA_CAO/build/turtlebot3_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable turtlebot3_ros"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/turtlebot3_ros.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -197,6 +197,6 @@ CMakeFiles/turtlebot3_ros.dir/clean:
 .PHONY : CMakeFiles/turtlebot3_ros.dir/clean
 
 CMakeFiles/turtlebot3_ros.dir/depend:
-	cd /home/y/SA_CAO_test_ws/build/turtlebot3_node && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/y/SA_CAO_test_ws/src/turtlebot3/turtlebot3/turtlebot3_node /home/y/SA_CAO_test_ws/src/turtlebot3/turtlebot3/turtlebot3_node /home/y/SA_CAO_test_ws/build/turtlebot3_node /home/y/SA_CAO_test_ws/build/turtlebot3_node /home/y/SA_CAO_test_ws/build/turtlebot3_node/CMakeFiles/turtlebot3_ros.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/y/SA_CAO_Simu/SA_CAO/build/turtlebot3_node && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/y/SA_CAO_Simu/SA_CAO/src/turtlebot3/turtlebot3/turtlebot3_node /home/y/SA_CAO_Simu/SA_CAO/src/turtlebot3/turtlebot3/turtlebot3_node /home/y/SA_CAO_Simu/SA_CAO/build/turtlebot3_node /home/y/SA_CAO_Simu/SA_CAO/build/turtlebot3_node /home/y/SA_CAO_Simu/SA_CAO/build/turtlebot3_node/CMakeFiles/turtlebot3_ros.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/turtlebot3_ros.dir/depend
 

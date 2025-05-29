@@ -10,42 +10,58 @@ def generate_launch_description():
     # 获取 turtlebot3_gazebo 包的路径
     turtlebot3_gazebo_pkg_path = get_package_share_directory('turtlebot3_gazebo')
 
+    # 获取 turtlebot3_cartographer 包的路径
+    turtlebot3_cartographer_pkg_path = get_package_share_directory('turtlebot3_cartographer')
+
     # 定义 turtlebot3_world.launch.py 的路径
     turtlebot3_world_launch_path = os.path.join(
         turtlebot3_gazebo_pkg_path, 'launch', 'turtlebot3_world.launch.py'
     )
 
-    # 通过 SetEnvironmentVariable 设置环境变量
+    # 定义 cartographer.launch.py 的路径
+    cartographer_launch_path = os.path.join(
+        turtlebot3_cartographer_pkg_path, 'launch', 'cartographer.launch.py'
+    )
+
     return LaunchDescription([
-        LogInfo(condition=None, msg="Launching multiple nodes..."),
-        # Set environment variables
+        LogInfo(msg="Launching multiple nodes..."),
+        
+        # 设置环境变量
         SetEnvironmentVariable('TURTLEBOT3_MODEL', 'burger'),
         SetEnvironmentVariable('GAZEBO_MODEL_PATH', os.path.join(turtlebot3_gazebo_pkg_path, 'share', 'turtlebot3_gazebo', 'models')),
-        
-        # Launch Gazebo world
+
+        # 启动 Gazebo world
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource(turtlebot3_world_launch_path)
         ),
-        
-	
-        # Launch joy node for joystick input
+
+        # 启动 Cartographer SLAM
+        IncludeLaunchDescription(
+            PythonLaunchDescriptionSource(cartographer_launch_path)
+        ),
+
+        # 启动手柄输入节点
         Node(
             package='joy',
             executable='joy_node',
             output='screen'
         ),
-
-        # Launch Xbox joystick node
+        
         Node(
-            package='my_joystick',
-            executable='my_joystick',
+            package='pure_pursuit',
+            executable='marker_relay_node',
             output='screen'
         ),
         
+        Node(
+            package='pure_pursuit',
+            executable='get_pose',
+            output='screen'
+        ),
         
-
-       
-        
-        
+        Node(
+            package='pure_pursuit',
+            executable='pure_pursuit_node',
+            output='screen'
+        ),
     ])
-

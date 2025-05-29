@@ -6,5 +6,5 @@ CXX_FLAGS =   -Wall -Wextra -Wpedantic -std=gnu++14
 
 CXX_DEFINES = -DBOOST_ALL_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DSPDLOG_COMPILED_LIB
 
-CXX_INCLUDES = -I/home/y/SA_CAO_test_ws/src/utils/hls_lfcd_lds_driver/include -isystem /opt/ros/foxy/include 
+CXX_INCLUDES = -I/home/y/SA_CAO_Simu/SA_CAO/src/utils/hls_lfcd_lds_driver/include -isystem /opt/ros/foxy/include 
 

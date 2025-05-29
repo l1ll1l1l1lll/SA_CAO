@@ -139,13 +139,13 @@
             <horizontal>
               <samples>720</samples>
               <resolution>1.000000</resolution>
-              <min_angle>-3.140000</min_angle>
-              <max_angle>3.140000</max_angle>
+              <min_angle>0.000</min_angle>
+              <max_angle>6.280000</max_angle>
             </horizontal>
           </scan>
           <range>
             <min>0.120000</min>
-            <max>1</max>
+            <max>4</max>
             <resolution>0.015000</resolution>
           </range>
           <noise>
@@ -314,6 +314,118 @@
         </surface>
       </collision>
     </link>
+    
+    <link name="ultrasonic_front_link">
+    <gravity>false</gravity>
+
+  <pose>0.10 0.0 0.07 0 0 0</pose> <!-- 距离中心偏前10cm，高度7cm -->
+  <sensor name="ultrasonic_front" type="ray">
+    <pose>0 0 0 0 0 0</pose>
+    <update_rate>10</update_rate>
+    <ray>
+      <scan>
+        <horizontal>
+          <samples>3</samples> <!-- 粗略模拟15°，3个角度点 -->
+          <resolution>1</resolution>
+          <min_angle>-0.1309</min_angle> <!-- -7.5度 -->
+          <max_angle>0.1309</max_angle>  <!-- +7.5度 -->
+        </horizontal>
+      </scan>
+      <range>
+        <min>0.02</min>       <!-- 最小探测范围 2cm -->
+        <max>2.5</max>        <!-- 最大探测范围 2.5m -->
+        <resolution>0.01</resolution>
+      </range>
+      <noise>
+        <type>gaussian</type>
+        <mean>0.0</mean>
+        <stddev>0.01</stddev>
+      </noise>
+    </ray>
+    <plugin name="ultrasonic_front_plugin" filename="libgazebo_ros_ray_sensor.so">
+      <ros>
+        <remapping>~/out:=ultrasonic/front</remapping>
+      </ros>
+      <output_type>sensor_msgs/Range</output_type>
+      <frame_name>ultrasonic_front_link</frame_name>
+    </plugin>
+  </sensor>
+</link>
+
+<link name="ultrasonic_left_link">
+  <gravity>false</gravity>
+  <pose>0.0 0.10 0.07 0 0 1.5708</pose> 
+  <sensor name="ultrasonic_left" type="ray">
+    <pose>0 0 0 0 0 0</pose>
+    <update_rate>10</update_rate>
+    <ray>
+      <scan>
+        <horizontal>
+          <samples>3</samples> <!-- 粗略模拟15°，3个角度点 -->
+          <resolution>1</resolution>
+          <min_angle>-0.1309</min_angle> <!-- -7.5度 -->
+          <max_angle>0.1309</max_angle>  <!-- +7.5度 -->
+        </horizontal>
+      </scan>
+      <range>
+        <min>0.02</min>       <!-- 最小探测范围 2cm -->
+        <max>2.5</max>        <!-- 最大探测范围 2.5m -->
+        <resolution>0.01</resolution>
+      </range>
+      <noise>
+        <type>gaussian</type>
+        <mean>0.0</mean>
+        <stddev>0.01</stddev>
+      </noise>
+    </ray>
+    <plugin name="ultrasonic_left_plugin" filename="libgazebo_ros_ray_sensor.so">
+      <ros>
+        <remapping>~/out:=ultrasonic/left</remapping>
+      </ros>
+      <output_type>sensor_msgs/Range</output_type>
+      <frame_name>ultrasonic_left_link</frame_name>
+    </plugin>
+  </sensor>
+</link>
+
+<link name="ultrasonic_right_link">
+  <gravity>false</gravity>
+  <pose>0.0 -0.10 0.07 0 0 -1.5708</pose> <!-- 距离中心偏前10cm，高度7cm -->
+  <sensor name="ultrasonic_right" type="ray">
+    <pose>0 0 0 0 0 0</pose>
+    <update_rate>10</update_rate>
+    <ray>
+      <scan>
+        <horizontal>
+          <samples>3</samples> <!-- 粗略模拟15°，3个角度点 -->
+          <resolution>1</resolution>
+          <min_angle>-0.1309</min_angle> <!-- -7.5度 -->
+          <max_angle>0.1309</max_angle>  <!-- +7.5度 -->
+        </horizontal>
+      </scan>
+      <range>
+        <min>0.02</min>       <!-- 最小探测范围 2cm -->
+        <max>2.5</max>        <!-- 最大探测范围 2.5m -->
+        <resolution>0.01</resolution>
+      </range>
+      <noise>
+        <type>gaussian</type>
+        <mean>0.0</mean>
+        <stddev>0.01</stddev>
+      </noise>
+    </ray>
+    <plugin name="ultrasonic_right_plugin" filename="libgazebo_ros_ray_sensor.so">
+      <ros>
+        <remapping>~/out:=ultrasonic/right</remapping>
+      </ros>
+      <output_type>sensor_msgs/Range</output_type>
+      <frame_name>ultrasonic_right_link</frame_name>
+    </plugin>
+  </sensor>
+</link>
+
+
+    
 
     <joint name="base_joint" type="fixed">
       <parent>base_footprint</parent>
@@ -361,6 +473,22 @@
         <xyz>0 0 1</xyz>
       </axis>
     </joint>
+    
+    <joint name="ultrasonic_front_joint" type="fixed">
+  <parent>base_link</parent>
+  <child>ultrasonic_front_link</child>
+</joint>
+
+<joint name="ultrasonic_left_joint" type="fixed">
+  <parent>base_link</parent>
+  <child>ultrasonic_left_link</child>
+</joint>
+
+<joint name="ultrasonic_right_joint" type="fixed">
+  <parent>base_link</parent>
+  <child>ultrasonic_right_link</child>
+</joint>
+
 
     <plugin name="turtlebot3_diff_drive" filename="libgazebo_ros_diff_drive.so">
 
@@ -379,8 +507,8 @@
       <wheel_diameter>0.066</wheel_diameter>
 
       <!-- limits -->
-      <max_wheel_torque>20</max_wheel_torque>
-      <max_wheel_acceleration>1.0</max_wheel_acceleration>
+      <max_wheel_torque>40</max_wheel_torque>
+      <max_wheel_acceleration>2.0</max_wheel_acceleration>
 
       <command_topic>cmd_vel</command_topic>
 
@@ -406,3 +534,4 @@
     </plugin>      
   </model>
 </sdf>
+
