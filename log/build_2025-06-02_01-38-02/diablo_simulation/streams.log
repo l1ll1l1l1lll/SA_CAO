@@ -1,0 +1,20 @@
+[0.255s] Invoking command in '/home/y/SA_CAO_Simu/SA_CAO/src/diablo_visualise/diablo_simulation': PYTHONPATH=/home/y/SA_CAO_Simu/SA_CAO/build/diablo_simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/y/SA_CAO_Simu/SA_CAO/install/diablo_simulation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/diablo_simulation build --build-base /home/y/SA_CAO_Simu/SA_CAO/build/diablo_simulation/build install --record /home/y/SA_CAO_Simu/SA_CAO/build/diablo_simulation/install.log --single-version-externally-managed install_data
+[0.336s] running egg_info
+[0.336s] writing ../../../build/diablo_simulation/diablo_simulation.egg-info/PKG-INFO
+[0.337s] writing dependency_links to ../../../build/diablo_simulation/diablo_simulation.egg-info/dependency_links.txt
+[0.337s] writing entry points to ../../../build/diablo_simulation/diablo_simulation.egg-info/entry_points.txt
+[0.337s] writing requirements to ../../../build/diablo_simulation/diablo_simulation.egg-info/requires.txt
+[0.337s] writing top-level names to ../../../build/diablo_simulation/diablo_simulation.egg-info/top_level.txt
+[0.350s] reading manifest file '../../../build/diablo_simulation/diablo_simulation.egg-info/SOURCES.txt'
+[0.351s] writing manifest file '../../../build/diablo_simulation/diablo_simulation.egg-info/SOURCES.txt'
+[0.351s] running build
+[0.351s] running build_py
+[0.351s] running install
+[0.351s] running install_lib
+[0.353s] running install_data
+[0.354s] running install_egg_info
+[0.354s] removing '/home/y/SA_CAO_Simu/SA_CAO/install/diablo_simulation/lib/python3.8/site-packages/diablo_simulation-1.0.0-py3.8.egg-info' (and everything under it)
+[0.354s] Copying ../../../build/diablo_simulation/diablo_simulation.egg-info to /home/y/SA_CAO_Simu/SA_CAO/install/diablo_simulation/lib/python3.8/site-packages/diablo_simulation-1.0.0-py3.8.egg-info
+[0.355s] running install_scripts
+[0.361s] writing list of installed files to '/home/y/SA_CAO_Simu/SA_CAO/build/diablo_simulation/install.log'
+[0.371s] Invoked command in '/home/y/SA_CAO_Simu/SA_CAO/src/diablo_visualise/diablo_simulation' returned '0': PYTHONPATH=/home/y/SA_CAO_Simu/SA_CAO/build/diablo_simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/y/SA_CAO_Simu/SA_CAO/install/diablo_simulation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/diablo_simulation build --build-base /home/y/SA_CAO_Simu/SA_CAO/build/diablo_simulation/build install --record /home/y/SA_CAO_Simu/SA_CAO/build/diablo_simulation/install.log --single-version-externally-managed install_data

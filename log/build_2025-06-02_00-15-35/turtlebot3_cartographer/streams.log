@@ -1,0 +1,51 @@
+[0.004s] Invoking command in '/home/y/SA_CAO_Simu/SA_CAO/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/y/SA_CAO_Simu/SA_CAO/src/turtlebot3/turtlebot3/turtlebot3_cartographer -DCMAKE_INSTALL_PREFIX=/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_cartographer
+[0.137s] -- The C compiler identification is GNU 9.4.0
+[0.221s] -- The CXX compiler identification is GNU 9.4.0
+[0.222s] -- Check for working C compiler: /usr/bin/cc
+[0.422s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.425s] -- Detecting C compiler ABI info
+[0.625s] -- Detecting C compiler ABI info - done
+[0.633s] -- Detecting C compile features
+[0.633s] -- Detecting C compile features - done
+[0.642s] -- Check for working CXX compiler: /usr/bin/c++
+[0.756s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.756s] -- Detecting CXX compiler ABI info
+[0.859s] -- Detecting CXX compiler ABI info - done
+[0.864s] -- Detecting CXX compile features
+[0.864s] -- Detecting CXX compile features - done
+[0.874s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.900s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.901s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.104s] -- Configuring done
+[1.105s] -- Generating done
+[1.106s] -- Build files have been written to: /home/y/SA_CAO_Simu/SA_CAO/build/turtlebot3_cartographer
+[1.109s] Invoked command in '/home/y/SA_CAO_Simu/SA_CAO/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/y/SA_CAO_Simu/SA_CAO/src/turtlebot3/turtlebot3/turtlebot3_cartographer -DCMAKE_INSTALL_PREFIX=/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_cartographer
+[1.109s] Invoking command in '/home/y/SA_CAO_Simu/SA_CAO/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/y/SA_CAO_Simu/SA_CAO/build/turtlebot3_cartographer -- -j2 -l2
+[1.481s] Invoked command in '/home/y/SA_CAO_Simu/SA_CAO/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/y/SA_CAO_Simu/SA_CAO/build/turtlebot3_cartographer -- -j2 -l2
+[1.482s] Invoking command in '/home/y/SA_CAO_Simu/SA_CAO/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/y/SA_CAO_Simu/SA_CAO/build/turtlebot3_cartographer
+[1.503s] -- Install configuration: ""
+[1.503s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config
+[1.503s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/turtlebot3_lds_2dV1.lua
+[1.506s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/turtlebot3_lds_2d.lua
+[1.507s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch
+[1.507s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/occupancy_grid.launch.py
+[1.507s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/cartographer.launch.py
+[1.507s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/cartographer.launchV1.py
+[1.507s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz
+[1.507s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz/tb3_cartographer.rviz
+[1.507s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_cartographer/share/ament_index/resource_index/package_run_dependencies/turtlebot3_cartographer
+[1.508s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_cartographer/share/ament_index/resource_index/parent_prefix_path/turtlebot3_cartographer
+[1.508s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.sh
+[1.508s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.dsv
+[1.508s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.sh
+[1.508s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.dsv
+[1.508s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.bash
+[1.508s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.sh
+[1.508s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.zsh
+[1.508s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.dsv
+[1.508s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.dsv
+[1.508s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_cartographer/share/ament_index/resource_index/packages/turtlebot3_cartographer
+[1.508s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig.cmake
+[1.508s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig-version.cmake
+[1.509s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.xml
+[1.515s] Invoked command in '/home/y/SA_CAO_Simu/SA_CAO/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/y/SA_CAO_Simu/SA_CAO/build/turtlebot3_cartographer

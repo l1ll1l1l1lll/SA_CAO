@@ -1,0 +1,8 @@
+source;share/diablo_simpose_trans/hook/cmake_prefix_path.ps1
+source;share/diablo_simpose_trans/hook/cmake_prefix_path.dsv
+source;share/diablo_simpose_trans/hook/cmake_prefix_path.sh
+source;share/diablo_simpose_trans/local_setup.bash
+source;share/diablo_simpose_trans/local_setup.dsv
+source;share/diablo_simpose_trans/local_setup.ps1
+source;share/diablo_simpose_trans/local_setup.sh
+source;share/diablo_simpose_trans/local_setup.zsh

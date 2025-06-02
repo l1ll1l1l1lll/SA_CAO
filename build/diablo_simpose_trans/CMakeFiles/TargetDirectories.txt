@@ -1,0 +1,10 @@
+/home/y/SA_CAO_Simu/SA_CAO/build/diablo_simpose_trans/CMakeFiles/install/strip.dir
+/home/y/SA_CAO_Simu/SA_CAO/build/diablo_simpose_trans/CMakeFiles/install/local.dir
+/home/y/SA_CAO_Simu/SA_CAO/build/diablo_simpose_trans/CMakeFiles/install.dir
+/home/y/SA_CAO_Simu/SA_CAO/build/diablo_simpose_trans/CMakeFiles/list_install_components.dir
+/home/y/SA_CAO_Simu/SA_CAO/build/diablo_simpose_trans/CMakeFiles/rebuild_cache.dir
+/home/y/SA_CAO_Simu/SA_CAO/build/diablo_simpose_trans/CMakeFiles/edit_cache.dir
+/home/y/SA_CAO_Simu/SA_CAO/build/diablo_simpose_trans/CMakeFiles/test.dir
+/home/y/SA_CAO_Simu/SA_CAO/build/diablo_simpose_trans/CMakeFiles/motor_trans_node.dir
+/home/y/SA_CAO_Simu/SA_CAO/build/diablo_simpose_trans/CMakeFiles/diablo_simpose_trans_uninstall.dir
+/home/y/SA_CAO_Simu/SA_CAO/build/diablo_simpose_trans/CMakeFiles/uninstall.dir

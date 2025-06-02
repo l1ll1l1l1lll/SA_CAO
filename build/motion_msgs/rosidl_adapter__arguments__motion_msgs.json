@@ -1,11 +1,11 @@
 {
   "package_name": "motion_msgs",
   "non_idl_tuples": [
-    "/home/y/SA_CAO_Simu/SA_CAO/src/motion_msgs:msg/CtrlPlot.msg",
-    "/home/y/SA_CAO_Simu/SA_CAO/src/motion_msgs:msg/LegMotors.msg",
-    "/home/y/SA_CAO_Simu/SA_CAO/src/motion_msgs:msg/MotionCtrl.msg",
-    "/home/y/SA_CAO_Simu/SA_CAO/src/motion_msgs:msg/RobotStatus.msg",
-    "/home/y/SA_CAO_Simu/SA_CAO/src/motion_msgs:msg/MovementCtrlData.msg",
-    "/home/y/SA_CAO_Simu/SA_CAO/src/motion_msgs:msg/MovementCtrlMode.msg"
+    "/home/y/SA_CAO_Simu/SA_CAO/src/diablo_interfaces/motion_msgs:msg/CtrlPlot.msg",
+    "/home/y/SA_CAO_Simu/SA_CAO/src/diablo_interfaces/motion_msgs:msg/LegMotors.msg",
+    "/home/y/SA_CAO_Simu/SA_CAO/src/diablo_interfaces/motion_msgs:msg/MotionCtrl.msg",
+    "/home/y/SA_CAO_Simu/SA_CAO/src/diablo_interfaces/motion_msgs:msg/RobotStatus.msg",
+    "/home/y/SA_CAO_Simu/SA_CAO/src/diablo_interfaces/motion_msgs:msg/MovementCtrlData.msg",
+    "/home/y/SA_CAO_Simu/SA_CAO/src/diablo_interfaces/motion_msgs:msg/MovementCtrlMode.msg"
   ]
 }

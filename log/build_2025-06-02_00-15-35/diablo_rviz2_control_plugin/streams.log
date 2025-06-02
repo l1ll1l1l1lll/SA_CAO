@@ -1,0 +1,120 @@
+[0.011s] Invoking command in '/home/y/SA_CAO_Simu/SA_CAO/build/diablo_rviz2_control_plugin': AMENT_PREFIX_PATH=/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/y/SA_CAO_Simu/SA_CAO/src/diablo_visualise/diablo_rviz2_plugin -DCMAKE_INSTALL_PREFIX=/home/y/SA_CAO_Simu/SA_CAO/install/diablo_rviz2_control_plugin
+[0.082s] -- The C compiler identification is GNU 9.4.0
+[0.164s] -- The CXX compiler identification is GNU 9.4.0
+[0.165s] -- Check for working C compiler: /usr/bin/cc
+[0.365s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.365s] -- Detecting C compiler ABI info
+[0.539s] -- Detecting C compiler ABI info - done
+[0.539s] -- Detecting C compile features
+[0.539s] -- Detecting C compile features - done
+[0.545s] -- Check for working CXX compiler: /usr/bin/c++
+[0.743s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.743s] -- Detecting CXX compiler ABI info
+[0.921s] -- Detecting CXX compiler ABI info - done
+[0.922s] -- Detecting CXX compile features
+[0.922s] -- Detecting CXX compile features - done
+[0.926s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.950s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.950s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.095s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.128s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.134s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.427s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.463s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.539s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.591s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.592s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.597s] -- Looking for pthread.h
+[1.741s] -- Looking for pthread.h - found
+[1.744s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.847s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.849s] -- Looking for pthread_create in pthreads
+[1.905s] -- Looking for pthread_create in pthreads - not found
+[1.906s] -- Looking for pthread_create in pthread
+[1.939s] -- Looking for pthread_create in pthread - found
+[1.939s] -- Found Threads: TRUE  
+[2.093s] -- Found rviz_common: 8.2.8 (/opt/ros/foxy/share/rviz_common/cmake)
+[2.116s] -- Setting OGRE_DIR to: '/opt/ros/foxy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[2.118s] -- Found OGRE
+[2.118s] --   static     : OFF
+[2.118s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[2.118s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[2.118s] --   media      : /opt/ros/foxy/opt/rviz_ogre_vendor/share/OGRE/Media
+[2.119s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[2.119s] -- OGRE_LIBRARY_DIRS: /opt/ros/foxy/opt/rviz_ogre_vendor/lib
+[2.119s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[2.119s] -- OGRE_PLUGIN_DIR: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/OGRE
+[2.119s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[2.119s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[2.119s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[2.119s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[2.133s] -- Found ZLIB: /usr/lib/aarch64-linux-gnu/libz.so (found version "1.2.11") 
+[2.139s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so   
+[2.190s] -- Found X11: /usr/include   
+[2.190s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so
+[2.232s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so - found
+[2.232s] -- Looking for gethostbyname
+[2.262s] -- Looking for gethostbyname - found
+[2.262s] -- Looking for connect
+[2.290s] -- Looking for connect - found
+[2.290s] -- Looking for remove
+[2.319s] -- Looking for remove - found
+[2.319s] -- Looking for shmat
+[2.347s] -- Looking for shmat - found
+[2.347s] -- Looking for IceConnectionNumber in ICE
+[2.376s] -- Looking for IceConnectionNumber in ICE - found
+[2.377s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[2.377s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[2.382s] -- library: libassimp.so.5
+[2.424s] -- library: /usr/lib/aarch64-linux-gnu/libcurl.so
+[2.524s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[2.733s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[2.738s] -- Found motion_msgs: 1.0.0 (/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/share/motion_msgs/cmake)
+[2.786s] -- Configuring done
+[2.819s] -- Generating done
+[2.822s] -- Build files have been written to: /home/y/SA_CAO_Simu/SA_CAO/build/diablo_rviz2_control_plugin
+[2.827s] Invoked command in '/home/y/SA_CAO_Simu/SA_CAO/build/diablo_rviz2_control_plugin' returned '0': AMENT_PREFIX_PATH=/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/y/SA_CAO_Simu/SA_CAO/src/diablo_visualise/diablo_rviz2_plugin -DCMAKE_INSTALL_PREFIX=/home/y/SA_CAO_Simu/SA_CAO/install/diablo_rviz2_control_plugin
+[2.828s] Invoking command in '/home/y/SA_CAO_Simu/SA_CAO/build/diablo_rviz2_control_plugin': AMENT_PREFIX_PATH=/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/y/SA_CAO_Simu/SA_CAO/build/diablo_rviz2_control_plugin -- -j2 -l2
+[2.853s] [35m[1mScanning dependencies of target diablo_rviz2_control_plugin_autogen[0m
+[2.857s] [ 16%] [34m[1mAutomatic MOC for target diablo_rviz2_control_plugin[0m
+[3.297s] [ 16%] Built target diablo_rviz2_control_plugin_autogen
+[3.305s] [35m[1mScanning dependencies of target diablo_rviz2_control_plugin[0m
+[3.358s] [ 33%] [32mBuilding CXX object CMakeFiles/diablo_rviz2_control_plugin.dir/diablo_rviz2_control_plugin_autogen/mocs_compilation.cpp.o[0m
+[3.364s] [ 50%] [32mBuilding CXX object CMakeFiles/diablo_rviz2_control_plugin.dir/src/mission_panel.cpp.o[0m
+[4.977s] [ 66%] [32mBuilding CXX object CMakeFiles/diablo_rviz2_control_plugin.dir/src/switch.cpp.o[0m
+[5.720s] [ 83%] [32mBuilding CXX object CMakeFiles/diablo_rviz2_control_plugin.dir/src/teleop_button.cpp.o[0m
+[7.084s] [100%] [32m[1mLinking CXX shared library libdiablo_rviz2_control_plugin.so[0m
+[7.772s] [100%] Built target diablo_rviz2_control_plugin
+[7.777s] Invoked command in '/home/y/SA_CAO_Simu/SA_CAO/build/diablo_rviz2_control_plugin' returned '0': AMENT_PREFIX_PATH=/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/y/SA_CAO_Simu/SA_CAO/build/diablo_rviz2_control_plugin -- -j2 -l2
+[7.777s] Invoking command in '/home/y/SA_CAO_Simu/SA_CAO/build/diablo_rviz2_control_plugin': AMENT_PREFIX_PATH=/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/y/SA_CAO_Simu/SA_CAO/build/diablo_rviz2_control_plugin
+[7.782s] -- Install configuration: ""
+[7.782s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/diablo_rviz2_control_plugin/lib/diablo_rviz2_control_plugin/libdiablo_rviz2_control_plugin.so
+[7.782s] -- Set runtime path of "/home/y/SA_CAO_Simu/SA_CAO/install/diablo_rviz2_control_plugin/lib/diablo_rviz2_control_plugin/libdiablo_rviz2_control_plugin.so" to ""
+[7.782s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/diablo_rviz2_control_plugin/share/diablo_rviz2_control_plugin/data
+[7.782s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/diablo_rviz2_control_plugin/share/diablo_rviz2_control_plugin/data/ddt_on_64.png
+[7.782s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/diablo_rviz2_control_plugin/share/diablo_rviz2_control_plugin/data/title.png
+[7.782s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/diablo_rviz2_control_plugin/share/diablo_rviz2_control_plugin/data/ddt_off_64.png
+[7.782s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/diablo_rviz2_control_plugin/share/diablo_rviz2_control_plugin/icons
+[7.782s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/diablo_rviz2_control_plugin/share/diablo_rviz2_control_plugin/icons/classes
+[7.782s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/diablo_rviz2_control_plugin/share/diablo_rviz2_control_plugin/icons/classes/MissionPanel.png
+[7.783s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/diablo_rviz2_control_plugin/share/diablo_rviz2_control_plugin/plugins_description.xml
+[7.783s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/diablo_rviz2_control_plugin/share/diablo_rviz2_control_plugin/environment/library_path.sh
+[7.783s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/diablo_rviz2_control_plugin/share/diablo_rviz2_control_plugin/environment/library_path.dsv
+[7.783s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/diablo_rviz2_control_plugin/share/ament_index/resource_index/package_run_dependencies/diablo_rviz2_control_plugin
+[7.783s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/diablo_rviz2_control_plugin/share/ament_index/resource_index/parent_prefix_path/diablo_rviz2_control_plugin
+[7.783s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/diablo_rviz2_control_plugin/share/diablo_rviz2_control_plugin/environment/ament_prefix_path.sh
+[7.783s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/diablo_rviz2_control_plugin/share/diablo_rviz2_control_plugin/environment/ament_prefix_path.dsv
+[7.784s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/diablo_rviz2_control_plugin/share/diablo_rviz2_control_plugin/environment/path.sh
+[7.784s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/diablo_rviz2_control_plugin/share/diablo_rviz2_control_plugin/environment/path.dsv
+[7.784s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/diablo_rviz2_control_plugin/share/diablo_rviz2_control_plugin/local_setup.bash
+[7.784s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/diablo_rviz2_control_plugin/share/diablo_rviz2_control_plugin/local_setup.sh
+[7.784s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/diablo_rviz2_control_plugin/share/diablo_rviz2_control_plugin/local_setup.zsh
+[7.784s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/diablo_rviz2_control_plugin/share/diablo_rviz2_control_plugin/local_setup.dsv
+[7.784s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/diablo_rviz2_control_plugin/share/diablo_rviz2_control_plugin/package.dsv
+[7.784s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/diablo_rviz2_control_plugin/share/ament_index/resource_index/packages/diablo_rviz2_control_plugin
+[7.784s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/diablo_rviz2_control_plugin/share/ament_index/resource_index/rviz_common__pluginlib__plugin/diablo_rviz2_control_plugin
+[7.784s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/diablo_rviz2_control_plugin/share/diablo_rviz2_control_plugin/cmake/ament_cmake_export_libraries-extras.cmake
+[7.784s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/diablo_rviz2_control_plugin/share/diablo_rviz2_control_plugin/cmake/diablo_rviz2_control_pluginConfig.cmake
+[7.784s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/diablo_rviz2_control_plugin/share/diablo_rviz2_control_plugin/cmake/diablo_rviz2_control_pluginConfig-version.cmake
+[7.784s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/diablo_rviz2_control_plugin/share/diablo_rviz2_control_plugin/package.xml
+[7.785s] Invoked command in '/home/y/SA_CAO_Simu/SA_CAO/build/diablo_rviz2_control_plugin' returned '0': AMENT_PREFIX_PATH=/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/y/SA_CAO_Simu/SA_CAO/build/diablo_rviz2_control_plugin

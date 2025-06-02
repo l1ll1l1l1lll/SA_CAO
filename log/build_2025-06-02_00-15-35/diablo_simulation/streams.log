@@ -1,0 +1,57 @@
+[0.702s] Invoking command in '/home/y/SA_CAO_Simu/SA_CAO/src/diablo_visualise/diablo_simulation': PYTHONPATH=/home/y/SA_CAO_Simu/SA_CAO/build/diablo_simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/y/SA_CAO_Simu/SA_CAO/install/diablo_simulation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/diablo_simulation build --build-base /home/y/SA_CAO_Simu/SA_CAO/build/diablo_simulation/build install --record /home/y/SA_CAO_Simu/SA_CAO/build/diablo_simulation/install.log --single-version-externally-managed install_data
+[0.777s] running egg_info
+[0.777s] creating ../../../build/diablo_simulation/diablo_simulation.egg-info
+[0.777s] writing ../../../build/diablo_simulation/diablo_simulation.egg-info/PKG-INFO
+[0.777s] writing dependency_links to ../../../build/diablo_simulation/diablo_simulation.egg-info/dependency_links.txt
+[0.777s] writing entry points to ../../../build/diablo_simulation/diablo_simulation.egg-info/entry_points.txt
+[0.777s] writing requirements to ../../../build/diablo_simulation/diablo_simulation.egg-info/requires.txt
+[0.777s] writing top-level names to ../../../build/diablo_simulation/diablo_simulation.egg-info/top_level.txt
+[0.782s] writing manifest file '../../../build/diablo_simulation/diablo_simulation.egg-info/SOURCES.txt'
+[0.799s] reading manifest file '../../../build/diablo_simulation/diablo_simulation.egg-info/SOURCES.txt'
+[0.799s] writing manifest file '../../../build/diablo_simulation/diablo_simulation.egg-info/SOURCES.txt'
+[0.799s] running build
+[0.799s] running build_py
+[0.799s] creating /home/y/SA_CAO_Simu/SA_CAO/build/diablo_simulation/build
+[0.800s] creating /home/y/SA_CAO_Simu/SA_CAO/build/diablo_simulation/build/lib
+[0.800s] creating /home/y/SA_CAO_Simu/SA_CAO/build/diablo_simulation/build/lib/diablo_simulation
+[0.800s] copying diablo_simulation/__init__.py -> /home/y/SA_CAO_Simu/SA_CAO/build/diablo_simulation/build/lib/diablo_simulation
+[0.800s] running install
+[0.800s] running install_lib
+[0.800s] creating /home/y/SA_CAO_Simu/SA_CAO/install/diablo_simulation/lib/python3.8/site-packages/diablo_simulation
+[0.800s] copying /home/y/SA_CAO_Simu/SA_CAO/build/diablo_simulation/build/lib/diablo_simulation/__init__.py -> /home/y/SA_CAO_Simu/SA_CAO/install/diablo_simulation/lib/python3.8/site-packages/diablo_simulation
+[0.801s] byte-compiling /home/y/SA_CAO_Simu/SA_CAO/install/diablo_simulation/lib/python3.8/site-packages/diablo_simulation/__init__.py to __init__.cpython-38.pyc
+[0.801s] running install_data
+[0.801s] creating /home/y/SA_CAO_Simu/SA_CAO/install/diablo_simulation/share/ament_index
+[0.801s] creating /home/y/SA_CAO_Simu/SA_CAO/install/diablo_simulation/share/ament_index/resource_index
+[0.801s] creating /home/y/SA_CAO_Simu/SA_CAO/install/diablo_simulation/share/ament_index/resource_index/packages
+[0.801s] copying resource/diablo_simulation -> /home/y/SA_CAO_Simu/SA_CAO/install/diablo_simulation/share/ament_index/resource_index/packages
+[0.801s] copying package.xml -> /home/y/SA_CAO_Simu/SA_CAO/install/diablo_simulation/share/diablo_simulation
+[0.802s] creating /home/y/SA_CAO_Simu/SA_CAO/install/diablo_simulation/share/diablo_simulation/launch
+[0.802s] copying launch/display.launch.py -> /home/y/SA_CAO_Simu/SA_CAO/install/diablo_simulation/share/diablo_simulation/launch
+[0.802s] copying launch/ctrl.launch.py -> /home/y/SA_CAO_Simu/SA_CAO/install/diablo_simulation/share/diablo_simulation/launch
+[0.802s] copying launch/gazebo.launch.py -> /home/y/SA_CAO_Simu/SA_CAO/install/diablo_simulation/share/diablo_simulation/launch
+[0.803s] creating /home/y/SA_CAO_Simu/SA_CAO/install/diablo_simulation/share/diablo_simulation/urdf
+[0.803s] copying urdf/diablo_simulation.xacro -> /home/y/SA_CAO_Simu/SA_CAO/install/diablo_simulation/share/diablo_simulation/urdf
+[0.803s] copying urdf/materials.xacro -> /home/y/SA_CAO_Simu/SA_CAO/install/diablo_simulation/share/diablo_simulation/urdf
+[0.804s] copying urdf/diablo_simulation.gazebo -> /home/y/SA_CAO_Simu/SA_CAO/install/diablo_simulation/share/diablo_simulation/urdf
+[0.804s] copying urdf/diablo_simulation.trans -> /home/y/SA_CAO_Simu/SA_CAO/install/diablo_simulation/share/diablo_simulation/urdf
+[0.805s] copying urdf/diablo_simulation.urdf -> /home/y/SA_CAO_Simu/SA_CAO/install/diablo_simulation/share/diablo_simulation/urdf
+[0.805s] copying urdf/model.sdf -> /home/y/SA_CAO_Simu/SA_CAO/install/diablo_simulation/share/diablo_simulation/urdf
+[0.806s] creating /home/y/SA_CAO_Simu/SA_CAO/install/diablo_simulation/share/diablo_simulation/meshes
+[0.806s] copying meshes/leg2_right_link_1.stl -> /home/y/SA_CAO_Simu/SA_CAO/install/diablo_simulation/share/diablo_simulation/meshes
+[0.807s] copying meshes/leg_left_link_1.stl -> /home/y/SA_CAO_Simu/SA_CAO/install/diablo_simulation/share/diablo_simulation/meshes
+[0.807s] copying meshes/wheel_left_link_1.stl -> /home/y/SA_CAO_Simu/SA_CAO/install/diablo_simulation/share/diablo_simulation/meshes
+[0.808s] copying meshes/leg2_left_link_1.stl -> /home/y/SA_CAO_Simu/SA_CAO/install/diablo_simulation/share/diablo_simulation/meshes
+[0.810s] copying meshes/leg_right_link_1.stl -> /home/y/SA_CAO_Simu/SA_CAO/install/diablo_simulation/share/diablo_simulation/meshes
+[0.810s] copying meshes/base_link.stl -> /home/y/SA_CAO_Simu/SA_CAO/install/diablo_simulation/share/diablo_simulation/meshes
+[0.811s] copying meshes/motor_left_link_1.stl -> /home/y/SA_CAO_Simu/SA_CAO/install/diablo_simulation/share/diablo_simulation/meshes
+[0.812s] copying meshes/motor_right_link_1.stl -> /home/y/SA_CAO_Simu/SA_CAO/install/diablo_simulation/share/diablo_simulation/meshes
+[0.812s] copying meshes/wheel_right_link_1.stl -> /home/y/SA_CAO_Simu/SA_CAO/install/diablo_simulation/share/diablo_simulation/meshes
+[0.813s] creating /home/y/SA_CAO_Simu/SA_CAO/install/diablo_simulation/share/diablo_simulation/config
+[0.813s] copying config/display.rviz -> /home/y/SA_CAO_Simu/SA_CAO/install/diablo_simulation/share/diablo_simulation/config
+[0.814s] copying config/ctrl.rviz -> /home/y/SA_CAO_Simu/SA_CAO/install/diablo_simulation/share/diablo_simulation/config
+[0.816s] running install_egg_info
+[0.817s] Copying ../../../build/diablo_simulation/diablo_simulation.egg-info to /home/y/SA_CAO_Simu/SA_CAO/install/diablo_simulation/lib/python3.8/site-packages/diablo_simulation-1.0.0-py3.8.egg-info
+[0.817s] running install_scripts
+[0.822s] writing list of installed files to '/home/y/SA_CAO_Simu/SA_CAO/build/diablo_simulation/install.log'
+[0.832s] Invoked command in '/home/y/SA_CAO_Simu/SA_CAO/src/diablo_visualise/diablo_simulation' returned '0': PYTHONPATH=/home/y/SA_CAO_Simu/SA_CAO/build/diablo_simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/y/SA_CAO_Simu/SA_CAO/install/diablo_simulation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/diablo_simulation build --build-base /home/y/SA_CAO_Simu/SA_CAO/build/diablo_simulation/build install --record /home/y/SA_CAO_Simu/SA_CAO/build/diablo_simulation/install.log --single-version-externally-managed install_data

@@ -1,0 +1,21 @@
+[0.240s] Invoking command in '/home/y/SA_CAO_Simu/SA_CAO/src/my_balance_pkg': PYTHONPATH=/home/y/SA_CAO_Simu/SA_CAO/build/my_balance_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/y/SA_CAO_Simu/SA_CAO/install/my_balance_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_balance_pkg build --build-base /home/y/SA_CAO_Simu/SA_CAO/build/my_balance_pkg/build install --record /home/y/SA_CAO_Simu/SA_CAO/build/my_balance_pkg/install.log --install-scripts $base/lib/my_balance_pkg --single-version-externally-managed install_data
+[0.319s] running egg_info
+[0.319s] writing ../../build/my_balance_pkg/my_balance_pkg.egg-info/PKG-INFO
+[0.319s] writing dependency_links to ../../build/my_balance_pkg/my_balance_pkg.egg-info/dependency_links.txt
+[0.320s] writing entry points to ../../build/my_balance_pkg/my_balance_pkg.egg-info/entry_points.txt
+[0.320s] writing requirements to ../../build/my_balance_pkg/my_balance_pkg.egg-info/requires.txt
+[0.320s] writing top-level names to ../../build/my_balance_pkg/my_balance_pkg.egg-info/top_level.txt
+[0.332s] reading manifest file '../../build/my_balance_pkg/my_balance_pkg.egg-info/SOURCES.txt'
+[0.332s] writing manifest file '../../build/my_balance_pkg/my_balance_pkg.egg-info/SOURCES.txt'
+[0.332s] running build
+[0.332s] running build_py
+[0.332s] running install
+[0.333s] running install_lib
+[0.333s] running install_data
+[0.333s] running install_egg_info
+[0.334s] removing '/home/y/SA_CAO_Simu/SA_CAO/install/my_balance_pkg/lib/python3.8/site-packages/my_balance_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[0.334s] Copying ../../build/my_balance_pkg/my_balance_pkg.egg-info to /home/y/SA_CAO_Simu/SA_CAO/install/my_balance_pkg/lib/python3.8/site-packages/my_balance_pkg-0.0.0-py3.8.egg-info
+[0.334s] running install_scripts
+[0.341s] Installing balance_controller script to /home/y/SA_CAO_Simu/SA_CAO/install/my_balance_pkg/lib/my_balance_pkg
+[0.341s] writing list of installed files to '/home/y/SA_CAO_Simu/SA_CAO/build/my_balance_pkg/install.log'
+[0.352s] Invoked command in '/home/y/SA_CAO_Simu/SA_CAO/src/my_balance_pkg' returned '0': PYTHONPATH=/home/y/SA_CAO_Simu/SA_CAO/build/my_balance_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/y/SA_CAO_Simu/SA_CAO/install/my_balance_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_balance_pkg build --build-base /home/y/SA_CAO_Simu/SA_CAO/build/my_balance_pkg/build install --record /home/y/SA_CAO_Simu/SA_CAO/build/my_balance_pkg/install.log --install-scripts $base/lib/my_balance_pkg --single-version-externally-managed install_data

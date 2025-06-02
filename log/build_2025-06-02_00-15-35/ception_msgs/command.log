@@ -1,0 +1,6 @@
+Invoking command in '/home/y/SA_CAO_Simu/SA_CAO/build/ception_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/y/SA_CAO_Simu/SA_CAO/src/diablo_interfaces/ception_msgs -DCMAKE_INSTALL_PREFIX=/home/y/SA_CAO_Simu/SA_CAO/install/ception_msgs
+Invoked command in '/home/y/SA_CAO_Simu/SA_CAO/build/ception_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/y/SA_CAO_Simu/SA_CAO/src/diablo_interfaces/ception_msgs -DCMAKE_INSTALL_PREFIX=/home/y/SA_CAO_Simu/SA_CAO/install/ception_msgs
+Invoking command in '/home/y/SA_CAO_Simu/SA_CAO/build/ception_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/y/SA_CAO_Simu/SA_CAO/build/ception_msgs -- -j2 -l2
+Invoked command in '/home/y/SA_CAO_Simu/SA_CAO/build/ception_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/y/SA_CAO_Simu/SA_CAO/build/ception_msgs -- -j2 -l2
+Invoking command in '/home/y/SA_CAO_Simu/SA_CAO/build/ception_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/y/SA_CAO_Simu/SA_CAO/build/ception_msgs
+Invoked command in '/home/y/SA_CAO_Simu/SA_CAO/build/ception_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/y/SA_CAO_Simu/SA_CAO/build/ception_msgs

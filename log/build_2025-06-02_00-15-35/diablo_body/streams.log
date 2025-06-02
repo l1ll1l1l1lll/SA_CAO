@@ -1,0 +1,94 @@
+[0.011s] Invoking command in '/home/y/SA_CAO_Simu/SA_CAO/build/diablo_body': AMENT_PREFIX_PATH=/home/y/SA_CAO_Simu/SA_CAO/install/diablo_utils:/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs:/home/y/SA_CAO_Simu/SA_CAO/install/ception_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO_Simu/SA_CAO/install/diablo_utils:/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs:/home/y/SA_CAO_Simu/SA_CAO/install/ception_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/y/SA_CAO_Simu/SA_CAO/install/diablo_utils/lib:/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib:/home/y/SA_CAO_Simu/SA_CAO/install/ception_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:/home/y/SA_CAO_Simu/SA_CAO/install/ception_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/y/SA_CAO_Simu/SA_CAO/src/diablo_ception/diablo_body -DCMAKE_INSTALL_PREFIX=/home/y/SA_CAO_Simu/SA_CAO/install/diablo_body
+[0.042s] -- The C compiler identification is GNU 9.4.0
+[0.069s] -- The CXX compiler identification is GNU 9.4.0
+[0.071s] -- Check for working C compiler: /usr/bin/cc
+[0.102s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.102s] -- Detecting C compiler ABI info
+[0.139s] -- Detecting C compiler ABI info - done
+[0.144s] -- Detecting C compile features
+[0.144s] -- Detecting C compile features - done
+[0.145s] -- Check for working CXX compiler: /usr/bin/c++
+[0.179s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.180s] -- Detecting CXX compiler ABI info
+[0.221s] -- Detecting CXX compiler ABI info - done
+[0.225s] -- Detecting CXX compile features
+[0.226s] -- Detecting CXX compile features - done
+[0.227s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.237s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.237s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.308s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.327s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.330s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.368s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.383s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.417s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.440s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.440s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.441s] -- Looking for pthread.h
+[0.480s] -- Looking for pthread.h - found
+[0.481s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.513s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.513s] -- Looking for pthread_create in pthreads
+[0.550s] -- Looking for pthread_create in pthreads - not found
+[0.552s] -- Looking for pthread_create in pthread
+[0.583s] -- Looking for pthread_create in pthread - found
+[0.584s] -- Found Threads: TRUE  
+[0.666s] -- Found motion_msgs: 1.0.0 (/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/share/motion_msgs/cmake)
+[0.684s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.737s] -- Found ception_msgs: 1.0.0 (/home/y/SA_CAO_Simu/SA_CAO/install/ception_msgs/share/ception_msgs/cmake)
+[0.753s] -- Found diablo_utils: 1.0.0 (/home/y/SA_CAO_Simu/SA_CAO/install/diablo_utils/share/diablo_utils/cmake)
+[0.762s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.792s] -- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[0.794s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.794s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.794s] -- Configured cppcheck include dirs: /home/y/SA_CAO_Simu/SA_CAO/src/diablo_ception/diablo_body/include
+[0.794s] -- Configured cppcheck exclude dirs and/or files: 
+[0.795s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.795s] -- Configured cpplint exclude dirs and/or files: 
+[0.795s] -- Added test 'lint_cmake' to check CMake code style
+[0.795s] -- Added test 'uncrustify' to check C / C++ code style
+[0.795s] -- Configured uncrustify additional arguments: 
+[0.796s] -- Added test 'xmllint' to check XML markup files
+[0.797s] -- Configuring done
+[0.803s] -- Generating done
+[0.805s] -- Build files have been written to: /home/y/SA_CAO_Simu/SA_CAO/build/diablo_body
+[0.808s] Invoked command in '/home/y/SA_CAO_Simu/SA_CAO/build/diablo_body' returned '0': AMENT_PREFIX_PATH=/home/y/SA_CAO_Simu/SA_CAO/install/diablo_utils:/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs:/home/y/SA_CAO_Simu/SA_CAO/install/ception_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO_Simu/SA_CAO/install/diablo_utils:/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs:/home/y/SA_CAO_Simu/SA_CAO/install/ception_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/y/SA_CAO_Simu/SA_CAO/install/diablo_utils/lib:/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib:/home/y/SA_CAO_Simu/SA_CAO/install/ception_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:/home/y/SA_CAO_Simu/SA_CAO/install/ception_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/y/SA_CAO_Simu/SA_CAO/src/diablo_ception/diablo_body -DCMAKE_INSTALL_PREFIX=/home/y/SA_CAO_Simu/SA_CAO/install/diablo_body
+[0.810s] Invoking command in '/home/y/SA_CAO_Simu/SA_CAO/build/diablo_body': AMENT_PREFIX_PATH=/home/y/SA_CAO_Simu/SA_CAO/install/diablo_utils:/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs:/home/y/SA_CAO_Simu/SA_CAO/install/ception_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO_Simu/SA_CAO/install/diablo_utils:/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs:/home/y/SA_CAO_Simu/SA_CAO/install/ception_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/y/SA_CAO_Simu/SA_CAO/install/diablo_utils/lib:/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib:/home/y/SA_CAO_Simu/SA_CAO/install/ception_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:/home/y/SA_CAO_Simu/SA_CAO/install/ception_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/y/SA_CAO_Simu/SA_CAO/build/diablo_body -- -j2 -l2
+[0.831s] [35m[1mScanning dependencies of target diablo_body_core[0m
+[0.859s] [ 20%] [32mBuilding CXX object CMakeFiles/diablo_body_core.dir/src/diablo_imu.cpp.o[0m
+[0.862s] [ 40%] [32mBuilding CXX object CMakeFiles/diablo_body_core.dir/src/diablo_battery.cpp.o[0m
+[2.700s] [ 60%] [32mBuilding CXX object CMakeFiles/diablo_body_core.dir/src/diablo_legmotors.cpp.o[0m
+[2.847s] [ 80%] [32mBuilding CXX object CMakeFiles/diablo_body_core.dir/src/diablo_body_state.cpp.o[0m
+[5.152s] [100%] [32m[1mLinking CXX shared library libdiablo_body_core.so[0m
+[5.440s] [100%] Built target diablo_body_core
+[5.453s] Invoked command in '/home/y/SA_CAO_Simu/SA_CAO/build/diablo_body' returned '0': AMENT_PREFIX_PATH=/home/y/SA_CAO_Simu/SA_CAO/install/diablo_utils:/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs:/home/y/SA_CAO_Simu/SA_CAO/install/ception_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO_Simu/SA_CAO/install/diablo_utils:/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs:/home/y/SA_CAO_Simu/SA_CAO/install/ception_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/y/SA_CAO_Simu/SA_CAO/install/diablo_utils/lib:/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib:/home/y/SA_CAO_Simu/SA_CAO/install/ception_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:/home/y/SA_CAO_Simu/SA_CAO/install/ception_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/y/SA_CAO_Simu/SA_CAO/build/diablo_body -- -j2 -l2
+[5.455s] Invoking command in '/home/y/SA_CAO_Simu/SA_CAO/build/diablo_body': AMENT_PREFIX_PATH=/home/y/SA_CAO_Simu/SA_CAO/install/diablo_utils:/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs:/home/y/SA_CAO_Simu/SA_CAO/install/ception_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO_Simu/SA_CAO/install/diablo_utils:/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs:/home/y/SA_CAO_Simu/SA_CAO/install/ception_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/y/SA_CAO_Simu/SA_CAO/install/diablo_utils/lib:/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib:/home/y/SA_CAO_Simu/SA_CAO/install/ception_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:/home/y/SA_CAO_Simu/SA_CAO/install/ception_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/y/SA_CAO_Simu/SA_CAO/build/diablo_body
+[5.476s] -- Install configuration: ""
+[5.477s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/diablo_body/include/
+[5.477s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/diablo_body/include//diablo_imu.hpp
+[5.478s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/diablo_body/include//diablo_body_state.hpp
+[5.478s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/diablo_body/include//diablo_legmotors.hpp
+[5.478s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/diablo_body/include//diablo_battery.hpp
+[5.479s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/diablo_body/lib/libdiablo_body_core.so
+[5.479s] -- Set runtime path of "/home/y/SA_CAO_Simu/SA_CAO/install/diablo_body/lib/libdiablo_body_core.so" to ""
+[5.480s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/diablo_body/share/diablo_body/environment/library_path.sh
+[5.481s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/diablo_body/share/diablo_body/environment/library_path.dsv
+[5.481s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/diablo_body/share/ament_index/resource_index/package_run_dependencies/diablo_body
+[5.481s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/diablo_body/share/ament_index/resource_index/parent_prefix_path/diablo_body
+[5.482s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/diablo_body/share/diablo_body/environment/ament_prefix_path.sh
+[5.482s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/diablo_body/share/diablo_body/environment/ament_prefix_path.dsv
+[5.482s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/diablo_body/share/diablo_body/environment/path.sh
+[5.482s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/diablo_body/share/diablo_body/environment/path.dsv
+[5.482s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/diablo_body/share/diablo_body/local_setup.bash
+[5.482s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/diablo_body/share/diablo_body/local_setup.sh
+[5.483s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/diablo_body/share/diablo_body/local_setup.zsh
+[5.483s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/diablo_body/share/diablo_body/local_setup.dsv
+[5.483s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/diablo_body/share/diablo_body/package.dsv
+[5.483s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/diablo_body/share/ament_index/resource_index/packages/diablo_body
+[5.483s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/diablo_body/share/diablo_body/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.483s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/diablo_body/share/diablo_body/cmake/ament_cmake_export_libraries-extras.cmake
+[5.483s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/diablo_body/share/diablo_body/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.483s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/diablo_body/share/diablo_body/cmake/diablo_bodyConfig.cmake
+[5.483s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/diablo_body/share/diablo_body/cmake/diablo_bodyConfig-version.cmake
+[5.483s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/diablo_body/share/diablo_body/package.xml
+[5.484s] Invoked command in '/home/y/SA_CAO_Simu/SA_CAO/build/diablo_body' returned '0': AMENT_PREFIX_PATH=/home/y/SA_CAO_Simu/SA_CAO/install/diablo_utils:/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs:/home/y/SA_CAO_Simu/SA_CAO/install/ception_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO_Simu/SA_CAO/install/diablo_utils:/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs:/home/y/SA_CAO_Simu/SA_CAO/install/ception_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/y/SA_CAO_Simu/SA_CAO/install/diablo_utils/lib:/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib:/home/y/SA_CAO_Simu/SA_CAO/install/ception_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO_Simu/SA_CAO/install/motion_msgs/lib/python3.8/site-packages:/home/y/SA_CAO_Simu/SA_CAO/install/ception_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/y/SA_CAO_Simu/SA_CAO/build/diablo_body

@@ -9,6 +9,7 @@ setup.py
 ../../build/launch_diablo/launch_diablo.egg-info/top_level.txt
 ../../build/launch_diablo/launch_diablo.egg-info/zip-safe
 launch/launch_diablo.py
+launch/launch_diabloV1.py
 launch_diablo/__init__.py
 resource/launch_diablo
 test/test_copyright.py

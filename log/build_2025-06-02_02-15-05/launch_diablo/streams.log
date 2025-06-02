@@ -1,0 +1,21 @@
+[0.249s] Invoking command in '/home/y/SA_CAO_Simu/SA_CAO/src/launch_diablo': PYTHONPATH=/home/y/SA_CAO_Simu/SA_CAO/build/launch_diablo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/y/SA_CAO_Simu/SA_CAO/install/launch_diablo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/launch_diablo build --build-base /home/y/SA_CAO_Simu/SA_CAO/build/launch_diablo/build install --record /home/y/SA_CAO_Simu/SA_CAO/build/launch_diablo/install.log --install-scripts $base/lib/robot_launch --single-version-externally-managed install_data
+[0.344s] running egg_info
+[0.344s] writing ../../build/launch_diablo/launch_diablo.egg-info/PKG-INFO
+[0.344s] writing dependency_links to ../../build/launch_diablo/launch_diablo.egg-info/dependency_links.txt
+[0.344s] writing entry points to ../../build/launch_diablo/launch_diablo.egg-info/entry_points.txt
+[0.344s] writing requirements to ../../build/launch_diablo/launch_diablo.egg-info/requires.txt
+[0.344s] writing top-level names to ../../build/launch_diablo/launch_diablo.egg-info/top_level.txt
+[0.359s] reading manifest file '../../build/launch_diablo/launch_diablo.egg-info/SOURCES.txt'
+[0.359s] writing manifest file '../../build/launch_diablo/launch_diablo.egg-info/SOURCES.txt'
+[0.359s] running build
+[0.359s] running build_py
+[0.359s] running install
+[0.359s] running install_lib
+[0.360s] running install_data
+[0.360s] copying launch/launch_diabloV1.py -> /home/y/SA_CAO_Simu/SA_CAO/install/launch_diablo/share/launch_diablo/launch
+[0.360s] running install_egg_info
+[0.361s] removing '/home/y/SA_CAO_Simu/SA_CAO/install/launch_diablo/lib/python3.8/site-packages/launch_diablo-0.0.0-py3.8.egg-info' (and everything under it)
+[0.361s] Copying ../../build/launch_diablo/launch_diablo.egg-info to /home/y/SA_CAO_Simu/SA_CAO/install/launch_diablo/lib/python3.8/site-packages/launch_diablo-0.0.0-py3.8.egg-info
+[0.361s] running install_scripts
+[0.368s] writing list of installed files to '/home/y/SA_CAO_Simu/SA_CAO/build/launch_diablo/install.log'
+[0.384s] Invoked command in '/home/y/SA_CAO_Simu/SA_CAO/src/launch_diablo' returned '0': PYTHONPATH=/home/y/SA_CAO_Simu/SA_CAO/build/launch_diablo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/y/SA_CAO_Simu/SA_CAO/install/launch_diablo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/launch_diablo build --build-base /home/y/SA_CAO_Simu/SA_CAO/build/launch_diablo/build install --record /home/y/SA_CAO_Simu/SA_CAO/build/launch_diablo/install.log --install-scripts $base/lib/robot_launch --single-version-externally-managed install_data

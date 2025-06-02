@@ -10,9 +10,18 @@
 /home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage2.launch.py
 /home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.config
 /home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model-1_4.sdf
+/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/leg2_right_link_1.stl
+/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/leg_left_link_1.stl
 /home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/tire.dae
 /home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/burger_base.dae
+/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/wheel_left_link_1.stl
+/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/leg2_left_link_1.stl
+/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/leg_right_link_1.stl
+/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/base_link.stl
+/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/motor_left_link_1.stl
 /home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/lds.dae
+/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/motor_right_link_1.stl
+/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/wheel_right_link_1.stl
 /home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.sdf
 /home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_Ultrasonic/model.config
 /home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_Ultrasonic/model-1_4.sdf
@@ -77,6 +86,12 @@
 /home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/lights/model.sdf
 /home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.config
 /home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.sdf
+/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_diablo (copy)/model.config
+/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_diablo (copy)/model-1_4.sdf
+/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_diablo (copy)/meshes/tire.dae
+/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_diablo (copy)/meshes/burger_base.dae
+/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_diablo (copy)/meshes/lds.dae
+/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_diablo (copy)/model.sdf
 /home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_diablo/model.config
 /home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_diablo/model-1_4.sdf
 /home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_diablo/meshes/tire.dae

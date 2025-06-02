@@ -1,0 +1,78 @@
+[0.095s] Invoking command in '/home/y/SA_CAO_Simu/SA_CAO/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_custom_interfaces:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_custom_interfaces:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_custom_interfaces/lib:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/y/SA_CAO_Simu/SA_CAO/src/utils/DynamixelSDK/dynamixel_sdk_examples -DCMAKE_INSTALL_PREFIX=/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_examples
+[0.230s] -- The C compiler identification is GNU 9.4.0
+[0.307s] -- The CXX compiler identification is GNU 9.4.0
+[0.309s] -- Check for working C compiler: /usr/bin/cc
+[0.490s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.491s] -- Detecting C compiler ABI info
+[0.687s] -- Detecting C compiler ABI info - done
+[0.692s] -- Detecting C compile features
+[0.692s] -- Detecting C compile features - done
+[0.693s] -- Check for working CXX compiler: /usr/bin/c++
+[0.896s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.896s] -- Detecting CXX compiler ABI info
+[1.084s] -- Detecting CXX compiler ABI info - done
+[1.089s] -- Detecting CXX compile features
+[1.089s] -- Detecting CXX compile features - done
+[1.095s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.124s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.124s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.256s] -- Found dynamixel_sdk: 3.7.40 (/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[1.258s] -- Found dynamixel_sdk_custom_interfaces: 3.7.40 (/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake)
+[1.282s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.286s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.533s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.560s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.639s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.683s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.716s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.717s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.717s] -- Looking for pthread.h
+[1.895s] -- Looking for pthread.h - found
+[1.895s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.030s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.030s] -- Looking for pthread_create in pthreads
+[2.192s] -- Looking for pthread_create in pthreads - not found
+[2.192s] -- Looking for pthread_create in pthread
+[2.347s] -- Looking for pthread_create in pthread - found
+[2.347s] -- Found Threads: TRUE  
+[2.413s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.450s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.450s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.450s] -- Configured cppcheck include dirs: /home/y/SA_CAO_Simu/SA_CAO/src/utils/DynamixelSDK/dynamixel_sdk_examples/include
+[2.451s] -- Configured cppcheck exclude dirs and/or files: 
+[2.451s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.451s] -- Configured cpplint exclude dirs and/or files: 
+[2.451s] -- Added test 'lint_cmake' to check CMake code style
+[2.451s] -- Added test 'uncrustify' to check C / C++ code style
+[2.451s] -- Configured uncrustify additional arguments: 
+[2.452s] -- Added test 'xmllint' to check XML markup files
+[2.453s] -- Configuring done
+[2.456s] -- Generating done
+[2.458s] -- Build files have been written to: /home/y/SA_CAO_Simu/SA_CAO/build/dynamixel_sdk_examples
+[2.462s] Invoked command in '/home/y/SA_CAO_Simu/SA_CAO/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_custom_interfaces:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_custom_interfaces:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_custom_interfaces/lib:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/y/SA_CAO_Simu/SA_CAO/src/utils/DynamixelSDK/dynamixel_sdk_examples -DCMAKE_INSTALL_PREFIX=/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_examples
+[2.462s] Invoking command in '/home/y/SA_CAO_Simu/SA_CAO/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_custom_interfaces:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_custom_interfaces:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_custom_interfaces/lib:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/y/SA_CAO_Simu/SA_CAO/build/dynamixel_sdk_examples -- -j2 -l2
+[2.485s] [35m[1mScanning dependencies of target read_write_node[0m
+[2.510s] [ 50%] [32mBuilding CXX object CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o[0m
+[4.421s] [100%] [32m[1mLinking CXX executable read_write_node[0m
+[4.522s] [100%] Built target read_write_node
+[4.527s] Invoked command in '/home/y/SA_CAO_Simu/SA_CAO/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_custom_interfaces:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_custom_interfaces:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_custom_interfaces/lib:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/y/SA_CAO_Simu/SA_CAO/build/dynamixel_sdk_examples -- -j2 -l2
+[4.527s] Invoking command in '/home/y/SA_CAO_Simu/SA_CAO/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_custom_interfaces:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_custom_interfaces:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_custom_interfaces/lib:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/y/SA_CAO_Simu/SA_CAO/build/dynamixel_sdk_examples
+[4.532s] -- Install configuration: ""
+[4.532s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node
+[4.532s] -- Set runtime path of "/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node" to ""
+[4.532s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_examples/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk_examples
+[4.532s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_examples/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk_examples
+[4.532s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.sh
+[4.532s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.dsv
+[4.532s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.sh
+[4.532s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.dsv
+[4.532s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.bash
+[4.532s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.sh
+[4.532s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.zsh
+[4.532s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.dsv
+[4.532s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.dsv
+[4.532s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_examples/share/ament_index/resource_index/packages/dynamixel_sdk_examples
+[4.533s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig.cmake
+[4.533s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig-version.cmake
+[4.533s] -- Installing: /home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.xml
+[4.533s] Invoked command in '/home/y/SA_CAO_Simu/SA_CAO/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_custom_interfaces:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_custom_interfaces:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_custom_interfaces/lib:/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/y/SA_CAO_Simu/SA_CAO/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/y/SA_CAO_Simu/SA_CAO/build/dynamixel_sdk_examples

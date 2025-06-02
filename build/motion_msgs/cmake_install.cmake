@@ -1,4 +1,4 @@
-# Install script for directory: /home/y/SA_CAO_Simu/SA_CAO/src/motion_msgs
+# Install script for directory: /home/y/SA_CAO_Simu/SA_CAO/src/diablo_interfaces/motion_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -375,27 +375,27 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/motion_msgs/msg" TYPE FILE FILES "/home/y/SA_CAO_Simu/SA_CAO/src/motion_msgs/msg/CtrlPlot.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/motion_msgs/msg" TYPE FILE FILES "/home/y/SA_CAO_Simu/SA_CAO/src/diablo_interfaces/motion_msgs/msg/CtrlPlot.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/motion_msgs/msg" TYPE FILE FILES "/home/y/SA_CAO_Simu/SA_CAO/src/motion_msgs/msg/LegMotors.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/motion_msgs/msg" TYPE FILE FILES "/home/y/SA_CAO_Simu/SA_CAO/src/diablo_interfaces/motion_msgs/msg/LegMotors.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/motion_msgs/msg" TYPE FILE FILES "/home/y/SA_CAO_Simu/SA_CAO/src/motion_msgs/msg/MotionCtrl.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/motion_msgs/msg" TYPE FILE FILES "/home/y/SA_CAO_Simu/SA_CAO/src/diablo_interfaces/motion_msgs/msg/MotionCtrl.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/motion_msgs/msg" TYPE FILE FILES "/home/y/SA_CAO_Simu/SA_CAO/src/motion_msgs/msg/RobotStatus.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/motion_msgs/msg" TYPE FILE FILES "/home/y/SA_CAO_Simu/SA_CAO/src/diablo_interfaces/motion_msgs/msg/RobotStatus.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/motion_msgs/msg" TYPE FILE FILES "/home/y/SA_CAO_Simu/SA_CAO/src/motion_msgs/msg/MovementCtrlData.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/motion_msgs/msg" TYPE FILE FILES "/home/y/SA_CAO_Simu/SA_CAO/src/diablo_interfaces/motion_msgs/msg/MovementCtrlData.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/motion_msgs/msg" TYPE FILE FILES "/home/y/SA_CAO_Simu/SA_CAO/src/motion_msgs/msg/MovementCtrlMode.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/motion_msgs/msg" TYPE FILE FILES "/home/y/SA_CAO_Simu/SA_CAO/src/diablo_interfaces/motion_msgs/msg/MovementCtrlMode.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -593,7 +593,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/motion_msgs" TYPE FILE FILES "/home/y/SA_CAO_Simu/SA_CAO/src/motion_msgs/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/motion_msgs" TYPE FILE FILES "/home/y/SA_CAO_Simu/SA_CAO/src/diablo_interfaces/motion_msgs/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

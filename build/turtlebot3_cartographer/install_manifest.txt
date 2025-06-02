@@ -1,4 +1,6 @@
+/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/turtlebot3_lds_2dv1.lua
 /home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/turtlebot3_lds_2d.lua
+/home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/cartographerV1.launch.py
 /home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/occupancy_grid.launch.py
 /home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/cartographer.launch.py
 /home/y/SA_CAO_Simu/SA_CAO/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz/tb3_cartographer.rviz

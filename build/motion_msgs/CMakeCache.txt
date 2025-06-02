@@ -367,7 +367,7 @@ foonathan_memory_DIR:PATH=/opt/ros/foxy/lib/foonathan_memory/cmake
 motion_msgs_BINARY_DIR:STATIC=/home/y/SA_CAO_Simu/SA_CAO/build/motion_msgs
 
 //Value Computed by CMake
-motion_msgs_SOURCE_DIR:STATIC=/home/y/SA_CAO_Simu/SA_CAO/src/motion_msgs
+motion_msgs_SOURCE_DIR:STATIC=/home/y/SA_CAO_Simu/SA_CAO/src/diablo_interfaces/motion_msgs
 
 //Dependencies for the target
 motion_msgs__python_LIB_DEPENDS:STATIC=general;motion_msgs__rosidl_generator_c;general;/usr/lib/aarch64-linux-gnu/libpython3.8.so;general;motion_msgs__rosidl_typesupport_c;general;/opt/ros/foxy/share/std_msgs/cmake/../../../lib/libstd_msgs__python.so;general;/opt/ros/foxy/share/builtin_interfaces/cmake/../../../lib/libbuiltin_interfaces__python.so;
@@ -556,7 +556,7 @@ CMAKE_GENERATOR_PLATFORM:INTERNAL=
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/y/SA_CAO_Simu/SA_CAO/src/motion_msgs
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/y/SA_CAO_Simu/SA_CAO/src/diablo_interfaces/motion_msgs
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

@@ -1,0 +1,45 @@
+[0.308s] Invoking command in '/home/y/SA_CAO_Simu/SA_CAO/src/pure_pursuit': PYTHONPATH=/home/y/SA_CAO_Simu/SA_CAO/build/pure_pursuit/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/y/SA_CAO_Simu/SA_CAO/install/pure_pursuit/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pure_pursuit build --build-base /home/y/SA_CAO_Simu/SA_CAO/build/pure_pursuit/build install --record /home/y/SA_CAO_Simu/SA_CAO/build/pure_pursuit/install.log --install-scripts $base/lib/pure_pursuit --single-version-externally-managed install_data
+[0.383s] running egg_info
+[0.383s] creating ../../build/pure_pursuit/pure_pursuit.egg-info
+[0.383s] writing ../../build/pure_pursuit/pure_pursuit.egg-info/PKG-INFO
+[0.383s] writing dependency_links to ../../build/pure_pursuit/pure_pursuit.egg-info/dependency_links.txt
+[0.383s] writing entry points to ../../build/pure_pursuit/pure_pursuit.egg-info/entry_points.txt
+[0.383s] writing requirements to ../../build/pure_pursuit/pure_pursuit.egg-info/requires.txt
+[0.383s] writing top-level names to ../../build/pure_pursuit/pure_pursuit.egg-info/top_level.txt
+[0.383s] writing manifest file '../../build/pure_pursuit/pure_pursuit.egg-info/SOURCES.txt'
+[0.399s] reading manifest file '../../build/pure_pursuit/pure_pursuit.egg-info/SOURCES.txt'
+[0.400s] writing manifest file '../../build/pure_pursuit/pure_pursuit.egg-info/SOURCES.txt'
+[0.400s] running build
+[0.400s] running build_py
+[0.400s] creating /home/y/SA_CAO_Simu/SA_CAO/build/pure_pursuit/build
+[0.400s] creating /home/y/SA_CAO_Simu/SA_CAO/build/pure_pursuit/build/lib
+[0.400s] creating /home/y/SA_CAO_Simu/SA_CAO/build/pure_pursuit/build/lib/pure_pursuit
+[0.400s] copying pure_pursuit/__init__.py -> /home/y/SA_CAO_Simu/SA_CAO/build/pure_pursuit/build/lib/pure_pursuit
+[0.400s] copying pure_pursuit/pure_pursuit_node.py -> /home/y/SA_CAO_Simu/SA_CAO/build/pure_pursuit/build/lib/pure_pursuit
+[0.400s] copying pure_pursuit/marker_relay_node.py -> /home/y/SA_CAO_Simu/SA_CAO/build/pure_pursuit/build/lib/pure_pursuit
+[0.401s] copying pure_pursuit/get_pose.py -> /home/y/SA_CAO_Simu/SA_CAO/build/pure_pursuit/build/lib/pure_pursuit
+[0.401s] running install
+[0.402s] running install_lib
+[0.402s] creating /home/y/SA_CAO_Simu/SA_CAO/install/pure_pursuit/lib/python3.8/site-packages/pure_pursuit
+[0.402s] copying /home/y/SA_CAO_Simu/SA_CAO/build/pure_pursuit/build/lib/pure_pursuit/__init__.py -> /home/y/SA_CAO_Simu/SA_CAO/install/pure_pursuit/lib/python3.8/site-packages/pure_pursuit
+[0.402s] copying /home/y/SA_CAO_Simu/SA_CAO/build/pure_pursuit/build/lib/pure_pursuit/pure_pursuit_node.py -> /home/y/SA_CAO_Simu/SA_CAO/install/pure_pursuit/lib/python3.8/site-packages/pure_pursuit
+[0.402s] copying /home/y/SA_CAO_Simu/SA_CAO/build/pure_pursuit/build/lib/pure_pursuit/marker_relay_node.py -> /home/y/SA_CAO_Simu/SA_CAO/install/pure_pursuit/lib/python3.8/site-packages/pure_pursuit
+[0.402s] copying /home/y/SA_CAO_Simu/SA_CAO/build/pure_pursuit/build/lib/pure_pursuit/get_pose.py -> /home/y/SA_CAO_Simu/SA_CAO/install/pure_pursuit/lib/python3.8/site-packages/pure_pursuit
+[0.402s] byte-compiling /home/y/SA_CAO_Simu/SA_CAO/install/pure_pursuit/lib/python3.8/site-packages/pure_pursuit/__init__.py to __init__.cpython-38.pyc
+[0.403s] byte-compiling /home/y/SA_CAO_Simu/SA_CAO/install/pure_pursuit/lib/python3.8/site-packages/pure_pursuit/pure_pursuit_node.py to pure_pursuit_node.cpython-38.pyc
+[0.404s] byte-compiling /home/y/SA_CAO_Simu/SA_CAO/install/pure_pursuit/lib/python3.8/site-packages/pure_pursuit/marker_relay_node.py to marker_relay_node.cpython-38.pyc
+[0.404s] byte-compiling /home/y/SA_CAO_Simu/SA_CAO/install/pure_pursuit/lib/python3.8/site-packages/pure_pursuit/get_pose.py to get_pose.cpython-38.pyc
+[0.404s] running install_data
+[0.404s] creating /home/y/SA_CAO_Simu/SA_CAO/install/pure_pursuit/share/ament_index
+[0.404s] creating /home/y/SA_CAO_Simu/SA_CAO/install/pure_pursuit/share/ament_index/resource_index
+[0.404s] creating /home/y/SA_CAO_Simu/SA_CAO/install/pure_pursuit/share/ament_index/resource_index/packages
+[0.404s] copying resource/pure_pursuit -> /home/y/SA_CAO_Simu/SA_CAO/install/pure_pursuit/share/ament_index/resource_index/packages
+[0.404s] copying package.xml -> /home/y/SA_CAO_Simu/SA_CAO/install/pure_pursuit/share/pure_pursuit
+[0.404s] running install_egg_info
+[0.405s] Copying ../../build/pure_pursuit/pure_pursuit.egg-info to /home/y/SA_CAO_Simu/SA_CAO/install/pure_pursuit/lib/python3.8/site-packages/pure_pursuit-0.0.0-py3.8.egg-info
+[0.405s] running install_scripts
+[0.412s] Installing get_pose script to /home/y/SA_CAO_Simu/SA_CAO/install/pure_pursuit/lib/pure_pursuit
+[0.412s] Installing marker_relay_node script to /home/y/SA_CAO_Simu/SA_CAO/install/pure_pursuit/lib/pure_pursuit
+[0.412s] Installing pure_pursuit_node script to /home/y/SA_CAO_Simu/SA_CAO/install/pure_pursuit/lib/pure_pursuit
+[0.412s] writing list of installed files to '/home/y/SA_CAO_Simu/SA_CAO/build/pure_pursuit/install.log'
+[0.422s] Invoked command in '/home/y/SA_CAO_Simu/SA_CAO/src/pure_pursuit' returned '0': PYTHONPATH=/home/y/SA_CAO_Simu/SA_CAO/build/pure_pursuit/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/y/SA_CAO_Simu/SA_CAO/install/pure_pursuit/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pure_pursuit build --build-base /home/y/SA_CAO_Simu/SA_CAO/build/pure_pursuit/build install --record /home/y/SA_CAO_Simu/SA_CAO/build/pure_pursuit/install.log --install-scripts $base/lib/pure_pursuit --single-version-externally-managed install_data
