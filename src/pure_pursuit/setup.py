@@ -23,6 +23,8 @@ setup(
         'marker_relay_node = pure_pursuit.marker_relay_node:main',
         'get_pose = pure_pursuit.get_pose:main',
         'pure_pursuit_node = pure_pursuit.pure_pursuit_node:main',
+        'get_odom = pure_pursuit.get_odom:main',
+        'auto_bag_with_export = pure_pursuit.auto_bag_with_export:main',
         ],
     },
 )

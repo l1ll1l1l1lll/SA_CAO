@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/my_balance_pkg/my_balance_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_balance_pkg/my_balance_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/my_balance_pkg/my_balance_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/my_balance_pkg/my_balance_pkg.egg-info/requires.txt
+writing top-level names to ../../build/my_balance_pkg/my_balance_pkg.egg-info/top_level.txt
+reading manifest file '../../build/my_balance_pkg/my_balance_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_balance_pkg/my_balance_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/y/SA_CAO_Simu/SA_CAO/install/my_balance_pkg/lib/python3.8/site-packages/my_balance_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/my_balance_pkg/my_balance_pkg.egg-info to /home/y/SA_CAO_Simu/SA_CAO/install/my_balance_pkg/lib/python3.8/site-packages/my_balance_pkg-0.0.0-py3.8.egg-info
+running install_scripts
+Installing balance_controller script to /home/y/SA_CAO_Simu/SA_CAO/install/my_balance_pkg/lib/my_balance_pkg
+writing list of installed files to '/home/y/SA_CAO_Simu/SA_CAO/build/my_balance_pkg/install.log'

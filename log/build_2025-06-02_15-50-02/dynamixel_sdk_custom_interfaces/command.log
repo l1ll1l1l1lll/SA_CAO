@@ -1,0 +1,4 @@
+Invoking command in '/home/y/SA_CAO_Simu/SA_CAO/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/y/SA_CAO_Simu/SA_CAO/build/dynamixel_sdk_custom_interfaces -- -j2 -l2
+Invoked command in '/home/y/SA_CAO_Simu/SA_CAO/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/y/SA_CAO_Simu/SA_CAO/build/dynamixel_sdk_custom_interfaces -- -j2 -l2
+Invoking command in '/home/y/SA_CAO_Simu/SA_CAO/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/y/SA_CAO_Simu/SA_CAO/build/dynamixel_sdk_custom_interfaces
+Invoked command in '/home/y/SA_CAO_Simu/SA_CAO/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/y/SA_CAO_Simu/SA_CAO/build/dynamixel_sdk_custom_interfaces

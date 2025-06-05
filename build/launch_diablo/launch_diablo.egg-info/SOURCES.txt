@@ -8,8 +8,12 @@ setup.py
 ../../build/launch_diablo/launch_diablo.egg-info/requires.txt
 ../../build/launch_diablo/launch_diablo.egg-info/top_level.txt
 ../../build/launch_diablo/launch_diablo.egg-info/zip-safe
-launch/launch_diablo.py
-launch/launch_diabloV1.py
+launch/diablo_REAL.py
+launch/diablo_simV1.py
+launch/diablo_simV2.py
+launch/diablo_simV3.py
+launch/sim_ctl.py
+launch/sim_mat.py
 launch_diablo/__init__.py
 resource/launch_diablo
 test/test_copyright.py

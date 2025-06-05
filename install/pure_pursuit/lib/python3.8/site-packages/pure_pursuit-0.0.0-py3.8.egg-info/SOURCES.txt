@@ -9,6 +9,8 @@ setup.py
 ../../build/pure_pursuit/pure_pursuit.egg-info/top_level.txt
 ../../build/pure_pursuit/pure_pursuit.egg-info/zip-safe
 pure_pursuit/__init__.py
+pure_pursuit/auto_bag_with_export.py
+pure_pursuit/get_odom.py
 pure_pursuit/get_pose.py
 pure_pursuit/marker_relay_node.py
 pure_pursuit/pure_pursuit_node.py
