@@ -1,49 +1,46 @@
-mkdir controller_ws
-cd controller_ws
-mkdir src
-cd src
-ros2 pkg create my_xbox_joystick --build-type ament_python --dependencies rclpy sensor_msgs std_srvs
-cd my_xbox_joystick
-cd my_xbox_joystick
-touch xbox_joystick_node.py
-vim xbox_joystick_node.py
-----code----
+# **ROS2 Packages for Diablo Robot (SA of CAO)**  
 
-cd ..
-chmod +x my_xbox_joystick/xbox_joystick_node.py
-vim setup.py
----code---
+This repository contains ROS 2 packages for controlling the **Diablo Robot**, integrating sensor inputs (LiDAR, ultrasonic) and joystick control.  
+All packages must be depolyed on **Diablo Robot**.
 
-cd /root/controller_ws
-colcon build
-source install/setup.bash
-
-ros2 run joy joy_node
-ros2 run my_xbox_joystick xbox_joystick
-
-
-
-
-sudo systemctl status bluetooth
-sudo systemctl start bluetooth
-sudo systemctl enable bluetooth #开机自动启动
-
-bluetoothctl
-power on          # 开启蓝牙
-agent on          # 启用代理
-scan on           # 开始扫描蓝牙设备
 ---
-[NEW] Device XX:XX:XX:XX:XX:XX Wireless Controller
 
-pair XX:XX:XX:XX:XX:XX
+# **Primary System Launch**  
+Execute the following command to initialize all core system components:
+```bash
+ros2 launch launch_diablo launch_diablo.py
+```
+This launch sequence activates:
+Sensor feedback (LiDAR/ultrasonic)
+Joystick feedback 
+# **Subsumption Architecture Deployment**  
+After core systems are operational, execute the Subsumption Architecture Model:
+```bash
+ros2 run sub_dwa SUB_DWA
+```
+The subsumption architecture implements:
+Dynamic Window Approach (DWA) for obstacle avoidance
+
+note: the model is using PS5 controller mapping
+
 ---
-Pairing successful
-
-trust XX:XX:XX:XX:XX:XX
-connect XX:XX:XX:XX:XX:XX
----
-Connection successful
-
-exit
-
-bluetoothctl connect XX:XX:XX:XX:XX:XX
+## **If you need to debug individual nodes:**
+### 1. LiDAR 
+launch the LiDAR --/scan
+```bash
+ros2 launch rplidar_ros rplidar_c1_launch.py  
+```
+### 2. Diablo Control 
+```bash
+ros2 run diablo_ctrl diablo_ctrl_node  
+```
+### 3. Joystick  
+this node reads the command from joystick -- /joy
+```bash
+ros2 run joy joy_node  
+```
+### 4. Ultrasonic Sensors  
+this node reads the feedbacks from 3 ultrasonic sensors -- /ultrasonic/front; /ultrasonic/left; /ultrasonic/right
+```bash
+ros2 run ultrasound_package ultrasonic_range_publisher  
+```
